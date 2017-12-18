@@ -254,9 +254,9 @@ $(document).ready(function () {
 
       selectorKenburn.vegas({
         slides: [
-          {src: "images/placeholder-2400-1600.jpg"},
-          {src: "images/placeholder-2400-1600.jpg"},
-          {src: "images/placeholder-2400-1600.jpg"}
+          {src: "images/trusted-firmware.jpg"},
+          {src: "images/trusted-firmware.jpg"},
+          {src: "images/trusted-firmware.jpg"}
           // further slide definitions
         ],
         transition: 'fade',
@@ -1237,10 +1237,12 @@ $(document).ready(function () {
     if (form.length) {
       form.ajaxChimp({
         callback: mailchimpCallback,
+        url: 'https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&amp;id=6e692864ab'
         // Replace the URL above with your mailchimp URL (put your URL inside '').
-        url: ''
       });
     }
+    
+
 
     // callback function when the form submitted, show the notification box
     function mailchimpCallback(resp) {
