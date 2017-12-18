@@ -1,0 +1,1182 @@
+/*
+Template Name: cm'soon
+Theme URL: http://www.egotype.com/cm-soon/
+Description: Landing Page
+Author: Egotype
+Author URL: http://www.egotype.com
+Version: 1.0
+Tags: Landing Page, HTML5, CSS3, Bootstrap, Jquery, Coming Soon Landing page
+*/
+
+/* ___________________________________________
+
+                   CONTENT
+   ___________________________________________ */
+
+/*   01. General Styles                        */
+/*   02. Typography                            */
+/*   03. Backgrounds                           */
+/*   04. Buttons, Links                        */
+/*   05. Forms                                 */
+/*   06. Spacing, Alignment, Helperclasses     */
+/*   07. Navigation                            */
+/*   08. Backgrounds                           */
+/*   09. Preloader                             */
+/*   10. Modal                          .overlay-opacity       */
+/*   11. Count Down                            */
+/*   12. Gallery                               */
+/*   13. Misc                                  */
+
+/* _____________________________________
+
+   01. General Styles
+   _____________________________________ */
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #333;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-ExtraLight.woff") format("woff"),
+  url("../fonts/montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
+  url("../fonts/montserrat/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Medium.woff") format("woff"),
+  url("../fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+  url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Bold.woff") format("woff"),
+  url("../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+  url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ----------------------------------
+   Bootstrap Fix: IE10
+   in Windows 8 & Windows Phone 8
+   ---------------------------------- */
+
+@-webkit-viewport {
+  width: device-width;
+}
+
+@-moz-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+/* _____________________________________
+
+   02. Typography
+   _____________________________________ */
+
+h1, .h1 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h2, .h2 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h3, .h3 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4, .h4 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p, .lead {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.wrap-line {
+  margin: 20px 0 50px 0;
+  position: relative;
+}
+
+.wrap-line:before {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -20px;
+  content: "";
+  border-bottom: 1px solid;
+}
+
+/* ----------------------------------
+   Icons
+   ---------------------------------- */
+
+.icon {
+  line-height: 1;
+}
+
+.icon:before {
+  vertical-align: bottom;
+}
+
+.icon-sm {
+  font-size: 24px;
+}
+
+.icon-lg {
+  font-size: 34px;
+}
+
+/* ----------------------------------
+   Font Colors
+   ---------------------------------- */
+
+.text-color {
+  color: #00ACC1;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-light {
+  color: #aaa;
+}
+
+.text-grey {
+  color: #444;
+}
+
+/* _____________________________________
+
+   03. Backgrounds
+   _____________________________________ */
+
+.bg-color {
+  background-color: #00ACC1;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-white-09 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-solid-color {
+  background-color: #1f64c5;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.bg-light {
+  background-color: #aaa;
+}
+
+.bg-bubble-color {
+  background-color: #00457c;
+}
+
+.bg-square-color {
+  background-color: #5E35B1;
+}
+
+/* _____________________________________
+
+   04. Buttons, Links
+   _____________________________________ */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a > i {
+  margin: 0 7px;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: underline;
+  outline: none;
+}
+
+a.link-white,
+a.link-white:hover,
+a.link-white:active,
+a.link-white:focus {
+  color: #fff;
+}
+
+a.link-light,
+a.link-light:hover,
+a.link-light:active,
+a.link-light:focus {
+  color: #fff;
+}
+
+.btn-row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.btn,
+a.btn {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 14px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background .3s ease-in-out;
+}
+
+.btn i {
+  margin-right: 15px;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
+
+.input-group-btn:last-child > .btn {
+  margin: 0 !important;
+  padding: 12px 13px 13px 13px;
+  line-height: 1.392;
+  border: none;
+}
+
+.input-group-btn:last-child > .btn i,
+.input-group-btn:last-child > .btn-group i {
+  margin: 0 !important;
+}
+
+/* ----------------------------------
+   Button Dark
+   ---------------------------------- */
+
+.btn.btn-dark,
+a.btn.btn-dark {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn.btn-dark:hover,
+a.btn.btn-dark:hover,
+.btn.btn-dark:active,
+a.btn.btn-dark:active,
+.btn.btn-dark:focus,
+a.btn.btn-dark:focus {
+  color: #fff;
+  background-color: #000;
+  box-shadow: none;
+}
+
+/* ----------------------------------
+   Button Color
+   ---------------------------------- */
+
+.btn-color,
+a.btn-color {
+  color: #fff;
+  background-color: #00ACC1;
+}
+
+.btn.btn-color:hover,
+.btn.btn-color:active,
+.btn.btn-color:focus,
+a.btn.btn-color:hover,
+a.btn.btn-color:active,
+a.btn.btn-color:focus {
+  color: #fff;
+  background-color: #0097A7;
+}
+
+/* ----------------------------------
+   Button White
+   ---------------------------------- */
+
+.btn-white,
+a.btn-white {
+  color: #333;
+  background-color: #fff;
+}
+
+.btn.btn-white:hover,
+.btn.btn-white:active,
+.btn.btn-white:focus,
+a.btn.btn-white:hover,
+a.btn.btn-white:active,
+a.btn.btn-white:focus {
+  color: #333;
+  background-color: #fff;
+}
+
+/* ----------------------------------
+   Button Border White
+   ---------------------------------- */
+
+.btn.btn-border-white,
+a.btn.btn-border-white {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn.btn-border-white:hover,
+.btn.btn-border-white:active,
+.btn.btn-border-white:focus,
+a.btn.btn-border-white:hover,
+a.btn.btn-border-white:active,
+a.btn.btn-border-white:focus {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* _____________________________________
+
+   05. Forms
+   _____________________________________ */
+
+.form-control {
+  height: 50px;
+  padding: 15px 0 13px 0;
+  margin: 0 auto;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  color: #333;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  appearance: none;
+  outline: 0;
+}
+
+.form-control-custom {
+  border: 0;
+  height: 2px;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+.form-control:focus {
+  border-color: #333;
+  box-shadow: none;
+  outline: none;
+}
+
+textarea.form-control {
+  overflow: hidden;
+  display: block;
+  resize: none;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group,
+.input-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  transition: width .5s ease-in-out;
+}
+
+.focus.form-group,
+.focus.input-group {
+  width: 100%;
+}
+
+input:focus::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+/* ----------------------------------
+   Input Light
+   ---------------------------------- */
+
+.form-control.form-control-light {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+.form-control.form-control-light:-moz-placeholder {
+  color: #aaa;
+}
+
+.form-control.form-control-light::-moz-placeholder {
+  color: #aaa;
+}
+
+.form-control.form-control-light:-ms-input-placeholder {
+  color: #aaa;
+}
+
+.form-control.form-control-light::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+/* ----------------------------------
+   Input Dark
+   ---------------------------------- */
+
+.form-control.form-control-dark {
+  color: #333;
+  border-color: #333;
+}
+
+.form-control.form-control-dark:-moz-placeholder {
+  color: #333;
+}
+
+.form-control.form-control-dark::-moz-placeholder {
+  color: #333;
+}
+
+.form-control.form-control-dark:-ms-input-placeholder {
+  color: #333;
+}
+
+.form-control.form-control-dark::-webkit-input-placeholder {
+  color: #333;
+}
+
+/* ----------------------------------
+   Alert Placeholder
+   ---------------------------------- */
+
+.error .form-control:-moz-placeholder {
+  color: #c0392b;
+}
+
+.error .form-control::-moz-placeholder {
+  color: #c0392b;
+}
+
+.error .form-control:-ms-input-placeholder {
+  color: #c0392b;
+}
+
+.error .form-control::-webkit-input-placeholder {
+  color: #c0392b;
+}
+
+.error .form-control {
+  color: #c0392b;
+}
+
+/* ----------------------------------
+   Validation Message
+   ---------------------------------- */
+
+#message-contact,
+#message-newsletter {
+  display: none;
+}
+
+.message-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1030;
+}
+
+.map + .message-wrapper {
+  bottom: 400px;
+}
+
+.message-wrapper.fixed {
+  position: fixed;
+}
+
+.message {
+  padding: 15px;
+  background-color: #333;
+}
+
+.error.message {
+  background-color: #c0392b;
+}
+
+.message {
+  background-color: #2E7D32;
+}
+
+label.message-text {
+  margin-bottom: 0;
+}
+
+.message-text {
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+/* _____________________________________
+
+   06. Spacing, Alignment, Helperclasses
+   _____________________________________ */
+
+.vert-middle {
+  min-height: 700px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.vert-middle > div {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.p-t-b-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.p-t-b-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.p-t-b-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-t-b-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-t-b-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.p-t-b-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.arrow-wrapper {
+  padding: 30px;
+}
+
+/* _____________________________________
+
+   07. Navigation
+   _____________________________________ */
+
+.navbar-wrapper {
+  height: 60px;
+  position: relative;
+}
+
+/* ----------------------------------
+   Navbar Links
+   ---------------------------------- */
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: transparent;
+}
+
+.navbar-links {
+  float: right;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.navbar-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  float: left;
+  opacity: 0;
+  transform: translate(100%, 0);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links .nav > li > a {
+  display: inline;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.navbar-links .nav > li {
+  margin: 20px 15px;
+}
+
+.navbar-links .nav > li > a:hover {
+  background-color: transparent;
+}
+
+.navbar-links .nav > li.active > a {
+  border-bottom: 1px solid #fff;
+}
+
+.full-info .navbar-links li {
+  transform: translate(0px, 0px);
+opacity: 1;
+visibility: visible;
+}
+
+/* ----------------------------------
+   Navbar Button
+   ---------------------------------- */
+
+header {
+  display: none;
+}
+
+.navbar-button {
+  position: relative;
+  float: right;
+  width: 25px;
+  height: 19px;
+  margin: 22px 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-button span {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 9px;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.navbar-button span:nth-child(1) {
+  top: 0;
+}
+
+.navbar-button span:nth-child(2) {
+  top: 7px;
+}
+
+.navbar-button span:nth-child(3) {
+  top: 14px;
+}
+
+.navbar-open .navbar-button span:nth-child(1) {
+  top: 7px;
+  transform: rotate(135deg);
+}
+
+.navbar-open .navbar-button span:nth-child(2) {
+  left: -40px;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.navbar-open .navbar-button span:nth-child(3) {
+  top: 7px;
+  transform: rotate(-135deg);
+}
+
+
+
+/* _____________________________________
+
+   08. Backgrounds
+   _____________________________________ */
+
+.section-overlay {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  min-height: 700px;
+  width: 100%;
+  z-index: -100;
+}
+
+.section-overlay.youtube {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+}
+
+.section-overlay.media {
+  z-index: -250;
+}
+
+.section-overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.overlay-opacity {
+  filter: alpha(opacity=50);
+  opacity: 0.3;
+}
+
+.overlay-opacity-2 {
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+
+.overlay-opacity-3 {
+  filter: alpha(opacity=60);
+  opacity: 0.1;
+}
+.overlay-opacity-none{
+  opacity: 0;
+}
+
+.page-image {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-image-min {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-image-ripple {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-image-full {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-image-bw {
+    background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-slide {
+  height: 100vh;
+  width: 100%;
+  min-height: 700px;
+}
+
+.page-slide-1 {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.page-slide-2 {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.page-slide-3 {
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+body.vegas-container > .vegas-timer,
+body.vegas-container > .vegas-overlay,
+body.vegas-container > .vegas-slide {
+  z-index: -800;
+}
+
+.page-amplitude-wrapper {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  min-height: 700px;
+  width: 100%;
+  display: table;
+  z-index: -250;
+}
+
+.page-amplitude {
+  width: 100%;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 0 auto;
+}
+
+/* _____________________________________
+
+   09. Preloader
+   _____________________________________ */
+
+.loader {
+  position: fixed;
+  z-index: 1200;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition: opacity 1s linear;
+}
+
+.fade-out.loader {
+  opacity: 0;
+}
+
+.fade-out .loader-inner {
+  display: none;
+}
+
+.ball-scale-ripple-multiple-color > div {
+  border-color: #00ACC1;
+}
+
+.ball-scale-ripple-multiple-bw > div {
+  border-color: #fff;
+}
+
+.ball-pulse-sync > div, .ball-pulse > div {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+
+/* _____________________________________
+
+   10. Modal
+   _____________________________________ */
+
+.button-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 100;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
+.button-control {
+  float: left;
+  margin: 15px 5px;
+  padding: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  line-height: 1;
+  border: 0;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.modal.modal-scale.fade .modal-dialog {
+  display: table;
+  height: 100%;
+  -webkit-transform: scale(0.1);
+  -moz-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(0.1);
+  transform-origin: center;
+  margin: 0 auto;
+  opacity: 0.1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+
+}
+
+.modal.modal-scale .modal-dialog > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal.modal-scale.fade.in .modal-dialog {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.modal-content {
+  padding: 50px 80px;
+  border-radius: 0;
+  border: 0;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=20);
+  opacity: .2
+}
+
+/* _____________________________________
+
+   11. Count Down
+   _____________________________________ */
+
+.count-down h1 {
+  line-height: 1;
+}
+
+.count-down p {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.35;
+}
+
+.count-down > div > div {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.count-down > .cd-row {
+  display: inline-block;
+}
+
+/* _____________________________________
+
+   12. Gallery
+   _____________________________________ */
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.img-hover-effect {
+  position: relative;
+  overflow: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.img-hover-effect img {
+  max-width: 100%;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 2s ease;
+}
+
+.img-hover-effect:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.img-hover-effect .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.25;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-hover-effect:hover .img-overlay {
+  opacity: 0;
+}
+
+.img-hover-effect .img-title {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  top: 100%;
+  left: 50%;
+  padding: 5px 8px;
+  margin: auto;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border: 1px solid #fff;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.img-hover-effect:hover .img-title {
+  opacity: 1;
+  top: 50%;
+}
+
+.gallery .img-description {
+  display: none;
+}
+
+/* _____________________________________
+
+   13. Misc
+   _____________________________________ */
+
+.page-info {
+  min-height: 700px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sr .reveal {
+  visibility: hidden;
+}
+
+.map > div {
+  width: 100%;
+  height: 400px;
+}
+
+.map h4, .map h5 {
+  margin-top: 0;
+}
