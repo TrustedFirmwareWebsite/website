@@ -2,10 +2,9 @@ title: Trusted Firmware
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "https://site-test.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com
-destination: site-test.linaro.org
-
-production: false
+url: "https://production.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
+destination: production.trustedfirmware.org
+production: true
 
 twitter_username: jekyllrb
 github_username:  jekyll
