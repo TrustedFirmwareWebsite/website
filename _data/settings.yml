@@ -17,7 +17,7 @@ edit-on-github:
 # Mailchimp settings
 mailchimp:
     enabled: true
-    id: 88e0dbe42c
+    id: 6e692864ab
     
 # Footer Newsletter toggle.
 newsletter:
