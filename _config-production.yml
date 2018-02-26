@@ -1,0 +1,17 @@
+title: Trusted Firmware
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "https://production.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
+destination: production.trustedfirmware.org
+production: true
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+ 

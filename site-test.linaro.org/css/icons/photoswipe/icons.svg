@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="264px" height="88px" viewBox="0 0 264 88" enable-background="new 0 0 264 88" xml:space="preserve">
+<title>default-skin 2</title>
+<path id="Shape" fill="#FFFFFF" d="M67.002,59.5v3.768C60.695,64.108,57.818,69.018,57,73c2.22-2.83,5.564-5.098,10.002-5.098V71.5
+	L73,65.585L67.002,59.5z"/>
+<g>
+	<path id="Shape_1_" fill="#FFFFFF" d="M13,29v-5h2v3h3v2H13z M13,15h5v2h-3v3h-2V15z M31,15v5h-2v-3h-3v-2H31z M31,29h-5v-2h3v-3h2
+		V29z"/>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M62,24v5h-2v-3h-3v-2H62z M62,20h-5v-2h3v-3h2V20z M70,20v-5h2v3h3v2H70z M70,24h5v2h-3v3h-2V24z"/>
+</g>
+<g>
+	<path id="Rectangle-11" fill="#FFFFFF" d="M160.957,28.543l-3.25-3.25l-1.413,1.414l3.25,3.25L160.957,28.543z"/>
+	<path id="Oval-1" fill="none" stroke="#FFFFFF" stroke-width="1.5" d="M152.5,27c3.038,0,5.5-2.462,5.5-5.5s-2.462-5.5-5.5-5.5
+		s-5.5,2.462-5.5,5.5S149.462,27,152.5,27z"/>
+	<path fill="#FFFFFF" d="M150,21h5v1h-5V21z"/>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M116.957,28.543l-1.414,1.414l-3.25-3.25l1.414-1.414L116.957,28.543z"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="1.5" d="M108.5,27c3.038,0,5.5-2.462,5.5-5.5s-2.462-5.5-5.5-5.5
+		s-5.5,2.462-5.5,5.5S105.462,27,108.5,27z"/>
+	<path fill="#FFFFFF" d="M106,21h5v1h-5V21z"/>
+	<path fill="#FFFFFF" d="M109.043,19.008l-0.085,5l-1-0.017l0.085-5L109.043,19.008z"/>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="0.7143" stroke-miterlimit="10" stroke-dasharray="1.4286,0.7143" x1="166.25" y1="59.031" x2="143.75" y2="59.031"/>
+	</g>
+	<polyline fill="none" stroke="#FFFFFF" stroke-width="0.7143" stroke-linejoin="bevel" stroke-miterlimit="10" points="
+		146.964,55.817 143.75,59.031 146.964,62.245 	"/>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="0.7197" stroke-miterlimit="10" stroke-dasharray="1.4395,0.7197" x1="99.664" y1="58.93" x2="122.336" y2="58.93"/>
+	</g>
+	<polyline fill="none" stroke="#FFFFFF" stroke-width="0.7197" stroke-linejoin="bevel" stroke-miterlimit="10" points="
+		119.097,62.169 122.336,58.93 119.097,55.691 	"/>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="1.0836" stroke-miterlimit="10" x1="14.93" y1="58.983" x2="29.07" y2="73.017"/>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="1.0836" stroke-miterlimit="10" x1="14.983" y1="73.07" x2="29.017" y2="58.93"/>
+	</g>
+</g>
+</svg>

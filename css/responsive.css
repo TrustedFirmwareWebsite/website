@@ -1,0 +1,74 @@
+@media only screen and (max-width: 767px) {
+
+  /* ----------------------------------
+     Count Down
+  ---------------------------------- */
+  .count-down > div > div {
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .count-down h1 {
+    font-size: 47px;
+  }
+
+  .modal.modal-scale.fade {
+    margin: 15px;
+  }
+
+  .modal.modal-scale.fade .modal-dialog {
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 50px 15px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+
+  body.vegas-container,
+  body {
+    overflow: hidden;
+  }
+
+  body.show-content {
+    overflow: scroll;
+  }
+
+  header {
+    display: block;
+  }
+
+  .page-info {
+    padding-top: 60px;
+    position: fixed;
+  }
+
+  .col-transform {
+    transition: all 0.6s ease-in-out;
+  }
+
+  .page-content {
+    position: absolute;
+    visibility: hidden;
+    right: -50%;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .show-content .page-content {
+    overflow: scroll;
+    position: absolute;
+    right: 0;
+    visibility: visible;
+  }
+
+  .page-amplitude-wrapper {
+    position: fixed;
+  }
+
+  .count-down {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
