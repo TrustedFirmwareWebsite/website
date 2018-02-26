@@ -1,0 +1,20 @@
+image: TrustedFirmware-Logo_icon.png
+columns:
+    - title: Trusted Firmware
+      url: /
+      items:
+        - text: About
+          url : /about/
+        - text: FAQ
+          url : /faq/
+        - text: Blog
+          url : /blog/
+        - text: Contact
+          url : /contact/
+companylinks:
+    - name: Legal
+      url: /legal/
+    - name: Contact
+      url: /contact/
+    - name: Press
+      url: /press/

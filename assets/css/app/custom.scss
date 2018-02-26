@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    #brand-image {
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+}
+.overlay-opacity-5 {
+    filter: alpha(opacity=60);
+    opacity: 0.5;
+}
+.section-overlay {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    min-height: 700px;
+    width: 100%;
+    z-index: -100;
+}
+.bg-black {
+    background-color: #000;
+}

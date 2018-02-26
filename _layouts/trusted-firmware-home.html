@@ -1,0 +1,20 @@
+---
+js-package: home
+css-package: home-tf
+nav-light: true
+home: true
+---
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+            {% if site.data.settings.google.tag_manager %}
+              {% include gtm-noscript.html %}
+            {% endif %}
+            <div id="wrapper" class="{% if layout.home == true and site.data.settings.home.jumbotron.enabled %}home{% else %}main{% endif %}">
+                {% include nav.html %}
+                {{content}}
+            </div>
+            {% include javascript.html %}
+    </body>
+</html>
