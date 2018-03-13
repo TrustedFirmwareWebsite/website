@@ -1185,14 +1185,19 @@ body.vegas-container > .vegas-slide {
 }
 
 
+p.about-text {
+    font-size: 18px;
+}
+
+
 
 /* Custom */
 .p-t-b-15.text-grey > ul {
     font-size: 17px;
-    list-style: none;
 }
 .p-t-b-15.text-grey > ul > li {
-    line-height:35px;
+    line-height: 22px;
+    font-size: 14px;
 }
 
 input#c-0-4, input#c-1-3, textarea#c-2-2{
