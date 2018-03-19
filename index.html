@@ -288,17 +288,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <p class="about-text">
                       Arm Trusted Firmware provides a reference implementation of secure world software
-                      for <a href="https://developer.arm.com/products/architecture">Armv8-A</a> and Armv8-M. It enables SoC developers and OEMs with a reference
-                      trusted code base, that can be quickly and easily ported to modern chips and platforms. This 
-                      forms the foundations of a Trusted Execution Environment on application
-                      processors or the Secure Processing Environment of microcontrollers.
+                      for <a target="_blank" href="https://developer.arm.com/products/architecture">Armv8-A and Armv8-M</a>. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. The code on this website is the
+                      preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
                   </p>
                                     
                   <br />
                   
                   <h4>Availability of Trusted Firmware</h4>
                 
-                  <strong>Support for Armv8-A</strong>
+                  <strong>Support for Armv8-A / Trusted Firmware-A (TF-A)</strong>
                   
                   <ul>
                       <li>
@@ -309,20 +307,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                   </ul>
                   
-                  <strong>Support for Armv8-M and Platform Security Architecture (PSA)</strong>
+                  <strong>Support for Armv8-M / Trusted Firmware-M (TF-M) and relationship with Arm’s Platform Security Architecture (PSA)</strong>
                   
                   <ul>
                     <li>
-                          PSA provides a common security foundation for the whole IoT ecosystem. It
-                          includes many elements, including architecture specifications and threat
-                          models. An important part of PSA is open source firmware that is available in
-                          the form of Trusted Firmware-M for Cortex-M23 and Cortex-M33 processors
+                        PSA provides a common security foundation for the whole IoT ecosystem. It
+                        includes many elements, including architecture specifications and threat
+                        models. An important part of PSA is open source firmware. This is available
+                        in the form of Trusted Firmware-M for Arm Cortex-M23 and Arm Cortex-M33
+                        processors, which use Arm TrustZone technology.
                     </li>
                     <li>
-                        The Trusted Firmware-M project is due to be released in March 2018
+                        The Trusted Firmware-M project is due to be released in March 2018 with a
+                        roadmap to incorporate PSA firmware framework features and security APIs.
                     </li>
                     <li>
-                        For more information on PSA visit www.arm.com/psa-resources
+                        For more information on PSA visit the <a target="_blank" href="https://www.arm.com/psa-resources">PSA Resources page</a>
                     </li>
                   </ul>
                   
@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   
                   <strong>
                       If you want to get involved, join the notification mailing list or contact
-                      board@TrustedFirmware.org for more information
+                      board@TrustedFirmware.org for more information.
                 </strong>
                 
                 <br />
