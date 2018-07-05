@@ -149,7 +149,7 @@ h4, .h4 {
   line-height: 1.5;
   margin-bottom: 0;
 }
-#about a, #code a {
+#about a, #code a, #faq a {
     color: #10b2dd;
     transition: all 500ms ease;
 }
