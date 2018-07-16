@@ -21,3 +21,9 @@
 .bg-black {
     background-color: #000;
 }
+div#wrapper {
+    height: 100%;
+}
+#main-navigation.navbar-static button.navbar-toggle {
+    position: static;
+}
