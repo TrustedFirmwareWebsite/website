@@ -12,9 +12,7 @@ columns:
         - text: Contact
           url : /contact/
 companylinks:
-    - name: Legal
-      url: /legal/
+    - name: FAQ
+      url: /faq/
     - name: Contact
       url: /contact/
-    - name: Press
-      url: /press/

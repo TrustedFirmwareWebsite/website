@@ -1,16 +1,14 @@
 title: Trusted Firmware
-email: your-email@example.com
+email: board@trustedfirmware.org
 description: >- # this means to ignore newlines until "baseurl:"
   Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Build settings
 markdown: kramdown
 theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
-
 exclude:
     - .asset-cache
     - .sass-cache
