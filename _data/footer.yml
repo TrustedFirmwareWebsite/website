@@ -11,7 +11,7 @@ columns:
           url : /blog/
         - text: Contact
           url : /contact/
-companylinks:
+company-links:
     - name: FAQ
       url: /faq/
     - name: Contact
