@@ -3,6 +3,4 @@ layout: container-breadcrumb
 title: FAQ
 permalink: /faq/
 ---
-# FAQ
-
-Frequently Asked Questions to be added... <TODO>
+{% include collapse.html data-file=site.data.faq %}
