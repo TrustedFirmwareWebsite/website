@@ -3,4 +3,4 @@ layout: container-breadcrumb
 title: FAQ
 permalink: /faq/
 ---
-{% include faq.html %}
+{% include collapse.html data-file=site.data.faq %}
