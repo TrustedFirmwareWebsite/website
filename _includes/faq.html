@@ -1,0 +1,16 @@
+<div class="panel-group" id="accordion">
+    {% for faq in site.data.faq %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#{{faq.id}}">{{faq.title | markdownify }}</a>
+              </h4>
+            </div>
+            <div id="{{faq.id}}" class="panel-collapse collapse {% if forloop.index == 1 %}in{% endif %}">
+              <div class="panel-body padded">
+                {{ faq.text | markdownify }}
+              </div>
+            </div>
+          </div>
+  {% endfor %}
+</div>
