@@ -21,13 +21,13 @@ pages:
           - text: TF-A
             url: https://developer.trustedfirmware.org/
           - text: TF-M
-            url: https://developer.trustedfirmware.org/
+            url: https://staging-issues.trustedfirmware.org/dashboard/view/1/
     - title: Wiki
       options:
           - text: TF-A
             url: https://developer.trustedfirmware.org/w/tf_a/
           - text: TF-M
-            url: https://developer.trustedfirmware.org/w/tf_m/
+            url: https://staging-issues.trustedfirmware.org/w/tf_m/
     - title: Blog
       url: /blog/
     - title: FAQ
