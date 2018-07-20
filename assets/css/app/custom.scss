@@ -31,3 +31,10 @@
 #wrapper .padded {
     padding:20px;
 }
+#main-navigation div#navbar-collapse {
+    z-index: 1;
+}
+#wrapper .panel-heading {
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+}
