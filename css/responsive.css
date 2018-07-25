@@ -72,3 +72,11 @@
     margin-right: -30px;
   }
 }
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   
+   .navbar-links.scrollspy > ul.nav {
+       margin-right: 100px;
+   }
+}
