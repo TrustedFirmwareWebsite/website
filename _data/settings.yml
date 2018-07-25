@@ -1,0 +1,123 @@
+favicon: favicon.png
+search-label: TrustedFirmware
+name: TrustedFirmware
+slogan: Open Portable Trusted Execution Environment
+# Breadcrumb Settings
+breadcrumb:
+    image: trusted-firmware.jpg
+#Content Repo for static site.
+# Used for the edit on github include
+edit-on-github:
+    enabled: false
+    repo: https://github.com/TrustedFirmware/website
+# Mailchimp settings
+mailchimp:
+    enabled: false
+# Footer Newsletter toggle.
+newsletter:
+    enabled: false
+# Blog tags
+tags_enabled: true
+# Members
+members:
+    key: trustedfirmware_members
+    excludes: [/contact/]
+# Footer Image default is linaro sprinkle
+linaro-footer-image: Linaro-Sprinkle.png
+# Settings for the home page
+home:
+    #Content Background Image E.g. DeviceTree.org
+    # content-image: devicetree-content-bg.png
+    # If this is set then the navigation will be transparent.
+    transparent_nav: true
+    # If this is set to true then the shape divider will be displayed
+    shaped-divider: true
+    # Jumbotron settings for the home page
+    jumbotron:
+        # included_file: hero-banner.html
+        # enabled: true
+        # # Title for the home page jumbotron
+        # title:
+        #     first-line: 
+        #         text: 
+        #         display: true
+        #         bold: false
+        #     second-line: 
+        #         display: false
+        # # Text to be displayed in the home page jumbotron
+        # sub-title:
+        #     first-line:
+        #         text: A devicetree is a data structure for describing hardware
+        #         display: true
+        #         bold: true
+        #     second-line: 
+        #         display: false
+        # # Buttons to be displayed in the Jumbotron
+        # buttons:
+        #     - text: Specification
+        #       class: spec-button center-block fade-in-two
+        #       url: /specifications/
+        # # Background image for the home page located in assets/images
+        # background-image:
+        #     darken: true    
+        #     name: background-image.jpg
+# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
+github_username: TrustedFirmwareWebsite
+# linkedin_username: 1026961
+# google_plus_username: +LinaroOnAir
+# facebook_username: LinaroOrg
+# youtube_username: linaroorg
+# twitter_username: linaroorg
+# slideshare_username: linaroorg
+# Blog setup
+blog:
+    # Toggle site wide comments display.
+    comments: true
+    # Post Side Bar Settings
+    sidebar:
+        # Toggle whether or not thumbnails in the sidebar are displayed.
+        thumbnails:
+            display: true
+        # Display other posts contained in _posts
+        other-posts:
+            display: true
+            count: 4
+        # Display Related posts based on tags / categories
+        related-posts:
+            display: true
+            count: 5
+        # Display the most recent posts
+        most-recent-posts:
+            display: true
+            count: 5
+        # # Display custom collection e.g projects on 96boards
+        # collection:
+        #     - name: projects
+        #       count: 5
+        #       # Fields to use for title and url.
+        #       display_fields:
+        #           title: title
+        #           url: url          
+#Google analytics
+google:
+    tag_manager: GTM-TKVP3S4
+# Shema.org settings used in the schema.html include.
+schema:
+    enabled: false
+    organisation:
+        name: Trusted Firmware
+        url: https://www.trustedfirmware.org
+        address:
+            street: Harston Mill, Royston Rd 
+            town: Harston 
+            county: Cambridge 
+            post_code: CB22 7GG
+            country_code: UK
+# Disqus Comments
+disqus:
+    enabled: false
+    shortname: trusted-firmware
+# Placeholder for Missing Images
+placeholder: TrustedFirmware-Logo_icon.png
+
+

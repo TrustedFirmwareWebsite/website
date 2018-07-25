@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+    #brand-image {
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+}
+.overlay-opacity-5 {
+    filter: alpha(opacity=60);
+    opacity: 0.5;
+}
+.section-overlay {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    min-height: 700px;
+    width: 100%;
+    z-index: -100;
+}
+.bg-black {
+    background-color: #000;
+}
+#main-navigation.navbar-static button.navbar-toggle {
+    position: static;
+}
+#wrapper .col-md-8.col-sm-8.col-xs-8.post_title.no-padding {
+    top: 60px;
+}
+
+#wrapper .padded {
+    padding:20px;
+}
+#main-navigation div#navbar-collapse {
+    z-index: 1;
+}
+#wrapper .panel-heading {
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+}

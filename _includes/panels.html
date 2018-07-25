@@ -1,0 +1,14 @@
+<div class="panel-group">
+    {% for data in include.data-file %}
+          <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        {{data.title }}
+                    </h4>
+                </div>
+                <div class="panel-body padded">
+                    {{ data.text | markdownify }}
+                </div>
+          </div>
+  {% endfor %}
+</div>

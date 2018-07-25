@@ -1,0 +1,36 @@
+search:
+    enabled: false
+    label: TrustedFirmware
+brand:
+    text: TrustedFirmware
+    image: 
+        enabled: true
+        name: TrustedFirmware-Logo_standard-white.png
+    url: /
+pages:
+    - title: About
+      url: /about/
+    - title: Code
+      options:
+          - text: TF-A
+            url: http://git.trustedfirmware.org/trusted-firmware-a.git/
+          - text: TF-M
+            url: http://git.trustedfirmware.org/trusted-firmware-m.git/
+    - title: Dashboard
+      options:
+          - text: TF-A
+            url: https://developer.trustedfirmware.org/
+          - text: TF-M
+            url: https://developer.trustedfirmware.org/dashboard/view/1/
+    - title: Wiki
+      options:
+          - text: TF-A
+            url: https://developer.trustedfirmware.org/w/tf_a/
+          - text: TF-M
+            url: https://developer.trustedfirmware.org/w/tf_m/
+    - title: Blog
+      url: /blog/
+    - title: FAQ
+      url: /faq/
+    - title: Contact
+      url: /contact/
