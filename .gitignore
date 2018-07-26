@@ -1,5 +1,5 @@
-_site
-.sass-cache
-.jekyll-metadata
-trustedfirmware.org
 .asset-cache
+.sass-cache
+Gemfile.lock
+_site
+.jekyll-metadata

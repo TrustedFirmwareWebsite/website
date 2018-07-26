@@ -1,0 +1,41 @@
+body{
+    background: url(/assets/images/trusted-firmware.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+div.vert-middle {
+    margin: auto;
+    width: 100%;
+    top: 0;
+    margin-top: 10vh;
+    bottom: 0;
+    left: 0;
+
+}
+span.title{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 200;
+    color: white;
+    opacity: .5;
+}
+span.sub-title{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
+}
+div#wrapper {
+    height: 100%;
+}
