@@ -21,7 +21,7 @@ pages:
           - text: TF-A
             url: https://developer.trustedfirmware.org/
           - text: TF-M
-            url: https://staging-issues.trustedfirmware.org/dashboard/view/1/
+            url: https://developer.trustedfirmware.org/dashboard/view/5/
     - title: Wiki
       options:
           - text: TF-A
