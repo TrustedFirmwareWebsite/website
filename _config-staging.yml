@@ -1,10 +1,17 @@
-# In order to build for staging run:
-# $ jekyll build --config _config.yml, _config-staging.yml
-#
-#
-# URL of static site
-url: "https://staging.trustedfirmware.org"
-# Destination folder
+title: Trusted Firmware
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "https://staging.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
 destination: staging.trustedfirmware.org
-# Production boolean used in layouts / includes
 production: false
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+ 
