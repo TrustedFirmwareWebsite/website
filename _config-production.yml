@@ -1,17 +1,10 @@
-title: Trusted Firmware
-
-baseurl: "" # the subpath of your site, e.g. /blog
-
-url: "https://production.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
+# In order to build for staging run:
+# $ jekyll build --config _config.yml, _config-production.yml
+#
+#
+# URL of static site
+url: "https://www.trustedfirmware.org"
+# Destination folder
 destination: production.trustedfirmware.org
+# Production boolean used in layouts / includes
 production: true
-
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
- 
