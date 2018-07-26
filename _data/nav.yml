@@ -27,7 +27,7 @@ pages:
           - text: TF-A
             url: https://developer.trustedfirmware.org/w/tf_a/
           - text: TF-M
-            url: https://staging-issues.trustedfirmware.org/w/tf_m/
+            url: https://developer.trustedfirmware.org/w/tf_m/
     - title: Blog
       url: /blog/
     - title: FAQ
