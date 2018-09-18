@@ -1,9 +1,11 @@
-title	date	categories	layout
-Trusted Firmware
-Trusted Firmware at the Open Source Firmware Conference (OSFC)
-2018-09-18 05:00:00 -0700
-Blog
-post
+---
+author: Trusted Firmware
+title: Trusted Firmware at the Open Source Firmware Conference (OSFC)
+date: 2018-09-18 12:00:00
+categories:
+- Blog
+layout: post
+---
 
 
 Trusted Firmware at the Open Source Firmware Conference (OSFC) – (Erlangen, 12-15 Sep 2018)
