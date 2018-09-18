@@ -1,15 +1,11 @@
 ---
 author: Trusted Firmware
-title: Trusted Firmware at the Open Source Firmware Conference (OSFC)
+title: Trusted Firmware at the Open Source Firmware Conference (OSFC) - Erlangen, 12-15 Sep 2018
 date: 2018-09-18 12:00:00
 categories:
 - Blog
 layout: post
 ---
-
-
-Trusted Firmware at the Open Source Firmware Conference (OSFC) – (Erlangen, 12-15 Sep 2018)
-=================================================================================
 The Trusted Firmware-A team attended last week the first Open Source Firmware Conference (OSFC - https://osfc.io/) in Erlangen, Germany.
 
 Hosted by Siemens, 9 Elements and FAU, this was the very first conference all around open firmware, bringing together software companies, big data centre providers, industry players and software enthusiasts to talk about hot topics and latest trends in the firmware space.
