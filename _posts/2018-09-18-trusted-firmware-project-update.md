@@ -30,10 +30,16 @@ The Arm team had also other follow ups with various industry players around inte
 
 In conclusion, a well-attended conference where all firmware enthusiasts could share their ideas and projects for expanding and nurturing even more an already well-established open source firmware ecosystem!
 
-https://osfc.io/talks/secure-partitions-in-trusted-firmware-a
-https://connect.linaro.org/resources/hkg18/hkg18-104/
-https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/secure-partition-manager-design.rst
-http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf
-https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf
+References:
+
+1. https://osfc.io/talks/secure-partitions-in-trusted-firmware-a
+
+2. https://connect.linaro.org/resources/hkg18/hkg18-104/
+
+3. https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/secure-partition-manager-design.rst
+
+4. http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf
+
+5. https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf
 
 
