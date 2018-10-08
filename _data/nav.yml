@@ -19,7 +19,7 @@ pages:
     - title: Dashboard
       options:
           - text: TF-A
-            url: https://developer.trustedfirmware.org/
+            url:  https://developer.trustedfirmware.org/dashboard/view/6/
           - text: TF-M
             url: https://developer.trustedfirmware.org/dashboard/view/5/
     - title: Wiki

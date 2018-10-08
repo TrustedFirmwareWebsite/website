@@ -13,3 +13,31 @@ exclude:
     - .asset-cache
     - .sass-cache
     - _site
+    
+permalink: /blog/:title/
+
+collections:
+    authors:
+        output: true
+        permalink: /author/:name/
+# Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
+assets:
+  compress:
+        js: true
+  autoprefixer:
+      browsers: ["last 2 versions","> 5%","IE 9"]
+  sources:
+    - assets/js/
+    - assets/js/vendor/
+    - assets/js/app/
+    - assets/images
+    - assets/images/authors
+    - assets/css/
+    - assets/css/app
+
+defaults:
+  - scope:
+        path: ""
+        type: "authors"
+    values:
+        layout: author

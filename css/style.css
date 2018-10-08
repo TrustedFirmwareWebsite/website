@@ -142,14 +142,24 @@ h4, .h4 {
   margin-bottom: 10px;
 }
 
-p, .lead {
+#about p, .lead {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 0;
 }
+#about a, #code a, #faq a {
+    color: #10b2dd;
+    transition: all 500ms ease;
+}
+p.code-text {
+    font-size: 16px;
+}
 
+a:hover {
+    color: #082447;
+}
 strong,
 b {
   font-weight: 700;
@@ -1185,14 +1195,19 @@ body.vegas-container > .vegas-slide {
 }
 
 
+p.about-text {
+    font-size: 18px;
+}
+
+
 
 /* Custom */
 .p-t-b-15.text-grey > ul {
     font-size: 17px;
-    list-style: none;
 }
 .p-t-b-15.text-grey > ul > li {
-    line-height:35px;
+    line-height: 22px;
+    font-size: 14px;
 }
 
 input#c-0-4, input#c-1-3, textarea#c-2-2{
