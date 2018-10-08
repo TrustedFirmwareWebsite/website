@@ -1,10 +1,15 @@
 ---
-author: Trusted Firmware
+author: trusted.firmware
 title: Trusted Firmware Project June 2018 Update 
 date: 2018-06-19 12:00:00
 categories:
 - Blog
 layout: post
+image:
+  path: /assets/images/trusted-firmware.jpg
+  name: trusted-firmware.jpg
+  thumb: TrustedFirmware-Logo_icon.png
+  featured: true
 ---
 
 In this presentation is a detailed progress update as we spin up this exciting community open source project - [Link to update presentation](/docs/TrustedFirmware-Update-June2018.pdf)
