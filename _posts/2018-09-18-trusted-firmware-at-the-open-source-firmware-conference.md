@@ -1,10 +1,15 @@
 ---
-author: Matteo Carlini
+author: matteo.carlini
 title: Trusted Firmware at the Open Source Firmware Conference (OSFC) - Erlangen, 12-15 Sep 2018
 date: 2018-09-18 12:00:00
 categories:
 - Blog
 layout: post
+image:
+  path: /assets/images/trusted-firmware.jpg
+  name: trusted-firmware.jpg
+  thumb: TrustedFirmware-Logo_icon.png
+  featured: true
 ---
 The Trusted Firmware-A team attended last week the first Open Source Firmware Conference ([OSFC](https://osfc.io/)) in Erlangen, Germany.
 
