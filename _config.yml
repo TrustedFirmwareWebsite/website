@@ -13,3 +13,4 @@ exclude:
     - .asset-cache
     - .sass-cache
     - _site
+permalink: /blog/:title/
