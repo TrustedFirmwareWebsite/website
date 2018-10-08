@@ -1,10 +1,15 @@
 ---
-author: Matteo Carlini
+author: matteo.carlini
 title: Trusted Firmware-A v1.6 and v2.0 released!
-date: 2018-10-08 12:00:00
+date: 2018-10-08 09:00:00
 categories:
-- Blog
+  - Blog
 layout: post
+image:
+  path: /assets/images/trusted-firmware.jpg
+  name: trusted-firmware.jpg
+  thumb: TrustedFirmware-Logo_icon.png
+  featured: true
 ---
 The Trusted Firmware-A team recently produced two new official releases (v1.6/v2.0) of the Trusted Firmware-A codebase.
 

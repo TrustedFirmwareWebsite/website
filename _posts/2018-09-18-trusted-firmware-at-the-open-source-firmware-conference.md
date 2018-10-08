@@ -1,5 +1,5 @@
 ---
-author: Matteo Carlini
+author: matteo.carlini
 title: Trusted Firmware at the Open Source Firmware Conference (OSFC) - Erlangen, 12-15 Sep 2018
 date: 2018-09-18 12:00:00
 categories:
