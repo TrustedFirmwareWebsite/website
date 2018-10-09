@@ -27,6 +27,8 @@ The whole content is described on the v1.6 change log (1), but a few highlights 
 * Speculation Security Vulnerabilities (2):
 	* Implementation of a static workaround for CVE-2018-3639 for AArch32 and AArch64 on Cortex-A57, Cortex-A72, Cortex-A73 and Cortex-A75.
 	* Added support for dynamic mitigation for CVE-2018-3639 and implement dynamic mitigation on Cortex-A76.
+* Dynamic Configuration Framework:
+	* Add dynamic configurations for BL31, BL32 and BL33, enabling support for Chain of Trust (COT).
 * ROM Lib Feature:
 	* Support combining several libraries into a self-called "romlib" image, that may be shared across images to reduce memory footprint.
 	* The romlib image is stored in ROM but is accessed through a jump-table that may be stored in read-write memory, allowing for the library code to be patched.
