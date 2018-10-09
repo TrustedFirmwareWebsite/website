@@ -100,7 +100,7 @@ blog:
         #           url: url          
 #Google analytics
 google:
-    tag_manager: GTM-TKVP3S4
+    analytics: UA-16756069-28
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false
