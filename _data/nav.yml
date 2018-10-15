@@ -30,6 +30,8 @@ pages:
             url: https://developer.trustedfirmware.org/w/tf_m/
     - title: Blog
       url: /blog/
+    - title: News
+      url: /news/
     - title: FAQ
       url: /faq/
     - title: Contact
