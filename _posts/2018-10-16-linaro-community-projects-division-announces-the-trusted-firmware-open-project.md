@@ -31,8 +31,6 @@ Trusted Firmware-A (TF-A) supports Armv7 and Armv8-A systems, including a Secure
 
 Trusted Firmware-M (TF-M) provides a reference implementation of the Arm [Platform Security Architecture](https://pages.arm.com/psa-resources.html) (PSA) for Arm Cortex-M processors and leverages Arm’s [TrustZone technology](https://static.docs.arm.com/100690/0100/armv8_m_architecture_trustzone_technology_100690_0100_00_en.pdf) on Arm v8-M cores. TF-M is being built as a set of highly configurable set of software components suitable for constrained systems. It consists of secure boot and a set of secure runtime services including: Secure Storage, Cryptography, Audit Logs and Provisioning that can be used by Applications.
 
- 
-
-About Linaro Community Projects Division
+### About Linaro Community Projects Division
 
 Linaro Community Projects Division is the division of Linaro managing open source community projects with open governance. Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.linaro.org](http://www.linaro.org/) and [http://www.96Boards.org](http://www.96boards.org/).
