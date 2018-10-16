@@ -1,10 +1,9 @@
 title: Trusted Firmware
 email: board@trustedfirmware.org
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.trustedfirmware.org" # the base hostname & protocol for your site, e.g. http://example.com
-# Build settings
+baseurl: ""
+url: "https://www.trustedfirmware.org"
 markdown: kramdown
 theme: jumbo-jekyll-theme
 plugins:
@@ -13,14 +12,11 @@ exclude:
     - .asset-cache
     - .sass-cache
     - _site
-    
-permalink: /blog/:title/
-
+permalink: /:categories/:title/
 collections:
     authors:
         output: true
         permalink: /author/:name/
-# Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
 assets:
   compress:
         js: true
@@ -34,7 +30,6 @@ assets:
     - assets/images/authors
     - assets/css/
     - assets/css/app
-
 defaults:
   - scope:
         path: ""
