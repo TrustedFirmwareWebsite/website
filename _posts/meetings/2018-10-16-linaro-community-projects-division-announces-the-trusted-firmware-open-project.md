@@ -11,3 +11,20 @@ image:
   thumb: TrustedFirmware-Logo_icon.png
   featured: true
 ---
+## Draft Agenda
+
+- Welcome to the project
+- Project charter summary
+- Members roster
+- Member Introductions
+- Representatives & officials
+- How much of meeting minutes should be public?
+- Project overview and status
+- Project infrastructure summary
+- Plans for TF-A transition
+- Forming a technical committee
+- Next meeting (NB member board representatives only in line with project governance only)  
+    - date
+    - any remaining agenda topics
+    - agreement on meeting cadence
+- AOB
