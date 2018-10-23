@@ -1,7 +1,7 @@
 favicon: favicon.png
 search-label: TrustedFirmware
 name: TrustedFirmware
-slogan: Open Portable Trusted Execution Environment
+slogan: Open Source Secure World Software
 # Breadcrumb Settings
 breadcrumb:
     image: trusted-firmware.jpg
