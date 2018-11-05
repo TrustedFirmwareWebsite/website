@@ -6,7 +6,7 @@ permalink: /contact/
 # Contact Trusted Firmware
 
 # Get Involved - Join The Trusted Firmware Mailing Lists #
-The Trusted Firmware Project maintains the following mailing lists for developers on mailman.
+The Trusted Firmware Project maintains the following mailing lists for developers on mailman:
 ```
 tf-a
 tf-m
