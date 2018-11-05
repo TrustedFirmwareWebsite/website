@@ -1,6 +1,6 @@
 ---
 author: trusted.firmware
-title: Trusted Firmware Project November 2018 Update 
+title: Trusted Firmware Project October 2018 Update 
 date: 2018-11-05 12:00:00
 categories:
 - Blog
@@ -12,7 +12,7 @@ image:
   featured: true
 ---
 
-In this presentation is a detailed progress update of this exciting community open source project - [Link to update presentation](/docs/TrustedFirmware-Update-November2018.pdf)
+In this presentation is a detailed progress update of this exciting community open source project - [Link to update presentation](/docs/TrustedFirmware-Update-October2018.pdf)
 
 
 
