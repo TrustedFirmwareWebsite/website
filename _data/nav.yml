@@ -16,6 +16,8 @@ pages:
             url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
           - text: TF-M
             url: http://git.trustedfirmware.org/trusted-firmware-m.git/
+          - text: TF-A-Tests
+            url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/           
     - title: Dashboard
       options:
           - text: TF-A
