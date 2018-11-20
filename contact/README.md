@@ -6,17 +6,11 @@ permalink: /contact/
 
 # Get Involved - Join The Trusted Firmware Mailing Lists
 
-The Trusted Firmware Project maintains the following mailing lists for developers on mailman:
+[Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a)
 
-```
-tf-a
-tf-m
-tf-a-tests
-```
-### How to subscribe:
+[Subscribe to the TF-A-Tests list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a-tests)
 
-Send an e-mail command to listname-request@lists.trustedfirmware.org (listname may for example be tf-a, tf-m ) with one of the following commands in the subject line. Common commands are help, subscribe and unsubscribe. 
-Go to https://lists.trustedfirmware.org/mailman/listinfo/listname (listname may for example be tf-m. tf-a-tests) and use the web interface to subscribe, unsubscribe or log into the list management interface.
+[Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
 <!-- Contact Form -->
 <div class="col-xs-12 text-center">
