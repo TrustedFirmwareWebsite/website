@@ -1,4 +1,7 @@
 image: TrustedFirmware-Logo_icon.png
+footer-image: /assets/images/Linaro-Sprinkle.png
+footer-image-url: /
+company-copyright-text: Linaro Limited
 columns:
     - title: Trusted Firmware
       url: /
