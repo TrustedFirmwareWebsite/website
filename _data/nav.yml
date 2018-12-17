@@ -5,7 +5,7 @@ brand:
     text: TrustedFirmware
     image: 
         enabled: true
-        name: TrustedFirmware-Logo_standard-white.png
+        path: /assets/images/TrustedFirmware-Logo_standard-white.png
     url: /
 pages:
     - title: About

@@ -5,6 +5,7 @@ description: >-
 baseurl: ""
 url: "https://www.trustedfirmware.org"
 markdown: kramdown
+blog_images_dir: assets/images/
 theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
