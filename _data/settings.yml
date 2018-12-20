@@ -115,7 +115,7 @@ schema:
             country_code: UK
 # Disqus Comments
 disqus:
-    enabled: false
+    enabled: true
     shortname: trusted-firmware
 # Placeholder for Missing Images
 placeholder: TrustedFirmware-Logo_icon.png
