@@ -1,7 +1,7 @@
 - id: governance-and-membership
   title: Where can I find details about the governance model? Where can I find details about membership?
   text: |-
-      Please email [board@trustedfirmware.org](mailto:board@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
+      For details of the governance model, please download the [Project Charter](/docs/Trusted_Firmware_Charter_v_2019-01-21.pdf). Please email [board@trustedfirmware.org](mailto:board@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
 - id: role-and-responsibility
   title: What is the role and responsibility for a (founding) member of TrustedFirmware project?
   text: |-
