@@ -18,7 +18,7 @@ Arm Trusted Firmware provides a reference implementation of secure world softwar
 **Support for Armv8-M / Trusted Firmware-M (TF-M) and relationship with Arm’s Platform Security Architecture (PSA)**
 
 *   PSA provides a common security foundation for the whole IoT ecosystem. It includes many elements, including architecture specifications and threat models. An important part of PSA is open source firmware. This is available in the form of Trusted Firmware-M for Arm Cortex-M23 and Arm Cortex-M33 processors, which use Arm TrustZone technology.
-*   The Trusted Firmware-M project is due to be released in March 2018 with a roadmap to incorporate PSA firmware framework features and security APIs.
+*   The Trusted Firmware-M codebase is available as a reference implementation of PSA.
 *   For more information on PSA visit the [PSA Resources page](https://www.arm.com/psa-resources)
 
 **If you want to get involved, join the notification mailing list or contact board@TrustedFirmware.org for more information.**  
