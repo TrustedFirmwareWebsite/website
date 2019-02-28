@@ -1,6 +1,7 @@
 search:
     enabled: false
     label: TrustedFirmware
+universal-nav: false
 brand:
     text: TrustedFirmware
     image: 

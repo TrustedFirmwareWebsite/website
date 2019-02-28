@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
-title: Trusted Firmware Project December 2018 Update 
-date: 2018-12-20 12:00:00
+title: Trusted Firmware Project January 2019 Update 
+date: 2019-02-15 12:00:00
 categories:
 - Blog
 layout: post
@@ -12,7 +12,7 @@ image:
   featured: true
 ---
 
-In this presentation is a detailed progress update - [Link to update presentation](/docs/TrustedFirmware-Update-December-2018.pdf)
+In this presentation is a detailed progress update - [Link to update presentation](/docs/TrustedFirmware-Update-January-2019.pdf)
 
 For more information or to get involved, the Trusted Firmware Project maintains the following mailing lists for developers on mailman:
 ```
