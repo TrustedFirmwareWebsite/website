@@ -28,5 +28,6 @@ Arm Trusted Firmware provides a reference implementation of secure world softwar
 
 *   Arm is transferring the Trusted Firmware project to be managed as an open project by Linaro
 *   Membership of the Trusted Firmware project is open to all
-*   Governance will be overseen by a board of member representatives
+*   Governance is overseen by a board of member representatives
+*   Details of the Governance are in the [Project Charter](/docs/Trusted_Firmware_Charter_v_2019-01-21.pdf)
 *   Stakeholders in Trusted Firmware are encouraged to join
