@@ -1,6 +1,6 @@
 ---
 author: trusted.firmware
-title: Trusted Firmware-M v1.0-Beta: Enabling PSA Certification 
+title: "Trusted Firmware-M v1.0-Beta: Enabling PSA Certification"
 date: 2019-03-11 08:00:00
 categories:
 - Blog
