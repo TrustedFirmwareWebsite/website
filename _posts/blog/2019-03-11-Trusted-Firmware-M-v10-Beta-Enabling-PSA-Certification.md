@@ -24,12 +24,12 @@ TF-M [v1.0-Beta](https://git.trustedfirmware.org/trusted-firmware-m.git/tag/?h=v
 As shown in the TF-M Diagram below, Secure Storage, Crypto and Attestation Services can be availed through a set of [PSA Developer APIs](https://pages.arm.com/PSA-APIs?_ga=2.20089022.766593894.1551711867-677364771.1536847751). This makes it easier for applications to make use of secure services across different PSA/TF-M enabled platforms using these PSA Developer APIs.
 ![TF-M](/assets/images/blog/tf.png)
 
+Obtaining PSA Functional API Certification involves running the [PSA Developer API Test Suite](https://github.com/ARM-software/psa-arch-tests/tree/ew_beta0/api-tests/dev_apis) on MuscaB1 against TF-M v1.0-Beta tag and passing all the secure storage, crypto and Attestation tests. PSA Level1 Certification involved answering the [PSA Level 1 Questionnaire](https://psacertified.org/wp-content/uploads/2019/02/JSADEN001-PSA_Certified_Level_1-1.0Web.pdf) and submitting to one of the PSA Joint Stakeholder Agreement certification labs.
+
+![PSA Test Suite run against PSA Dev. APIs in TF-M](/assets/images/blog/tf_test.png)
+
 Arm’s IoT Reference Platform – [Musca-B1](https://developer.arm.com/products/system-design/development-boards/iot-test-chips-and-boards/musca-b-test-chip-board) has got PSA Functional API certification and PSA Level 1 Security certification by using TF-M v1.0-Beta as the PSA Root Of Trust (RoT). TF-M and Musca-B1 were awarded the PSA Certified Trophy.
 
 ![PSA Trophy](/assets/images/blog/cert.jpg)
 
-Obtaining PSA Functional API Certification involved running the [PSA Developer API Test Suite](https://github.com/ARM-software/psa-arch-tests/tree/ew_beta0/api-tests/dev_apis) on MuscaB1 against TF-M v1.0-Beta tag and passing all the secure storage, crypto and Attestation tests. PSA Level1 Certification involved answering the [PSA Level 1 Questionnaire](https://psacertified.org/wp-content/uploads/2019/02/JSADEN001-PSA_Certified_Level_1-1.0Web.pdf) and submitting to one of the PSA Joint Stakeholder Agreement certification labs.
-
-![PSA Test Suite run against PSA Dev. APIs in TF-M](/assets/images/blog/tf_test.png)
-
-Shebu Varghese Kuriakose
+Author: Shebu Varghese Kuriakose
