@@ -32,4 +32,4 @@ Arm’s IoT Reference Platform – [Musca-B1](https://developer.arm.com/products
 
 ![PSA Trophy](/assets/images/blog/cert.jpg)
 
-Shebu Varghese Kuriakose
+Author: Shebu Varghese Kuriakose
