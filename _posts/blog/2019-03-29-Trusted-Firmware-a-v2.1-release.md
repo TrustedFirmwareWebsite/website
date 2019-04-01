@@ -20,7 +20,7 @@ The TF-A release comes with new architectural features enablement:
 	* Linux Kernel, general purpose Operating Systems and user-space applications can make use of this feature to protect against Return-Oriented programming attacks.
 	* Support for Secure world use of Pointer authentication (both in Firmware and in Trusted OSs) is still experimental and it will be finalised in the next release.
 * Armv8.4 Data Independent Timing (DIT) & Armv8.4 Small translation tables (TTST)
-* Armv8.5 PSTATE.SSBS Speculation Store Bypass Safe (implemented on Arm Cortex-A76 & Neoverse-N1), an architecture-defined bit to enable firmware mitigation against Spectre Variant 4 (CVE-2018-3639)
+* Armv8.5 PSTATE.SSBS Speculation Store Bypass Safe (implemented on Arm Cortex-A76 & Neoverse-N1), an architecture-defined bit to ease firmware mitigation against Spectre Variant 4 (CVE-2018-3639)
 	* Despite being introduced with the Armv8.5 extension, this is an optional Armv8.0 feature (ARMv8.0-SpecRest) that can be implemented by CPUs based on earlier version of the architecture. In fact, it's included in the Arm Cortex-A76 and Arm Neoverse-N1 CPUs.
 
 Both TF-A and TF-A-Tests releases include updates to the Secure Partition Manager and its related testing, based on an early Alpha version of the SPCI and SPRT specifications. These are anyway highly subject to change and therefore should be still considered as experimental.
