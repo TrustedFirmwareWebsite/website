@@ -14,8 +14,8 @@ permalink: /contact/
 
 <!-- Contact Form -->
 <div class="col-xs-12 text-center">
-    <a class="btn email" href="mailto:contact@linaro.org?subject=TrustedFirmware.org - {{page.url}}">
-        contact@linaro.org
+    <a class="btn email" href="mailto:enquiries@trustedfirmware.org?subject=TrustedFirmware.org - {{page.url}}">
+        enquiries@trustedfirmware.org
     </a>
 </div>
 <!-- /End Contact Form -->

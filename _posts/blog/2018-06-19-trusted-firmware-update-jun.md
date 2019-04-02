@@ -21,7 +21,7 @@ Trusted Firmware A (TF-A) is used widely throughout the ecosystem. It's joined b
 - Adding support for your hardware IP
 - Adding support for your software framework
 
-If you would like your organization to be a founding member, please get in touch with board@TrustedFirmware.org for more details.
+If you would like your organization to be a founding member, please get in touch with enquiries@trustedfirmware.org for more details.
 
 Bill Fletcher
 _Linaro Community Projects Division_
