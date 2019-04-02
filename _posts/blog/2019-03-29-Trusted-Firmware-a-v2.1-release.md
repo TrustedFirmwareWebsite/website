@@ -1,6 +1,6 @@
 ---
 author: matteo.carlini
-title: Trusted Firmware-A & TF-A-Tests v2.1released!
+title: Trusted Firmware-A & TF-A-Tests v2.1 released
 date: 2019-03-30 08:00:00
 categories:
 - Blog
