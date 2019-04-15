@@ -1,11 +1,11 @@
 - id: governance-and-membership
   title: Where can I find details about the governance model? Where can I find details about membership?
   text: |-
-      For details of the governance model, please download the [Project Charter](/docs/Trusted_Firmware_Charter_v_2019-01-21.pdf). Please email [board@trustedfirmware.org](mailto:board@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
+      For details of the governance model, please download the [Project Charter](/docs/Trusted_Firmware_Charter_v_2019-01-21.pdf). Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
 - id: role-and-responsibility
   title: What is the role and responsibility for a (founding) member of TrustedFirmware project?
   text: |-
-      Please email [board@trustedfirmware.org](mailto:board@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
+      Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for details which are in the Membership Agreement and Charter Documents.
 - id: membership-types
   title: What’s the difference and value for platinum and general membership of Trusted Firmware?
   text: |-
@@ -17,15 +17,15 @@
 - id: tbbr
   title: What’s TBBR, do we have detail spec for TBBR?
   text: |-
-      Please contact your Arm Account Manager or request the document at [https://www.arm.com/products/security-on-arm/trustzone](https://www.arm.com/products/security-on-arm/trustzone)
+      Trusted Board Boot Requirements Client (TBBR-Client) is an Arm specification that defines the basic requirements implemented by TF-A for Trusted Boot. It can be found [at this link](https://developer.arm.com/docs/den0006/latest/trusted-board-boot-requirements-client-tbbr-client-armv8-a).
 - id: linaro-tf-relationship
   title: Is there a clear role and responsibility for Member and Linaro? Detail relationship between Linaro and Trusted Firmware, in in terms of financially and operationally.
   text: |-
-      Linaro will be a board member of Trusted Firmware. The board of Trusted Firmware decides all the strategies and directions, including if it needs to fund Linaro for any service, or not
+      Linaro will be a board member of Trusted Firmware. The board of Trusted Firmware decides all the strategies and directions, including if it needs to fund Linaro for any service, or not.
 - id: tf-a
   title: Will TF-A continue its presence on Github?
   text: |-
-      TF-A will also be migrating from GitHub to the Trusted firmware website later this year.
+      TF-A is migrating from GitHub to Trusted Firmware.org Git and Gerrit repositories. Details on the migration plan can be found [here](https://github.com/ARM-software/tf-issues/issues/681).
 - title: Are there more Frequently Asked Questions about TF-M?
   text: |-
       We're building the TF-M FAQ. [See here for more details](https://developer.trustedfirmware.org/ponder/query/all/)
