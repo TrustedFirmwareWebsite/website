@@ -15,22 +15,29 @@ pages:
       options:
           - text: TF-A
             url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
+            external: true
           - text: TF-M
             url: http://git.trustedfirmware.org/trusted-firmware-m.git/
+            external: true
           - text: TF-A-Tests
-            url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/           
+            url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
+            external: true     
     - title: Dashboard
       options:
           - text: TF-A
             url:  https://developer.trustedfirmware.org/dashboard/view/6/
+            external: true
           - text: TF-M
             url: https://developer.trustedfirmware.org/dashboard/view/5/
+            external: true
     - title: Wiki
       options:
           - text: TF-A
             url: https://developer.trustedfirmware.org/w/tf_a/
+            external: true
           - text: TF-M
             url: https://developer.trustedfirmware.org/w/tf_m/
+            external: true
     - title: Blog
       url: /blog/
     - title: Meetings
