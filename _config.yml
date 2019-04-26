@@ -1,5 +1,5 @@
 title: Trusted Firmware
-email: board@trustedfirmware.org
+email: enquiries@trustedfirmware.org
 description: >-
   Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
 baseurl: ""
@@ -37,3 +37,13 @@ defaults:
         type: "authors"
     values:
         layout: author
+# Jekyll Pagination V2 Configuration
+pagination:
+    permalink: '/:num/'
+    enabled: true
+    per_page: 9
+    trail:
+        before: 2
+        after: 2
+    sort_reverse: true
+    sort_field: 'date'

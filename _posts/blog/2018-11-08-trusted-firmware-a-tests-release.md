@@ -40,4 +40,4 @@ Other useful resources to get started with TF-A-Tests include:
 
 In line with the parent TF-A project, the TF-A-Tests open-source code is released under a [BSD 3-Clause license](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/license.rst) and contributions to the project are accepted under the same license with developer sign-off as described in the [Contributing Guidelines](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/contributing.rst).
 
-Everyone is welcome in contributing to it and if you would like to know more about TF-A-Tests and the wider TrustedFirmware.org community project, please get in touch with [board@TrustedFirmware.org](mailto:board@TrustedFirmware.org) for more details.
+Everyone is welcome in contributing to it and if you would like to know more about TF-A-Tests and the wider TrustedFirmware.org community project, please get in touch with [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for more details.
