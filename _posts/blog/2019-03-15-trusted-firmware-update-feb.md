@@ -8,7 +8,7 @@ layout: post
 image:
   path: /assets/images/trusted-firmware.jpg
   name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
+  thumb: musca_tf_crop_1500x1500.png
   featured: true
 ---
 

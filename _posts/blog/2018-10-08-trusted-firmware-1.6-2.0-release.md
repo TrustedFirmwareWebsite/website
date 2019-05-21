@@ -8,7 +8,7 @@ layout: post
 image:
   path: /assets/images/trusted-firmware.jpg
   name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
+  thumb: synquacer_tf_crop_1500x1500.png
   featured: true
 ---
 The Trusted Firmware-A team recently produced two new official releases (v1.6/v2.0) of the Trusted Firmware-A codebase.
