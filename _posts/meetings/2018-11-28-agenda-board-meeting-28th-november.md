@@ -5,11 +5,7 @@ date: 2018-11-28 16:00:00
 categories:
   - Meetings
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/trusted-firmware.jpg
 ---
 ## Draft Agenda
 

@@ -5,11 +5,7 @@ date: 2018-11-08 09:00:00
 categories:
   - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: mp1_avenger_tf_crop_1500x1500.png
-  featured: true
+image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 ---
 As recently anticipated, the [Trusted Firmware-A Tests](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/) code has now been released as an open-source project under the TrustedFirmware.org community project initiative.
 

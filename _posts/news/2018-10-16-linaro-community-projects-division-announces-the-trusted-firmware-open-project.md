@@ -5,11 +5,7 @@ date: 2018-10-16 08:00:00
 categories:
   - News
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/trusted-firmware.jpg
 ---
 Linaro Community Projects Division, the division of Linaro managing open source community projects with open governance, today announced that Trusted Firmware is available as a Linaro Community Projects Division open project. Trusted Firmware provides a reference implementation of Secure World software for Armv7, Armv8-A and Armv8-M architectures. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) on microcontrollers.
 

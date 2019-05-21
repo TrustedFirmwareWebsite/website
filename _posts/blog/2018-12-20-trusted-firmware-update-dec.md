@@ -5,11 +5,7 @@ date: 2018-12-20 12:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: synquacer_tf_crop_1500x1500.png
-  featured: true
+image: /assets/images/blog/synquacer_tf_crop_1500x1500.png
 ---
 
 In this presentation is a detailed progress update - [Link to update presentation](/docs/TrustedFirmware-Update-December-2018.pdf)
