@@ -6,9 +6,9 @@ categories:
 - Blog
 layout: post
 image:
-  path: /assets/images/trusted-firmware.jpg
+  path: /assets/images/thumbs/x15_demo_tf_crop_1500x1500.png
   name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
+  thumb: x15_demo_tf_crop_1500x1500.png
   featured: true
 ---
 
