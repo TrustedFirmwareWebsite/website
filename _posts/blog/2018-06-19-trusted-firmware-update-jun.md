@@ -5,11 +5,7 @@ date: 2018-06-19 12:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: mp1_avenger_tf_crop_1500x1500.png
-  featured: true
+image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 ---
 
 In this presentation is a detailed progress update as we spin up this exciting community open source project - [Link to update presentation](/docs/TrustedFirmware-Update-June2018.pdf)

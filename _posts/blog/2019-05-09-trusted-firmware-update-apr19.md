@@ -5,11 +5,7 @@ date: 2019-05-09 16:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/thumbs/x15_demo_tf_crop_1500x1500.png
-  name: trusted-firmware.jpg
-  thumb: x15_demo_tf_crop_1500x1500.png
-  featured: true
+image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 ---
 
 In this presentation PDF is a detailed progress update - [Link to update presentation](/docs/TrustedFirmware-Update-April-2019.pdf)
