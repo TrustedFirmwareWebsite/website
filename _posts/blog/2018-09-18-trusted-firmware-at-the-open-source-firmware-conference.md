@@ -5,11 +5,7 @@ date: 2018-09-18 12:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 The Trusted Firmware-A team attended last week the first Open Source Firmware Conference ([OSFC](https://osfc.io/)) in Erlangen, Germany.
 
@@ -37,7 +33,7 @@ References:
 
 2. [https://connect.linaro.org/resources/hkg18/hkg18-104/](https://connect.linaro.org/resources/hkg18/hkg18-104/)
 
-3. [https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/secure-partition-manager-design.rst](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/secure-partition-manager-design.rst)
+3. [https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst)
 
 4. [http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf](http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf)
 

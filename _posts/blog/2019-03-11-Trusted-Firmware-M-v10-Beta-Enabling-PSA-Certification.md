@@ -5,11 +5,7 @@ date: 2019-03-11 08:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 ---
 Trusted Firmware-M (TF-M) [was launched in March 2018](https://community.arm.com/iot/b/blog/posts/the-next-step-for-psa-and-a-secure-iot-future), as the open source reference implementation of [Arm Platform Security Architecture](https://www.arm.com/why-arm/architecture/platform-security-architecture/psa-resources) (PSA). As TF-M is heading towards its first anniversary, the project has achieved a significant milestone - v1.0-Beta enabling silicon platforms and Real Time Operating Systems (RTOSes) using TF-M to achieve PSA Certified™ Level 1 Security and Functional API certification under the newly launched [PSA Certified programme](https://psacertified.org/).
 

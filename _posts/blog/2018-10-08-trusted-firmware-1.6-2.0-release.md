@@ -5,11 +5,7 @@ date: 2018-10-08 09:00:00
 categories:
   - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/blog/synquacer_tf_crop_1500x1500.png
 ---
 The Trusted Firmware-A team recently produced two new official releases (v1.6/v2.0) of the Trusted Firmware-A codebase.
 
@@ -67,7 +63,7 @@ References:
 
 3. [v2.0 Change Log](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/change-log.rst#trusted-firmware-a-version-2-0)
 
-4. [Platform Compatibility Policy](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/platform-compatibility-policy.rst)
+4. [Platform Compatibility Policy](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/process/platform-compatibility-policy.rst)
 
 5. [Trusted Firmware-A Release information](https://github.com/ARM-software/arm-trusted-firmware/wiki/TF-A-Release-information)
 
