@@ -16,11 +16,11 @@ The initially released software (labelled as version [2.0](https://git.trustedfi
 * [SMC Calling Convention](http://infocenter.arm.com/help/topic/com.arm.doc.den0028b/ARM_DEN0028B_SMC_Calling_Convention.pdf)
 * [Power State Coordination Interface (PSCI)](http://infocenter.arm.com/help/topic/com.arm.doc.den0022d/Power_State_Coordination_Interface_PDD_v1_1_DEN0022D.pdf)
 * [Software Delegated Exception Interface (SDEI)](http://infocenter.arm.com/help/topic/com.arm.doc.den0054a/ARM_DEN0054A_Software_Delegated_Exception_Interface.pdf)
-* [Performance Measurement Framework (PMF)](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/firmware-design.rst#performance-measurement-framework)
+* [Performance Measurement Framework (PMF)](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/design/firmware-design.rst#performance-measurement-framework)
 * Communication and interaction with the [Test Secure Payload (TSP)](https://github.com/ARM-software/arm-trusted-firmware/tree/master/bl32/tsp)
-* [Firmware update](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/firmware-update.rst)(or recovery mode)
-* [EL3 payload boot flow](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/user-guide.rst#el3-payloads-alternative-boot-flow)
-* [Secure partition support](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/secure-partition-manager-design.rst)
+* [Firmware update](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/firmware-update.rst)(or recovery mode)
+* [EL3 payload boot flow](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/getting_started/user-guide.rst#el3-payloads-alternative-boot-flow)
+* [Secure partition support](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst)
 
 The v2.0 release has been tested on Arm Fixed Virtual Platforms and Juno platforms (r0, r1 and r2 variants).
 More information about the content of this first release can be found in the [change log](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/docs/change-log.rst).
