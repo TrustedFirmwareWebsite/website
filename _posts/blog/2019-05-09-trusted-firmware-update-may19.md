@@ -5,10 +5,12 @@ date: 2019-05-09 16:00:00
 categories:
 - Blog
 layout: post
-image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
+image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 ---
 
-In the linked presentation PDF is a detailed progress update - [Link to update presentation](/docs/TrustedFirmware-Update-May-2019.pdf)
+In the linked presentation PDF is a detailed progress update. It includes roadmaps and contribution statistics. 
+
+[Link to May update presentation](/docs/TrustedFirmware-Update-May-2019.pdf)
 
 For more information or to get involved, the Trusted Firmware Project maintains the following mailing lists for developers on mailman:
 ```
