@@ -10,7 +10,7 @@ image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 
 In this post there is a link to the progress update for last month. The linked presentation also includes updated roadmap and contribution statistics. 
 
-[Link to May update presentation](/docs/TrustedFirmware-Update-May-2019.pdf)
+[Link to May 2019 TF update presentation](/docs/TrustedFirmware-Update-May-2019.pdf)
 
 For more information or to get involved, the Trusted Firmware Project maintains the following mailing lists for developers on mailman:
 ```
