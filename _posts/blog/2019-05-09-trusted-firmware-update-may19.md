@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: Trusted Firmware Project May 2019 Update 
-date: 2019-05-09 16:00:00
+date: 2019-06-20 10:00:00
 categories:
 - Blog
 layout: post
