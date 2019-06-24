@@ -1,3 +1,12 @@
+---
+author: trusted.firmware
+title: Trusted Firmware Open CI 
+date: 2019-06-24 10:00:00
+categories:
+- Blog
+layout: post
+image: /assets/images/blog/TFMCI.png
+---
 As an Open Source community project, Trusted Firmware is committed to building a platform that
 allows the development of Trusted Firmware-A and Trusted Firmware-M in a collaborative manner. The
 mailing list (https://www.trustedfirmware.org/contact/) discussions on the design and other technical
@@ -25,14 +34,15 @@ the code base to the stakeholders.
 
 As a first step, there is now an initial deployment of an Open Trusted Firmware-M CI in the Trusted
 Firmware infrastructure hosted by Linaro. As shown in the diagram below, every patch submitted in TF-
-M [gerrit](https://review.trustedfirmware.org) is communicated to Jenkins through a web-hook trigger. Jenkins will capture that information
+M [gerrit](https://review.trustedfirmware.org) is communicated to Jenkins through a web-hook trigger. 
+Jenkins will capture that information
 and build different configurations on a docker build slave. Once this stage is complete, the generated
 artefacts can be deployed and tested on FPGA or Hardware platforms through Linaro’s LAVA. In the final
 step, Jenkins collects all the information into a report, and determines the pass/fail status of a patch
-which is then communicated back to gerrit. In this initial deployment LAVA runs TF-M regression test on
+which is then communicated back to gerrit. In this initial deployment LAVA runs the TF-M regression test on
 an MPS2+ board.
 
-[Image]
+![TF Open CI](/assets/images/blog/TFMCI.png)
 
 This has now made it possible to verify whether any new patch pushed to gerrit is introducing any
 regression. There are more MPS2+ boards getting added to make it possible to get through the testing
@@ -55,3 +65,5 @@ TF-M CI Portal: https://ci.trustedfirmware.org/
 TF-M Jenkins Job for gerrit patch: https://ci.trustedfirmware.org/job/tf-m-build-test-review/
 
 Sample LAVA Tests Results: https://validation.linaro.org/scheduler/job/1919709
+
+Author: Shebu Varghese Kuriakose
