@@ -9,9 +9,9 @@ image: /assets/images/blog/TFMCI.png
 ---
 As an Open Source community project, Trusted Firmware is committed to building a platform that
 allows the development of Trusted Firmware-A and Trusted Firmware-M in a collaborative manner. The
-mailing list (https://www.trustedfirmware.org/contact/) discussions on the design and other technical
-aspects of the code base, open gerrit (https://review.trustedfirmware.org/) for reviewing patches
-publicly, phabricator tasks (https://developer.trustedfirmware.org/) etc. are all aimed towards nurturing
+[mailing list](https://www.trustedfirmware.org/contact/) discussions on the design and other technical
+aspects of the code base, open [gerrit](https://review.trustedfirmware.org/) for reviewing patches
+publicly, [phabricator tasks](https://developer.trustedfirmware.org/) etc. are all aimed towards nurturing
 collaboration.
 
 Testing of the codebase is an important aspect in the Software Development Lifecycle. In projects such
@@ -60,10 +60,10 @@ Trusted Firmware project.
 
 Useful links:
 
-TF-M CI Portal: https://ci.trustedfirmware.org/
+TF-M CI Portal: [ci.trustedfirmware.org](https://ci.trustedfirmware.org/)
 
-TF-M Jenkins Job for gerrit patch: https://ci.trustedfirmware.org/job/tf-m-build-test-review/
+TF-M Jenkins Job for gerrit patch: [ci.trustedfirmware.org/job/tf-m-build-test-review/](https://ci.trustedfirmware.org/job/tf-m-build-test-review/)
 
-Sample LAVA Tests Results: https://validation.linaro.org/scheduler/job/1919709
+Sample LAVA Tests Results: [validation.linaro.org/scheduler/job/1919709](https://validation.linaro.org/scheduler/job/1919709)
 
 Author: Shebu Varghese Kuriakose
