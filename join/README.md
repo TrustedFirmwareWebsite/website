@@ -10,7 +10,7 @@ Companies joining the project at the Platinum level can vote and have a seat at 
 
 To join, the company needs to sign and return a copy of the Membership Agreement and pay an annual fee which depends on the class of membership.
 
-## Detailed information about joining the project
+## Detailed information - what it is and why join?
 
 (Link to pitch deck goes here)
 
