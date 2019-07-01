@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: flow
 title: FAQ
 permalink: /faq/
 ---

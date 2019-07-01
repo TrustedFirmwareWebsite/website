@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: flow
 title: Contact Trusted Firmware
 permalink: /contact/
 ---
