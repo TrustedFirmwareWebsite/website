@@ -59,3 +59,13 @@
 html {
     height:100%;
 }
+@media(min-width: $screen-sm-min){
+    #wrapper footer .footer-main .contact-details address a.email {
+        font-size: 14px;
+    }
+}
+@media(max-width: 440px ){
+    #wrapper footer .footer-main .contact-details address a.email {
+        font-size: 14px;
+    }
+}
