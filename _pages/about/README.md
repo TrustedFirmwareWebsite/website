@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ### Why choose Trusted Firmware?
 
-Arm Trusted Firmware provides a reference implementation of secure world software for [Armv8-A and Armv8-M](https://developer.arm.com/products/architecture). It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. The code on this website is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+Trusted Firmware provides a reference implementation of secure world software for [Armv8-A and Armv8-M](https://developer.arm.com/products/architecture). It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. The code on this website is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
 
   
 
@@ -15,7 +15,7 @@ Arm Trusted Firmware provides a reference implementation of secure world softwar
 
 *   Support for Arm Cortex-A processors is well established and currently available as open source on GitHub. Functionality focuses on trusted boot and a small trusted runtime (EL3 code). With the launch of www.trustedfirmware.org we will move the open source code to this site
 
-**Support for Armv8-M / Trusted Firmware-M (TF-M) and relationship with Arm’s Platform Security Architecture (PSA)**
+**Support for Armv8-M / Trusted Firmware-M (TF-M) and relationship with Platform Security Architecture (PSA)**
 
 *   PSA provides a common security foundation for the whole IoT ecosystem. It includes many elements, including architecture specifications and threat models. An important part of PSA is open source firmware. This is available in the form of Trusted Firmware-M for Arm Cortex-M23 and Arm Cortex-M33 processors, which use Arm TrustZone technology.
 *   The Trusted Firmware-M codebase is available as a reference implementation of PSA.
