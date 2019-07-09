@@ -1,4 +1,5 @@
 # Text files to normalise to LF line endings
+*       text=auto
 # `man 5 .gitattributes`
 *.css   text
 *.html  text
