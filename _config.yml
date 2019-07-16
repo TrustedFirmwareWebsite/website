@@ -18,6 +18,7 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - build-site.sh
+    - check-links.sh
     - CODEOWNERS
 permalink: /:categories/:title/
 collections:
