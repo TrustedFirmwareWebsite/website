@@ -3,3 +3,6 @@
 Gemfile.lock
 _site
 .jekyll-metadata
+assets/resized
+production.trustedfirmware.org
+staging.trustedfirmware.org
