@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: jumbotron-container
 title: Join the Trusted Firmware Project
 permalink: /join/
 ---
