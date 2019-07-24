@@ -20,6 +20,7 @@ Request a copy of the Membership Agreement
     </a>
 </div>
 <!-- /End Contact Form -->
+
 To join, the company needs to sign and return a copy of the Membership Agreement and pay an annual fee which depends on the class of membership.
 
 ## Trusted Firmware, Arm and Linaro
