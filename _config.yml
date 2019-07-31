@@ -10,16 +10,16 @@ theme: jumbo-jekyll-theme
 plugins:
   - jekyll-data
 exclude:
-  - .asset-cache
-  - .sass-cache
-  - _site
-  - production.trustedfirmware.org
-  - staging.trustedfirmware.org
-  - Gemfile
-  - Gemfile.lock
-  - build-site.sh
-  - check-links.sh
-  - CODEOWNERS
+    - .asset-cache
+    - .sass-cache
+    - _site
+    - production.trustedfirmware.org
+    - staging.trustedfirmware.org
+    - Gemfile
+    - Gemfile.lock
+    - build-site.sh
+    - check-links.sh
+    - CODEOWNERS
 permalink: /:categories/:title/
 collections:
   authors:
