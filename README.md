@@ -2,7 +2,7 @@
 
 This is the git repository for the 96Boards.ai static Jekyll-based website.
 
-Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a 
+Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a
 PR](https://github.com/TrustedFirmwareWebsite/website/pulls) / [Issue](https://github.com/TrustedFirmwareWebsite/website/issues/new) if there is anything you would like to change.
 
 This static Jekyll site is using the [`jumbo-jekyll-theme`](https://github.com/linaro-marketing/jumbo-jekyll-theme). Please take a moment to review the guides on the [theme's GitHub wiki](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki).
@@ -24,7 +24,7 @@ To build the site and then serve it so that you can check your contribution appe
 
 ```
 cd <git repository directory>
-JEKYLLACTION="serve" ./build-site.sh
+JEKYLL_ACTION="serve" ./build-site.sh
 ```
 
 To check that your contribution doesn't include any broken links:
