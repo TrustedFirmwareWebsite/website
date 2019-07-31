@@ -15,13 +15,7 @@ You are welcome to circulate [this slide deck](/docs/TrustedFirmwareJoinDeck_201
 
 Request a copy of the Membership Agreement
 
-<!-- Contact Form -->
-<div class="col-xs-12 text-center m-b-40">
-    <a class="btn email" href="mailto:enquiries@trustedfirmware.org?subject=Membership Agreement Request - {{page.url}}">
-        enquiries@trustedfirmware.org
-    </a>
-</div>
-<!-- /End Contact Form -->
+[enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org?subject=Membership Agreement Request - /join/){:.btn.email}
 
 To join, the company needs to sign and return a copy of the Membership Agreement and pay an annual fee which depends on the class of membership.
 
