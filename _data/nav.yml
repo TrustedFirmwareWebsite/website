@@ -4,13 +4,17 @@ search:
 universal-nav: false
 brand:
     text: TrustedFirmware
-    image: 
+    image:
         enabled: true
         path: /assets/images/TrustedFirmware-Logo_standard-white.png
     url: /
 pages:
     - title: About
-      url: /about/
+      options:
+        - text: Overview
+          url: /about/
+        - text: Join
+          url: /join/
     - title: Code
       options:
           - text: TF-A
@@ -21,7 +25,7 @@ pages:
             external: true
           - text: TF-A-Tests
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
-            external: true     
+            external: true
     - title: Dashboard
       options:
           - text: TF-A
@@ -44,6 +48,8 @@ pages:
       url: /meetings/
     - title: News
       url: /news/
+    - title: OP-TEE
+      url: /op-tee/
     - title: FAQ
       url: /faq/
     - title: Contact
