@@ -22,14 +22,14 @@ exclude:
     - CODEOWNERS
 permalink: /:categories/:title/
 collections:
-    authors:
-        output: true
-        permalink: /author/:name/
+  authors:
+    output: true
+    permalink: /author/:name/
 assets:
   compress:
-        js: true
+    js: true
   autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
   sources:
     - assets/js/
     - assets/js/vendor/
@@ -40,17 +40,17 @@ assets:
     - assets/css/app
 defaults:
   - scope:
-        path: ""
-        type: "authors"
+      path: ""
+      type: "authors"
     values:
-        layout: author
+      layout: author
 # Jekyll Pagination V2 Configuration
 pagination:
-    permalink: '/:num/'
-    enabled: true
-    per_page: 9
-    trail:
-        before: 2
-        after: 2
-    sort_reverse: true
-    sort_field: 'date'
+  permalink: "/:num/"
+  enabled: true
+  per_page: 9
+  trail:
+    before: 2
+    after: 2
+  sort_reverse: true
+  sort_field: "date"
