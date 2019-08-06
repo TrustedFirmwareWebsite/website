@@ -16,8 +16,8 @@ jumbotron:
     description: >-
         Isolation ● Small footprint ● Portability
     buttons:
-        - title: Get Involved
-          url: /contact/
+        - title: View Project
+          url: https://www.op-tee.org
           class: btn btn-primary btn-lg bottom-border-five
 ---
 <div class="row content" id="content-container">
