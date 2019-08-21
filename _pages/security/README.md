@@ -5,7 +5,7 @@ permalink: /security/
 ---
 # Security advisories and contact details for reporting security issues
 
-On each of the links below are details of known vulnerabilities as security advisories and also contact details for reporting security issues.
+On each of the links below are details of known vulnerabilities as Security Advisories and also contact details for reporting security issues.
 
 [Trusted Firmware](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/about/docs/process/security.rst)
 
