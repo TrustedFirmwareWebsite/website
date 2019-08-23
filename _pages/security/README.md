@@ -1,11 +1,11 @@
 ---
 layout: jumbotron-container
-title: Security advisories and security contact details
+title: Security Center
 permalink: /security/
 ---
-# Security advisories and contact details for reporting security issues
+# Security advisories and vulnerability handling
 
-On each of the links below are details of known vulnerabilities as Security Advisories and also contact details for reporting security issues.
+Please see the following links for each TrustedFirmware.org project's security advisories and security vulnerability handling process:
 
 [Trusted Firmware](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/about/docs/process/security.rst)
 
