@@ -54,5 +54,7 @@ pages:
             url: /meetings/
     - title: OP-TEE
       url: /op-tee/
+    - title: Security
+      url: /security/      
     - title: Contact
       url: /contact/
