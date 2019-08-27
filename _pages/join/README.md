@@ -1,6 +1,54 @@
 ---
-layout: jumbotron-container
+layout: flow
 title: Join the Trusted Firmware Project
+description: >
+    Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
+flow:
+    - row: container_row
+      sections:
+        - format: title
+          size: h2
+          content: Our Members
+        - format: members
+          style: zoom
+          item_width: 3
+          content:
+              - name: Arm
+                image:
+                    path: /assets/images/arm.jpg
+                    alt: Arm Logo
+                url: https://arm.com
+              - name: Cypress
+                image:
+                    path: /assets/images/Cypress.jpg
+                    alt: Cypress Logo
+                url: https://www.cypress.com/
+              - name: Data IO
+                image:
+                    path: /assets/images/Data IO.jpg
+                    alt: Data IO Logo
+                url: http://www.dataio.com/
+              - name: Google
+                image:
+                    path: /assets/images/google.jpg
+                    alt: Google Logo
+                url: https://www.google.com/
+              - name: Linaro
+                image:
+                    path: /assets/images/Linaro.jpg
+                    alt: Linaro Logo
+                url: https://www.linaro.org/
+              - name: ST
+                image:
+                    path: /assets/images/ST.jpg
+                    alt: ST Logo
+                url: https://www.st.com/
+              - name: TI
+                image:
+                    path: /assets/images/TI.jpg
+                    alt: TI Logo
+                url: http://www.ti.com/
+    - row: main_content_row
 permalink: /join/
 ---
 # About Membership And How To Join
