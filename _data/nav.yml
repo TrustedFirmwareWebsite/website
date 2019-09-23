@@ -53,7 +53,7 @@ pages:
           - text: Meetings
             url: /meetings/
     - title: OP-TEE
-      url: https://op-tee.org
+      url: https://www.op-tee.org
     - title: Security
       url: /security/
     - title: Contact
