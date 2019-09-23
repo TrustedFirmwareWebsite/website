@@ -32,7 +32,7 @@ SWG was to work on an open source TEE project. After talking to various TEE vend
 STMicroelectronics TEE project. But before being able to open source it there was a need to replace some proprietary
 components with open source components. For a couple of months Linaro/SWG together with engineers from
 STMicroelectronics re-wrote major parts (crypto library, secure monitor, build system etc), cleaned up the project by
-enforcing [Coding standards](https://optee.readthedocs.io/general/coding_standards.html#coding-standards),
+enforcing [Coding standards](https://optee.readthedocs.io/en/latest/general/coding_standards.html?highlight=coding-standards),
 running [checkpatch](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/scripts/checkpatch.pl) etc.
 
 June 12 2014 was the day when OP-TEE was “born” as an open source project. At that day the OP-TEE team pushed the [first
