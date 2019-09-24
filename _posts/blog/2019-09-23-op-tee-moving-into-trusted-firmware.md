@@ -3,13 +3,13 @@ author: trusted.firmware
 title: OP-TEE moving into Trusted Firmware
 date: 2019-09-23 01:00:00
 categories:
-  - News
+  - Blog
 layout: post
 image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
 ---
-Linaro is transferring OP-TEE (Open Portable TEE, an open source Arm® TrustZone® based trusted OS) to become part of the Trusted Firmware open governance community project hosted by Linaro.
+Linaro is transferring OP-TEE (Open Portable TEE, an open source Arm® TrustZone® based trusted OS) to become part of the Trusted Firmware open governance community project hosted by Linaro. See the [press release](https://www.linaro.org/news/linaro-donates-op-tee-into-the-trusted-firmware-project/) here.
 
-Why is this important?
+### Why is this important?
 
 - Securing a system both at boot time and runtime has become more complex. It will evolve to become even more complex and rigorous. 
 - Adding a trusted OS to Trusted Firmware will allow fuller device threat mitigation techniques to be demonstrated
