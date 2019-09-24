@@ -28,22 +28,43 @@ pages:
           - text: TF-A-Tests
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
             external: true
-    - title: Dashboard
+    - title: Review
       options:
           - text: TF-A
-            url:  https://developer.trustedfirmware.org/dashboard/view/6/
+            url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
             external: true
           - text: TF-M
-            url: https://developer.trustedfirmware.org/dashboard/view/5/
+            url: https://review.trustedfirmware.org/q/project:trusted-firmware-m
             external: true
-    - title: Wiki
-      options:
           - text: TF-A
-            url: https://developer.trustedfirmware.org/w/tf_a/
+            url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
             external: true
-          - text: TF-M
-            url: https://developer.trustedfirmware.org/w/tf_m/
-            external: true
+    - title: Documentation
+      options:
+          - text: Docs
+            options:
+                - text: TF-A Docs
+                  url:  http://trustedfirmware-a.readthedocs.org/
+                  external: true
+                - text: TF-M Docs
+                  url: https://ci.trustedfirmware.org/job/tf-m-build-test-nightly/lastSuccessfulBuild/artifact/build-docs/tf-m_documents/install/doc/user_guide/html/index.html
+                  external: true
+          - text: Dashboard
+            options:
+                - text: TF-A
+                  url:  https://developer.trustedfirmware.org/dashboard/view/6/
+                  external: true
+                - text: TF-M
+                  url: https://developer.trustedfirmware.org/dashboard/view/5/
+                  external: true
+          - text: Wiki
+            options:
+                - text: TF-A
+                  url: https://developer.trustedfirmware.org/w/tf_a/
+                  external: true
+                - text: TF-M
+                  url: https://developer.trustedfirmware.org/w/tf_m/
+                  external: true
     - title: News & Blogs
       options:
           - text: Blog
