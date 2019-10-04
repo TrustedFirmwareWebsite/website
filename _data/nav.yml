@@ -36,7 +36,7 @@ pages:
           - text: TF-M
             url: https://review.trustedfirmware.org/q/project:trusted-firmware-m
             external: true
-          - text: TF-A
+          - text: TF-A Tests
             url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
             external: true
     - title: Documentation
