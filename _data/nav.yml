@@ -43,10 +43,10 @@ pages:
       options:
           - text: Docs
             options:
-                - text: TF-A Docs
+                - text: TF-A
                   url:  http://trustedfirmware-a.readthedocs.org/
                   external: true
-                - text: TF-M Docs
+                - text: TF-M
                   url: https://ci.trustedfirmware.org/job/tf-m-build-test-nightly/lastSuccessfulBuild/artifact/build-docs/tf-m_documents/install/doc/user_guide/html/index.html
                   external: true
           - text: Dashboard
