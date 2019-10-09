@@ -1,4 +1,5 @@
 [
     "^/blog/2018/09/18/trusted-firmware-project-update.html$ /blog/trusted-firmware-at-the-open-source-firmware-conference/ [R,L,NC]",
-    "^/blog/2018/06/19/trusted-firmware-project-update.html$ /blog/trusted-firmware-update/ [R,L,NC]"
+    "^/blog/2018/06/19/trusted-firmware-project-update.html$ /blog/trusted-firmware-update/ [R,L,NC]",
+    "^/docs/tf-a(/?|/index.html)$ https://trustedfirmware-a.readthedocs.org [R,L,NC]"
 ]
