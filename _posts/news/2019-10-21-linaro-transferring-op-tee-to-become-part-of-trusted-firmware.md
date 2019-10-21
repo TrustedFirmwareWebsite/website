@@ -8,7 +8,7 @@ layout: post
 image: /assets/images/trusted-firmware.jpg
 ---
 
-Linaro is transferring OP-TEE (Open Portable TEE, an open source Arm® TrustZone® based trusted OS) to become part of the Trusted Firmware open governance community project.
+Linaro is transferring OP-TEE to become part of the Trusted Firmware open governance community project.
 
 Matteo Carlini of Trusted Firmware and Joakim Bech explain why this is important and what it means for both projects in this video from Linaro Connect SAN19:
 
