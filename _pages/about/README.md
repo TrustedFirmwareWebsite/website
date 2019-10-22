@@ -13,7 +13,7 @@ Trusted Firmware provides a reference implementation of secure world software fo
 
 **Support for Armv8-A / Trusted Firmware-A (TF-A)**
 
-*   Support for Arm Cortex-A processors is well established and currently available as open source on GitHub. Functionality focuses on trusted boot and a small trusted runtime (EL3 code). With the launch of www.trustedfirmware.org we will move the open source code to this site
+*   Support for Arm Cortex-A processors is well established and currently available as open source at https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/. Functionality focuses on trusted boot and a small trusted runtime (EL3 code). 
 
 **Support for Armv8-M / Trusted Firmware-M (TF-M) and relationship with Platform Security Architecture (PSA)**
 
@@ -24,10 +24,9 @@ Trusted Firmware provides a reference implementation of secure world software fo
 **If you want to get involved, join the notification mailing list or contact enquiries@TrustedFirmware.org for more information.**  
   
 
-#### Arm’s Trusted Firmware is adopting open governance
+#### Trusted Firmware is an open governance project 
 
-*   Arm has transferred the Trusted Firmware project to be managed as an open project by Linaro
+*   Trusted Firmware project is an open governance community project hosted by Linaro
 *   Membership of the Trusted Firmware project is open to all
 *   Governance is overseen by a board of member representatives
 *   Details of the Governance are in the [Project Charter](/docs/Trusted_Firmware_Charter_v_2019-01-21.pdf)
-*   Stakeholders in Trusted Firmware are encouraged to join
