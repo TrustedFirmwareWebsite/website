@@ -5,11 +5,7 @@ date: 2019-03-30 08:00:00
 categories:
 - Blog
 layout: post
-image:
-  path: /assets/images/trusted-firmware.jpg
-  name: trusted-firmware.jpg
-  thumb: TrustedFirmware-Logo_icon.png
-  featured: true
+image: /assets/images/blog/synquacer_tf_crop_1500x1500.png
 ---
 Trusted Firmware-A and the related Trusted Firmware-A Tests v2.1 releases are now tagged!
 
