@@ -1,4 +1,4 @@
-favicon: favicon.png
+favicon: /assets/images/favicon.png
 search-label: TrustedFirmware
 name: TrustedFirmware
 slogan: Open Source Secure World Software
@@ -38,11 +38,11 @@ home:
         # enabled: true
         # # Title for the home page jumbotron
         # title:
-        #     first-line: 
-        #         text: 
+        #     first-line:
+        #         text:
         #         display: true
         #         bold: false
-        #     second-line: 
+        #     second-line:
         #         display: false
         # # Text to be displayed in the home page jumbotron
         # sub-title:
@@ -50,7 +50,7 @@ home:
         #         text: A devicetree is a data structure for describing hardware
         #         display: true
         #         bold: true
-        #     second-line: 
+        #     second-line:
         #         display: false
         # # Buttons to be displayed in the Jumbotron
         # buttons:
@@ -59,7 +59,7 @@ home:
         #       url: /specifications/
         # # Background image for the home page located in assets/images
         # background-image:
-        #     darken: true    
+        #     darken: true
         #     name: background-image.jpg
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: TrustedFirmwareWebsite
@@ -97,10 +97,10 @@ blog:
         #       # Fields to use for title and url.
         #       display_fields:
         #           title: title
-        #           url: url          
+        #           url: url
 #Google analytics
-google:
-    analytics: UA-16756069-28
+google_analytics:
+  production: UA-16756069-28
 # Shema.org settings used in the schema.html include.
 schema:
     enabled: false
@@ -108,9 +108,9 @@ schema:
         name: Trusted Firmware
         url: https://www.trustedfirmware.org
         address:
-            street: Harston Mill, Royston Rd 
-            town: Harston 
-            county: Cambridge 
+            street: Harston Mill, Royston Rd
+            town: Harston
+            county: Cambridge
             post_code: CB22 7GG
             country_code: UK
 # Disqus Comments
@@ -119,5 +119,3 @@ disqus:
     shortname: trusted-firmware
 # Placeholder for Missing Images
 placeholder: TrustedFirmware-Logo_icon.png
-
-
