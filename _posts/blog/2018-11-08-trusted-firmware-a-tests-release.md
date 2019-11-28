@@ -19,7 +19,7 @@ The initially released software (labelled as version [2.0](https://git.trustedfi
 * [Performance Measurement Framework (PMF)](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/design/firmware-design.rst#performance-measurement-framework)
 * Communication and interaction with the [Test Secure Payload (TSP)](https://github.com/ARM-software/arm-trusted-firmware/tree/master/bl32/tsp)
 * [Firmware update](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/firmware-update.rst)(or recovery mode)
-* [EL3 payload boot flow](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/getting_started/user-guide.rst#el3-payloads-alternative-boot-flow)
+* [EL3 payload boot flow](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/design/alt-boot-flows.rst#el3-payloads-alternative-boot-flow)
 * [Secure partition support](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst)
 
 The v2.0 release has been tested on Arm Fixed Virtual Platforms and Juno platforms (r0, r1 and r2 variants).
