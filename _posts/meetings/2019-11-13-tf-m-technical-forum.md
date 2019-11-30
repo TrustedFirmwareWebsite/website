@@ -17,5 +17,5 @@ Initially we propose a bi-weekly call and then we'll change cadence depending on
 
 The calendar invite is below and contains the conference coordinates. Feel free to also forward it to your colleagues.
 
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjBzbGowM2FwbG4wZ3BqY21zamNndGdrZ3UgYmlsbC5mbGV0Y2hlckBsaW5hcm8ub3Jn&amp;tmsrc=bill.fletcher%40linaro.org"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjNkZm12bmNnaHBjaWJ1NjFuZXJvYzh2Y2wgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
