@@ -16,6 +16,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 Initially we propose a bi-weekly call and then we'll change cadence depending on interest.
 
 Details of the most recent call are here:
+
 Link to video recording [Zoom Recording](https://zoom.us/recording/share/kNtLz7KC5yjs6V1F1mFNJbV2UBsWdAX_gITU-WJNTtOwIumekTziMw)
 
 Link to slides [PDF Presentation](/docs/TF-M_TechForum_Interrupt1_Updated.pdf)
