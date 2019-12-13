@@ -13,6 +13,8 @@ The booth (shown here) was well received across all three days, with a lot of po
 
 ## Trusted Firmware-M workshop
 [Check out all the presentations from the workshop here](https://developer.trustedfirmware.org/w/tf_m/tf_demos_lyon/)
+
+
 The last two days of the week looked at our eagerly awaited TF-M workshop, in the Mercure Hotel, Lyon. Here, 36people gathered to listen to 13 different talks on TF-M, collaborate and share ideas and suggestions on the future of TF-M. 
  
 Thursday began with Shebu Kuriakose setting the scene, speaking about the running of the next two days and the purpose for the meetings. This then moved onto the keynote presented by Eric Finco, who spoke on the importance of collaboration in Trusted Firmware.  
