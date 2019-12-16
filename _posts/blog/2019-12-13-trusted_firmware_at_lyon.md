@@ -19,7 +19,7 @@ The booth was well received across all three days, with a lot of positive feedba
 
 The last two days of the week looked at our eagerly awaited TF-M workshop, in the Mercure Hotel, Lyon. Here, 36people gathered to listen to 13 different talks on TF-M, collaborate and share ideas and suggestions on the future of TF-M. 
 
-![OSFC19](/assets/images/blog/trusted firmware booth at ELC.png)
+![OSFC19](/assets/images/blog/tf_booth_lyon.png)
  
 Thursday began with Shebu Kuriakose setting the scene, speaking about the running of the next two days and the purpose for the meetings. This then moved onto the keynote presented by Eric Finco, who spoke on the importance of collaboration in Trusted Firmware.  
 Thursday Morning was governed by Ken Liu, Mate Toth-Pal, Miklos Balint, with presentations on Scheduler designs and Interrupt handling. After lunch, topics spanning mbedTLS, crypto hardware integration, and secure storage services were presented by Jamie Fox, Jaeden Amero, Antonio De Angelis, Tamas Ban, David Hu and Janos Follath. Towards the end of the day, Tamas Ban and David Hu presented on mcuboot & attestation services, and dual CPU design respectively.  Discussions were free and open, where attendees were able to ask questions and exchange knowledge.
