@@ -1,6 +1,6 @@
 # trustedfirmware.org Static Jekyll Site
 
-This is the git repository for the 96Boards.ai static Jekyll-based website.
+This is the git repository for the trustedfirmware.org static Jekyll-based website.
 
 Hosted in this repo are the markdown content files associated with the website. Feel free to [submit a
 PR](https://github.com/TrustedFirmwareWebsite/website/pulls) / [Issue](https://github.com/TrustedFirmwareWebsite/website/issues/new) if there is anything you would like to change.
