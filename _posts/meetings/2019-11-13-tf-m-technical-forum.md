@@ -13,15 +13,18 @@ As mentioned in the TF-M workshop in Lyon at the start of November 19, we have k
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we can review after the first couple of meetings.
 
-Initially we propose a bi-weekly call and then we'll change cadence depending on interest.
+## The next call is on Thursday 19th December at 07:00 UTC.
 
-Details of the most recent call are here:
+### Recording and slides of previous meeting
+
+Details of the 5th December call are here:
 
 Link to video recording [Zoom Recording](https://zoom.us/recording/share/kNtLz7KC5yjs6V1F1mFNJbV2UBsWdAX_gITU-WJNTtOwIumekTziMw)
 
 Link to slides [PDF Presentation](/docs/TF-M_TechForum_Interrupt1_Updated.pdf)
 
+### Calendar Invite
+
 The calendar invite is below and contains the conference coordinates. Feel free to also forward it to your colleagues.
 
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjNkZm12bmNnaHBjaWJ1NjFuZXJvYzh2Y2wgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif" height="25" width="100"></a>
-
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MnVjODY4YmlscGlxbHU2bmhmcXE5cWxkbDEgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
