@@ -1,3 +1,13 @@
+---
+author: trusted.firmware
+title: Trusted Firmware at Lyon
+date: 2019-12-13 09:00:00
+categories:
+- Blog
+layout: post
+image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
+---
+
 # Trusted Firmware @ Lyon, France
 
 Last month saw hundreds of engineers, technologists and companies descend onto Lyon for a week full of jam-packed conferences and the Trusted Firmware-M (TF-M) workshop. The first half of the week saw TrustedFirmware.org presenting at the Embedded Linux Conference (ELC) conference as a bronze sponsor, and Thursday and Friday focussed on a TF-M workshop in the Mercure Lyon Centre Chateau Perrache with project members and engaging discussions. The week provided a great stage for everyone to come together and have strong and engaging discussions surrounding open source software, security and collaboration.
@@ -19,7 +29,7 @@ The booth was well received across all three days, with a lot of positive feedba
 
 The last two days of the week looked at our eagerly awaited TF-M workshop, in the Mercure Hotel, Lyon. Here, 36people gathered to listen to 13 different talks on TF-M, collaborate and share ideas and suggestions on the future of TF-M. 
 
-![Lyon_wkshop](assets/images/blog/Workshops_TF_Lyon.png)
+![Lyon_wkshop](/assets/images/blog/Workshops_TF_Lyon.png)
 
  
 Thursday began with Shebu Kuriakose setting the scene, speaking about the running of the next two days and the purpose for the meetings. This then moved onto the keynote presented by Eric Finco, who spoke on the importance of collaboration in Trusted Firmware.  
