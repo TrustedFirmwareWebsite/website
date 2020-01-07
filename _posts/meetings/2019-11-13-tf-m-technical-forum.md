@@ -13,7 +13,7 @@ As mentioned in the TF-M workshop in Lyon at the start of November 19, we have k
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we can review after the first couple of meetings.
 
-### The next call is on 9th January - time TBC.
+### The next call is on 9th January - 7 am UTC.
 
 
 To receive an invite, please join the TF-M mailing list 
