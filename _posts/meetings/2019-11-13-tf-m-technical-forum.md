@@ -21,6 +21,13 @@ To receive an invite, please join the TF-M mailing list
 ### Recording and slides of previous meetings
 
 
+#### Details of the 9th January call are here:
+
+
+* Link to video recording [Zoom Recording](https://zoom.us/rec/share/4MJtK53Mym1IBdLU637fQJN7R4_DT6a80SYdrvoNnknHklhQowz9wfHzB-sAAfXx)
+* Link to slides on Secure Partition Runtime Library [PDF Presentation](/docs/TF-M_and_Amazon_FreeRTOS_integration_update-19Dec2019.pdf)
+* Link to slides on PSA FF 1.0.0 alignment [PDF Presentation](/docs/TF-M_Profile-19Dec2019.pdf)
+
 #### Details of the 19th December call are here:
 
 
