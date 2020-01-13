@@ -13,7 +13,7 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we can review after the first few meetings.
 
-### The next call is on Thursday, January 23rd at 7:00-8:00 UTC.
+### The next call is on Thursday, January 23rd at 17:00-18:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
