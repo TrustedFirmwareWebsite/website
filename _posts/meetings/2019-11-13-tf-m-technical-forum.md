@@ -11,15 +11,21 @@ image: /assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-M mailing list. Attendees are welcome to propose agenda items.
 
-Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we can review after the first few meetings.
+Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
 
-### The next call is on Thursday, January 23rd at 17:00-18:00 UTC.
+### The next call is on Thursday, February 6 at 7:00-8:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
 ### Recording and slides of previous meetings
 
+
+#### Details of the 23rd January call are here:
+
+
+* Link to slides on Secure Storage [PDF Presentation](/docs/tfm_secure_storage_tech_forum.pdf)
+* Link to video recording [Zoom Recording](https://zoom.us/rec/share/u51aNp7ZzCBLWIHp62XEGYkhPJa5X6a81iEc_aANzxt7ce-hmR5JV_1WEeAxfw8p)
 
 #### Details of the 9th January call are here:
 
