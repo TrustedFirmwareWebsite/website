@@ -7,14 +7,15 @@ flow:
     - row: container_row
       sections:
         - format: title
-          size: h2
-          content: Our Members
+          title_content:
+            size: h2
+            text: Our Members
         - format: custom_include
           source: members.html
     - row: main_content_row
 permalink: /join/
 ---
-# About Membership And How To Join
+## About Membership And How To Join
 
 Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
 
