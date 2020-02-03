@@ -72,3 +72,11 @@ html {
 #wrapper .email {
     width: auto;
 }
+.member_image {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+.members_row h2 {
+    text-align:left !important;
+}
