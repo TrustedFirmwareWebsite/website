@@ -1,5 +1,6 @@
+{% assign sorted_members = site.data.members.items | sort: 'name' %}
 <div class="col-xs-12 member_logos">
-    {% for member in site.data.members.items %}
+    {% for member in sorted_members %}
         <div class="col-xs-6 col-sm-3 col-lg-2">
             <a href="{{member.url}}">
                 <img class="lazyload img-responsive member_image"
