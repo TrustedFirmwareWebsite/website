@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "image": "/assets/images/members/arm.jpg",
+            "name": "Arm",
+            "url": "https://www.arm.com/"
+        },
+        {
+            "image": "/assets/images/members/Cypress.jpg",
+            "name": "Cypress",
+            "url": "https://www.cypress.com/"
+        },
+        {
+            "image": "/assets/images/members/Data IO.jpg",
+            "name": "Data IO",
+            "url": "https://www.dataio.com/"
+        },
+        {
+            "image": "/assets/images/members/Futurewei_Logo_RGB.png",
+            "name": "Futurewei",
+            "url": "https://www.futurewei.com/"
+        },
+        {
+            "image": "/assets/images/members/google.jpg",
+            "name": "Google",
+            "url": "https://www.google.com/"
+        },
+        {
+            "image": "/assets/images/members/Linaro.jpg",
+            "name": "Linaro",
+            "url": "https://www.linaro.org/"
+        },
+        {
+            "image": "/assets/images/members/ST.jpg",
+            "name": "ST",
+            "url": "https://www.st.com/content/st_com/en.html"
+        },
+        {
+            "image": "/assets/images/members/TI.jpg",
+            "name": "Texas Instruments",
+            "url": "http://www.ti.com/"
+        },
+    ]
+}
