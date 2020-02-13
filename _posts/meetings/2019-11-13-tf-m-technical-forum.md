@@ -13,13 +13,18 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
 
-### The next call is on Thursday, February 6 at 17:00-18:00 UTC.
+### The next call is on Thursday, February 20th at 07:00-08:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
 ### Recording and slides of previous meetings
 
+#### Details of the 6th February call are here:
+
+
+* The topic was "CMSIS-Zone". There are no slides associated with this meeting.
+* Link to video recording [Zoom Recording](https://zoom.us/rec/share/3fwtBKzz611JT9b2wV7vBp85FbrpT6a8g3dM__sFnmAgwrdcfznLWC8-sXFlSTc)
 
 #### Details of the 23rd January call are here:
 
@@ -46,4 +51,7 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 
 * Link to slides on TF-M Interrupts [PDF Presentation](/docs/TF-M_TechForum_Interrupt1_Updated.pdf)
 * Link to video recording [Zoom Recording](https://zoom.us/recording/share/kNtLz7KC5yjs6V1F1mFNJbV2UBsWdAX_gITU-WJNTtOwIumekTziMw)
+
+
+
 
