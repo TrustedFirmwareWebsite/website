@@ -13,12 +13,19 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
 
-### The next call is on Thursday, February 20th at 07:00-08:00 UTC.
+### The next call is on Thursday, March 5th at 07:00-08:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
 ### Recording and slides of previous meetings
+
+#### Details of the 20th February call are here:
+
+
+* Link to slides on TF-M Fuzzer Tool Proposal [PDF Presentation](/docs/TF-M_Fuzzing_Tool_TFOrg.pdf)
+* Link to video recording [Zoom Recording](https://zoom.us/rec/share/1dxZcZit111IadadyFqFU7IoP5X5aaa8gXUdr_UInxmMbyLzEqEmXQdx79-IWQ9p)
+
 
 #### Details of the 6th February call are here:
 
