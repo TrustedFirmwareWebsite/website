@@ -16,7 +16,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### The next call is on Thursday, March 5th at 07:00-08:00 UTC.
 
 
-To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
+To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
 
