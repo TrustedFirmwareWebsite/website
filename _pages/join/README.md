@@ -22,7 +22,7 @@ Companies and other organisations who adopt, deploy or contribute to Trusted Fir
 
 Companies joining the project at the Platinum level can vote and have a seat at Board meetings. Companies joining as General members may attend general meetings and have joint representation at Board meetings. The Community class of membership is open to universitities and other similar not-for-profit organisations.
 
-You are welcome to circulate [this slide deck](/docs/TrustedFirmwareJoinDeck_2019.pdf) within your organisation which explains more about the project.
+You are welcome to circulate [this slide deck](/docs/TrustedFirmware_2020_web.pdf) within your organisation which explains more about the project.
 
 ## Next Step for Your Company to Join
 
