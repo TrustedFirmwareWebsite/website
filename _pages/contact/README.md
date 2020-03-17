@@ -12,6 +12,11 @@ permalink: /contact/
 
 [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
+[Subscribe to the mbed-tls list](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls)
+
+[Subscribe to the psa-crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
+
+
 <!-- Contact Form -->
 <div class="col-xs-12 text-center m-b-40">
     <a class="btn email" href="mailto:enquiries@trustedfirmware.org?subject=TrustedFirmware.org - {{page.url}}">
