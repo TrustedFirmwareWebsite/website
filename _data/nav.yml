@@ -28,7 +28,7 @@ pages:
           - text: TF-A Tests
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
             external: true
-          - text: mbed-tls
+          - text: Mbed TLS
             url: https://git.trustedfirmware.org/tls/mbed-tls.git/
             external: true
           - text: Hafnium
@@ -61,7 +61,7 @@ pages:
                 - text: TF-M
                   url: https://ci.trustedfirmware.org/job/tf-m-build-test-nightly/lastSuccessfulBuild/artifact/build-docs/tf-m_documents/install/doc/user_guide/html/index.html
                   external: true
-                - text: mbed-tls
+                - text: Mbed TLS
                   url:  https://tls.mbed.org/
                   external: true
                 - text: Hafnium
