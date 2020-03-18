@@ -14,7 +14,7 @@ permalink: /contact/
 
 [Subscribe to the Mbed TLS list](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls)
 
-[Subscribe to the psa-crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
+[Subscribe to the PSA Crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
 
 
 <!-- Contact Form -->
