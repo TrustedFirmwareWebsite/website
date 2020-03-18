@@ -17,3 +17,9 @@ This is an open forum conference call for anyone to participate and it is not re
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a)
 
 ### Recording and slides of previous meetings will appear here
+
+
+* **Debugfs** [PDF Presentation](/docs/tfa-debugfs-mar2020.pdf)
+* [Video Recording](https://zoom.us/rec/share/xJVyIKP3yE9OfLPm4U3DarQfF5_YT6a80Sgb-aUOy0bWKUXqueDoQ6a6gh9fHtOV)
+* Date - 12th March 2020
+<br/>
