@@ -11,4 +11,4 @@ Please see the following links for each TrustedFirmware.org project's security a
 
 [OP-TEE](https://www.op-tee.org/security-advisories/)
 
-[Mbed TLS](https://tls.mbed.org/security/)
+[Mbed TLS](https://tls.mbed.org/security)
