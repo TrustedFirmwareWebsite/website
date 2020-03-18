@@ -12,7 +12,7 @@ permalink: /contact/
 
 [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m)
 
-[Subscribe to the mbed-tls list](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls)
+[Subscribe to the Mbed TLS list](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls)
 
 [Subscribe to the psa-crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
 
