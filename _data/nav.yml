@@ -70,9 +70,6 @@ pages:
                 - text: Mbed TLS
                   url:  https://github.com/ARMmbed/mbedtls/blob/development/README.md
                   external: true
-                - text: Hafnium
-                  url:  https://opensource.google/projects/hafnium
-                  external: true
                 - text: OP-TEE
                   url:  https://optee.readthedocs.io/en/latest/
                   external: true
