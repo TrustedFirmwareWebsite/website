@@ -25,9 +25,18 @@ pages:
           - text: TF-M
             url: http://git.trustedfirmware.org/trusted-firmware-m.git/
             external: true
-          - text: TF-A-Tests
+          - text: TF-A Tests
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
             external: true
+          - text: Mbed TLS
+            url: https://git.trustedfirmware.org/tls/mbed-tls.git/
+            external: true
+          - text: Hafnium
+            url: https://git.trustedfirmware.org/hafnium/hafnium.git/
+            external: true
+          - text: OP-TEE
+            url: https://github.com/OP-TEE/optee_os/
+            external: true  
     - title: Review
       options:
           - text: TF-A
@@ -39,6 +48,12 @@ pages:
           - text: TF-A Tests
             url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
             external: true
+          - text: Mbed TLS
+            url: https://github.com/ARMmbed/mbedtls/pulls
+            external: true
+          - text: OP-TEE
+            url: https://github.com/OP-TEE/optee_os/pulls
+            external: true            
     - title: Documentation
       options:
           - text: Docs
@@ -51,6 +66,12 @@ pages:
                   external: true
                 - text: TF-M
                   url: https://ci.trustedfirmware.org/job/tf-m-build-test-nightly/lastSuccessfulBuild/artifact/build-docs/tf-m_documents/install/doc/user_guide/html/index.html
+                  external: true
+                - text: Mbed TLS
+                  url:  https://github.com/ARMmbed/mbedtls/blob/development/README.md
+                  external: true
+                - text: OP-TEE
+                  url:  https://optee.readthedocs.io/en/latest/
                   external: true
           - text: Dashboard
             options:
@@ -76,8 +97,6 @@ pages:
             url: /news/
           - text: Meetings
             url: /meetings/
-    - title: OP-TEE
-      url: https://www.op-tee.org
     - title: Security
       url: /security/
     - title: Contact
