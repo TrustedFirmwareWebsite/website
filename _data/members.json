@@ -40,5 +40,10 @@
             "name": "Texas Instruments",
             "url": "http://www.ti.com/"
         },
+        {
+            "image": "/assets/images/members/renesas.jpg",
+            "name": "Renesas",
+            "url": "https://www.renesas.com/eu/en/"
+        }
     ]
 }
