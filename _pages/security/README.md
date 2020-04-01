@@ -10,3 +10,5 @@ Please see the following links for each TrustedFirmware.org project's security a
 [Trusted Firmware-A](https://trustedfirmware-a.readthedocs.io/en/latest/process/security.html)
 
 [OP-TEE](https://www.op-tee.org/security-advisories/)
+
+[Mbed TLS](https://tls.mbed.org/security)

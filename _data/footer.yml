@@ -15,16 +15,4 @@ company-links:
 second-column:
     title: Latest News & Blogs
     latest-posts: true
-third-column:
-    title: Other Projects
-    items:
-      - name: 96Boards
-        url: https://www.96boards.org
-      - name: Linaro Connect
-        url: https://connect.linaro.org
-      - name: DeviceTree
-        url: https://www.devicetree.org
-      - name: OP-TEE
-        url: https://www.op-tee.org
-      - name: Linaro Developer Cloud
-        url: https://www.linaro.cloud
+third-column: false
