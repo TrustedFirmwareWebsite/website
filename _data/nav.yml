@@ -36,7 +36,7 @@ pages:
             external: true
           - text: OP-TEE
             url: https://github.com/OP-TEE/optee_os/
-            external: true  
+            external: true
     - title: Review
       options:
           - text: TF-A
@@ -88,6 +88,9 @@ pages:
                   external: true
                 - text: TF-M
                   url: https://developer.trustedfirmware.org/w/tf_m/
+                  external: true
+                - text: Mbed TLS
+                  url: https://developer.trustedfirmware.org/w/mbed-tls/
                   external: true
     - title: News & Blogs
       options:
