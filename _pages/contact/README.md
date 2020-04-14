@@ -21,6 +21,8 @@ permalink: /contact/
 [Subscribe to the Hafnium list](https://lists.trustedfirmware.org/mailman/listinfo/hafnium)
 
 
+# For general and membership enquiries
+
 <!-- Contact Form -->
 <div class="col-xs-12 text-center m-b-40">
     <a class="btn email" href="mailto:enquiries@trustedfirmware.org?subject=TrustedFirmware.org - {{page.url}}">
