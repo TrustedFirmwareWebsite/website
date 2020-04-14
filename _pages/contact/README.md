@@ -6,6 +6,8 @@ permalink: /contact/
 
 # Get Involved - Join The Trusted Firmware Mailing Lists
 
+Developers and other stakeholders are encouraged to join the mailing lists for any sub-projects of interest. Only list members can post directly to the list. List content is technical. In the case of the TF-M and TF-A lists, technical forum call invites are also mailed to the list.
+
 [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a)
 
 [Subscribe to the TF-A-Tests list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a-tests)
