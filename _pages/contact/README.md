@@ -6,6 +6,8 @@ permalink: /contact/
 
 # Get Involved - Join The Trusted Firmware Mailing Lists
 
+Developers and other stakeholders are encouraged to join the mailing lists for any sub-projects of interest. Only list members can post directly to the list. List content is technical. In the case of the TF-M and TF-A lists, technical forum call invites are also mailed to the list.
+
 [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a)
 
 [Subscribe to the TF-A-Tests list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a-tests)
@@ -16,6 +18,12 @@ permalink: /contact/
 
 [Subscribe to the PSA Crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
 
+[Subscribe to the OP-TEE list](https://lists.trustedfirmware.org/mailman/listinfo/op-tee)
+
+[Subscribe to the Hafnium list](https://lists.trustedfirmware.org/mailman/listinfo/hafnium)
+
+
+# For general and membership enquiries
 
 <!-- Contact Form -->
 <div class="col-xs-12 text-center m-b-40">
