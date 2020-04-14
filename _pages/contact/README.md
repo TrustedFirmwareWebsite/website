@@ -16,6 +16,10 @@ permalink: /contact/
 
 [Subscribe to the PSA Crypto list](https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto)
 
+[Subscribe to the OP-TEE list](https://lists.trustedfirmware.org/mailman/listinfo/op-tee)
+
+[Subscribe to the Hafnium list](https://lists.trustedfirmware.org/mailman/listinfo/hafnium)
+
 
 <!-- Contact Form -->
 <div class="col-xs-12 text-center m-b-40">
