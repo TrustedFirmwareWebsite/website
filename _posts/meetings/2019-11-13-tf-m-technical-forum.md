@@ -13,12 +13,18 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
 
-### The next call is on Thursday, April 2nd at 15:00-16:00 UTC.
+### The next call is on Thursday, April 30th at 06:00-07:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **SP Scheduling by NSPE**
+* [Video Recording](https://zoom.us/rec/share/wZNbAbv-ykRIAdbp0RvxW7UlQJm-eaa80Scc_KAKnhmEknAtJik7hKCdTy3K9n6I)
+* Date - 2nd April 2020
+<br/>
 
 
 * **Automated testing of interrupt handling in TF-M** [PDF Presentation](/docs/Automated_testing_of_interrupt_handling_in_TF-M.pdf)
@@ -71,10 +77,10 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 * Date - 5th Dec 2019
 <br/>
 
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmY2dWZkbzZtMjZyNHNmbnV1cWk5ZzZsa2IgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com)
+[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJrNmtzbHVyYThiczFkY28zOXM4OG9lcXZfMjAyMDA0MTZUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
 Add this meeting to Google calendar
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmY2dWZkbzZtMjZyNHNmbnV1cWk5ZzZsa2IgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJrNmtzbHVyYThiczFkY28zOXM4OG9lcXZfMjAyMDA0MTZUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 
 
