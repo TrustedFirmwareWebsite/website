@@ -21,7 +21,13 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 ### Recording and slides of previous meetings
 
 
-* **SP Scheduling by NSPE**
+* **Symmetric key based device attestation** [PDF Presentation](/docs/Attestation_TF_M_tech_forum.pdf)
+* [Video Recording](https://zoom.us/rec/share/1dxQdJbbyVhLe8_j1GXvRL8YFKTcaaa81SQc-KYInR1NHnr93XNAuPcr26P93PM8) (Access Password: N3=9k937)
+* Date - 16th April 2020
+<br/>
+
+
+* **SP scheduling by NSPE**
 * [Video Recording](https://zoom.us/rec/share/wZNbAbv-ykRIAdbp0RvxW7UlQJm-eaa80Scc_KAKnhmEknAtJik7hKCdTy3K9n6I)
 * Date - 2nd April 2020
 <br/>
