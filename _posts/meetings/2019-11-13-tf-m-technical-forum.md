@@ -13,12 +13,18 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
 
-### The next call is on Thursday, April 30th at 06:00-07:00 UTC.
+### The next call is on Thursday, May 14th at 06:00-07:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **Handle Management Mechanism Enhancement** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement.pdf)
+* [Video Recording](https://zoom.us/rec/share/2o9ODLDN2DNJGbfn62zufosjOpjdX6a8gXNMqPpcnUsHSj8B0ab8qT_7-wG71opP) (Access Password: 7j$78740)
+* Date - 30th April 2020
+<br/>
 
 
 * **Symmetric key based device attestation** [PDF Presentation](/docs/Attestation_TF_M_tech_forum.pdf)
