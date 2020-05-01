@@ -11,7 +11,7 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items.
 
-### The next call is planned on Thursday, 23rd April at 17:00 UTC
+### The next call is planned on Thursday, 7th May at 17:00 UTC
 
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
@@ -32,6 +32,12 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * **Overview of the Project Maintenance Proposal for tf.org Projects** [PDF Presentation](/docs/project_maintenance_proposal-v2.pdf)
 * No Video Recording Available
 * Date - 9th April 2020
+<br/>
+
+* **Overview of the TF-A v2.3 Release** [PDF Presentation](/docs/TF-A_Releasev2.3_process-v2.pdf)
+* **Project Maintenance Proposal for tf.org Projects discussion**
+* [Video Recording](https://zoom.us/rec/share/-8NwAZz23CBIbbPt013Ee60qLNz-X6a81CMXqftcnxrMCNqoLgMC6SkPgMZogVeu)
+* Date - 23rd April 2020
 <br/>
 
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZoNDBuZzZnM2k4cGszYmpjZzd0dDE0MzdfMjAyMDAzMjZUMTcwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
