@@ -32,9 +32,9 @@ The TF-A release includes:
 		* ROTPK: owned by the Silicon Provider, used to sign BL1, BL2, BL31 and BL32
 		* PROTPK: owned by the Platform owner, used to sign BL33
 	* Support for multiple Secure Partitions signed by different ROT keys will be added later on
-* Support for the Firmware Configuration Framework (FCONF) - Experimental
+* Support for the [Firmware Configuration Framework](https://trustedfirmware-a.readthedocs.io/en/latest/components/fconf.html) (FCONF) - Experimental
 	* Experimental new abstraction layer for platforms to consume dynamic configuration data in config files in a scalable way using the defined framework
-* Support for the optional Firmware encryption feature (for BL31/BL32 images) - Experimental
+* Support for the optional [Firmware encryption](https://trustedfirmware-a.readthedocs.io/en/latest/design/trusted-board-boot.html#authenticated-encryption-framework) feature (for BL31/BL32 images) - Experimental
 	* Experimental feature to allow TF-A loading encrypted FIP payloads (mainly for BL32 Trusted OS) as described in TBBR
 * Support for Read-only xlat tables in BL31
 * Add DebugFS functionality
