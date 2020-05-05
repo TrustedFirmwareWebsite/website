@@ -36,7 +36,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 * **Overview of the TF-A v2.3 Release** [PDF Presentation](/docs/TF-A_Releasev2.3_process-v2.pdf)
 * **Project Maintenance Proposal for tf.org Projects discussion**
-* [Video Recording](https://zoom.us/rec/share/-8NwAZz23CBIbbPt013Ee60qLNz-X6a81CMXqftcnxrMCNqoLgMC6SkPgMZogVeu)
+* [Video Recording](https://zoom.us/rec/share/-8NwAZz23CBIbbPt013Ee60qLNz-X6a81CMXqftcnxrMCNqoLgMC6SkPgMZogVeu) (Access Password: 8h!6R559)
 * Date - 23rd April 2020
 <br/>
 
