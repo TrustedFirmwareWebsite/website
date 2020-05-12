@@ -11,7 +11,7 @@ image: /assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-M mailing list. Attendees are welcome to propose agenda items.
 
-Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
+Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are currently alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
 ### The next call is on Thursday, May 14th at 06:00-07:00 UTC.
 
@@ -89,10 +89,22 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 * Date - 5th Dec 2019
 <br/>
 
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJrNmtzbHVyYThiczFkY28zOXM4OG9lcXZfMjAyMDA0MTZUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
+### Calendar Invite Links
+
+
+**Asia Timezone** (all welcome to join)
+
+[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
 Add this meeting to Google calendar
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJrNmtzbHVyYThiczFkY28zOXM4OG9lcXZfMjAyMDA0MTZUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 
+**US Timezone** (all welcome to join)
 
+[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
+
+Add this meeting to Google calendar
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
