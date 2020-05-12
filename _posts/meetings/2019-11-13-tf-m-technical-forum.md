@@ -92,7 +92,7 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 ### Calendar Invite Links
 
 
-Asia Timezone (all welcome to join)
+**Asia Timezone** (all welcome to join)
 
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
@@ -101,7 +101,7 @@ Add this meeting to Google calendar
 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 
-US Timezone (all welcome to join)
+**US Timezone** (all welcome to join)
 
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
