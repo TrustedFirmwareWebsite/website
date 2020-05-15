@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2019-11-13 08:00:00
+date: 2020-05-14 08:00:00
 categories:
   - Meetings
 layout: post
@@ -13,12 +13,19 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are currently alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, May 14th at 06:00-07:00 UTC.
+### The next call is on Thursday, May 28th at 06:00-07:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **Handle Management Mechanism Enhancement V2** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement_v2.pdf)
+* **Roadmap to PSA-FF-M v1.1** [PDF Presentation](/docs/Roadmap_to_PSA-FF-M_v1_1.pdf)
+* [Video Recording](https://zoom.us/rec/share/2u1uM4Co-nlIYreRyVnUZq4jBIf8aaa813UZ-6ELy0vDxUIjdvZ3q-YQyCrqmiXc) (Access Password: 9D!0j!=h)
+* Date - 14th May 2020
+<br/>
 
 
 * **Handle Management Mechanism Enhancement** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement.pdf)
