@@ -40,6 +40,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * Date - 23rd April 2020
 <br/>
 
+* **Overview of a new TF-A Build System based on Cmake** [PDF Presentation](/docs/CMake_Build_system.pdf)
+* [Video Recording](https://zoom.us/rec/share/6JdfbOH96DNOQaPt4UzEdZEuRq_6X6a80ClIqKcNzEn5CWih79yYlR1T5AG9ccY1) (Access Password: 4V?+.L0$)
+* Date - 7th May 2020
+<br/>
+
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZoNDBuZzZnM2k4cGszYmpjZzd0dDE0MzdfMjAyMDAzMjZUMTcwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
 Add this meeting to Google calendar
