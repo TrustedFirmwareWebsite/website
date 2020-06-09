@@ -23,7 +23,7 @@ pages:
             url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
             external: true
           - text: TF-M
-            url: http://git.trustedfirmware.org/trusted-firmware-m.git/
+            url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
             external: true
           - text: TF-A Tests
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/

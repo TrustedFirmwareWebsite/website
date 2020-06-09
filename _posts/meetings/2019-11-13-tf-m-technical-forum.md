@@ -11,14 +11,20 @@ image: /assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-M mailing list. Attendees are welcome to propose agenda items.
 
-Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are currently alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
+Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, May 28th at 06:00-07:00 UTC.
+### The next call is on Thursday, June 11th at 15:00-16:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **Hardware Abstraction Layer** [PDF Presentation](/docs/TF-M_HAL_Introduction.pdf)
+* [Video Recording](https://zoom.us/rec/share/7shHNoDBp39IeM-X41_GS5FwO9jbX6a8hHRIrqYLmBngskOHg4cSIg_7KusAwd2M) (Access Password: 4P$2!9*b)
+* Date - 28th May 2020
+<br/>
 
 
 * **Handle Management Mechanism Enhancement V2** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement_v2.pdf)
