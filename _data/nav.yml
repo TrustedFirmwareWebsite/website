@@ -43,7 +43,7 @@ pages:
             url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
             external: true
           - text: TF-M
-            url: https://review.trustedfirmware.org/q/project:trusted-firmware-m
+            url: https://review.trustedfirmware.org/q/project:TF-M/trusted-firmware-m
             external: true
           - text: TF-A Tests
             url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
