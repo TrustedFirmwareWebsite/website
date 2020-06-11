@@ -11,7 +11,7 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items.
 
-### The next call is planned on Thursday, 7th May at 17:00 UTC
+### The next call is planned on Thursday, 18th June at 16:00 UTC
 
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
@@ -43,6 +43,18 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * **Overview of a new TF-A Build System based on Cmake** [PDF Presentation](/docs/CMake_Build_system.pdf)
 * [Video Recording](https://zoom.us/rec/share/6JdfbOH96DNOQaPt4UzEdZEuRq_6X6a80ClIqKcNzEn5CWih79yYlR1T5AG9ccY1) (Access Password: 4V?+.L0$)
 * Date - 7th May 2020
+<br/>
+
+* **Firmware Configuration Framework (FConf) Updates:** 
+  * **Making statically configured components of TF-A be dynamic using FConf framework** [PDF Presentation](/docs/TF-A_enhancements_fconf.pdf)
+  * **Design discussion on CoT descriptors migration to a device tree using FConf framework** [PDF Presentation](/docs/TBBR_DesignReview.pdf)
+* [Video Recording](https://zoom.us/rec/share/wNxHArXA0lhLU7PnrxzbBaAkEdW7eaa8hCVI86YLnkif6zqhG6LxL_b_fSDlkQh2) (Access Password: 3V@VmI.9)
+* Date - 21st May 2020
+<br/>
+
+* **TF-A SMC Fuzz Testing Overview** [PDF Presentation](/docs/Directed_Radomized_SMC_Presentation.pdf)
+* [Video Recording](https://zoom.us/rec/share/tcFMJbPq9zhOe6fi0Eb0a78zPLu4eaa81XNKqKUEy0t4z12ikcL1hGYsQxg9hXRG) (Access Password: 6K&*66@#)
+* Date - 4th June 2020
 <br/>
 
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZoNDBuZzZnM2k4cGszYmpjZzd0dDE0MzdfMjAyMDAzMjZUMTcwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
