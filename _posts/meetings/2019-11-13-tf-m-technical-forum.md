@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2019-11-13 08:00:00
+date: 2020-05-14 08:00:00
 categories:
   - Meetings
 layout: post
@@ -11,14 +11,45 @@ image: /assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-M mailing list. Attendees are welcome to propose agenda items.
 
-Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling.
+Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, April 2nd at 15:00-16:00 UTC.
+### The next call is on Thursday, June 11th at 15:00-16:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **Hardware Abstraction Layer** [PDF Presentation](/docs/TF-M_HAL_Introduction.pdf)
+* [Video Recording](https://zoom.us/rec/share/7shHNoDBp39IeM-X41_GS5FwO9jbX6a8hHRIrqYLmBngskOHg4cSIg_7KusAwd2M) (Access Password: 4P$2!9*b)
+* Date - 28th May 2020
+<br/>
+
+
+* **Handle Management Mechanism Enhancement V2** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement_v2.pdf)
+* **Roadmap to PSA-FF-M v1.1** [PDF Presentation](/docs/Roadmap_to_PSA-FF-M_v1_1.pdf)
+* [Video Recording](https://zoom.us/rec/share/2u1uM4Co-nlIYreRyVnUZq4jBIf8aaa813UZ-6ELy0vDxUIjdvZ3q-YQyCrqmiXc) (Access Password: 9D!0j!=h)
+* Date - 14th May 2020
+<br/>
+
+
+* **Handle Management Mechanism Enhancement** [PDF Presentation](/docs/Handle_Management_Mechanism_Enhancement.pdf)
+* [Video Recording](https://zoom.us/rec/share/2o9ODLDN2DNJGbfn62zufosjOpjdX6a8gXNMqPpcnUsHSj8B0ab8qT_7-wG71opP) (Access Password: 7j$78740)
+* Date - 30th April 2020
+<br/>
+
+
+* **Symmetric key based device attestation** [PDF Presentation](/docs/Attestation_TF_M_tech_forum.pdf)
+* [Video Recording](https://zoom.us/rec/share/1dxQdJbbyVhLe8_j1GXvRL8YFKTcaaa81SQc-KYInR1NHnr93XNAuPcr26P93PM8) (Access Password: N3=9k937)
+* Date - 16th April 2020
+<br/>
+
+
+* **SP scheduling by NSPE**
+* [Video Recording](https://zoom.us/rec/share/wZNbAbv-ykRIAdbp0RvxW7UlQJm-eaa80Scc_KAKnhmEknAtJik7hKCdTy3K9n6I)
+* Date - 2nd April 2020
+<br/>
 
 
 * **Automated testing of interrupt handling in TF-M** [PDF Presentation](/docs/Automated_testing_of_interrupt_handling_in_TF-M.pdf)
@@ -71,10 +102,22 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 * Date - 5th Dec 2019
 <br/>
 
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmY2dWZkbzZtMjZyNHNmbnV1cWk5ZzZsa2IgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com)
+### Calendar Invite Links
+
+
+**Asia Timezone** (all welcome to join)
+
+[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
 Add this meeting to Google calendar
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmY2dWZkbzZtMjZyNHNmbnV1cWk5ZzZsa2IgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 
+**US Timezone** (all welcome to join)
 
+[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
+
+Add this meeting to Google calendar
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>

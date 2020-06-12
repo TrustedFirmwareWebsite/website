@@ -44,6 +44,10 @@ defaults:
       type: "authors"
     values:
       layout: author
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
 # Jekyll Pagination V2 Configuration
 pagination:
   permalink: "/:num/"
