@@ -45,6 +45,18 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * Date - 7th May 2020
 <br/>
 
+* **Firmware Configuration Framework (FConf) Updates:** 
+  * **Making statically configured components of TF-A be dynamic using FConf framework** [PDF Presentation](/docs/TF-A_enhancements_fconf.pdf)
+  * **Design discussion on CoT descriptors migration to a device tree using FConf framework** [PDF Presentation](/docs/TBBR_DesignReview.pdf)
+* [Video Recording](https://zoom.us/rec/share/wNxHArXA0lhLU7PnrxzbBaAkEdW7eaa8hCVI86YLnkif6zqhG6LxL_b_fSDlkQh2) (Access Password: 3V@VmI.9)
+* Date - 21st May 2020
+<br/>
+
+* **TF-A SMC Fuzz Testing Overview** [PDF Presentation](/docs/Directed_Radomized_SMC_Presentation.pdf)
+* [Video Recording](https://zoom.us/rec/share/tcFMJbPq9zhOe6fi0Eb0a78zPLu4eaa81XNKqKUEy0t4z12ikcL1hGYsQxg9hXRG) (Access Password: 6K&*66@#)
+* Date - 4th June 2020
+<br/>
+
 [Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
 Add this meeting to Google calendar
