@@ -83,6 +83,8 @@ pages:
                   external: true
           - text: Wiki
             options:
+                - text: Front Page
+                  url: https://developer.trustedfirmware.org/w/             
                 - text: TF-A
                   url: https://developer.trustedfirmware.org/w/tf_a/
                   external: true
@@ -92,7 +94,7 @@ pages:
                 - text: Mbed TLS
                   url: https://developer.trustedfirmware.org/w/mbed-tls/
                   external: true
-    - title: News & Blogs
+    - title: Latest
       options:
           - text: Blog
             url: /blog/
@@ -100,6 +102,8 @@ pages:
             url: /news/
           - text: Meetings
             url: /meetings/
+          - text: Board Minutes
+            url: https://developer.trustedfirmware.org/w/resources/board-minutes/          
     - title: Security
       url: /security/
     - title: Contact

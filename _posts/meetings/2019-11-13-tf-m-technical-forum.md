@@ -13,12 +13,19 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, June 11th at 15:00-16:00 UTC.
+### The next call is on Thursday, June 25th at 15:00-16:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **MCUboot status** [PDF Presentation](/docs/OpenTechForum_MCUboot_status_slides.pdf)
+* **TF-M Build System Update** [PDF Presentation](/docs/TF-M_Build_system_update.pdf)
+* [Video Recording](https://zoom.us/rec/share/74skDJuu6DtJepXcsGbCGfQjIKO8X6a8hnUX-qENzx4JjVukZGOC6xrj0ORY_h9U) (Access Password: 0e?Lx4M@)
+* Date - 11th June 2020
+<br/>
 
 
 * **Hardware Abstraction Layer** [PDF Presentation](/docs/TF-M_HAL_Introduction.pdf)
