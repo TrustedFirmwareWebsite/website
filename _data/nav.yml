@@ -104,7 +104,7 @@ pages:
             url: /meetings/
           - text: Board Minutes
             url: https://developer.trustedfirmware.org/w/resources/board-minutes/          
-    - title: Security Incident Process
-      url: https://developer.trustedfirmware.org/w/collaboration/security_incident_process/
+    - title: Security
+      url: https://developer.trustedfirmware.org/w/collaboration/security_center/
     - title: Contact
       url: /contact/
