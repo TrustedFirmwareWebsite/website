@@ -75,18 +75,22 @@ pages:
                 - text: Mbed TLS
                   url:  https://github.com/ARMmbed/mbedtls/blob/development/README.md
                   external: true                  
-          - text: Dashboard
+          - text: Dashboards
             options:
                 - text: TF-A
                   url:  https://developer.trustedfirmware.org/dashboard/view/6/
                   external: true
+                - text: Hafnium
+                  url: https://developer.trustedfirmware.org/project/21/item/view/67/
+                  external: true                  
                 - text: TF-M
                   url: https://developer.trustedfirmware.org/dashboard/view/5/
                   external: true
           - text: Wiki
             options:
                 - text: Front Page
-                  url: https://developer.trustedfirmware.org/w/             
+                  url: https://developer.trustedfirmware.org/w/
+                  external: true                  
                 - text: TF-A
                   url: https://developer.trustedfirmware.org/w/tf_a/
                   external: true
