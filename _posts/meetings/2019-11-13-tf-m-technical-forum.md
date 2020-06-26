@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-05-14 08:00:00
+date: 2020-06-25 08:00:00
 categories:
   - Meetings
 layout: post
@@ -13,12 +13,19 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, June 25th at 15:00-16:00 UTC.
+### The next call is on Thursday, July 9th at 15:00-16:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **Isolation_level3_brief** [PDF Presentation](/docs/Isolation_level3_brief.pdf)
+* **PSA-FF-M_v11-SecureFunctions** [PDF Presentation](/docs/PSA-FF-M_v11-SecureFunctions.pdf)
+* [Video Recording](https://zoom.us/rec/share/3vFeJbOg72BJZdbg7WzfQIUgGJ3Faaa81SgYqfdYzxR0UaIuUVCdw1IUYnfIgfg) (Access Password: 1K%t%n=Z)
+* Date - 25th June 2020
+<br/>
 
 
 * **MCUboot status** [PDF Presentation](/docs/OpenTechForum_MCUboot_status_slides.pdf)
