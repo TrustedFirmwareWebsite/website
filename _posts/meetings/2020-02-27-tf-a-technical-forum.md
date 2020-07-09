@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-A open Tech Forum regular call
-date: 2020-06-11 08:00:00
+date: 2020-07-09 08:00:00
 categories:
   - Meetings
 layout: post
@@ -12,6 +12,10 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
 ### The next call is planned on Thursday, 16th July at 16:00 UTC
+
+### Subject: Secure EL2 SPM (Secure Partition Manager) Hafnium-based
+
+In this TF-A Tech Forum session we present the status and open roadmap for the Secure Partition Manager firmware development. The TF-A SPM is the reference open source implementation for the PSA FF-A (Platform Security Architecture Firmware Framework for A-class) specification in the Secure world. It leverages the Armv8.4-Secure EL2 extension bringing virtualization technology in the Secure world (S-EL2 exception level). The development derives originally from the Google Hafnium project, which has been recently transitioned to [https://www.trustedfirmware.org/](https://www.trustedfirmware.org/) under the BSD 3-Clause license.
 
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
