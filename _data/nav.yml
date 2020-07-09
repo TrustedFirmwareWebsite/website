@@ -59,26 +59,26 @@ pages:
           - text: Docs
             options:
                 - text: TF-A
-                  url:  http://trustedfirmware-a.readthedocs.org/
+                  url: http://trustedfirmware-a.readthedocs.org/
                   external: true
                 - text: OP-TEE
-                  url:  https://optee.readthedocs.io/en/latest/
+                  url: https://optee.readthedocs.io/en/latest/
                 - text: Hafnium
-                  url:  https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md                  
+                  url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md                  
                   external: true
                 - text: TF-A Tests
-                  url:  http://trustedfirmware-a-tests.readthedocs.org/
+                  url: http://trustedfirmware-a-tests.readthedocs.org/
                   external: true
                 - text: TF-M
                   url:  https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/lastStableBuild/artifact/docs/trusted-firmware-m/build/install/doc/user_guide/html/index.html
                   external: true
                 - text: Mbed TLS
-                  url:  https://github.com/ARMmbed/mbedtls/blob/development/README.md
+                  url: https://github.com/ARMmbed/mbedtls/blob/development/README.md
                   external: true                  
           - text: Dashboards
             options:
                 - text: TF-A
-                  url:  https://developer.trustedfirmware.org/dashboard/view/6/
+                  url: https://developer.trustedfirmware.org/dashboard/view/6/
                   external: true
                 - text: Hafnium
                   url: https://developer.trustedfirmware.org/project/21/item/view/67/

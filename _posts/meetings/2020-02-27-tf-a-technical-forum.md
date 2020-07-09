@@ -11,12 +11,16 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 2nd July at 16:00 UTC
+### The next call is planned on Thursday, 16th July at 16:00 UTC
 
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **PSA Fuzz Testing - Presented by Gary Morrison** [PDF Presentation](/docs/PSA-TF-Fuzzing-Tool.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/zMAqcrSs81NJfoHq1UiHUPQcHo6-T6a8gHcaq_tYz0sT5j4m6HZriP5LEvb7V11_) (Access Password: 4z.Avw*B)
+* Date - 2nd July 2020
 
 * **TF-A Unit Level Testing - Presented by Lauren Wehrmeister** [PDF Presentation](/docs/TF-A-UnitLevelTesting.pdf)
 * [Video Recording](https://zoom.us/rec/share/_8BTM4DA9D1OedbJxkLcR7c5PZjbeaa8hyce__APyx2ps47_WaFZv2t7Y_6i7JAE) (Access Password: 0k*9$0T3)
