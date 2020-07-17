@@ -17,13 +17,13 @@ Trusted Firmware today announced that Hafnium, MbedTLS and the PSA Crypto Projec
 Hafnium, MbedTLS and the PSA Crypto Project join Trusted Firmware-A (TF-A), Trusted Firmware-M (TF-M) and OP-TEE as the list of projects hosted by Trusted Firmware, to foster the collaboration around the development of a reference Trusted Execution Environment and Secure Processing Environment on the Arm® A-Profile and M-Profile architectures respectively.
 
 
-**Hafnium** comes as the reference Secure Partition Manager for the Arm Secure EL2 virtualization extension introduced in the Armv8.4-A architecture and implemented on modern Arm A-Profile processors. Hafnium has been transferred by Google into the Trusted Firmware project and it recently finalised its transition, including relicensing to the BSD 3-clause license.
+Hafnium comes as the reference Secure Partition Manager for the Arm Secure EL2 virtualization extension introduced in the Armv8.4-A architecture and implemented on modern Arm A-Profile processors. Hafnium has been transferred by Google into the Trusted Firmware project and it recently finalised its transition, including relicensing to the BSD 3-clause license.
 
 
-**MbedTLS** is an extensively used SSL and TLS library deployed in a wide variety of applications to establish secure, encrypted and authenticated links over untrusted networks like the internet. It aims to hide most of the complexities of cryptographic operations, certificates and authentication associated with SSL/TLS protocol from the application.
+MbedTLS is an extensively used SSL and TLS library deployed in a wide variety of applications to establish secure, encrypted and authenticated links over untrusted networks like the internet. It aims to hide most of the complexities of cryptographic operations, certificates and authentication associated with SSL/TLS protocol from the application.
 
 
-The **PSA Crypto** Project, a relatively new project, is the reference implementation of PSA Functional Crypto APIs. The PSA Crypto Project makes it possible for developers to easily secure data at rest, on the fly and perform secure updates of platform software. The MbedTLS project is evolving to utilize PSA Crypto APIs provided by the PSA Crypto Project.
+The PSA Crypto Project, a relatively new project, is the reference implementation of PSA Functional Crypto APIs. The PSA Crypto Project makes it possible for developers to easily secure data at rest, on the fly and perform secure updates of platform software. The MbedTLS project is evolving to utilize PSA Crypto APIs provided by the PSA Crypto Project.
 
 
 *“Ecosystem collaboration is essential to ensure the successful development of secure software solutions,”* said Matteo Carlini, director, software technology management at Arm and chairman of the board for Trusted Firmware. *“We are very pleased to welcome Hafnium, MbedTLS and PSA Crypto to the Trusted Firmware Project, and their involvement will enable us to focus closely on defragmentation and standard interfaces, for both secure virtualization and crypto operations across all market segments.”*
@@ -38,6 +38,6 @@ The Trusted Firmware Project is designed to reduce porting and integration work 
 For further information on the Trusted Firmware Project, visit [trustedfirmware.org](http://www.trustedfirmware.org).
 
 
-*About The Linaro Community Projects Division*
+**About The Linaro Community Projects Division**
 
 Linaro Community Projects Division is the division of Linaro managing open source community projects with open governance. Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top ten company contributors, worldwide, to Linux kernels since 3.10. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [linaro.org](http://www.linaro.org) and [96Boards.org](http://www.96Boards.org).
