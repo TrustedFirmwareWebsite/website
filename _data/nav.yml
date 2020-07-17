@@ -29,7 +29,7 @@ pages:
             url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
             external: true
           - text: Mbed TLS
-            url: https://git.trustedfirmware.org/tls/mbed-tls.git/
+            url: https://git.trustedfirmware.org/mirror/mbed-tls.git/
             external: true
           - text: Hafnium
             url: https://git.trustedfirmware.org/hafnium/hafnium.git/
