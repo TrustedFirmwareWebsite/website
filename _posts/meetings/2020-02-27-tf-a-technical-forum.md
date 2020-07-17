@@ -11,16 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 16th July at 16:00 UTC
-
-### Subject: Secure EL2 SPM (Secure Partition Manager) Hafnium-based
-
-In this TF-A Tech Forum session we present the status and open roadmap for the Secure Partition Manager firmware development. The TF-A SPM is the reference open source implementation for the PSA FF-A (Platform Security Architecture Firmware Framework for A-class) specification in the Secure world. It leverages the Armv8.4-Secure EL2 extension bringing virtualization technology in the Secure world (S-EL2 exception level). The development derives originally from the Google Hafnium project, which has been recently transitioned to [https://www.trustedfirmware.org/](https://www.trustedfirmware.org/) under the BSD 3-Clause license.
-
+### The next call is planned on Thursday, 30th July at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Secure EL2 SPM (Secure Partition Manager) Hafnium-based - Presented by Olivier Deprez and Andrew Walbran** [PDF Presentation](/docs/TF-A_Tech_Forum_SEL2_Hafnium_Jul_2020_v0.4.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/vPJkK4DA8ntOGoH_-lvBVpwzMaPaT6a82nAe-vpexB1oAbqbLLP9o1dWEcgYtxmx) (Access Password: 2W=77?+4)
+* Date - 16th July 2020
 
 * **PSA Fuzz Testing - Presented by Gary Morrison** [PDF Presentation](/docs/PSA-TF-Fuzzing-Tool.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/zMAqcrSs81NJfoHq1UiHUPQcHo6-T6a8gHcaq_tYz0sT5j4m6HZriP5LEvb7V11_) (Access Password: 4z.Avw*B)
