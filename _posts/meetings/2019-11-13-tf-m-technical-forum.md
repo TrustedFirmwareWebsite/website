@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-06-25 08:00:00
+date: 2020-07-20 08:00:00
 categories:
   - Meetings
 layout: post
@@ -13,12 +13,20 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, July 9th at 15:00-16:00 UTC.
+### The next call is on Thursday, July 23rd at 06:00-07:00 UTC.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **TF-M v1.1 released**
+* **Introduction to Profile Medium design**
+* **Introduction to SPRTL (Secure Partition Runtime Library**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/5-NyfurN5EJJQ53q9UzyffcIGajkX6a80XIZ8vEFzRpq9Ev2ZsDfVPhVjEbEjAk3) (Access Password: 9b&K62?3)
+* Date - 9th July 2020
+<br/>
 
 
 * **Isolation_level3_brief** [PDF Presentation](/docs/Isolation_level3_brief.pdf)
