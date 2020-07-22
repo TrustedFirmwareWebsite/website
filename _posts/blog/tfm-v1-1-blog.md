@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
-title: Trusted Firmware Project June 2019 Update 
-date: 2019-06-26 10:00:00
+title: Trusted Firmware-M v1.1 and Ecosystem Enablement 
+date: 2020-07-22 10:00:00
 categories:
 - Blog
 layout: post
