@@ -59,6 +59,7 @@ defaults:
       is_post: true
       comments: false
       image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
+      strap_image: /assets/images/trusted-firmware.jpg
   - scope:
       path: ""
       type: "authors"
