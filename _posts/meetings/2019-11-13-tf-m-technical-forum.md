@@ -13,12 +13,18 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### The next call is on Thursday, July 23rd at 06:00-07:00 UTC.
+### Details of the next call (coming soon!) will be posted to the TF-M mailing list.
 
 
 To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
 
 ### Recording and slides of previous meetings
+
+
+* **TF-M Tests Improvements** [PDF Presentation](/docs/TF-M-Tests-Improvements-Tech-Forum-2020-07-23.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/2cBEdu3Iq05JcKvItWrgXbAqQp7Jeaa80CUZqaZYmk13jBgyIZoifChQq9Arz3zG) (Access Password: M%^2U3t7)
+* Date - 23rd July 2020
+<br/>
 
 
 * **TF-M v1.1 released**
