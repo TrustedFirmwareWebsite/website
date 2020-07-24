@@ -1,7 +1,7 @@
 search:
     enabled: false
     label: TrustedFirmware
-universal-nav: false
+universal_nav: false
 brand:
     text: TrustedFirmware
     image:
@@ -53,7 +53,7 @@ pages:
             external: true
           - text: OP-TEE
             url: https://github.com/OP-TEE/optee_os/pulls
-            external: true            
+            external: true
     - title: Documentation
       options:
           - text: Docs
@@ -64,7 +64,7 @@ pages:
                 - text: OP-TEE
                   url: https://optee.readthedocs.io/en/latest/
                 - text: Hafnium
-                  url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md                  
+                  url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
                   external: true
                 - text: TF-A Tests
                   url: http://trustedfirmware-a-tests.readthedocs.org/
@@ -74,7 +74,7 @@ pages:
                   external: true
                 - text: Mbed TLS
                   url: https://github.com/ARMmbed/mbedtls/blob/development/README.md
-                  external: true                  
+                  external: true
           - text: Dashboards
             options:
                 - text: TF-A
@@ -82,7 +82,7 @@ pages:
                   external: true
                 - text: Hafnium
                   url: https://developer.trustedfirmware.org/project/21/item/view/67/
-                  external: true                  
+                  external: true
                 - text: TF-M
                   url: https://developer.trustedfirmware.org/dashboard/view/5/
                   external: true
@@ -90,7 +90,7 @@ pages:
             options:
                 - text: Front Page
                   url: https://developer.trustedfirmware.org/w/
-                  external: true                  
+                  external: true
                 - text: TF-A
                   url: https://developer.trustedfirmware.org/w/tf_a/
                   external: true
@@ -109,7 +109,7 @@ pages:
           - text: Meetings
             url: /meetings/
           - text: Board Minutes
-            url: https://developer.trustedfirmware.org/w/resources/board-minutes/          
+            url: https://developer.trustedfirmware.org/w/resources/board-minutes/
     - title: Security
       url: https://developer.trustedfirmware.org/w/collaboration/security_center/
     - title: Contact
