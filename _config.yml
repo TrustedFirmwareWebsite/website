@@ -141,7 +141,7 @@ disqus:
 # Edit on GitHub Settings
 edit-on-github:
     enabled: true
-    repo: https://www.github.com/Linaro/website
+    repo: https://www.github.com/TrustedFirmware/website
 # Shema.org settings used in the schema.html include.
 schema:
   "@type": "Organisation"
