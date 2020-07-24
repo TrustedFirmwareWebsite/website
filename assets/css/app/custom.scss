@@ -37,7 +37,7 @@
 // CSS for the email button.
 #wrapper .email {
     height: 50px;
-    background-color: $brand-primary;
+    background-color: $primary;
     width: 200px;
     line-height: 30px;
     text-align: center;
@@ -59,11 +59,11 @@
 html {
     height:100%;
 }
-@media(min-width: $screen-sm-min){
-    #wrapper footer .footer-main .contact-details address a.email {
-        font-size: 14px;
-    }
-}
+// @media(min-width: $screen-sm-min){
+//     #wrapper footer .footer-main .contact-details address a.email {
+//         font-size: 14px;
+//     }
+// }
 @media(max-width: 440px ){
     #wrapper footer .footer-main .contact-details address a.email {
         font-size: 14px;
