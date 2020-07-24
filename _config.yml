@@ -1,60 +1,194 @@
 title: Trusted Firmware
-email: enquiries@trustedfirmware.org
-description: >-
-  Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
+url: https://www.trustedfirmware.org
 baseurl: ""
-url: "https://www.trustedfirmware.org"
-markdown: kramdown
-blog_images_dir: assets/images/
-theme: jumbo-jekyll-theme
-plugins:
-  - jekyll-data
-exclude:
-    - .asset-cache
-    - .sass-cache
-    - _site
-    - production.trustedfirmware.org
-    - staging.trustedfirmware.org
-    - Gemfile
-    - Gemfile.lock
-    - build-site.sh
-    - check-links.sh
-    - CODEOWNERS
+description: |-
+  Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
+destination: _site
 permalink: /:categories/:title/
+theme: jumbo-jekyll-theme
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+encoding: utf-8
+safe: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .asset_pipeline
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
+  - README.md
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _static-site
+  - .sass-cache
+  - staging.trustedfirmware.org
+  - production.trustedfirmware.org
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
+plugins:
+  - japr
+  - jekyll_picture_tag
+  - jekyll-tidy
 collections:
   authors:
     output: true
     permalink: /author/:name/
-assets:
-  compress:
-    js: true
-  autoprefixer:
-    browsers: ["last 2 versions", "> 5%", "IE 9"]
-  sources:
-    - assets/js/
-    - assets/js/vendor/
-    - assets/js/app/
-    - assets/images
-    - assets/images/authors
-    - assets/css/
-    - assets/css/app
+liquid:
+  error_mode: strict
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
+  - scope:
+      path: "_pages"
+    values:
+      layout: flow
+  - scope:
+      type: posts
+      path: "_posts"
+    values:
+      layout: post
+      is_post: true
+      comments: false
+      image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
   - scope:
       path: ""
       type: "authors"
     values:
       layout: author
-  - scope:
-      path: ""
-    values:
       image: /assets/images/social-media-image.png
-# Jekyll Pagination V2 Configuration
-pagination:
-  permalink: "/:num/"
+include: ["_pages"]
+# ----------- THEME / WEBSITE CONFIG ---------------------
+# Blog images/thumbs dir
+blog_images_dir: assets/images/content/
+# Email
+email: enquiries@trustedfirmware.org
+# Company Address
+address:
+  - Harston Mill
+  - Royston Rd, Harston
+  - Cambridge, United Kingdom
+  - CB22 7GG
+# Support for http2 preload features
+http2_resources:
+  - rel: preload
+    as: font
+    type: font/woff2
+    href: /assets/fonts/lato/Lato-regular.woff2
+google_analytics:
   enabled: true
-  per_page: 9
-  trail:
-    before: 2
-    after: 2
-  sort_reverse: true
-  sort_field: "date"
+  code: GTM-XXXXX
+  cookies:
+    necessary:
+      - name: cookieControl
+        description: >
+          This is used to control the display of the preferences pop up. Without this, we wouldn't know if you've clicked Accept!
+      - name: cookieControlPrefs
+        description: >
+          This is used to store your cookie preferences. Without this we wouldn't know which cookies you want!
+    marketing:
+      - name: _ga
+        description: >
+          2 years - Used to distinguish users.
+      - name: _gid
+        description: >
+          24 hours - Used to distinguish users.
+      - name: _gat
+        description: >
+          1 minute - Used to throttle request rate.
+      - name: HotJar
+        description: >
+          We use hotjar to help us understand how we can improve our end-user experience. For a list of cookies HotJar uses please see [https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script](https://help.hotjar.com/hc/en-us/articles/115011789248-Hotjar-Cookies#cookies-set-by-the-hotjar-script)
+# Set the site-wide default social media share image.
+social_media_share_image: /assets/images/social-media-image.png
+# Set the default favicon
+favicon: /assets/images/favicon.png
+# Site Name - your brand name
+name: Jumbo Jekyll Theme
+# The blog filler element
+blog_filler_element: blog/blog_filler_element.html
+# Placeholder avatar
+avatar_placeholder: /assets/images/avatar-placeholder.jpg
+# Blog Post Image Placeholder
+post_placeholder: /assets/images/content/linaro-logo.png
+# Social Media Links
+social_media_channels:
+  github:
+    url: https://github.com/Linaro
+  linkedin:
+    url: https://www.linkedin.com/company/1026961
+  facebook:
+    url: http://facebook.com/LinaroOrg
+  youtube:
+    url: https://www.youtube.com/linaroorg
+  twitter:
+    url: https://twitter.com/linaroorg
+  instagram:
+    url: https://instagram.com/linaroorg
+# Disqus Comments Setup
+disqus:
+    enabled: false
+    shortname: Linaro
+# Edit on GitHub Settings
+edit-on-github:
+    enabled: true
+    repo: https://www.github.com/Linaro/website
+# Shema.org settings used in the schema.html include.
+schema:
+  "@type": "Organisation"
+  "name": "Trusted Firmware"
+  "url": "https://www.trustedfirmware.org"
+  "logo": "https://www.trustedfirmware.org/assets/images/content/linaro-logo.png"
+  "contactPoint":
+    "@type": "ContactPoint"
+    "telephone": "01223 400060"
+    "contactType": "customer service"
+    "availableLanguage": "en"
+  "sameAs":
+    - "https://facebook.com/LinaroOrg"
+    - "https://twitter.com/LinaroOrg"
+    - "https://instagram.com/LinaroOrg"
+    - "https://www.linkedin.com/company/1026961/"
+    - "https://youtube.com/LinaroOrg"
+    - "https://github.com/linaro"
+    - "https://www.linaro.org"
+# FESS search label
+search_label: Linaro
+# ----------- JEKYLL PLUGINS ---------------------
+# -------- jekyll-tidy --------
+jekyll_tidy:
+  # Toggle compression of HTML
+  compress_html: true
+  # JS Path added to exclude to stop errors.
+  exclude: ["assets/**/*.js", "robots.txt", "admin/config.yml"]
+# -------- jekyll_relative_links --------
+jekyll_relative_links:
+  process_all_collections: true
+  verbose: 1
+relative_links:
+  enabled: true
+  collections: false
+# -------- jekyll_relative_links --------
+readme_index:
+  enabled: true
+  remove_originals: false
+# -------- jekyll_picture_tag --------
+picture:
+  nomarkdown: false
+  source: ""
+  output: "assets/images"
+  relative_url: true
+# -------- japr --------
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets/js
+  gzip: true
