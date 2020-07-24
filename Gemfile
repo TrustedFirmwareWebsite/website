@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "jumbo-jekyll-theme", "6.0.2.1"
 
 group :jekyll_plugins do
-  gem "jekyll-data"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
