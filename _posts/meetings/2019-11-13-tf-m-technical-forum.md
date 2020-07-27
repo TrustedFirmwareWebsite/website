@@ -28,8 +28,8 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 
 
 * **TF-M v1.1 released**
-* **Introduction to Profile Medium design**
-* **Introduction to SPRTL (Secure Partition Runtime Library**
+* **Introduction to Profile Medium design** [PDF Presentation](/docs/TFM-Profile-Medium.pdf)
+* **Introduction to SPRTL (Secure Partition Runtime Library)** [PDF Presentation](/docs/Secure-Partition-Runtime-Library-Update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/5-NyfurN5EJJQ53q9UzyffcIGajkX6a80XIZ8vEFzRpq9Ev2ZsDfVPhVjEbEjAk3) (Access Password: 9b&K62?3)
 * Date - 9th July 2020
 <br/>
