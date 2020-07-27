@@ -1,7 +1,6 @@
 ---
 name: Shebu Kuriakose
 username: shebu.kuriakose
-first_name: Shebu
-last_name: Kuriakose
-image: /assets/images/authors/alex.jpg
+email: Shebu.VargheseKuriakose@arm.com
+image_path: /assets/images/authors/shebu.png
 ---
