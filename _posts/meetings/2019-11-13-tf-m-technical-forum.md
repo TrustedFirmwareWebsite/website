@@ -13,10 +13,16 @@ This is an open forum conference call for anyone to participate and it is not re
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### Details of the next call (coming soon!) will be posted to the TF-M mailing list.
+### Upcoming calls - also posted to the TF-M mailing list
+06th Aug - 1500 UTC (1600 London, 2300 Shanghai, 1000 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
+20th Aug - 0600 UTC (0700 London, 1400 Shanghai, 0100 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
-To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links at the bottom of the page.
+03rd Sep - 1500 UTC (1600 London, 2300 Shanghai, 1000 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+
+17th Sep - 0600 UTC (0700 London, 1400 Shanghai, 0100 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+
+To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above.
 
 ### Recording and slides of previous meetings
 
@@ -130,22 +136,3 @@ To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M 
 * Date - 5th Dec 2019
 <br/>
 
-### Calendar Invite Links
-
-
-**Asia Timezone** (all welcome to join)
-
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
-
-Add this meeting to Google calendar
-
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjJva2xwOGVxaG12bHVhaGM0cGZndmpncDdfMjAyMDA1MjhUMDYwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
-
-
-**US Timezone** (all welcome to join)
-
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
-
-Add this meeting to Google calendar
-
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MW5vZW9lcmloY2l2aWhpaW04bWhrM2c1YjlfMjAyMDA1MTRUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
