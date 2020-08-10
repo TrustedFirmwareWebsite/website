@@ -43,6 +43,7 @@ collections:
   projects:
     output: true
     layout: project
+    strap_image: /assets/images/content/TF_Banner_image.jpg
     permalink: /projects/:name/
 liquid:
   error_mode: strict
@@ -62,6 +63,13 @@ defaults:
       layout: post
       is_post: true
       comments: false
+      image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
+      strap_image: /assets/images/content/TF_Banner_image.jpg
+  - scope:
+      type: projects
+      path: "_projects"
+    values:
+      layout: project
       image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
       strap_image: /assets/images/content/TF_Banner_image.jpg
   - scope:
