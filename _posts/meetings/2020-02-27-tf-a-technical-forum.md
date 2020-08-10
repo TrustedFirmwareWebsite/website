@@ -11,11 +11,17 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 30th July at 16:00 UTC
+### The next call is planned on Thursday, 27th August at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **TRNG and GIC600AE Support Investigation Overviews - Presented by Jimmy Brisson:** 
+  * **Detailed Investigation for support for TRNG (True Random Number Generator)** [PDF Presentation](/docs/trng-30.pdf)
+  * **Initial Investigation for support for GIC600AE** [PDF Presentation](/docs/gic600ae-30.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/wJQtMJ2z0VNIWoHL-W7HVoMiWYvjX6a81CNL8qcMxEfVhSx8EsrGlLrSS9-htWXY) (Access Password: fjd^^u^2)
+* Date - 30th July 2020
 
 * **Secure EL2 SPM (Secure Partition Manager) Hafnium-based - Presented by Olivier Deprez and Andrew Walbran** [PDF Presentation](/docs/TF-A_Tech_Forum_SEL2_Hafnium_Jul_2020_v0.4.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/vPJkK4DA8ntOGoH_-lvBVpwzMaPaT6a82nAe-vpexB1oAbqbLLP9o1dWEcgYtxmx) (Access Password: 2W=77?+4)
