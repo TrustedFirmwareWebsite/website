@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-07-20 08:00:00
+date: 2020-08-10 08:00:00
 categories:
   - Meetings
 layout: post
@@ -14,7 +14,6 @@ This is an open forum conference call for anyone to participate and it is not re
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
 ### Upcoming calls - also posted to the TF-M mailing list
-06th Aug - 1500 UTC (1600 London, 2300 Shanghai, 1000 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 20th Aug - 0600 UTC (0700 London, 1400 Shanghai, 0100 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
@@ -26,6 +25,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+
+
+* **Musca B1 Secure Enclave Solution** [PDF Presentation](/docs/Musca-B1-Secure-Enclave-Solution.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/_f5vCujW6XlIGrfB8U7vYIIrH56mT6a8gCgb_vYPxBvqQUIm3irvzgOZWmP2lXUY) (Access Password: %k1khqtq)
+* Date - 6th August 2020
+<br/>
 
 
 * **TF-M Tests Improvements** [PDF Presentation](/docs/TF-M-Tests-Improvements-Tech-Forum-2020-07-23.pdf)
