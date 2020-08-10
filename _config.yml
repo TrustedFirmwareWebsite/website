@@ -40,6 +40,10 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
+  projects:
+    output: true
+    layout: project
+    permalink: /projects/:name/
 liquid:
   error_mode: strict
 defaults:
@@ -59,7 +63,7 @@ defaults:
       is_post: true
       comments: false
       image: /assets/images/PR_Trusted_Firmware_banner_pic.jpg
-      strap_image: /assets/images/trusted-firmware.jpg
+      strap_image: /assets/images/content/TF_Banner_image.jpg
   - scope:
       path: ""
       type: "authors"
@@ -85,8 +89,8 @@ http2_resources:
     type: font/woff2
     href: /assets/fonts/lato/Lato-regular.woff2
 google_analytics:
-  enabled: true
-  code: GTM-XXXXX
+  enabled: false
+  code: GTM-TKVP3S4
   cookies:
     necessary:
       - name: cookieControl
@@ -136,12 +140,12 @@ social_media_channels:
     url: https://instagram.com/linaroorg
 # Disqus Comments Setup
 disqus:
-    enabled: false
-    shortname: Linaro
+  enabled: false
+  shortname: Linaro
 # Edit on GitHub Settings
 edit-on-github:
-    enabled: true
-    repo: https://www.github.com/TrustedFirmware/website
+  enabled: true
+  repo: https://www.github.com/TrustedFirmware/website
 # Shema.org settings used in the schema.html include.
 schema:
   "@type": "Organisation"
