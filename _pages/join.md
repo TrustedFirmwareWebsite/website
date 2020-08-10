@@ -2,20 +2,26 @@
 layout: flow
 title: Join the Trusted Firmware Project
 description: >
-    Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
+  Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
+jumbotron:
+  title: Join the Trusted Firmware Project
+  inner_class: text-white
+  description: ""
+  image: /assets/images/content/TF_Banner_image.jpg
 flow:
-    - row: container_row
-      style: members_row
-      sections:
-        - format: title
-          title_content:
-            size: h2
-            text: Our Members
-        - format: custom_include
-          source: members.html
-    - row: main_content_row
+  - row: container_row
+    style: members_row text-center
+    sections:
+      - format: title
+        title_content:
+          size: h2
+          text: Our Members
+      - format: custom_include
+        source: members.html
+  - row: main_content_row
 permalink: /join/
 ---
+
 ## About Membership And How To Join
 
 Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
