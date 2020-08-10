@@ -33,7 +33,7 @@ References:
 
 2. [https://connect.linaro.org/resources/hkg18/hkg18-104/](https://connect.linaro.org/resources/hkg18/hkg18-104/)
 
-3. [https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/components/secure-partition-manager-design.rst)
+3. [https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/tree/docs/components/secure-partition-manager.rst](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/tree/docs/components/secure-partition-manager.rst)
 
 4. [http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf](http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf)
 
