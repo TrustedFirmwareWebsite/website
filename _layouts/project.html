@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<div class="jumbotron d-flex align-items-center jumbotron-fluid background_image project_header">
+    {% assign image_path = page.strap_image %}
+    {% capture image_alt %}Project header image{% endcapture%}
+    {% picture header_image {{image_path}} --alt {{image_alt}} %}
+    <div class="container ">
+        <div class="inner_content_wrapper d-flex flex-column flex-md-row">
+            <h1 class="mr-md-auto text-center text-md-left">{{page.title}}</h1>
+            {% if page.icons %}
+            <div class="header_icons mx-auto mx-md-0 my-2">
+                {% for icon in page.icons %}
+                    {% include {{icon}} %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row content_row">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="top_text my-5 blockquote">
+                        {{page.top_text | markdownify}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
