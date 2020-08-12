@@ -1,14 +1,14 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
-$primary: #15469a;
+$primary: #0cb2dd;
 $secondary: #1d1d1b;
 $theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "gray": #3c3c3b,
-    "green": #33ab66,
-    "blue": #0cb2dd,
-    "light": #d0eef6,
-    "danger": #ff4136,
+  "primary": $primary,
+  "secondary": $secondary,
+  "gray": #3c3c3b,
+  "green": #33ab66,
+  "blue": #0cb2dd,
+  "light": #d0eef6,
+  "danger": #ff4136,
 );
 // Universal Navbar
 $universal_navbar_height_padding: 0px;
@@ -23,14 +23,18 @@ $jumbotron_bg_color: lightgray;
 $jumbotron_height: 350px;
 // Typography
 @font-face {
-    font-display: fallback;
-    font-family: "Lato";
-    src: url("/assets/fonts/lato/Lato-regular.eot"); /* IE9 Compat Modes */
-    src: url("/assets/fonts/lato/Lato-regular.eot?#iefix") format("embedded-opentype"),
-        /* IE6-IE8 */ url("/assets/fonts/lato/Lato-regular.woff2") format("woff2"),
-        /* Super Modern Browsers */ url("/assets/fonts/lato/Lato-regular.woff") format("woff"),
-        /* Pretty Modern Browsers */ url("/assets/fonts/lato/Lato-regular.ttf") format("truetype"),
-        /* Safari, Android, iOS */ url("/assets/fonts/lato/Lato-regular.svg") format("svg"); /* Legacy iOS */
+  font-display: fallback;
+  font-family: "Lato";
+  src: url("/assets/fonts/lato/Lato-regular.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/lato/Lato-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/lato/Lato-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/lato/Lato-regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("/assets/fonts/lato/Lato-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/assets/fonts/lato/Lato-regular.svg")
+      format("svg"); /* Legacy iOS */
 }
 // Fonts
 $font-family-base: "Lato";
