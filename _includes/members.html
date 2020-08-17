@@ -1,12 +1,14 @@
 {% assign sorted_members = site.data.members.items | sort: 'name' %}
-<div class="col-xs-12 member_logos">
-    {% for member in sorted_members %}
-        <div class="col-xs-6 col-sm-3 col-lg-2">
-            <a href="{{member.url}}">
-                <img class="lazyload img-responsive member_image"
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                data-src="{{member.image}}" alt="{{member.name}} logo"/>
-            </a>
-        </div>
-    {% endfor %}
+<div class="col col-12 member_logos grey_top_bottom_borders my-4">
+    <div class="row d-flex justify-content-center">
+        {% for member in sorted_members %}
+            <div class="col col-6 col-sm-3 col-lg-2">
+                <a href="{{member.url}}">
+                    <img class="lazyload img-fluid member_image my-4"
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-src="{{member.image}}" alt="{{member.name}} logo"/>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
 </div>
