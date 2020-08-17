@@ -1,124 +1,124 @@
 search:
-    enabled: false
-    label: TrustedFirmware
+  enabled: false
+  label: TrustedFirmware
 universal_nav: false
 brand:
-    text: TrustedFirmware
-    image:
-        enabled: true
-        path: /assets/images/TrustedFirmware-Logo_standard-white.png
-    url: /
+  text: TrustedFirmware
+  image:
+    enabled: true
+    path: /assets/images/TrustedFirmware-Logo_standard-white.png
+  url: /
 pages:
-    - title: About
-      options:
-        - text: Overview
-          url: /about/
-        - text: Join
-          url: /join/
-        - text: FAQ
-          url: /faq/
-    - title: News & Blogs
-      options:
-        - text: News
-          url: /news/
-        - text: Blog
-          url: /blog/
-        - text: Meetings
-          url: /meetings/
-    # - title: Code
-    #   options:
-    #       - text: TF-A
-    #         url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
-    #         external: true
-    #       - text: TF-M
-    #         url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
-    #         external: true
-    #       - text: TF-A Tests
-    #         url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
-    #         external: true
-    #       - text: Mbed TLS
-    #         url: https://git.trustedfirmware.org/mirror/mbed-tls.git/
-    #         external: true
-    #       - text: Hafnium
-    #         url: https://git.trustedfirmware.org/hafnium/hafnium.git/
-    #         external: true
-    #       - text: OP-TEE
-    #         url: https://github.com/OP-TEE/optee_os/
-    #         external: true
-    # - title: Review
-    #   options:
-    #       - text: TF-A
-    #         url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
-    #         external: true
-    #       - text: TF-M
-    #         url: https://review.trustedfirmware.org/q/project:TF-M/trusted-firmware-m
-    #         external: true
-    #       - text: TF-A Tests
-    #         url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
-    #         external: true
-    #       - text: Mbed TLS
-    #         url: https://github.com/ARMmbed/mbedtls/pulls
-    #         external: true
-    #       - text: OP-TEE
-    #         url: https://github.com/OP-TEE/optee_os/pulls
-    #         external: true
-    # - title: Documentation
-    #   options:
-    #       - text: Docs
-    #         options:
-    #             - text: TF-A
-    #               url: http://trustedfirmware-a.readthedocs.org/
-    #               external: true
-    #             - text: OP-TEE
-    #               url: https://optee.readthedocs.io/en/latest/
-    #             - text: Hafnium
-    #               url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
-    #               external: true
-    #             - text: TF-A Tests
-    #               url: http://trustedfirmware-a-tests.readthedocs.org/
-    #               external: true
-    #             - text: TF-M
-    #               url:  https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/lastStableBuild/artifact/docs/trusted-firmware-m/build/install/doc/user_guide/html/index.html
-    #               external: true
-    #             - text: Mbed TLS
-    #               url: https://github.com/ARMmbed/mbedtls/blob/development/README.md
-    #               external: true
-    #       - text: Dashboards
-    #         options:
-    #             - text: TF-A
-    #               url: https://developer.trustedfirmware.org/dashboard/view/6/
-    #               external: true
-    #             - text: Hafnium
-    #               url: https://developer.trustedfirmware.org/project/21/item/view/67/
-    #               external: true
-    #             - text: TF-M
-    #               url: https://developer.trustedfirmware.org/dashboard/view/5/
-    #               external: true
-    #       - text: Wiki
-    #         options:
-    #             - text: Front Page
-    #               url: https://developer.trustedfirmware.org/w/
-    #               external: true
-    #             - text: TF-A
-    #               url: https://developer.trustedfirmware.org/w/tf_a/
-    #               external: true
-    #             - text: TF-M
-    #               url: https://developer.trustedfirmware.org/w/tf_m/
-    #               external: true
-    #             - text: Mbed TLS
-    #               url: https://developer.trustedfirmware.org/w/mbed-tls/
-    #               external: true
-    # - title: Latest
-    #   options:
-    #       - text: Blog
-    #         url: /blog/
-    #       - text: News
-    #         url: /news/
-    #       - text: Meetings
-    #         url: /meetings/
-    #       - text: Board Minutes
-    #         url: https://developer.trustedfirmware.org/w/resources/board-minutes/
-    - title: Security
-      url: https://developer.trustedfirmware.org/w/collaboration/security_center/
-    - title: Contact
-      url: /contact/
+  - title: About
+    options:
+      - text: Overview
+        url: /about/
+      - text: Join
+        url: /join/
+      - text: FAQ
+        url: /faq/
+  - title: News & Blogs
+    options:
+      - text: News
+        url: /news/
+      - text: Blog
+        url: /blog/
+      - text: Meetings
+        url: /meetings/
+  # - title: Code
+  #   options:
+  #       - text: TF-A
+  #         url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
+  #         external: true
+  #       - text: TF-M
+  #         url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
+  #         external: true
+  #       - text: TF-A Tests
+  #         url: https://git.trustedfirmware.org/TF-A/tf-a-tests.git/
+  #         external: true
+  #       - text: Mbed TLS
+  #         url: https://git.trustedfirmware.org/mirror/mbed-tls.git/
+  #         external: true
+  #       - text: Hafnium
+  #         url: https://git.trustedfirmware.org/hafnium/hafnium.git/
+  #         external: true
+  #       - text: OP-TEE
+  #         url: https://github.com/OP-TEE/optee_os/
+  #         external: true
+  # - title: Review
+  #   options:
+  #       - text: TF-A
+  #         url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
+  #         external: true
+  #       - text: TF-M
+  #         url: https://review.trustedfirmware.org/q/project:TF-M/trusted-firmware-m
+  #         external: true
+  #       - text: TF-A Tests
+  #         url: https://review.trustedfirmware.org/q/project:TF-A/tf-a-tests
+  #         external: true
+  #       - text: Mbed TLS
+  #         url: https://github.com/ARMmbed/mbedtls/pulls
+  #         external: true
+  #       - text: OP-TEE
+  #         url: https://github.com/OP-TEE/optee_os/pulls
+  #         external: true
+  # - title: Documentation
+  #   options:
+  #       - text: Docs
+  #         options:
+  #             - text: TF-A
+  #               url: http://trustedfirmware-a.readthedocs.org/
+  #               external: true
+  #             - text: OP-TEE
+  #               url: https://optee.readthedocs.io/en/latest/
+  #             - text: Hafnium
+  #               url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
+  #               external: true
+  #             - text: TF-A Tests
+  #               url: http://trustedfirmware-a-tests.readthedocs.org/
+  #               external: true
+  #             - text: TF-M
+  #               url:  https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/lastStableBuild/artifact/docs/trusted-firmware-m/build/install/doc/user_guide/html/index.html
+  #               external: true
+  #             - text: Mbed TLS
+  #               url: https://github.com/ARMmbed/mbedtls/blob/development/README.md
+  #               external: true
+  #       - text: Dashboards
+  #         options:
+  #             - text: TF-A
+  #               url: https://developer.trustedfirmware.org/dashboard/view/6/
+  #               external: true
+  #             - text: Hafnium
+  #               url: https://developer.trustedfirmware.org/project/21/item/view/67/
+  #               external: true
+  #             - text: TF-M
+  #               url: https://developer.trustedfirmware.org/dashboard/view/5/
+  #               external: true
+  #       - text: Wiki
+  #         options:
+  #             - text: Front Page
+  #               url: https://developer.trustedfirmware.org/w/
+  #               external: true
+  #             - text: TF-A
+  #               url: https://developer.trustedfirmware.org/w/tf_a/
+  #               external: true
+  #             - text: TF-M
+  #               url: https://developer.trustedfirmware.org/w/tf_m/
+  #               external: true
+  #             - text: Mbed TLS
+  #               url: https://developer.trustedfirmware.org/w/mbed-tls/
+  #               external: true
+  # - title: Latest
+  #   options:
+  #       - text: Blog
+  #         url: /blog/
+  #       - text: News
+  #         url: /news/
+  #       - text: Meetings
+  #         url: /meetings/
+  #       - text: Board Minutes
+  #         url: https://developer.trustedfirmware.org/w/resources/board-minutes/
+  - title: Security
+    url: https://developer.trustedfirmware.org/w/collaboration/security_center/
+  - title: Contact
+    url: /contact/
