@@ -30,12 +30,12 @@ layout: base
                 <div class="col col-12">
                     <div class="row">
                         <div class="col col-12 col-md-6">
-                            <div class="row">
+                            <div class="row text-center text-sm-left">
                                 {% if page.links.documentation %}
                                     <div class="col col-12 documentation">
                                         <a href="{{page.links.documentation.url}}">
                                             <div class="cta_wrapper mb-3">
-                                                <div class="link_type">
+                                                <div class="link_type d-block d-sm-inline-block">
                                                     docs
                                                 </div>
                                                 <span>{{page.links.documentation.text}}</span>
@@ -47,14 +47,39 @@ layout: base
                                     <div class="col col-12 review">
                                         <a href="{{page.links.review.url}}">
                                             <div class="cta_wrapper mb-3">
-                                                <div class="link_type">
-                                                    docs
+                                                <div class="link_type d-block d-sm-inline-block">
+                                                    review
                                                 </div>
                                                 <span>{{page.links.review.text}}</span>
                                             </div>
                                         </a>
                                     </div>
                                 {% endif %}
+                                {% if page.links.subscribe %}
+                                    <div class="col col-12 subscribe">
+                                        <a href="{{page.links.subscribe.url}}">
+                                            <div class="cta_wrapper mb-3">
+                                                <div class="link_type d-block d-sm-inline-block bg-green">
+                                                    subscribe
+                                                </div>
+                                                <span>{{page.links.subscribe.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% for cta in page.calls_to_action %}
+                                    <div class="col col-12 cta">
+                                        <a href="{{cta.url}}" class="btn btn-primary {% if cta.class %}{{cta.class}}{% endif %} w-100 {% unless forloop.first %}mt-3{% endunless %}">
+                                            {{cta.text}}
+                                        </a>
+                                    </div>
+                                {% endfor %}
+                                <div class="col col-12 enquiries_text pt-3">
+                                    <p class="blockquote">
+                                        For general and membership enquiries:
+                                        <a href="mailto:enquiries@trustedfirmware.org">enquiries@trustedfirmware.org</a>
+                                    </p>
+                                </div>
                             </div>
 
                         </div>
@@ -78,6 +103,20 @@ layout: base
                                 </div>
                             </div>
                         </div>
+                        {% if page.useful_links %}
+                        <div class="col col-12 useful_links">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                {% for useful_link in page.useful_links %}
+                                <li>
+                                    <a href="{{useful_link.url}}">
+                                        {{useful_link.text}}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
