@@ -9,6 +9,7 @@ calls_to_action:
   - text: Contribute / Submit Code
     url: https://gettingstarted.trustedfirmware.org
   - text: Get Involved
+    class: bg-green
     url: https://gettingstarted.trustedfirmware.org
 links:
   documentation:
@@ -20,16 +21,19 @@ links:
   review:
     text: "Gerrit : TF-A/trusted-firmware-a"
     url: https://review.trustedfirmware.org
+  subscribe:
+    text: Subscribe to the TF-M mailing list
+    url: /
 useful_links:
-  - title: Useful link one
+  - text: Useful link one
     url: https://review.trustedfirmware.org
-  - title: Useful link two
+  - text: Useful link two
     url: https://review.trustedfirmware.org
-  - title: Useful link three
+  - text: Useful link three
     url: https://review.trustedfirmware.org
-  - title: Useful link four
+  - text: Useful link four
     url: https://review.trustedfirmware.org
-  - title: Useful link five
+  - text: Useful link five
     url: https://review.trustedfirmware.org
 top_text: |-
   **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
