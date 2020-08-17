@@ -16,22 +16,14 @@
             <div class="col col-12 col-md-6 latest_posts">
                 <h3>Latest News & Blogs</h3>
                 <ul>
-                    <li>
-                        TF-M open Tech Forum regular call <br>
-                        June 25, 2020
-                    </li>
-                    <li>
-                        TF-M open Tech Forum regular call <br>
-                        June 25, 2020
-                    </li>
-                    <li>
-                        TF-M open Tech Forum regular call <br>
-                        June 25, 2020
-                    </li>
-                    <li>
-                        TF-M open Tech Forum regular call <br>
-                        June 25, 2020
-                    </li>
+                    {% for post in site.posts limit: 4%}
+                    <a href="{{post.url}}">
+                        <li>
+                            {{post.title}}<br>
+                            {{post.date | date: "%A, %B %-d, %Y"}}
+                        </li>
+                    </a>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
