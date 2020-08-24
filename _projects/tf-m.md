@@ -1,48 +1,43 @@
 ---
 title: Trusted Firmware M (TF-M)
 description: >
-  The Trusted Firmware-A project provides a reference implementation of secure world software for
-  Armv7-A and Armv8-A class processors.
+Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55 processors) or dual-core platforms. It is the Platform Security Architecture (PSA) reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.
 icons:
   - svgs/TF_Icon_TF-M.svg
 calls_to_action:
-  - text: Contribute / Submit Code
-    url: https://gettingstarted.trustedfirmware.org
-  - text: Get Involved
+  - text: Contribute/Submit Code
+    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+  - text: Join the TF-M Tech Forum
     class: bg-green
-    url: https://gettingstarted.trustedfirmware.org
+    url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
 links:
   documentation:
-    text: Trusted Firmware-A Documentation
-    url: https://docs.trustedfirmware.org
+    text: Trusted Firmware-M Documentation
+    url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/index.html
   code:
-    text: foor bar docs
-    url: https://docs.trustedfirmware.org
+    text: Code
+    url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
   review:
-    text: "Gerrit : TF-A/trusted-firmware-a"
-    url: https://review.trustedfirmware.org
+    text: "Gerrit review"
+    url: https://review.trustedfirmware.org/q/project:TF-M/trusted-firmware-m
   subscribe:
     text: Subscribe to the TF-M mailing list
-    url: /
+    url: https://lists.trustedfirmware.org/mailman/listinfo/tf-m
 useful_links:
-  - text: Useful link one
-    url: https://review.trustedfirmware.org
-  - text: Useful link two
-    url: https://review.trustedfirmware.org
-  - text: Useful link three
-    url: https://review.trustedfirmware.org
-  - text: Useful link four
-    url: https://review.trustedfirmware.org
-  - text: Useful link five
-    url: https://review.trustedfirmware.org
+  - text: Joining the Trusted Firmware project
+    url: https://www.trustedfirmware.org/join/
+  - text: Wiki pages
+    url: https://developer.trustedfirmware.org/w/tf_m/
+  - text: Dashboard
+    url: https://developer.trustedfirmware.org/dashboard/view/5/
 top_text: |-
-  **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
+  **Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55 processors) or dual-core platforms. It is the Platform Security Architecture (PSA) reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.**
 
   The Projects page provides access to all facilities hosted including source code, documentation, Gerrit review for submitting changes, a wiki, the issue/task workboard/tracker as well as showing recent activity in the project.
 
-  Contribution guidelines can be found in the documentation and a getting started guide with Gerrit can be found on the wiki.
+  Contribution guidelines can be found in the documentation.
 
-  A project email list can be subscribed to to participate in development discussions.
+  Please subscribe to the project email list to to participate in development discussions.
 
-  A bi-weekly [Technical Forum call](/) is held to discuss technical subjects.
+  A bi-weekly [Technical Forum call](/meetings/tf-m-technical-forum/) is held to discuss technical subjects.
 ---
