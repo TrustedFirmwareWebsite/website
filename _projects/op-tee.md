@@ -1,52 +1,40 @@
 ---
 title: Trusted Firmware OP-TEE
 description: >
-  The Trusted Firmware-A project provides a reference implementation of secure world software for
-  Armv7-A and Armv8-A class processors.
+  A Trusted Execution Environment (TEE) designed as a companion to a non-secure Linux kernel running on Arm A-Profile systems (Armv8-A and Armv7-A) using TrustZone technology.
+layout: project
 icons:
   - svgs/TF_Icon_OP-TEE.svg
-call_to_action:
-  text: Get Started
-  url: https://gettingstarted.trustedfirmware.org
+calls_to_action:
+  - text: Contribute/Submit Code
+    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+  - text: OP-TEE Contributions
+    class: bg-green
+    url: https://optee.readthedocs.io/en/latest/general/contribute.html
 links:
   documentation:
-    text: foor bar docs
-    url: https://docs.trustedfirmware.org
+    text: OP-TEE Documentation
+    url: https://optee.readthedocs.io/en/latest/
   code:
-    text: foor bar docs
-    url: https://docs.trustedfirmware.org
+    text: Code
+    url: https://github.com/OP-TEE/optee_os/
   review:
-    text: Code Review
-    url: https://review.trustedfirmware.org
-community:
-  mailing_list:
-    text: Join our Mailing List
-    url: https://lists.tf.org
-  general_enquiries:
-    text: General
-    url: wefewf
-  channels:
-    - title: IRC
-      url: https://
-    - title: Slack
-      url: https://
+    text: "GitHub review"
+    url: https://github.com/OP-TEE/optee_os/pulls
+  subscribe:
+    text: Subscribe to the OP-TEE mailing list
+    url: https://lists.trustedfirmware.org/mailman/listinfo/op-tee
 useful_links:
-  - title: Foo bar
-    url: https://review.trustedfirmware.org
-  - title: Foo bar
-    url: https://review.trustedfirmware.org
-  - title: Foo bar
-    url: https://review.trustedfirmware.org
-  - title: Foo bar
-    url: https://review.trustedfirmware.org
-  - title: Foo bar
-    url: https://review.trustedfirmware.org
+  - text: Joining the Trusted Firmware project
+    url: https://www.trustedfirmware.org/join/
+  - text: Wiki pages
+    url: https://developer.trustedfirmware.org/w/
+top_text: |-
+  **OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology. OP-TEE implements TEE Internal Core API v1.1.x which is the API exposed to Trusted Applications and the TEE Client API v1.0, which is the API describing how to communicate with a TEE. Those APIs are defined in the GlobalPlatform API specifications.**
+
+  The Projects page provides access to all facilities hosted including source code, documentation, review for submitting changes, a wiki, the issue/task workboard/tracker as well as showing recent activity in the project.
+
+  Contribution guidelines can be found in the documentation.
+
+  Please subscribe to the project email list to to participate in development discussions.
 ---
-
-Trusted Firmware-M (TF-M) is the reference implementation of Platform Security Architecture (PSA). PSA is a recipe for building secure connected devices from analysis to implementation. PSA consists of three elements - Threat models and Security Analyses, Architecture Specifications and Open Source Reference Implementation (TF-M). See PSA Resource Page
-
-TF-M is being built for Arm Cortex-M processors prioritizing v8-M Cortex cores leveraging Arm TrustZone technology. TF-M is being developed as an Open Source project under an Open Governance Model.
-
-TF-M provides a highly configurable set of software components to create a Trusted Execution Environment. This is achieved by a set of secure run time services such as Secure Storage, Cryptography, Audit Logs and Attestation. Additionally, secure boot in TF-M ensures integrity of Run time Software and supports firmware upgrade.
-
-Functional Block diagram of Trusted Firmware-M below shows the various components and how it would fit in a v8-M System. Note that many of the components are under active development and continuous evolution. See roadmap for available components and future plan.
