@@ -23,6 +23,9 @@ links:
   review:
     text: "Gerrit review"
     url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
+  subscribe:
+    text: Subscribe to the TF-A mailing list
+    url: https://lists.trustedfirmware.org/mailman/listinfo/tf-a    
 useful_links:
   - text: Joining the Trusted Firmware project
     url: https://www.trustedfirmware.org/join/
@@ -39,5 +42,5 @@ top_text: |-
 
   Please subscribe to the project email list to to participate in development discussions.
 
-  A bi-weekly [Technical Forum call](/meetings/tf-m-technical-forum/) is held to discuss technical subjects.
+  A bi-weekly [Technical Forum call](/meetings/tf-a-technical-forum/) is held to discuss technical subjects.
 ---
