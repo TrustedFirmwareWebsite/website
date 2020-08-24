@@ -8,39 +8,36 @@ icons:
   - svgs/TF_Icon_TF-A.svg
   - svgs/TF_Icon_TF-ATesting.svg
 calls_to_action:
-  - text: Contribute / Submit Code
-    url: https://gettingstarted.trustedfirmware.org
-  - text: Get Involved
-    url: https://gettingstarted.trustedfirmware.org
+  - text: Contribute/Submit Code
+    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+  - text: Join the TF-M Tech Forum
+    class: bg-green
+    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
 links:
   documentation:
     text: Trusted Firmware-A Documentation
-    url: https://docs.trustedfirmware.org
+    url: https://trustedfirmware-a.readthedocs.org/
   code:
-    text: foor bar docs
-    url: https://docs.trustedfirmware.org
+    text: Code
+    url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
   review:
-    text: "Gerrit : TF-A/trusted-firmware-a"
-    url: https://review.trustedfirmware.org
+    text: "Gerrit review"
+    url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
 useful_links:
-  - title: Useful link one
-    url: https://review.trustedfirmware.org
-  - title: Useful link two
-    url: https://review.trustedfirmware.org
-  - title: Useful link three
-    url: https://review.trustedfirmware.org
-  - title: Useful link four
-    url: https://review.trustedfirmware.org
-  - title: Useful link five
-    url: https://review.trustedfirmware.org
+  - text: Joining the Trusted Firmware project
+    url: https://www.trustedfirmware.org/join/
+  - text: Wiki pages
+    url: https://developer.trustedfirmware.org/w/tf_a/
+  - text: Dashboard
+    url: https://developer.trustedfirmware.org/dashboard/view/6/
 top_text: |-
   **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
 
   The Projects page provides access to all facilities hosted including source code, documentation, Gerrit review for submitting changes, a wiki, the issue/task workboard/tracker as well as showing recent activity in the project.
 
-  Contribution guidelines can be found in the documentation and a getting started guide with Gerrit can be found on the wiki.
+  Contribution guidelines can be found in the documentation.
 
-  A project email list can be subscribed to to participate in development discussions.
+  Please subscribe to the project email list to to participate in development discussions.
 
-  A bi-weekly [Technical Forum call](/) is held to discuss technical subjects.
+  A bi-weekly [Technical Forum call](/meetings/tf-m-technical-forum/) is held to discuss technical subjects.
 ---
