@@ -22,7 +22,7 @@ links:
     text: "Gerrit review"
     url: https://review.trustedfirmware.org/q/project:hafnium/hafnium
   subscribe:
-    text: Subscribe to the TF-M mailing list
+    text: Subscribe to the Hafnium mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/hafnium
 useful_links:
   - text: Joining the Trusted Firmware project

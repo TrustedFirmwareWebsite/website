@@ -10,7 +10,7 @@ icons:
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
-  - text: Join the TF-M Tech Forum
+  - text: Join the TF-A Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
 links:

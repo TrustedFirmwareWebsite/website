@@ -4,7 +4,7 @@ description: >
   The PSA Cryptographic API (Crypto API) is an important PSA component that provides an interface to cryptographic operations on resource-constrained devices.
 layout: project
 icons:
-  - svgs/TF_Icon_TF-M.svg
+  - svgs/TF_Icon_PSACrypto.svg
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
@@ -19,7 +19,7 @@ useful_links:
   - text: Joining the Trusted Firmware project
     url: https://www.trustedfirmware.org/join/
 top_text: |-
-  **The PSA Cryptographic API (Crypto API) is an important PSA component that provides an interface to cryptographic operations on resource-constrained devices. The interface is user-friendly, while still providing access to the low-level primitives used in modern cryptography. It does not require that the user has access to the key material. Instead, it uses opaque key identifiers.
+  **The PSA Cryptographic API (Crypto API) is an important PSA component that provides an interface to cryptographic operations on resource-constrained devices. The interface is user-friendly, while still providing access to the low-level primitives used in modern cryptography. It does not require that the user has access to the key material. Instead, it uses opaque key identifiers.**
 
   This document is part of the PSA family of specifications. It defines an interface for cryptographic services, including cryptography primitives and a key storage functionality.**
 
