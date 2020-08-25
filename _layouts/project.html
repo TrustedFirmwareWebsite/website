@@ -30,12 +30,12 @@ layout: base
                 <div class="col col-12">
                     <div class="row">
                         <div class="col col-12 col-md-6">
-                            <div class="row text-center text-sm-left">
+                            <div class="row text-center text-xl-left">
                                 {% if page.links.documentation %}
                                     <div class="col col-12 documentation">
                                         <a href="{{page.links.documentation.url}}">
-                                            <div class="cta_wrapper mb-3">
-                                                <div class="link_type d-block d-sm-inline-block">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
                                                     docs
                                                 </div>
                                                 <span>{{page.links.documentation.text}}</span>
@@ -46,8 +46,8 @@ layout: base
                                 {% if page.links.review %}
                                     <div class="col col-12 review">
                                         <a href="{{page.links.review.url}}">
-                                            <div class="cta_wrapper mb-3">
-                                                <div class="link_type d-block d-sm-inline-block">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
                                                     review
                                                 </div>
                                                 <span>{{page.links.review.text}}</span>
@@ -55,11 +55,23 @@ layout: base
                                         </a>
                                     </div>
                                 {% endif %}
+                                {% if page.links.code %}
+                                    <div class="col col-12 code">
+                                        <a href="{{page.links.code.url}}">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
+                                                    code
+                                                </div>
+                                                <span>{{page.links.code.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
                                 {% if page.links.subscribe %}
                                     <div class="col col-12 subscribe">
                                         <a href="{{page.links.subscribe.url}}">
-                                            <div class="cta_wrapper mb-3">
-                                                <div class="link_type d-block d-sm-inline-block bg-green">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase bg-green">
                                                     subscribe
                                                 </div>
                                                 <span>{{page.links.subscribe.text}}</span>
