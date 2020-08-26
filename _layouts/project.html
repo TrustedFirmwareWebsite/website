@@ -116,9 +116,9 @@ layout: base
                             </div>
                         </div>
                         {% if page.useful_links %}
-                        <div class="col col-12 useful_links">
+                        <div class="col col-12 useful_links my-5 border-top pt-4">
                             <h3>Useful Links</h3>
-                            <ul>
+                            <ul class="pl-3 blockquote">
                                 {% for useful_link in page.useful_links %}
                                 <li>
                                     <a href="{{useful_link.url}}">
