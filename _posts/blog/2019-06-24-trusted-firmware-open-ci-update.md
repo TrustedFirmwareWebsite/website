@@ -62,8 +62,6 @@ Useful links:
 
 TF-M CI Portal: [ci.trustedfirmware.org](https://ci.trustedfirmware.org/)
 
-TF-M Jenkins Job for gerrit patch: [ci.trustedfirmware.org/job/tf-m-build-test-review/](https://ci.trustedfirmware.org/job/tf-m-build-test-review/)
-
 Sample LAVA Tests Results: [validation.linaro.org/scheduler/job/1919709](https://validation.linaro.org/scheduler/job/1919709)
 
 Author: Shebu Varghese Kuriakose
