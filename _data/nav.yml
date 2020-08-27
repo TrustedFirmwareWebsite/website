@@ -70,7 +70,7 @@ pages:
                   url: http://trustedfirmware-a-tests.readthedocs.org/
                   external: true
                 - text: TF-M
-                  url:  https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/lastStableBuild/artifact/docs/trusted-firmware-m/build/install/doc/user_guide/html/index.html
+                  url:  https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/index.html
                   external: true
                 - text: Mbed TLS
                   url: https://github.com/ARMmbed/mbedtls/blob/development/README.md
