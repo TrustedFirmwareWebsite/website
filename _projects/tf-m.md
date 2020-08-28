@@ -16,7 +16,7 @@ links:
     text: Trusted Firmware-M Documentation
     url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/index.html
   code:
-    text: Code
+    text: View source code
     url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
   review:
     text: "Gerrit review"
