@@ -25,8 +25,6 @@ links:
     text: Subscribe to the PSA Crypto mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto
 useful_links:
-  - text: Joining the Trusted Firmware project
-    url: https://www.trustedfirmware.org/join/
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/mbed-tls/
 top_text: |-
