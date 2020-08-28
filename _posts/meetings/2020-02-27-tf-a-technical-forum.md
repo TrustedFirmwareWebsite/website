@@ -11,11 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 27th August at 16:00 UTC
+### The next call is planned on Thursday, 10th September at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **TF-A Errata Process - Presented by Bipin Ravi** [PDF Presentation](/docs/TF-A_TechForum_Errata_Process.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/7v5NKb7vz0hIBZGWzkPlUfdwBq7Gaaa80yca_KINz0mLfKCBM06WNXPQIa4k0Gn7) (Access Password: 9?p2C@06)
+* Date - 27th August 2020
 
 * **TRNG and GIC600AE Support Investigation Overviews - Presented by Jimmy Brisson:** 
   * **Detailed Investigation for support for TRNG (True Random Number Generator)** [PDF Presentation](/docs/trng-30.pdf)
