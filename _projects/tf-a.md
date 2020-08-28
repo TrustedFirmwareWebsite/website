@@ -9,7 +9,7 @@ icons:
   - svgs/TF_Icon_TF-ATesting.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+    url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
   - text: Join the TF-A Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
@@ -27,16 +27,10 @@ links:
     text: Subscribe to the TF-A mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/tf-a    
 useful_links:
-  - text: Joining the Trusted Firmware project
-    url: https://www.trustedfirmware.org/join/
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/tf_a/
-  - text: Dashboard
-    url: https://developer.trustedfirmware.org/dashboard/view/6/
 top_text: |-
   **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
-
-  The Projects page provides access to all facilities hosted including source code, documentation, Gerrit review for submitting changes, a wiki, the issue/task workboard/tracker as well as showing recent activity in the project.
 
   Contribution guidelines can be found in the documentation.
 
