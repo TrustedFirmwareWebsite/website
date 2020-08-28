@@ -7,7 +7,7 @@ icons:
   - svgs/TF_Icon_TF-M.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+    url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/docs/contributing/contributing.html
   - text: Join the TF-M Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
@@ -16,7 +16,7 @@ links:
     text: Trusted Firmware-M Documentation
     url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/index.html
   code:
-    text: Code
+    text: View source code
     url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
   review:
     text: "Gerrit review"
@@ -25,16 +25,12 @@ links:
     text: Subscribe to the TF-M mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/tf-m
 useful_links:
-  - text: Joining the Trusted Firmware project
-    url: https://www.trustedfirmware.org/join/
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/tf_m/
   - text: Dashboard
     url: https://developer.trustedfirmware.org/dashboard/view/5/
 top_text: |-
   **Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55 processors) or dual-core platforms. It is the Platform Security Architecture (PSA) reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.**
-
-  The Projects page provides access to all facilities hosted including source code, documentation, Gerrit review for submitting changes, a wiki, the issue/task workboard/tracker as well as showing recent activity in the project.
 
   Contribution guidelines can be found in the documentation.
 
