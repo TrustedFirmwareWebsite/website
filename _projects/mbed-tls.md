@@ -21,10 +21,9 @@ links:
   subscribe:
     text: Subscribe to the Mbed TLS mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls
-  subscribe:
-    text: Subscribe to the PSA Crypto mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto
 useful_links:
+  - text: Subscribe to the PSA Crypto mailing list
+    url: https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/mbed-tls/
 top_text: |-
