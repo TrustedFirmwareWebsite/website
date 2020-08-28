@@ -12,7 +12,7 @@ calls_to_action:
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
 links:
-    code:
+  code:
     text: "View Source Code"
     url: https://github.com/ARMmbed/mbedtls
   review:
