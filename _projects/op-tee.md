@@ -13,7 +13,7 @@ links:
     text: OP-TEE Documentation
     url: https://optee.readthedocs.io/en/latest/
   code:
-    text: Code
+    text: View source code
     url: https://github.com/OP-TEE/optee_os/
   review:
     text: "GitHub review"
