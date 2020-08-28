@@ -7,7 +7,7 @@ icons:
   - svgs/TF_Icon_Hafnium.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://developer.trustedfirmware.org/w/collaboration/project-maintenance-process/
+    url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/CONTRIBUTING.md
   - text: Join the TF-A Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
@@ -16,8 +16,8 @@ links:
     text: Hafnium Documentation
     url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
   code:
-    text: Code
-    url: https://git.trustedfirmware.org/hafnium/hafnium.git/
+    text: View source code and documentation
+    url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD
   review:
     text: "Gerrit review"
     url: https://review.trustedfirmware.org/q/project:hafnium/hafnium
@@ -25,14 +25,10 @@ links:
     text: Subscribe to the Hafnium mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/hafnium
 useful_links:
-  - text: Joining the Trusted Firmware project
-    url: https://www.trustedfirmware.org/join/
-  - text: Wiki pages
-    url: https://developer.trustedfirmware.org/w/
+  - text: Hafnium Project Dashboard
+    url: https://developer.trustedfirmware.org/project/21/item/view/67/
 top_text: |-
   **A reference Secure Partition Manager (SPM) for systems that implement the Armv8.4-A Secure-EL2 extension. It enables multiple, isolated Secure Partitions (SPs) to run at Secure-EL1.**
-
-  The Projects page provides access to all facilities hosted including source code, documentation, Gerrit review for submitting changes and a wiki.
 
   Contribution guidelines can be found in the documentation.
 
