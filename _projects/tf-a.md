@@ -18,7 +18,7 @@ links:
     text: Trusted Firmware-A Documentation
     url: https://trustedfirmware-a.readthedocs.org/
   code:
-    text: Code
+    text: View source code
     url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
   review:
     text: "Gerrit review"
