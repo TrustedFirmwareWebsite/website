@@ -33,5 +33,7 @@ top_text: |-
   Contribution guidelines can be found in the documentation.
 
   Please subscribe to the project email list to to participate in development discussions.
+  
+  Hafnium and Secure-EL2 are topics also discussed in the TF-A Tech Forum.
 
 ---
