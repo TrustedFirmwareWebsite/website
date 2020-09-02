@@ -27,7 +27,7 @@ layout: base
                         {{page.top_text | markdownify}}
                     </div>
                 </div>
-                <div class="col col-12">
+                <div class="col col-12 mb-5">
                     <div class="row">
                         <div class="col col-12 col-md-6">
                             <div class="row text-center text-xl-left">
@@ -86,12 +86,6 @@ layout: base
                                         </a>
                                     </div>
                                 {% endfor %}
-                                <div class="col col-12 enquiries_text pt-3">
-                                    <p class="blockquote">
-                                        For general and membership enquiries:
-                                        <a href="mailto:enquiries@trustedfirmware.org">enquiries@trustedfirmware.org</a>
-                                    </p>
-                                </div>
                             </div>
 
                         </div>
@@ -101,10 +95,10 @@ layout: base
                                     <h3 class="font-weight-bold">Other Trusted Firmware Projects</h3>
                                 </div>
                                 <div class="col col-12">
-                                    <div class="row">
+                                    <div class="row other_projects">
                                         {% for project in site.projects %}
                                             {% if project.url != page.url %}
-                                                <div class="col col-6 col-md-4 p-4">
+                                                <div class="col col-6 col-md-3 p-4 d-flex justify-content-center">
                                                     <a href="{{project.url}}">
                                                         {% include {{project.icons | first}} %}
                                                     </a>
