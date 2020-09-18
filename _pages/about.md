@@ -24,8 +24,8 @@ Trusted Firmware provides a reference implementation of secure world software fo
 
 **Support for M-Profile Arm processors / Trusted Firmware-M (TF-M)**
 
-Trusted Firmware-M (TF-M) provides a reference implementation of the platform security architecture aligning with [PSA Certified](https://www.psacertified.org/) requirements for Arm Cortex-M processors and leverages Arm TrustZone technology on Armv8-M cores (Cortex-M23 and Cortex-M33)
-TF-M provides Secure boot and a set of run time secure services such as Crypto, Storage and Attestation.
+- Trusted Firmware-M (TF-M) provides a reference implementation of the platform security architecture aligning with [PSA Certified](https://www.psacertified.org/) requirements for Arm Cortex-M processors and leverages Arm TrustZone technology on Armv8-M cores (Cortex-M23 and Cortex-M33)
+- TF-M provides Secure boot and a set of run time secure services such as Crypto, Storage and Attestation.
 
 **If you want to get involved, join the notification mailing list or contact enquiries@TrustedFirmware.org for more information.**
 
