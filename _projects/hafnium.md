@@ -17,7 +17,7 @@ links:
     url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
   code:
     text: View source code and documentation
-    url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD
+    url: https://git.trustedfirmware.org/hafnium/hafnium.git/ 
   review:
     text: "Gerrit review"
     url: https://review.trustedfirmware.org/q/project:hafnium/hafnium
