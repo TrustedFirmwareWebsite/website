@@ -30,7 +30,7 @@ useful_links:
   - text: Dashboard
     url: https://developer.trustedfirmware.org/dashboard/view/5/
 top_text: |-
-  **Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55 processors) or dual-core platforms. It is the Platform Security Architecture (PSA) reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.**
+  **Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55 processors) or dual-core platforms. It is the platform security architecture reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.**
 
   Contribution guidelines can be found in the documentation.
 
