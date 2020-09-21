@@ -6,3 +6,5 @@ _site
 assets/resized
 production.trustedfirmware.org
 staging.trustedfirmware.org
+.asset_pipeline
+.jekyll-cache

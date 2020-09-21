@@ -144,4 +144,3 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * [Video Recording](https://zoom.us/recording/share/kNtLz7KC5yjs6V1F1mFNJbV2UBsWdAX_gITU-WJNTtOwIumekTziMw)
 * Date - 5th Dec 2019
 <br/>
-
