@@ -18,6 +18,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 1st Oct - 0600 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 15th Oct - 1500 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above**
 
 
