@@ -15,12 +15,20 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Upcoming calls - also posted to the TF-M mailing list
 
-17th Sep - 0600 UTC (0700 London, 1400 Shanghai, 0100 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+1st Oct - 0600 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
+15th Oct - 1500 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above**
 
 
 ### Recording and slides of previous meetings
+
+
+* **TF-M Initialization Entry Enhancement** [PDF Presentation](/docs/TF-M_initialization_entry_enhancement.pdf)
+* **Updates on TF-M HAL** [PDF Presentation](/docs/updates_on_tfm_hal_tech_forum_2020_09_17.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Of8kxoO9s5slC-Ybqy04ka71bsImVUfeC_PeZwzNjTMNujkCRzOVR8r6ckZ_3rQR.s84ccX3hMNhysAgw) (Access Password: HP4ds+?=)
+* Date - 17th September 2020
+<br/>
 
 
 * **TF-M fault injection mitigation** [PDF Presentation](/docs/TF-M_fault_injection_mitigation.pdf)
