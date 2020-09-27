@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-08-10 08:00:00
+date: 2020-09-10 08:00:00
 categories:
   - Meetings
 layout: post
@@ -15,14 +15,28 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Upcoming calls - also posted to the TF-M mailing list
 
-03rd Sep - 1500 UTC (1600 London, 2300 Shanghai, 1000 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2R2cW8ycGhvbGk0bWM0M3I0dmJxanY5ODcgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+1st Oct - 0600 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N250M2VrZnZtMnY0MjU3dGlmcXZjdDRvNWQgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
-17th Sep - 0600 UTC (0700 London, 1400 Shanghai, 0100 Austin) - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NjZuNjVnbmNmZG1qZ24xamQwMnZpbThybjMgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+15th Oct - 1500 UTC - [Link to event](https://calendar.google.com/event?action=TEMPLATE&tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com) - Add to calendar <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjRoajVlNjRuczZqYWIwNmtsM2Vsb2pmbnAgbGluYXJvLm9yZ19oYXZqdjJmaWdyaDVlZ2FpdXJiMjI5cGQ4Y0Bn&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above**
 
 
 ### Recording and slides of previous meetings
+
+
+* **TF-M Initialization Entry Enhancement** [PDF Presentation](/docs/TF-M_initialization_entry_enhancement.pdf)
+* **Updates on TF-M HAL** [PDF Presentation](/docs/updates_on_tfm_hal_tech_forum_2020_09_17.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Of8kxoO9s5slC-Ybqy04ka71bsImVUfeC_PeZwzNjTMNujkCRzOVR8r6ckZ_3rQR.s84ccX3hMNhysAgw) (Access Password: HP4ds+?=)
+* Date - 17th September 2020
+<br/>
+
+
+* **TF-M fault injection mitigation** [PDF Presentation](/docs/TF-M_fault_injection_mitigation.pdf)
+* **Arm Secure Partition Addition** [PDF Presentation](/docs/Arm_SP_Addition_BorisDeletic_2020.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/uiUTJpLoLWMvsLRZBI8sY3JEcrd13_Mo15-uqM7PnSUfZdeBI_HwXMFM7TG2x2II.l4ShKEAiUgZRpdZ5) (Access Password: n!N3NP#1)
+* Date - 3rd September 2020
+<br/>
 
 
 * **Musca B1 Secure Enclave Solution** [PDF Presentation](/docs/Musca-B1-Secure-Enclave-Solution.pdf)
@@ -139,4 +153,3 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * [Video Recording](https://zoom.us/recording/share/kNtLz7KC5yjs6V1F1mFNJbV2UBsWdAX_gITU-WJNTtOwIumekTziMw)
 * Date - 5th Dec 2019
 <br/>
-

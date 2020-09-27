@@ -1,18 +1,13 @@
 # Copyright text to be displayed at the very bottom of the footer
-copyright-text: Linaro Limited
+copyright_text: Linaro Limited
 # Set this to false if you do not want the Linaro logo in the footer.
-linaro-branding: true
+footer_brand:
+  logo: /assets/images/Linaro-logo-white.png
 # Social Media Icons Row
-social-media-icons: false
-# Contact Info
-display-contact-details: true
+social_media_icons: false
 # These links are displayed at the very bottom of the footer.
-company-links:
-    - name: FAQ
-      url: /faq/
-    - name: Contact
-      url: /contact/
-second-column:
-    title: Latest News & Blogs
-    latest-posts: true
-third-column: false
+company_links:
+  - name: FAQ
+    url: /faq/
+  - name: Contact
+    url: /contact/

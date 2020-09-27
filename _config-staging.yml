@@ -8,3 +8,7 @@ url: "https://staging.trustedfirmware.org"
 destination: staging.trustedfirmware.org
 # Production boolean used in layouts / includes
 production: false
+# Google Analytics
+google_analytics:
+  enabled: false
+  code: GTM-TKVP3S4

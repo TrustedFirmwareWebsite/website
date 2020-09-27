@@ -2,5 +2,5 @@
 name: Bill Fletcher
 username: bill.fletcher
 email: bill.fletcher@linaro.org
-image_path: /assets/images/authors/BillSAN19_thumb.jpg
+image: /assets/images/authors/BillSAN19_thumb.jpg
 ---

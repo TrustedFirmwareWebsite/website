@@ -8,3 +8,7 @@ url: "https://www.trustedfirmware.org"
 destination: production.trustedfirmware.org
 # Production boolean used in layouts / includes
 production: true
+# Google Analytics
+google_analytics:
+  enabled: true
+  code: GTM-TKVP3S4

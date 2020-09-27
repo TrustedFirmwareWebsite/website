@@ -1,0 +1,131 @@
+---
+layout: base
+---
+<div class="jumbotron d-flex align-items-center jumbotron-fluid background_image project_header">
+    {% assign image_path = page.strap_image %}
+    {% capture image_alt %}Project header image{% endcapture%}
+    {% picture header_image {{image_path}} --alt {{image_alt}} %}
+    <div class="container ">
+        <div class="inner_content_wrapper d-flex flex-column flex-md-row">
+            <h1 class="mr-md-auto text-center text-md-left">{{page.title}}</h1>
+            {% if page.icons %}
+            <div class="header_icons mx-auto mx-md-0 my-2">
+                {% for icon in page.icons %}
+                    {% include {{icon}} %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row content_row">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="top_text my-5 blockquote">
+                        {{page.top_text | markdownify}}
+                    </div>
+                </div>
+                <div class="col col-12 mb-5">
+                    <div class="row">
+                        <div class="col col-12 col-md-6">
+                            <div class="row text-center text-xl-left">
+                                {% if page.links.documentation %}
+                                    <div class="col col-12 documentation">
+                                        <a href="{{page.links.documentation.url}}">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
+                                                    docs
+                                                </div>
+                                                <span>{{page.links.documentation.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% if page.links.review %}
+                                    <div class="col col-12 review">
+                                        <a href="{{page.links.review.url}}">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
+                                                    review
+                                                </div>
+                                                <span>{{page.links.review.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% if page.links.code %}
+                                    <div class="col col-12 code">
+                                        <a href="{{page.links.code.url}}">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase">
+                                                    code
+                                                </div>
+                                                <span>{{page.links.code.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% if page.links.subscribe %}
+                                    <div class="col col-12 subscribe">
+                                        <a href="{{page.links.subscribe.url}}">
+                                            <div class="cta_wrapper pt-1 pt-xl-0 mb-3">
+                                                <div class="link_type d-block d-xl-inline-block text-uppercase bg-green">
+                                                    subscribe
+                                                </div>
+                                                <span>{{page.links.subscribe.text}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% for cta in page.calls_to_action %}
+                                    <div class="col col-12 cta">
+                                        <a href="{{cta.url}}" class="btn btn-primary {% if cta.class %}{{cta.class}}{% endif %} w-100 {% unless forloop.first %}mt-3{% endunless %}">
+                                            {{cta.text}}
+                                        </a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+
+                        </div>
+                        <div class="col col-12 col-md-6 other_projects py-3 bg-light mb-4">
+                            <div class="row">
+                                <div class="col col-12">
+                                    <h3 class="font-weight-bold">Other Trusted Firmware Projects</h3>
+                                </div>
+                                <div class="col col-12">
+                                    <div class="row other_projects">
+                                        {% for project in site.projects %}
+                                            {% if project.url != page.url %}
+                                                <div class="col col-6 col-md-3 p-4 d-flex justify-content-center">
+                                                    <a href="{{project.url}}">
+                                                        {% include {{project.icons | first}} %}
+                                                    </a>
+                                                </div>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% if page.useful_links %}
+                        <div class="col col-12 useful_links my-5 border-top pt-4">
+                            <h3>Useful Links</h3>
+                            <ul class="pl-3 blockquote">
+                                {% for useful_link in page.useful_links %}
+                                <li>
+                                    <a href="{{useful_link.url}}">
+                                        {{useful_link.text}}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
