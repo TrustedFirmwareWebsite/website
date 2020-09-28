@@ -96,7 +96,8 @@ layout: base
                                 </div>
                                 <div class="col col-12">
                                     <div class="row other_projects">
-                                        {% for project in site.projects %}
+                                        {% assign sorted_projects = site.projects | sort: 'sort_key' %}
+                                        {% for project in sorted_projects %}
                                             {% if project.url != page.url %}
                                                 <div class="col col-6 col-md-3 p-4 d-flex justify-content-center">
                                                     <a href="{{project.url}}">

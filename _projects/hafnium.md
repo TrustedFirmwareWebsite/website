@@ -35,5 +35,5 @@ top_text: |-
   Please subscribe to the project email list to to participate in development discussions.
   
   Hafnium and Secure-EL2 are topics also discussed in the TF-A Tech Forum.
-
+sort_key: 5
 ---
