@@ -27,4 +27,5 @@ top_text: |-
   Contribution guidelines can be found in the documentation.
 
   Please subscribe to the project email list to to participate in development discussions.
+sort_key: 3
 ---

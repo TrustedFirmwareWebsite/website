@@ -37,4 +37,5 @@ top_text: |-
   Please subscribe to the project email list to to participate in development discussions.
 
   A bi-weekly [Technical Forum call](/meetings/tf-m-technical-forum/) is held to discuss technical subjects.
+sort_key: 2
 ---
