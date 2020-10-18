@@ -11,11 +11,17 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 24th September at 16:00 UTC
+### The next call is planned on Thursday, 22nd October at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Measured Boot Support in TF-A - Presented by Alexei Fedorov and Javier Almansa Sobrino ** 
+  * **TF-A Event Log Changes - [PDF Presentation](/docs/TF-A_and_MB_Oct2020_v0.pdf) 
+  * **TPM Testing - [PDF Presentation](/docs/MeasuredBoot-fTPM-Test.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/-sdmQx4Ixe3RSWhlupKX-W03IeejQ5qW_SdniYjIQIIJWhFiF0RkR9W7Ef5bQbTb.Ssx0bgq36Z6AsiZh) (Access Password: 5.1SPm*@)
+* Date - 8th October 2020
 
 * **TF-A LTS (Long Term Support Strategy Proposal - Presented by Varun Wadekar** [PDF Presentation](/docs/TF-A-LTS.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/_CH2jX6nD_GiWWuhRnnlQqFTzphhI9gSa43OLtIAVIXWHIOoU1Sx8hD5TLi9x4j_.7eURMZ_8z-w8jbC_) (Access Password: jr6J#^FE)
