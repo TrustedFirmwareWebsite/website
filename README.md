@@ -15,22 +15,21 @@ To make it easier to contribute to the content, Linaro provides a couple of Dock
 
 To build the site:
 
-```
+```bash
 cd <git repository directory>
 ./build-site.sh
 ```
 
 To build the site and then serve it so that you can check your contribution appears:
 
-```
+```bash
 cd <git repository directory>
 JEKYLL_ACTION="serve" ./build-site.sh
 ```
 
 To check that your contribution doesn't include any broken links:
 
-```
-
+```bash
 cd <built web site directory>
 ../check-links.sh
 ```
@@ -39,4 +38,8 @@ The built web site directory will be `staging.trustedfirmware.org` unless you se
 
 For more information, please see the [build container wiki](https://github.com/linaro-its/jekyll-build-container/wiki) and the [link checker wiki](https://github.com/linaro-its/jekyll-link-checker/wiki).
 
-*****
+## Pull Requests
+
+When a Pull Request is created, GitHub Actions are used to automatically build a test version of the proposed modified site and then check that any links in the pages are valid.
+
+If there are any questions or problems with the GitHub Actions, please contact [Linaro IT Services](https://servicedesk.linaro.org/servicedesk/customer/portal/3/create/50).
