@@ -14,13 +14,13 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Fetch git repository
+        uses: actions/checkout@v2
+
       - name: Initialise environment
         run: cat ".github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - run: env
-
-      - name: Fetch git repository
-        uses: actions/checkout@v2
 
       - name: Directory push/pop
         uses: linaro-its/directory-push-and-pop@v1.1
