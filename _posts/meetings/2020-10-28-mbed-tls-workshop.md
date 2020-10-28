@@ -15,6 +15,7 @@ Ways to improve community collaboration
 ==============Agenda below:====================
 
 |Topic | Time (in GMT) |
+| ------------------------------------------------------------------------ | ------------- |
 |Welcome | 2.00 - 2.10pm |
 |Constant-time code | 2.10 – 2.30pm |
 |Processes - how does work get scheduled? | 2.30 – 2.50pm |
