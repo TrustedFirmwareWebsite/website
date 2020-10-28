@@ -14,16 +14,16 @@ Ways to improve community collaboration
 
 ==============Agenda below:====================
 
-Topic | Time (in GMT)
-Welcome | 2.00 - 2.10pm
-Constant-time code | 2.10 – 2.30pm
-Processes - how does work get scheduled? | 2.30 – 2.50pm
-PSA Crypto APIs | 2.50 – 3.20pm
-PSA Crypto for Silicon Labs Wireless MCUs - Why, What, Where and When | 3.20 – 3.50pm
-Break | 3.50 - 4.10pm                                                                          
-Roadmap, TLS1.3 Update | 4.10 – 4.30pm
-Mbed TLS 3.0 Plans, Scope | 4.30 – 5.00pm
-How do I contribute my first review and be an effective Mbed TLS reviewer | 5.00 – 5.30pm
+|Topic | Time (in GMT) |
+|Welcome | 2.00 - 2.10pm |
+|Constant-time code | 2.10 – 2.30pm |
+|Processes - how does work get scheduled? | 2.30 – 2.50pm |
+|PSA Crypto APIs | 2.50 – 3.20pm |
+|PSA Crypto for Silicon Labs Wireless MCUs - Why, What, Where and When | 3.20 – 3.50pm |
+|Break | 3.50 - 4.10pm |        
+|Roadmap, TLS1.3 Update | 4.10 – 4.30pm |
+|Mbed TLS 3.0 Plans, Scope | 4.30 – 5.00pm |
+|How do I contribute my first review and be an effective Mbed TLS reviewer | 5.00 – 5.30pm |
 
 
 ==============Zoom details below:====================
