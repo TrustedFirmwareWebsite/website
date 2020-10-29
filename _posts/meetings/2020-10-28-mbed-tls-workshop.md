@@ -26,8 +26,8 @@ Ways to improve community collaboration
 |Mbed TLS 3.0 Plans, Scope | 4.30 – 5.00pm |
 |How do I contribute my first review and be an effective Mbed TLS reviewer | 5.00 – 5.30pm |
 
-
 ==============Zoom details below:====================
+
 Trusted Firmware is inviting you to a scheduled Zoom meeting.
 
 Topic: Mbed TLS Virtual Workshop
