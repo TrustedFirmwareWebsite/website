@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: Mbed TLS Virtual Workshop - 3rd November
-date: 2020-11-03 14:00 GMT
+date: 2020-10-28 14:00 GMT
 categories:
   - Meetings
 layout: post
