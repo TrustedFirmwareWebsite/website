@@ -22,7 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 
 * **TF-M Code Sharing** [PDF Presentation](/docs/TF-M_code_sharing.pdf)
-* **TF-M log update** [PDF Presentation](/docs/TF-M log update.pdf)
+* **TF-M log update** [PDF Presentation](/docs/TF-M_log_update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/J8VDp4qY8-KWxuofGn1SYkRB06k3JUrh35XsJDlmo51W4traNSf00mbQ0_NCoOrB.OFxRmUc0OlmWpo3i) (Access Password: aDG@t5BP)
 * Date - 29th October 2020
 <br/>
