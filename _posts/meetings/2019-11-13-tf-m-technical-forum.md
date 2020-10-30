@@ -21,6 +21,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **TF-M Code Sharing** [PDF Presentation](/docs/TF-M_code_sharing.pdf)
+* **TF-M log update** [PDF Presentation](/docs/TF-M log update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/J8VDp4qY8-KWxuofGn1SYkRB06k3JUrh35XsJDlmo51W4traNSf00mbQ0_NCoOrB.OFxRmUc0OlmWpo3i) (Access Password: aDG@t5BP)
+* Date - 29th October 2020
+<br/>
 
 * **PSA-FF-M v1-1 Interrupt Handling** [PDF Presentation](/docs/PSA-FF-M-v1-1-InterruptHandling.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/88749V4GrfQTvzeIO-bn6L_YAWCc5uUSDySFtvwwKzvirXpxUC1L6LLcseaDxnmT.C-BPcaTzGlN9AbEi) (Access Password: !#20XrL6)
