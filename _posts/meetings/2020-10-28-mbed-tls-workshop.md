@@ -26,30 +26,9 @@ Ways to improve community collaboration
 |Mbed TLS 3.0 Plans, Scope | 4.30 – 5.00pm |
 |How do I contribute my first review and be an effective Mbed TLS reviewer | 5.00 – 5.30pm |
 
-==============Zoom details below:====================
 
-Trusted Firmware is inviting you to a scheduled Zoom meeting.
-
-Topic: Mbed TLS Virtual Workshop
-Time: Nov 3, 2020 02:00 PM Greenwich Mean Time
-
-Join Zoom Meeting
-https://linaro-org.zoom.us/j/95315200315?pwd=ZDJGc1BZMHZLV29DTmpGUllmMjB1UT09
-
-Meeting ID: 953 1520 0315
-Passcode: 143755
-One tap mobile
-+16699009128,,95315200315# US (San Jose)
-+12532158782,,95315200315# US (Tacoma)
-
-Dial by your location
-        +1 669 900 9128 US (San Jose)
-        +1 253 215 8782 US (Tacoma)
-        +1 346 248 7799 US (Houston)
-        +1 646 558 8656 US (New York)
-        +1 301 715 8592 US (Germantown)
-        +1 312 626 6799 US (Chicago)
-        888 788 0099 US Toll-free
-        877 853 5247 US Toll-free
-Meeting ID: 953 1520 0315
-Find your local number: https://linaro-org.zoom.us/u/apL3hgti4
+* **MBed TLS Virtual Workshop Presentation and Recording** 
+  * **Workshp Slides - [PDF Presentation](/docs/MeasuredBoot-fTPM-Test.pdf)
+* [Video Recording - First half](https://linaro-org.zoom.us/rec/share/UZzAtlr-l5g4SCKgeGms9jQ3FoS8QMvbjdds78_Alvu3xfy_RzOitqgadNzuCCgq.WaTIp9TQIivLdX1s) (Access Password: 7i^qWT+0)
+* [Video Recording - Second half](https://linaro-org.zoom.us/rec/share/UZzAtlr-l5g4SCKgeGms9jQ3FoS8QMvbjdds78_Alvu3xfy_RzOitqgadNzuCCgq.WaTIp9TQIivLdX1s) (Access Password: 7i^qWT+0)
+* Date - 3rd November 2020
