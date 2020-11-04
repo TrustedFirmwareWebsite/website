@@ -30,5 +30,5 @@ Ways to improve community collaboration
 * **MBed TLS Virtual Workshop Presentation and Recording** 
   * **Workshp Slides - [PDF Presentation](/docs/MeasuredBoot-fTPM-Test.pdf)
 * [Video Recording - First half](https://linaro-org.zoom.us/rec/share/UZzAtlr-l5g4SCKgeGms9jQ3FoS8QMvbjdds78_Alvu3xfy_RzOitqgadNzuCCgq.WaTIp9TQIivLdX1s) (Access Password: 7i^qWT+0)
-* [Video Recording - Second half](https://linaro-org.zoom.us/rec/share/UZzAtlr-l5g4SCKgeGms9jQ3FoS8QMvbjdds78_Alvu3xfy_RzOitqgadNzuCCgq.WaTIp9TQIivLdX1s) (Access Password: 7i^qWT+0)
+* [Video Recording - Second half](https://linaro-org.zoom.us/rec/play/WhGaCHEsKIdTFUQbnBG4QECUFtispTx-9xP-H4GsCoN1GovkG80CgpdeKauKvg2Iw2B7phbAaPDBfU96.783bi0u_2WHtGT3d?startTime=1604419997000) (Access Password: 7i^qWT+0)
 * Date - 3rd November 2020
