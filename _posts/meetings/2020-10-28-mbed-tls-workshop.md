@@ -36,6 +36,8 @@ Ways to improve community collaboration
   * **TLS 1.3** - [PDF Presentation](/docs/6_TLS1.3.pdf)
   * **Mbed TLS 3.0** - [PDF Presentation](/docs/7_MbedTLS3.0.pdf)
   * **How to be an Mbed TLS Reviewer** - [PDF Presentation](/docs/HowToBeAnMbedTLSReviewer.pdf)
+  * **PSA Crypto for Silicon Labs Wireless MCUs – Why, What, Where and When** - [PDF Presentation](/docs/mbed_TLS_VW_2020-11-03.pdf)
+
 
 
 * [Video Recording - First half](https://linaro-org.zoom.us/rec/share/UZzAtlr-l5g4SCKgeGms9jQ3FoS8QMvbjdds78_Alvu3xfy_RzOitqgadNzuCCgq.WaTIp9TQIivLdX1s) (Access Password: 7i^qWT+0)
