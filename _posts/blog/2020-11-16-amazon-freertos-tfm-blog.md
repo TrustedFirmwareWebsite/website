@@ -45,7 +45,9 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 - Forward the messages securely between the device and cloud
 
 
-<div align="center">![DemoOverview](/assets/images/blog/demo-overview.png)</div>
+<div align="center">
+  ![DemoOverview](/assets/images/blog/demo-overview.png)
+</div>
 
 <div align="center">Demo Overview</div>
 
