@@ -46,7 +46,7 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 
 
 <p align="center">
-  <img src="/assets/images/blog/demo-overview.png" />
+  <img src="/assets/images/blog/demo-overview2.png" />
 </p>
 
 <div align="center">Demo Overview</div>
