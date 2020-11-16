@@ -57,3 +57,16 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 
 <div align="center">System Connection Diagram</div>
 
+<p align="center">
+  <img src="/assets/images/blog/symmetric-attestation.png" />
+</p>
+
+<div align="center">Symmetric Attestation Block Diagram</div>
+
+
+<p align="center">
+  <img src="/assets/images/blog/workflow.png" />
+</p>
+
+<div align="center">Workflow Diagram</div>
+
