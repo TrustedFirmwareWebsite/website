@@ -51,5 +51,9 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 
 <div align="center">Demo Overview</div>
 
+<p align="center">
+  <img src="/assets/images/blog/SystemConnection.png" />
+</p>
 
+<div align="center">System Connection Diagram</div>
 
