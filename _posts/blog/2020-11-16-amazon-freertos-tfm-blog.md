@@ -44,10 +44,7 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 - Connects to the device via TLS PSK
 - Forward the messages securely between the device and cloud
 
-
-<p align="center">
-  <img src="/assets/images/blog/demo-overview2.png" />
-</p>
+{% include image.html path="/assets/images/blog/demo-overview2.png" alt="Demo Overview image" %}
 
 <div align="center">Demo Overview</div>
 
@@ -58,9 +55,7 @@ At the device side, Amazon FreeRTOS runs in Non-Secure Processing Environment (N
 
 The gateway runs Linux as the OS. It uses TLS PSK server application to establish the TLS PSK connection with the client application running in the device. On the other hand, the gateway uses the AWS IoT device application to securely connect to AWS cloud. The AWS IoT device application communicates with TLS PSK server application inside of the gateway for the message exchange between the device and AWS cloud.
 
-<p align="center">
-  <img src="/assets/images/blog/SystemConnection.png" />
-</p>
+{% include image.html path="/assets/images/blog/SystemConnection.png" alt="System Connection image" %}
 
 <div align="center">System Connection Diagram</div>
 
@@ -69,9 +64,7 @@ Symmetric attestation
 
 After the TLS PSK connection is established between the gateway and device, the gateway can conduct the Initial Attestation (IAT) to verify if the device is in an acceptable status. For more information of attestation, please check the [PSA website](https://developer.arm.com/architectures/security-architectures/platform-security-architecture).
 
-<p align="center">
-  <img src="/assets/images/blog/symmetric-attestation.png" />
-</p>
+{% include image.html path="/assets/images/blog/symmetric-attestation.png" alt="Symmetric Attestation image" %}
 
 <div align="center">Symmetric Attestation Block Diagram</div>
 
@@ -80,9 +73,7 @@ Workflow
 
 The overall workflow is shown as the diagram below.
 
-<p align="center">
-  <img src="/assets/images/blog/workflow.png" />
-</p>
+{% include image.html path="/assets/images/blog/workflow.png" alt="Workflow image" %}
 
 <div align="center">Workflow Diagram</div>
 
