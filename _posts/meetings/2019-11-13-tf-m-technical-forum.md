@@ -16,7 +16,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Upcoming calls - also posted to the TF-M mailing list
 
 
-**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above**
+**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 
 ### Recording and slides of previous meetings
