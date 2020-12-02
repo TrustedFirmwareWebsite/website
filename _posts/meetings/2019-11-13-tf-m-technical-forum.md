@@ -22,7 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 
 * **TF-M OpenCI Introduction** [PDF Presentation](/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
-* **TF-M Dual CPU NSPE Mailbox Enhancement** [PDF Presentation](/docs/TF-M_Dual-cpu_NSPE_mailbox_enhancement.pdf)
+* **TF-M Dual CPU NS Mailbox Enhancement** [PDF Presentation](/docs/TF-M_Dual-cpu_NSPE_mailbox_enhancement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/88bwx7gjtalte2qmfnGg8mOWQlGFWw0vIoQfbC1Og1_lKlBVnikzdkiq3VVE4Jk.Z_J-YzNQPWROIG58) Passcode: 8X%Y620h
 * Date - 26th November 2020
 <br/>
