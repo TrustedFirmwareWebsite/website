@@ -5,7 +5,7 @@ description: |-
   Arm’s Trusted Firmware is adopting Open Governance and is now and Open Source project managed by Linaro.
 destination: _site
 permalink: /:categories/:title/
-theme: jumbo-jekyll-theme
+theme: linaro-jekyll-theme
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -125,7 +125,7 @@ social_media_share_image: /assets/images/social-media-image.png
 # Set the default favicon
 favicon: /assets/images/favicon.png
 # Site Name - your brand name
-name: Jumbo Jekyll Theme
+name: Trusted Firmware
 # The blog filler element
 blog_filler_element: blog/blog_filler_element.html
 # Placeholder avatar
@@ -156,7 +156,8 @@ edit-on-github:
   repo: https://www.github.com/TrustedFirmware/website
 # Shema.org settings used in the schema.html include.
 schema:
-  "@type": "Organisation"
+  "@context": "https://schema.org"
+  "@type": "Organization"
   "name": "Trusted Firmware"
   "url": "https://www.trustedfirmware.org"
   "logo": "https://www.trustedfirmware.org/assets/images/content/linaro-logo.png"

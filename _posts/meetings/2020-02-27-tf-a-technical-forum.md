@@ -11,19 +11,31 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 22nd October at 16:00 UTC
+### The next call is planned on Thursday, 3rd December at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
 
-* **Measured Boot Support in TF-A - Presented by Alexei Fedorov and Javier Almansa Sobrino ** 
-  * **TF-A Event Log Changes - [PDF Presentation](/docs/TF-A_and_MB_Oct2020_v0.pdf) 
-  * **TPM Testing - [PDF Presentation](/docs/MeasuredBoot-fTPM-Test.pdf)
+* **Trace-based Code Coverage Tooling for Firmware Projects - Presented by Basil Eljuse and Saul Romero** [PDF Presentation](/docs/TracebasedCodeCoverageTooling.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/LM5a5tlJDl-JnVQ2_KBCjRUxOmDReVCfBs0z8gK4pi149jGOFZ3sdI_DM4kk7YUb.sEeK_CZqQ8YF6UoF) (Access Password: SK!Q2q$V)
+* Date - 19th November 2020
+
+* **TF-A Tests Overview - Presented by Varun Wadekar** [PDF Presentation](/docs/TF-A-Tests.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/L885NkAGs0WLj-fAvzWOCp_MgNf4NA_jOeEH1yqr6aK1wdHLJ1zXwpOphijYfyyi.gT-aOvlAgU2zZiZZ) (Access Password: K&v2qc2^)
+* Date - 5th November 2020
+
+* **TF-A Encrypted FIP Support - Presented by Sumit Garg** [PDF Presentation](/docs/Encrypted-FIP-Support.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/BHe19y2YMtYQkbd0tK4kIXL50k9Q3YGwW8qLscwGkSHRPH47YVrTXZoTJAzvyKx4.m8Eqqi_7YumL7ffm) (Access Password: +W6Im$ti)
+* Date - 23rd October 2020
+
+* **Measured Boot Support in TF-A - Presented by Alexei Fedorov and Javier Almansa Sobrino**
+  * **TF-A Event Log Changes - [PDF Presentation](/docs/TF-A_and_MB_Oct2020_v0.pdf)**
+  * **TPM Testing - [PDF Presentation](/docs/MeasuredBoot-fTPM-Test.pdf)**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/-sdmQx4Ixe3RSWhlupKX-W03IeejQ5qW_SdniYjIQIIJWhFiF0RkR9W7Ef5bQbTb.Ssx0bgq36Z6AsiZh) (Access Password: 5.1SPm*@)
 * Date - 8th October 2020
 
-* **TF-A LTS (Long Term Support Strategy Proposal - Presented by Varun Wadekar** [PDF Presentation](/docs/TF-A-LTS.pdf)
+* **TF-A LTS (Long Term Support) Strategy Proposal - Presented by Varun Wadekar** [PDF Presentation](/docs/TF-A-LTS.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/_CH2jX6nD_GiWWuhRnnlQqFTzphhI9gSa43OLtIAVIXWHIOoU1Sx8hD5TLi9x4j_.7eURMZ_8z-w8jbC_) (Access Password: jr6J#^FE)
 * Date - 10th September 2020
 
@@ -89,7 +101,6 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * Date - 12th March 2020
 <br/>
 
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
+Link to calendar event (https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
-Add this meeting to Google calendar
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.goog
+Add this meeting to Google calendar (https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.goog)
