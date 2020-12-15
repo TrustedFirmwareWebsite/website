@@ -7,14 +7,14 @@ icons:
   - svgs/TF_Icon_TF-M.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/docs/contributing/contributing.html
+    url: https://ci.trustedfirmware.org/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/docs/user_guide/html/docs/contributing/contributing.html
   - text: Join the TF-M Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
 links:
   documentation:
     text: Trusted Firmware-M Documentation
-    url: https://ci.trustedfirmware.org/view/TF-M/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/install/doc/user_guide/html/index.html
+    url: https://ci.trustedfirmware.org/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/docs/user_guide/html/index.html
   code:
     text: View source code
     url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
