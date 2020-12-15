@@ -21,6 +21,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X*KXE*9m
+* Date - 10th December 2020
+<br/>
+
 * **TF-M OpenCI Introduction** [PDF Presentation](/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
 * **TF-M Dual CPU NS Mailbox Enhancement** [PDF Presentation](/docs/TF-M_Dual-cpu_NSPE_mailbox_enhancement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/88bwx7gjtalte2qmfnGg8mOWQlGFWw0vIoQfbC1Og1_lKlBVnikzdkiq3VVE4Jk.Z_J-YzNQPWROIG58) Passcode: 8X%Y620h
