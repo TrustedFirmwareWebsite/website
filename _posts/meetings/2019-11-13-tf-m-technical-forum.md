@@ -22,7 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 
 * **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
-* [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X*KXE*9m
+* [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X\*KXE\*9m
 * Date - 10th December 2020
 <br/>
 
