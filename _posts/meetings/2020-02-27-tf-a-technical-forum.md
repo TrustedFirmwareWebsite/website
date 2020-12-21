@@ -101,7 +101,6 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * Date - 12th March 2020
 <br/>
 
-[Link to calendar event](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
+Link to calendar event (https://calendar.google.com/event?action=TEMPLATE&tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&scp=ALL)
 
-Add this meeting to Google calendar
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.goog
+Add this meeting to Google calendar (https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWlub3Ewdm1tMmk1cTJrMTkxNHJ0MWdqZDJfMjAyMDA2MThUMTUwMDAwWiBsaW5hcm8ub3JnX2hhdmp2MmZpZ3JoNWVnYWl1cmIyMjlwZDhjQGc&amp;tmsrc=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.goog)

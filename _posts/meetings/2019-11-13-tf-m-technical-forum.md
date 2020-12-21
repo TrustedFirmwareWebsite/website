@@ -16,10 +16,21 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Upcoming calls - also posted to the TF-M mailing list
 
 
-**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the links above**
+**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 
 ### Recording and slides of previous meetings
+
+* **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X\*KXE\*9m
+* Date - 10th December 2020
+<br/>
+
+* **TF-M OpenCI Introduction** [PDF Presentation](/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
+* **TF-M Dual CPU NS Mailbox Enhancement** [PDF Presentation](/docs/TF-M_Dual-cpu_NSPE_mailbox_enhancement.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/88bwx7gjtalte2qmfnGg8mOWQlGFWw0vIoQfbC1Og1_lKlBVnikzdkiq3VVE4Jk.Z_J-YzNQPWROIG58) Passcode: 8X%Y620h
+* Date - 26th November 2020
+<br/>
 
 * **TF-M Partition Storage Arrangement** [PDF Presentation](/docs/TF-M_partition_storage_arrangement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/QoUcDJ3_fwV97NgcHOl2VgbXlbpWz273UfkK1joGpLOIzebJST1u8WRrs0ieRRww.ojzXRru0bAiBPY7i) (Access Password: K7$bwN3.)
