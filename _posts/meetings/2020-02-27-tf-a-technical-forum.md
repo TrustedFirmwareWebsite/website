@@ -17,7 +17,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-* **An introduction to the Trusted Services Project - Presented by Julian Hall** [PDF Presentation](/docs/TrustedServicesIntro)
+* **An introduction to the Trusted Services Project - Presented by Julian Hall** [PDF Presentation](/docs/TrustedServicesIntro.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/qu57J3l1Sa_i4rw0IpPdYnA8INXV982e9mpoAbkhMklt2mM3X7ZHYiNtP656ryCX.l45IxujlUeY2jkb9) (Access Password: eoV&v1^1)
 * Date - 17th December 2020
 
