@@ -11,11 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 3rd December at 16:00 UTC
+### The next call is planned on Thursday, 14th January 2021 at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **An introduction to the Trusted Services Project - Presented by Julian Hall** [PDF Presentation](/docs/TrustedServicesIntro.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/qu57J3l1Sa_i4rw0IpPdYnA8INXV982e9mpoAbkhMklt2mM3X7ZHYiNtP656ryCX.l45IxujlUeY2jkb9) (Access Password: eoV&v1^1)
+* Date - 17th December 2020
 
 * **Trace-based Code Coverage Tooling for Firmware Projects - Presented by Basil Eljuse and Saul Romero** [PDF Presentation](/docs/TracebasedCodeCoverageTooling.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/LM5a5tlJDl-JnVQ2_KBCjRUxOmDReVCfBs0z8gK4pi149jGOFZ3sdI_DM4kk7YUb.sEeK_CZqQ8YF6UoF) (Access Password: SK!Q2q$V)
