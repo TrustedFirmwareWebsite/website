@@ -21,9 +21,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **TF-M Generic Threat Model** [PDF Presentation]()
-* **Tech Forum 20210101 TFM Dependency TFM Tests** [PDF Presentation]()
+* **TF-M Generic Threat Model** [PDF Presentation](/docs/TF-M_Generic_Threat_Model.pdf)
+* **Tech Forum 20210101 TFM Dependency TFM Tests** [PDF Presentation](/docs/Tech_Forum_20210107_tfm_dependency_tfm_tests.pdf)
 * [Video Recording]() Passcode:
+<br/>
 
 * **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X\*KXE\*9m
