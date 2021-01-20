@@ -23,7 +23,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **TF-M Generic Threat Model** [PDF Presentation](/docs/TF-M_Generic_Threat_Model.pdf)
 * **Tech Forum 20210101 TFM Dependency TFM Tests** [PDF Presentation](/docs/Tech_Forum_20210107_tfm_dependency_tfm_tests.pdf)
-* [Video Recording]() Passcode:
+* [Video Recording](https://linaro-org.zoom.us/rec/share/iSoLShqPOgpx3qe1MYIGDhG2pVCtaDuOmFp8ne-fpIfIeznFJm71tPLPOMYNHNAf.P-CGYJZ_iiqjWqY_) Passcode:V*!WRP32
+* Date - 7th January 2021
 <br/>
 
 * **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
