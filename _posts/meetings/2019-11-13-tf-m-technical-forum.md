@@ -21,7 +21,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **TF-M content to add here**
+* **TF-M OpenCI Jobs** [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA )  Passcode: 8&K\.ENW8
 * Date - 21st January 2021
 <br/>
