@@ -21,6 +21,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **TF-M OpenCI Jobs** [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA )  Passcode: 8&K\.ENW8
+* Date - 21st January 2021
+<br/>
+
 * **TF-M Generic Threat Model** [PDF Presentation](/docs/TF-M_Generic_Threat_Model.pdf)
 * **Tech Forum 20210101 TFM Dependency TFM Tests** [PDF Presentation](/docs/Tech_Forum_20210107_tfm_dependency_tfm_tests.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/iSoLShqPOgpx3qe1MYIGDhG2pVCtaDuOmFp8ne-fpIfIeznFJm71tPLPOMYNHNAf.P-CGYJZ_iiqjWqY_) Passcode:V\*!WRP32
