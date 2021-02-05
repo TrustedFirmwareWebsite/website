@@ -11,11 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 28th January 2021 at 16:00 UTC
+### The next call is planned on Thursday, 11th February 2021 at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **TF-A: Automotive Enhance (AE) Architecture Support Requirements Discussion - Presented by Manish Pandey**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/onr7IXN8o4DC_gkSachGUVcNUt4edM70-evUJrboqCTc3niT9eKpt3NqKYNsBF1Z.u8qpe56_K9iQSOn6) (Access Password: y^69Tsh0)
+* Date - 28th January 2021
 
 * **An introduction to the Trusted Services Project - Presented by Julian Hall** [PDF Presentation](/docs/TrustedServicesIntro.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/qu57J3l1Sa_i4rw0IpPdYnA8INXV982e9mpoAbkhMklt2mM3X7ZHYiNtP656ryCX.l45IxujlUeY2jkb9) (Access Password: eoV&v1^1)
