@@ -21,7 +21,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **To Fill In** 
+* **Git Repository Normalization** [TBD]()
+* **TF-M Metrics Reporting using SQUAD** [TBD]()
 * [Video Recording](https://linaro-org.zoom.us/rec/share/1Kvx7XKxyv0Kpvsn2-XCmx127G1J44tMFJnJezbAorE4LgdMAgScAu7jNgpzpSD2.iU-1s6amdSSuPgXL)  Passcode: $Fhm5#?.
 * Date - 18th February 2021
 <br/>
