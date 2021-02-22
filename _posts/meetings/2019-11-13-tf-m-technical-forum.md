@@ -21,8 +21,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **Git Repository Normalization** [TBD]()
-* **TF-M Metrics Reporting using SQUAD** [TBD]()
+* **Git Repo Normalization** [PDF Presentation](/docs/tech_forum_20210218_git_normalization.pdf)
+* **TF-M Metrics Reporting using SQUAD** [PDF Presentation](/docs/tech_forum_20210218_metrics_reporting_using_SQUAD.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/1Kvx7XKxyv0Kpvsn2-XCmx127G1J44tMFJnJezbAorE4LgdMAgScAu7jNgpzpSD2.iU-1s6amdSSuPgXL)  Passcode: $Fhm5#?.
 * Date - 18th February 2021
 <br/>
