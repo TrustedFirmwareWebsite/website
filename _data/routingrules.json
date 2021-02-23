@@ -1,5 +1,9 @@
 [
-    "^/blog/2018/09/18/trusted-firmware-project-update.html$ /blog/trusted-firmware-at-the-open-source-firmware-conference/ [R,L,NC]",
     "^/blog/2018/06/19/trusted-firmware-project-update.html$ /blog/trusted-firmware-update/ [R,L,NC]",
+    "^/blog/2018/09/18/trusted-firmware-project-update.html$ /blog/trusted-firmware-at-the-open-source-firmware-conference/ [R,L,NC]",
+    "^/blog/TF-A-and-Hafnium-v2.4-release(/?|/index.html)$ /blog/TF-A-and-Hafnium-v2_4-release/ [R,L,NC]",
+    "^/blog/TF-A-and-TF-A-tests-v2.3-release(/?|/index.html)$ /blog/TF-A-and-TF-A-tests-v2_3-release/ [R,L,NC]",
+    "^/blog/trusted-firmware-1.6-2.0-release(/?|/index.html)$ /blog/trusted-firmware-1_6-2_0-release/ [R,L,NC]",
+    "^/blog/Trusted-Firmware-a-v2.1-release(/?|/index.html)$ /blog/Trusted-Firmware-a-v2_1-release/ [R,L,NC]",
     "^/docs/tf-a(/?|/index.html)$ https://trustedfirmware-a.readthedocs.org [R,L,NC]"
 ]
