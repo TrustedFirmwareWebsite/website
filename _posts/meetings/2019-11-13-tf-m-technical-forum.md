@@ -27,6 +27,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 18th February 2021
 <br/>
 
+* **TF-M OpenCI Static Checks** [PDF Presentation](/docs/tech_forum_20210204_TF-M_openCI_static_check.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/xuKc-tvKOt1k8pYMpit2SB9peJZuExB7ycs-T3fway205PDJqUAsT_Kk5p1cv4Z0.IIMkEaLAUVZH6NO5)   Passcode: 0DTZ=PKr 
+* Date - 4th February 2021
+<br/>
+
 * **TF-M OpenCI Jobs** [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA )  Passcode: 8&K\.ENW8
 * Date - 21st January 2021
