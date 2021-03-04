@@ -24,6 +24,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **TF-M Packs** [PDF Presentation](/docs/TF-M_Packs.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Zn-mMyqfn3oO4yq5P_KqYMgkrs1E1fQD77ZDx7BcBwq2LTDthYUp8qNPdJYW8ZXI.uDYbGVQD0wwztMOv) Password:VVJ$p=+4
 <br/> 
+* Date - 4th March 2021
 
 * **Git Repo Normalization** [PDF Presentation](/docs/tech_forum_20210218_git_normalization.pdf)
 * **TF-M Metrics Reporting using SQUAD** [PDF Presentation](/docs/tech_forum_20210218_metrics_reporting_using_SQUAD.pdf)
