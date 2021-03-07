@@ -21,6 +21,22 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **TF-M Packs** [PDF Presentation](/docs/TF-M_Packs.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Zn-mMyqfn3oO4yq5P_KqYMgkrs1E1fQD77ZDx7BcBwq2LTDthYUp8qNPdJYW8ZXI.uDYbGVQD0wwztMOv) Password:VVJ$p=+4
+* Date - 4th March 2021
+<br/> 
+
+* **Git Repo Normalization** [PDF Presentation](/docs/tech_forum_20210218_git_normalization.pdf)
+* **TF-M Metrics Reporting using SQUAD** [PDF Presentation](/docs/tech_forum_20210218_metrics_reporting_using_SQUAD.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/1Kvx7XKxyv0Kpvsn2-XCmx127G1J44tMFJnJezbAorE4LgdMAgScAu7jNgpzpSD2.iU-1s6amdSSuPgXL)  Passcode: $Fhm5#?.
+* Date - 18th February 2021
+<br/>
+
+* **TF-M OpenCI Static Checks** [PDF Presentation](/docs/tech_forum_20210204_TF-M_openCI_static_check.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/xuKc-tvKOt1k8pYMpit2SB9peJZuExB7ycs-T3fway205PDJqUAsT_Kk5p1cv4Z0.IIMkEaLAUVZH6NO5)   Passcode: 0DTZ=PKr 
+* Date - 4th February 2021
+<br/>
+
 * **TF-M OpenCI Jobs** [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA )  Passcode: 8&K\.ENW8
 * Date - 21st January 2021
