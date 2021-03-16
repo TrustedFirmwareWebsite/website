@@ -1,7 +1,7 @@
 ---
 title: Trusted Services
 description: >
-  The Trusted Services project provides a framework for developing and deploying device root-of-trust services across a range of secure processing environments such as those provided by OP-TEE and Hafnium.
+  The Trusted Services project provides a framework for developing and deploying device Root Of Trust (RoT). services across a range of secure processing environments such as those provided by OP-TEE and Hafnium.
 layout: project
 icons:
   - svgs/TF_TrustedServices.svg
@@ -19,7 +19,7 @@ links:
     text: "Review"
     url: https://review.trustedfirmware.org/q/project:TS%252Ftrusted-services
   subscribe:
-    text: Subscribe to the Trusted Services mailing list
+    text: Subscribe to Mailing list
     url: https://lists.trustedfirmware.org/mailman/listinfo/trusted-services
 top_text: |-
   The Trusted Services project provides a framework for developing and deploying device root-of-trust services across a range of secure processing environments such as those provided by OP-TEE and Hafnium.
