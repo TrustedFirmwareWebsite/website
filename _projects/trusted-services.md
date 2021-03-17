@@ -7,7 +7,7 @@ icons:
   - svgs/TF_TrustedServices.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://trusted-services.readthedocs.io/en/latest/
+    url: https://trusted-services.readthedocs.io/en/latest/project/contributing.html
 links:
   documentation:
     text: Trusted Services Documentation
