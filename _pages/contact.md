@@ -29,6 +29,8 @@ Developers and other stakeholders are encouraged to join the mailing lists for a
 
 [Subscribe to the Hafnium list](https://lists.trustedfirmware.org/mailman/listinfo/hafnium)
 
+[Subscribe to the Trusted Services list](https://lists.trustedfirmware.org/mailman/listinfo/trusted-services)
+
 # For general and membership enquiries
 
 <!-- Contact Form -->
