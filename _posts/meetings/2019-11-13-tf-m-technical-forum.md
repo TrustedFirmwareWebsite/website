@@ -21,6 +21,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Secure Partion Mgr(SPM) Udpate** [PDF presentation](/docs/SPM_Update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/NwxPCB3VDBjnDaOXoUSypqN0BX--xSGI-zSfkGv8jo0SFZeM6dyeY3OCTXCtlq4.dpKc7cSYuxchSwSl) Password: UL69NE.v
+* Date - 18th March 2021
+<br/>
+
+
 * **TF-M Packs** [PDF Presentation](/docs/TF-M_Packs.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Zn-mMyqfn3oO4yq5P_KqYMgkrs1E1fQD77ZDx7BcBwq2LTDthYUp8qNPdJYW8ZXI.uDYbGVQD0wwztMOv) Password:VVJ$p=+4
 * Date - 4th March 2021
