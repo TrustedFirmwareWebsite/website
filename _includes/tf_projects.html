@@ -5,7 +5,9 @@
             {% if project.icons %}
                 <div class="col col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                     <a href="{{project.url}}">
-                        {% include {{project.icons | first}} %}
+                        <div data-toggle="tooltip" data-placement="top" title="View {{project.title}} Project">
+                            {% include {{project.icons | first}} %}
+                        </div>
                     </a>
                 </div>
             {% endif %}
