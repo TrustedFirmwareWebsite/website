@@ -25,7 +25,7 @@ The Trusted Firmware project is provided under a BSD-3-Clause license and contri
 
 Trusted Firmware-A (TF-A) supports Armv7 and Armv8-A systems, including a Secure Monitor executing at Exception Level 3 (EL3). It implements various Arm interface standards including the Power State Coordination Interface (PSCI), Trusted Board Boot Requirements (TBBR, Arm DEN0006C-1), SMC Calling Convention, and System Control and Management Interface.
 
-Trusted Firmware-M (TF-M) provides a reference implementation of the Arm [Platform Security Architecture](https://pages.arm.com/psa-resources.html) (PSA) for Arm Cortex-M processors and leverages Arm’s [TrustZone technology](https://static.docs.arm.com/100690/0100/armv8_m_architecture_trustzone_technology_100690_0100_00_en.pdf) on Arm v8-M cores. TF-M is being built as a set of highly configurable set of software components suitable for constrained systems. It consists of secure boot and a set of secure runtime services including: Secure Storage, Cryptography, Audit Logs and Provisioning that can be used by Applications.
+Trusted Firmware-M (TF-M) provides a reference implementation of the Arm [Platform Security Architecture](https://pages.arm.com/psa-resources.html) (PSA) for Arm Cortex-M processors and leverages Arm’s TrustZone technology (https://static.docs.arm.com/100690/0100/armv8_m_architecture_trustzone_technology_100690_0100_00_en.pdf) on Arm v8-M cores. TF-M is being built as a set of highly configurable set of software components suitable for constrained systems. It consists of secure boot and a set of secure runtime services including: Secure Storage, Cryptography, Audit Logs and Provisioning that can be used by Applications.
 
 ### About Linaro Community Projects Division
 
