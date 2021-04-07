@@ -11,11 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 25th February 2021 at 16:00 UTC
+### The next call is planned on Thursday, 25th March 2021 at 16:00 UTC
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+* **Conventional Commits Sign-off Discussions - Led by Chris Kay**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/dE-6cloNUo4Ejm3Tsfqm2flKuj3LSBIiZERs-w9UER2wdzBjP32qvSqd9OGWZ0Zq.ngIbBTXIUUgVhWGu) (Access Password: %%X=AdX4)
+* Date - 25th February 2021
+
 * **TF-A: OpenCI Introduction and Demo - Presented by Joanna Farley** [PDF Presentation](/docs/OpenCI_Intro.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/LkBy57jLIexPFxLkKd9K8Fifc89xSvyBbISC1DFbYQ0Z7E-12biGahVhIkRl8eo8.EpY0XY1pLvfUdg3T) (Access Password: n5EvT%d%)
 * Date - 11th February 2021
