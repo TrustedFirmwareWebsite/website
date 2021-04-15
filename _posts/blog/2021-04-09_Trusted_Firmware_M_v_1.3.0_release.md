@@ -1,5 +1,16 @@
 Trusted Firmware-M v1.3.0  
+---
+author: shebu.kuriakose
+title: Trusted Firmware-M v1.3 Released 
+date: 2020-07-22 10:00:00
+categories:
+- Blog
+layout: post
+image: /assets/images/blog/musca_tf_crop_1500x1500.png
+---
 
+**Trusted Firmware-M: v1.3 Released**
+=====================================================
 
 # Introduction
 
