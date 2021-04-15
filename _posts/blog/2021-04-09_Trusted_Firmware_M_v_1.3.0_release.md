@@ -1,4 +1,3 @@
-Trusted Firmware-M v1.3.0  
 ---
 author: shebu.kuriakose
 title: Trusted Firmware-M v1.3 Released 
