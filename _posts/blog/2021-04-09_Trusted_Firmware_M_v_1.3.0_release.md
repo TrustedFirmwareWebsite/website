@@ -24,7 +24,7 @@ More details can be found in the [Change Log](https://ci-builds.trustedfirmware.
 Trusted Firmware's Open Continuous Integration (Open CI) System has also continued to test more build configurations and has been used extensively for automated testing of the release. More TF-M platforms beyond the Arm reference platforms are getting added to the Open CI System. Mbed OS, Free RTOS, TF-M CMSIS Pack and Zephyr upstream integration of Trusted Firmware-M are expected to be updated to TF-M v1.3.0 soon.
 
 <p align="center">
-  **Figure 1 - Trusted Firmware-M**
-  <img src="/docs/tf-m_v_1-3-3_stack.png">
+ **Figure 1 - Trusted Firmware-M**
+ <img src="/docs/tf-m_v_1-3-3_stack.png">
 </p>
 ![TF-M Stack](/docs/tf-m_v_1-3-3_stack.png)
