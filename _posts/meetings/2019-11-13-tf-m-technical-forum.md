@@ -21,11 +21,15 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Stateless handle and service in TF-M** [PDF presentation](/docs/tech_forum_20210401_Stateless_handle_and_service.pdf)
+* **TF-M documentation structure** [PDF presentation](/docs/tech_forum_20210401_Decomentation_improvement.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/xLrKcY-Z6tAfBusTPgt7fvyvAAURk1ij_kp_gdlioE7Pj2Ls2CQo1BW91sDkyxl7.2NhgiLAR2t1pMtMK)  Password:R*R8h6wK
+<br/>
+
 * **Secure Partion Mgr(SPM) Udpate** [PDF presentation](/docs/SPM_Update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/NwxPCB3VDBjnDaOXoUSypqN0BX--xSGI-zSfkGv8jo0SFZeM6dyeY3OCTXCtlq4.dpKc7cSYuxchSwSl) Password: UL69NE.v
 * Date - 18th March 2021
 <br/>
-
 
 * **TF-M Packs** [PDF Presentation](/docs/TF-M_Packs.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Zn-mMyqfn3oO4yq5P_KqYMgkrs1E1fQD77ZDx7BcBwq2LTDthYUp8qNPdJYW8ZXI.uDYbGVQD0wwztMOv) Password:VVJ$p=+4
