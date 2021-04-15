@@ -27,4 +27,3 @@ Trusted Firmware's Open Continuous Integration (Open CI) System has also continu
  <b>Figure 1 - Trusted Firmware-M</b><br>
  <img src="/docs/tf-m_v_1-3-3_stack.png">
 </p>
-![TF-M Stack](/docs/tf-m_v_1-3-3_stack.png)
