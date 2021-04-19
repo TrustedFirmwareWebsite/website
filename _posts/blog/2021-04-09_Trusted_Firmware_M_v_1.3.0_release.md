@@ -1,7 +1,7 @@
 ---
 author: shebu.kuriakose
 title: Trusted Firmware-M v1.3 Released 
-date: 2020-07-22 10:00:00
+date: 2021-04-15 10:00:00
 categories:
 - Blog
 layout: post
