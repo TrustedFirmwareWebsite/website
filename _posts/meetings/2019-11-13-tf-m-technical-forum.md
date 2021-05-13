@@ -21,17 +21,24 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **Open Agenda April 29, 2021**
+* **TBD**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/oxCQMY7tQKMGVCyG10SGZ-BmuVfqBVUt8E7wk6InI4j-fyD5WSfsTbVe2L8NDSjZ.dq8GsQlS8eUfmqry) Passcode: ySam2M=2
+* Date - 13th May 2021
+
+* **Open Agenda**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/9cFTkDo28eGQXAu7UP63T-k9bH-7HRh3iOQyTeH4V535IMdzbJUDgzvGZum6_xWQ.BDGXeV_opvqifL19) Passcode: m5nd8?LP
+* Date - 29th April 2021
 <br/>
 
 * **FP Support in TF-M** [PDF Presentation](/docs/FP-support-in-TF-M.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/0TlnExLeSsksXAtbC46VPrNdwLOyEdA7AbwaXg2a-inY5O8HWLfDuBHW5dO3B4R6.bgSo3_-BVZVOsAjr) Password:gm&am9q7
+* Date - 15th April 2021
 <br/>
 
 * **Stateless handle and service in TF-M** [PDF presentation](/docs/tech_forum_20210401_Stateless_handle_and_service.pdf)
 * **TF-M documentation structure** [PDF presentation](/docs/tech_forum_20210401_Decomentation_improvement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/xLrKcY-Z6tAfBusTPgt7fvyvAAURk1ij_kp_gdlioE7Pj2Ls2CQo1BW91sDkyxl7.2NhgiLAR2t1pMtMK)  Password:R*R8h6wK
+* Date - 1st April 2021
 <br/>
 
 * **Secure Partion Mgr(SPM) Udpate** [PDF presentation](/docs/SPM_Update.pdf)
