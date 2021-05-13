@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-09-10 08:00:00
+date: 2021-04-29 08:00:00
 categories:
   - Meetings
 layout: post
@@ -20,6 +20,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+
+* **Open Agenda April 29, 2021**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/9cFTkDo28eGQXAu7UP63T-k9bH-7HRh3iOQyTeH4V535IMdzbJUDgzvGZum6_xWQ.BDGXeV_opvqifL19) Passcode: m5nd8?LP
+<br/>
 
 * **FP Support in TF-M** [PDF Presentation](/docs/FP-support-in-TF-M.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/0TlnExLeSsksXAtbC46VPrNdwLOyEdA7AbwaXg2a-inY5O8HWLfDuBHW5dO3B4R6.bgSo3_-BVZVOsAjr) Password:gm&am9q7
