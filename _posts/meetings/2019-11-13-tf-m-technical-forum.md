@@ -21,7 +21,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **TBD**
+* **Using Docker to build TF-M on Windows and Linux**
+* **Linker script/catter file templating**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/oxCQMY7tQKMGVCyG10SGZ-BmuVfqBVUt8E7wk6InI4j-fyD5WSfsTbVe2L8NDSjZ.dq8GsQlS8eUfmqry) Passcode: ySam2M=2
 * Date - 13th May 2021
 <br/>
