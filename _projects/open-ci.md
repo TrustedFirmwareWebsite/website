@@ -4,7 +4,7 @@ description: >
   DESCRIPTION TEXT NEEDED.
 layout: project
 icons:
-  - svgs/TF_Icon_Hafnium.svg
+  - svgs/TF_Icon_OpenCI.svg
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://tf-ci-users-guide.readthedocs.io/en/latest/#how-to-contribute-code
