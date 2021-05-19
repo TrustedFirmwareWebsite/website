@@ -7,7 +7,7 @@ icons:
   - svgs/TF_Icon_TF-M.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://ci.trustedfirmware.org/job/tf-m-build-docs-nightly/lastStableBuild/artifact/trusted-firmware-m/build/docs/user_guide/html/docs/contributing/contributing.html
+    url: https://ci-builds.trustedfirmware.org/static-files/WmBJTNe80SIPX1mx4yVkyxdzgDV2-JiTIoT_ydRAXUsxNjIxMzg5MDM3MDc5Ojk6YW5vbnltb3VzOmpvYi90Zi1tLWJ1aWxkLWRvY3MtbmlnaHRseS9sYXN0U3RhYmxlQnVpbGQvYXJ0aWZhY3Q=/trusted-firmware-m/build/docs/user_guide/html/docs/contributing/contributing_process.html
   - text: Join the TF-M Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
