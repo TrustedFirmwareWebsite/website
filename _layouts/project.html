@@ -112,8 +112,13 @@ layout: base
                                 </div>
                             </div>
                         </div>
+                        {% if page.content != "" %}
+                        <div class="col col-12 useful_links my-5 pt-4">
+                            {{page.content | markdownify}}
+                        </div>
+                        {% endif %}
                         {% if page.useful_links %}
-                        <div class="col col-12 useful_links my-5 border-top pt-4">
+                        <div class="col col-12 useful_links my-3 border-top pt-2">
                             <h3>Useful Links</h3>
                             <ul class="pl-3 blockquote">
                                 {% for useful_link in page.useful_links %}
