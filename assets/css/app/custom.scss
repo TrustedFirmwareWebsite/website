@@ -161,6 +161,9 @@ article.post-content img {
   height: auto;
 }
 #wrapper {
+  .page_content_text {
+    line-height: 12px;
+  }
   .jumbotron {
     .header_background_image {
       filter: brightness(0.4);
