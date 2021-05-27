@@ -21,6 +21,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Non_secure Client ID Management Update** [PDF Presentation](/docs/Non_Secure_Client_ID_management_update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/k7vJnf8qcugoRNxu5hRSyc0thzSTbTT295ZLyySKXNHv3nZ8dmUTYGP2a2Zi1-wx.WvEmPSjv9zTjfood) Passcode: dqHBI$2z 
+* Date: 27 May 2021
+<br/>
+
 * **Using Docker to build TF-M on Windows and Linux**
 * **Linker script/catter file templating**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/oxCQMY7tQKMGVCyG10SGZ-BmuVfqBVUt8E7wk6InI4j-fyD5WSfsTbVe2L8NDSjZ.dq8GsQlS8eUfmqry) Passcode: ySam2M=2
