@@ -11,11 +11,24 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 25th March 2021 at 16:00 UTC
+### The next call is planned on Thursday, 17th June 2021 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Dynamic Data Passing Through Boot Stages (session 2) - Presented by Manish Pandy and Madhukar Pappireddy** [PDF Presentation](/docs/HoB_proposals.pdf) Post Meeting Updated PDF Presentation: TBP
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Tdrq2_SXJEqr4hOVKxKOFMU-C0S_Xm1g6_zRIdeYkCcNl_V1I5fZzNyGU7_0ORuz.ad82F0FkRDXFs9kM) (Access Password: g\*7.GLFm)
+* Date - 3rd June 2021
+
+* **Dynamic Data Passing Through Boot Stages (session 1) - Presented by Manish Pandy and Madhukar Pappireddy** [PDF Presentation](/docs/Tech_Forum_Dynamic_information_through_boot_phases.pdf)
+* No Video Recording Available
+* Date - 6th May 2021
+
+* **OpenCI Update- Presented and Demoed by Joanna Farley** [PDF Presentation](/docs/OpenCI_Status.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/c93abP_tWoc4W6l3KbWIn-oCyMGBfPo4dC75NEX20d-9fBWS2eOh0LGDEonzp5xI.SOtBFclTWKpXyUhS) (Access Password: ^svN#0g$)
+* Date - 8th April 2021
+
 * **Conventional Commits Sign-off Discussions - Led by Chris Kay**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/dE-6cloNUo4Ejm3Tsfqm2flKuj3LSBIiZERs-w9UER2wdzBjP32qvSqd9OGWZ0Zq.ngIbBTXIUUgVhWGu) (Access Password: %%X=AdX4)
 * Date - 25th February 2021
