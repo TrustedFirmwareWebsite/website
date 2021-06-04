@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2020-09-10 08:00:00
+date: 2021-04-29 08:00:00
 categories:
   - Meetings
 layout: post
@@ -21,11 +21,37 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Non_secure Client ID Management Update** [PDF Presentation](/docs/Non_Secure_Client_ID_management_update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/k7vJnf8qcugoRNxu5hRSyc0thzSTbTT295ZLyySKXNHv3nZ8dmUTYGP2a2Zi1-wx.WvEmPSjv9zTjfood) Passcode: dqHBI$2z 
+* Date: 27 May 2021
+<br/>
+
+* **Using Docker to build TF-M on Windows and Linux**
+* **Linker script/catter file templating**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/oxCQMY7tQKMGVCyG10SGZ-BmuVfqBVUt8E7wk6InI4j-fyD5WSfsTbVe2L8NDSjZ.dq8GsQlS8eUfmqry) Passcode: ySam2M=2
+* Date - 13th May 2021
+<br/>
+
+* **Open Agenda**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/9cFTkDo28eGQXAu7UP63T-k9bH-7HRh3iOQyTeH4V535IMdzbJUDgzvGZum6_xWQ.BDGXeV_opvqifL19) Passcode: m5nd8?LP
+* Date - 29th April 2021
+<br/>
+
+* **FP Support in TF-M** [PDF Presentation](/docs/FP-support-in-TF-M.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/0TlnExLeSsksXAtbC46VPrNdwLOyEdA7AbwaXg2a-inY5O8HWLfDuBHW5dO3B4R6.bgSo3_-BVZVOsAjr) Password:gm&am9q7
+* Date - 15th April 2021
+<br/>
+
+* **Stateless handle and service in TF-M** [PDF presentation](/docs/tech_forum_20210401_Stateless_handle_and_service.pdf)
+* **TF-M documentation structure** [PDF presentation](/docs/tech_forum_20210401_Decomentation_improvement.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/xLrKcY-Z6tAfBusTPgt7fvyvAAURk1ij_kp_gdlioE7Pj2Ls2CQo1BW91sDkyxl7.2NhgiLAR2t1pMtMK)  Password:R*R8h6wK
+* Date - 1st April 2021
+<br/>
+
 * **Secure Partion Mgr(SPM) Udpate** [PDF presentation](/docs/SPM_Update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/NwxPCB3VDBjnDaOXoUSypqN0BX--xSGI-zSfkGv8jo0SFZeM6dyeY3OCTXCtlq4.dpKc7cSYuxchSwSl) Password: UL69NE.v
 * Date - 18th March 2021
 <br/>
-
 
 * **TF-M Packs** [PDF Presentation](/docs/TF-M_Packs.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Zn-mMyqfn3oO4yq5P_KqYMgkrs1E1fQD77ZDx7BcBwq2LTDthYUp8qNPdJYW8ZXI.uDYbGVQD0wwztMOv) Password:VVJ$p=+4
