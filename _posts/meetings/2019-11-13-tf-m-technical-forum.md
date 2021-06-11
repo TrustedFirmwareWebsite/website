@@ -20,6 +20,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+* General discussion, no slide content
+* [Video Recording](https://linaro-org.zoom.us/rec/share/fAUIGTdyi_kjTEP-xaF-oLQb6DiEz4UZcXEpd09o87qwlpyuDBPkmxEU__whCw8X.PkUZOo0QYNdZaBdH)  Passcode: FjR0i.Ek 
+* Date: 10 June 2021
+<br/>
 
 * **Non_secure Client ID Management Update** [PDF Presentation](/docs/Non_Secure_Client_ID_management_update.pdf)
 * **Linker script/catter file templating** [PDF Presentation](/docs/tech_forum_20210527_LinkderScriptInteg.pdf)
