@@ -17,7 +17,7 @@ Arm CCA encompasses the latest enhancements to Arm’s support for confidential 
 
 In the Linaro Arm CCA Tech Event (4), the Arm team has introduced the hardware and software architectures with the relationship and boundaries among all the related CCA components. Furthermore, the open source software enablement plan was disclosed, with the Trusted Firmware.org project being at the heart of it. 
 
-![Open Source Software enablement plan](/assets/images/blog/TF-A_Drawing.png)
+![Open Source Software enablement plan](/assets/images/blog/TF-A_Drawing.png){width = 50%}
 
 TrustedFirmware.org will host a reference implementation of the new RMM component and a new TF-A Monitor implementing the RME architecture at the newly defined Root world, together with changes to the Hafnium SPM component for handling dynamic secure memory.
 
