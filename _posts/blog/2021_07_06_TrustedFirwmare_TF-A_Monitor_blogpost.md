@@ -33,10 +33,10 @@ Watch this space for more information and start contributing to the ecosystem en
 
 **Links:**
 
-1. Arm CCA Landing page (https://www.arm.com/why-arm/architecture/security-features/arm-confidential-compute-architecture)
-1. Blogpost about Arm CCA enablement https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/unlocking-the-power-of-data-with-arm-cca
-1. Arm CCA resources (https://dev	eloper.arm.com/architectures/architecture-security-features/confidential-computing)
-1. Linaro Arm CCA Tech Event (https://connect.linaro.org/resources/arm-cca/)
-1. TF-A Monitor branch (https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/log/?h=topics/rme_prototype)
-1. TF-A Monitor Tests (https://git.trustedfirmware.org/TF-A/tf-a-tests.git/log/?h=topics/rme_prototype)
+1. [Arm CCA Landing page](https://www.arm.com/why-arm/architecture/security-features/arm-confidential-compute-architecture)
+1. [Blogpost about Arm CCA enablement](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/unlocking-the-power-of-data-with-arm-cca)
+1. [Arm CCA resources](https://dev	eloper.arm.com/architectures/architecture-security-features/confidential-computing)
+1. [Linaro Arm CCA Tech Event](https://connect.linaro.org/resources/arm-cca/)
+1. [TF-A Monitor branch](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/log/?h=topics/rme_prototype)
+1. [TF-A Monitor Tests](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/log/?h=topics/rme_prototype)
 
