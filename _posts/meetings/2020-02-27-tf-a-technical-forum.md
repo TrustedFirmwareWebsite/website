@@ -17,11 +17,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-* **Dynamic Data Passing Through Boot Stages (session 2) - Presented by Manish Pandy and Madhukar Pappireddy** [PDF Presentation](/docs/HoB_proposals.pdf) Post Meeting Updated PDF Presentation: TBP
+* **Dynamic Data Passing Through Boot Stages (session 2) - Presented by Manish Pandey and Madhukar Pappireddy** [PDF Presentation](/docs/HoB_proposals.pdf) also available is the [Post Meeting Bloblist Proposal PDF](/docs/Bloblist_Proposals.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Tdrq2_SXJEqr4hOVKxKOFMU-C0S_Xm1g6_zRIdeYkCcNl_V1I5fZzNyGU7_0ORuz.ad82F0FkRDXFs9kM) (Access Password: g\*7.GLFm)
 * Date - 3rd June 2021
 
-* **Dynamic Data Passing Through Boot Stages (session 1) - Presented by Manish Pandy and Madhukar Pappireddy** [PDF Presentation](/docs/Tech_Forum_Dynamic_information_through_boot_phases.pdf)
+* **Dynamic Data Passing Through Boot Stages (session 1) - Presented by Manish Pandey and Madhukar Pappireddy** [PDF Presentation](/docs/Tech_Forum_Dynamic_information_through_boot_phases.pdf)
 * No Video Recording Available
 * Date - 6th May 2021
 
