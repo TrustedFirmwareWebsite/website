@@ -19,7 +19,7 @@ flow:
         style: text-center
         text_content:
           text: |-
-            **Trusted Firmware** provides a reference implementation of secure world software for **Armv8-A**, **Armv9-A**, and **Armv8-M**.
+            **Trusted Firmware** provides a reference implementation of secure world software for **Armv8-A**, **Armv9-A** and **Armv8-M**.
             It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
 
             The code on this website is the preferred implementation of Arm specifications, allowing quick and easy
