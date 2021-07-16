@@ -20,7 +20,7 @@ In the current market, the IoT Cloud venders usually use Certificate and Asymmet
 
 The capabilities and resources may dramatically vary on different IoT devices. Some IoT devices may have very limited memory resource. The program on those devices should keep small memory footprint and basic functionalities.
 
-TF-M [Profile Small](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/docs/technical_references/profiles/tfm_profile_small.rst) doesn't by default include asymmetric cryptography. Hence, it doesn't support the asymmetric based TLS (TLS for short) connection which is using by the typical IoT cloud service vendors.
+TF-M [Profile Small](https://tf-m-user-guide.trustedfirmware.org/docs/technical_references/design_docs/profiles/tfm_profile_small.html) doesn't by default include asymmetric cryptography. Hence, it doesn't support the asymmetric based TLS (TLS for short) connection which is using by the typical IoT cloud service vendors.
 
 To establish a secure channel, the symmetric cipher suite based connection is required. TLS Pre-Shared Key (PSK) is a good choice. Refer to the links below for more information about TLS PSK:
 
