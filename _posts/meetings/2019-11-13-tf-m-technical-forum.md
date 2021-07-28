@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
-* TF-M Porting Guide, no slide content
+* **TF-M Porting Guide**, no slide content
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Lwo0iff7DD1RImPjjrZtbZOtl4CapE43HuWRBIULVMsJa8z7bjqgLmiGgm69kSKI.kmsCMUobSZsdBFsL)  Passcode: mO7ws^$0 
 * Date: 22 July 2021
 <br/>
