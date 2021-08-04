@@ -29,10 +29,5 @@ Trusted Firmware provides a reference implementation of secure world software fo
 
 **If you want to get involved, join the notification mailing list or contact enquiries@TrustedFirmware.org for more information.**
 
-#### Trusted Firmware is an open governance project
+Additional information in regards to membership and joining can be found on the [about-join](https://www.trustedfirmware.org/join/) page of this website.
 
-- Trusted Firmware project is an open governance community project hosted by Linaro
-- Membership of the Trusted Firmware project is open to all
-- Governance is overseen by a board of member representatives
-- Details of the Governance are in the [Project Charter](/docs/Trusted_Firmware_Charter_v_2021_03_19.pdf)
-- A sample Membership Agreement, Membership levels and Fees can be found [here](/docs/Trusted_Firmware_Membership_Agreement_and_Fee_Table_v_2021_03_17.pdf)
