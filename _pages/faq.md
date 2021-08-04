@@ -50,8 +50,9 @@ flow:
             content: |
               Yes they are and this can be a great place to start when you may be stuck.
               
-              To search the archives, use the following format in your google search engine `"<search variable>:<TF Domain of Interest>"`
+              To search the archives, use the following format in your google search engine `"<search string>:<TF Domain of Interest>"`
               For example:
+              
               ```
               "OP-TEE:lists.trustedfirmware.org/pipermail/tf-m/"
               ```
