@@ -11,17 +11,21 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 29th July 2021 at 16:00 BST
+### The next call is planned on Thursday, 12th August 2021 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
 
+* **Firmware Update Design - Presented by Manish Badarkhe** [PDF Presentation](/docs/FirmwareUpdate.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/4w6VJ7cOmovAPVLmgAavNWHCGQY5Pel71NQsvMPROamrgv-N_lDaOnmwv8YeJtWN.fcMXnEKkYp3AvVOb) (Access Password: 6ry9*hu5)
+* Date - 29th July 2021
+
 * **Adding Armv8-R AArch64 Support to TF-A - Presented by Gary Morrison and Lauren Wehrmeister with support from Robin Randhawa** [PDF Presentation](/docs/v8-R64.pdf) 
-* [Video Recording](https://linaro-org.zoom.us/rec/share/EJrF77o62kJ0kQJ7svN_JHY8d09R0KgRh65mAlm8VZzAhU9_9x4A_zzefwZxYoBc.dXioiHFaXF6U2Y3O) (Access Password: 2=jJSv9a)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Mem_DfxxSyYtWNWNMLX9CFYHf2ynX_oGiG61929-hcspihx_jg3uq2hK80dqMInI.tV3Y0b5i-tboYOMi) (Access Password: 2=jJSv9a)
 * Date - 1st July 2021
 
-* * **Dynamic Data Passing Through Boot Stages (session 2) - Presented by Manish Pandey and Madhukar Pappireddy** [PDF Presentation](/docs/HoB_proposals.pdf) also available is the [Post Meeting Bloblist Proposal PDF](/docs/Bloblist_Proposals.pdf)
+* **Dynamic Data Passing Through Boot Stages (session 2) - Presented by Manish Pandey and Madhukar Pappireddy** [PDF Presentation](/docs/HoB_proposals.pdf) also available is the [Post Meeting Bloblist Proposal PDF](/docs/Bloblist_Proposals.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Tdrq2_SXJEqr4hOVKxKOFMU-C0S_Xm1g6_zRIdeYkCcNl_V1I5fZzNyGU7_0ORuz.ad82F0FkRDXFs9kM) (Access Password: g\*7.GLFm)
 * Date - 3rd June 2021
 
