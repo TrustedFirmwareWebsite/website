@@ -24,7 +24,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **TF-M Test Config Refinement** [PDF presentation](TF-M_TEST_configuration_refinement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
 * Date: 05 August 2021
-* <br/>
+<br/>
 
 * **TF-M Porting Guide**, no slide content
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Lwo0iff7DD1RImPjjrZtbZOtl4CapE43HuWRBIULVMsJa8z7bjqgLmiGgm69kSKI.kmsCMUobSZsdBFsL)  Passcode: mO7ws^$0 
