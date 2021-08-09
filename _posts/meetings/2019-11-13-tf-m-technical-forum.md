@@ -21,7 +21,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
-* **TF-M Test Config Refinement** [PDF presentation](TF-M_TEST_configuration_refinement.pdf)
+* **TF-M Test Config Refinement** [PDF presentation](/docs/TF-M_TEST_configuration_refinement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
 * Date: 05 August 2021
 <br/>
