@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2021-04-29 08:00:00
+date: 2021-08-09 08:00:00
 categories:
   - Meetings
 layout: post
@@ -20,6 +20,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+* **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
+* **TF-M Test Config Refinement** [PDF presentation(TF-M_TEST_configuration_refinement.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
+* Date: 05 August 2021
+* <br/>
+
 * **TF-M Porting Guide**, no slide content
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Lwo0iff7DD1RImPjjrZtbZOtl4CapE43HuWRBIULVMsJa8z7bjqgLmiGgm69kSKI.kmsCMUobSZsdBFsL)  Passcode: mO7ws^$0 
 * Date: 22 July 2021
