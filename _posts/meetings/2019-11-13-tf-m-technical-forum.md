@@ -20,6 +20,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+* **TF-M Interupt status update**
+* **Out-of-tree Partition build**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/lyvABnfi6R9qmBIfFl-0FUnCi_x0R0fASqT8BzQAF_ucdJsePAaEEjOt6z2uIBPT.ENVcUvsKW8q6bZKK) Passcode: SCwQ8!%Y
+* Date: August 19, 2021
+* <br/>
+
 * **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
 * **TF-M Test Config Refinement** [PDF presentation](/docs/TF-M_TEST_configuration_refinement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
