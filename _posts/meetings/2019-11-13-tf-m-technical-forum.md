@@ -24,7 +24,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **Out-of-tree Partition build**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/lyvABnfi6R9qmBIfFl-0FUnCi_x0R0fASqT8BzQAF_ucdJsePAaEEjOt6z2uIBPT.ENVcUvsKW8q6bZKK) Passcode: SCwQ8!%Y
 * Date: August 19, 2021
-* <br/>
+<br/>
 
 * **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
 * **TF-M Test Config Refinement** [PDF presentation](/docs/TF-M_TEST_configuration_refinement.pdf)
