@@ -11,11 +11,15 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 12th August 2021 at 16:00 BST
+### The next call is planned on Thursday, 9th September 2021 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Enabling S-EL0 FF-A partitions on Hafnium using ARMv8.1 FEAT_VHE - Presented by Raghupathy Krishnamurthy** [PDF Presentation](/docs/VHE-Support-updated.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/WDTkYBCPMZbTt-KRLH69QnKFLRPCGR58VqCt4pzuCZWmfyI2lzAgnP0MtMLmr9Pf.BpzT9ZFKd8flN7xl) (Access Password: KYpe0+j%)
+* Date - 12th August 2021
 
 * **Firmware Update Design - Presented by Manish Badarkhe** [PDF Presentation](/docs/FirmwareUpdate.pdf) 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/4w6VJ7cOmovAPVLmgAavNWHCGQY5Pel71NQsvMPROamrgv-N_lDaOnmwv8YeJtWN.fcMXnEKkYp3AvVOb) (Access Password: 6ry9*hu5)
