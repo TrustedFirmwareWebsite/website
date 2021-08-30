@@ -20,8 +20,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
-* **TF-M Interupt status update**
-* **Out-of-tree Partition build**
+* **TF-M Interupt status update** [PDF Presentation](/docs/tech_forum_20210819BriefUpdatesInterruptHandling.pdf)
+* **Out-of-tree Partition build** [PDF Presentation](/docs/tech_forum_20210819_OutOfTreeSecurePartitionBuildSupport.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/lyvABnfi6R9qmBIfFl-0FUnCi_x0R0fASqT8BzQAF_ucdJsePAaEEjOt6z2uIBPT.ENVcUvsKW8q6bZKK) Passcode: SCwQ8!%Y
 * Date: August 19, 2021
 <br/>
