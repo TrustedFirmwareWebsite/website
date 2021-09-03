@@ -1,0 +1,31 @@
+---
+author: Ryan.Robers
+title: Confidential Information: CCA Awakens on Arm’s Modelling Platform 
+date: 2021-09-02 10:00:00
+categories:
+- Blog
+layout: post
+image: /assets/images/blog/musca_tf_crop_1500x1500.png
+---
+
+**Confidential Information: CCA Awakens on Arm’s Modelling Platform**
+==========================================================================
+
+I’m sure many people will, by now, be aware of Arm’s Confidential Compute Architecture (CCA). This is a key component of the Armv9-A architecture and was announced earlier this year. If you missed it, I heartily recommend taking some time to watch the excellent presentations from the Linaro Arm CCA Tech Event [1] and review the documentation on Arm’s website [2], [3]. As part of the CCA Tech Event, Arm made public a branch of the TF-A Monitor to preview the required implementation changes to support CCA [4].
+
+Today we are announcing the next piece of the puzzle; the release by Arm of a Fixed Virtual Platform (FVP) that supports the Realm Management Extension (RME) [5]. With this, it is now possible to execute the TF-A Monitor preview code. Full instructions are available at [6] which describe how to access and build all the code, and boot and run the new RME tests on the FVP.
+
+For now, the rme_prototype branch replaces the secure world with realm world, replacing the secure world image (BL32) with the realm world binary. A Test Realm Payload (TRP) is packaged as BL32 by default, which is used as a mock Realm Management Monitor (RMM) by the TFTF tests. BL2 is also modified to run at EL3 and load firmware images in the realm and non-secure address spaces. A common RMM Dispatcher (RMMD) is included with the monitor, which rCoutes RMI calls between non-secure and realm worlds and provides the Granule Transition Service (GTS) for migrating memory between PASs. See [7] for more details.
+
+
+- [RFC 4279](https://tools.ietf.org/html/rfc4279): "Pre-Shared Key Ciphersuites for Transport Layer Security (TLS)".
+- [RFC 4785](https://tools.ietf.org/html/rfc4785): "Pre-Shared Key (PSK) Ciphersuites with NULL Encryption for Transport Layer Security (TLS)".
+- [RFC 5487](https://tools.ietf.org/html/rfc5487): "Pre-Shared Key Cipher Suites for TLS with SHA-256/384 and AES Galois Counter Mode".
+- [RFC 5489](https://tools.ietf.org/html/rfc5489): "ECDHE_PSK Cipher Suites for Transport Layer Security (TLS)".
+
+
+
+{% include image.html path="/assets/images/blog/demo-overview2.png" alt="Demo Overview image" %}
+
+<div align="center">Demo Overview</div>
+
