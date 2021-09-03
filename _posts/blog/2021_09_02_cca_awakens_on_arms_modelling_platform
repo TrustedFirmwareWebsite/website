@@ -24,7 +24,6 @@ For now, the rme_prototype branch replaces the secure world with realm world, re
 - [RFC 5489](https://tools.ietf.org/html/rfc5489): "ECDHE_PSK Cipher Suites for Transport Layer Security (TLS)".
 
 
-
 {% include image.html path="/assets/images/blog/demo-overview2.png" alt="Demo Overview image" %}
 
 <div align="center">Demo Overview</div>
