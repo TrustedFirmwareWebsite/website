@@ -8,7 +8,7 @@ layout: post
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
-**Confidential Information: CCA Awakens on Arm’s Modelling Platform**
+**CCA Awakens on Arm’s Modelling Platform**
 ==========================================================================
 
 I’m sure many people will, by now, be aware of Arm’s Confidential Compute Architecture (CCA). This is a key component of the Armv9-A architecture and was announced earlier this year. If you missed it, I heartily recommend taking some time to watch the excellent presentations from the Linaro Arm CCA Tech Event [1] and review the documentation on Arm’s website [2], [3]. As part of the CCA Tech Event, Arm made public a branch of the TF-A Monitor to preview the required implementation changes to support CCA [4].
