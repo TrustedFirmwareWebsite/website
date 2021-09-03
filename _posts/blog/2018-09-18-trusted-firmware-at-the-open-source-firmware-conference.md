@@ -35,7 +35,7 @@ References:
 
 3. [https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/tree/docs/components/secure-partition-manager.rst](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/tree/docs/components/secure-partition-manager.rst)
 
-4. [http://uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf](http://www.uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf)
+4. [https://uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf](https://uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf)
 
 5. [https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf](https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf)
 
