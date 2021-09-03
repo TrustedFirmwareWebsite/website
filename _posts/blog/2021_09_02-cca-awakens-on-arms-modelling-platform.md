@@ -1,5 +1,5 @@
 ---
-author: Ryan.Roberts
+author: ryan.roberts
 title: Confidential Information: CCA Awakens on Arm’s Modelling Platform 
 date: 2021-09-02 10:00:00
 categories:
