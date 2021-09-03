@@ -21,7 +21,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **PSA FF-M 1.1 Extensions Beta Update** [PDF Presentation](/docs/tech_forum_20210902_PSA-FF-M_1.1_Extensions_Beta_update.pdf)
-* **MMIO IRQ Bindings** [PDF Presentation](tech_forum_20210902_MMIO_IRQ_BINDING.pdf)
+* **MMIO IRQ Bindings** [PDF Presentation](/docs/tech_forum_20210902_MMIO_IRQ_BINDING.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/AIllWcYNCITk_Om4gUeeaiCFr_4hvlPTV12-rMvvd8yj1LDAh3RCecefgIev6KEV.jbJWk4D_p6WBY4ui) Passcode: mXrF41K*
 * Date: September 2, 2021
 <br/>
