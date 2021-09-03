@@ -21,7 +21,7 @@ For now, the rme_prototype branch replaces the secure world with realm world, re
 
 <div align="center">PAS Overview Image</div>
 
-While far from complete, the rme_prototype branch can provide developers with an understanding of the shape and direction of the ultimate solution. And by running it on the FVP, it should be possible to better understand the runtime behaviours. All feedback is welcome through the TF-A mailing list (https://lists.trustedfirmware.org/mailman/listinfo/tf-a).
+While far from complete, the rme_prototype branch can provide developers with an understanding of the shape and direction of the ultimate solution. And by running it on the FVP, it should be possible to better understand the runtime behaviours. All feedback is welcome through the [TF-A mailing list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a).
 
 The TF-A team will keep submitting patches to mainline TF-A following the usual upstream contribution flow and, once these patches are merged, the rme_prototype branch will be retired. The goal is to get enough functionality into mainline TF-A in time for the TF-A v2.6 release at the end of October, then continue to mature the support over time.
 
