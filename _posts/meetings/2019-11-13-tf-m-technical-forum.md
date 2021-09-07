@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2021-08-09 08:00:00
+date: 2021-09-02 08:00:00
 categories:
   - Meetings
 layout: post
@@ -20,6 +20,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 
 ### Recording and slides of previous meetings
+* **PSA FF-M 1.1 Extensions Beta Update** [PDF Presentation](/docs/tech_forum_20210902_PSA-FF-M_1.1_Extensions_Beta_update.pdf)
+* **MMIO IRQ Bindings** [PDF Presentation](/docs/tech_forum_20210902_MMIO_IRQ_BINDING.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/AIllWcYNCITk_Om4gUeeaiCFr_4hvlPTV12-rMvvd8yj1LDAh3RCecefgIev6KEV.jbJWk4D_p6WBY4ui) Passcode: mXrF41K*
+* Date: September 2, 2021
+<br/>
+
 * **TF-M Interupt status update** [PDF Presentation](/docs/tech_forum_20210819BriefUpdatesInterruptHandling.pdf)
 * **Out-of-tree Partition build** [PDF Presentation](/docs/tech_forum_20210819_OutOfTreeSecurePartitionBuildSupport.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/lyvABnfi6R9qmBIfFl-0FUnCi_x0R0fASqT8BzQAF_ucdJsePAaEEjOt6z2uIBPT.ENVcUvsKW8q6bZKK) Passcode: SCwQ8!%Y
