@@ -20,7 +20,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Secure Partition Managed(SPM) Implementation Update** [PDF Presentation](/docs/tf-m_forum_20210916_Updated_SPM_Design.pdf) 
-* **TF-M Tests Out-of-Tree Build** [PDF Presentation](/docs/tf-m_forum_20210916_test out-of-tree build.pdf)
+* **TF-M Tests Out-of-Tree Build** [PDF Presentation](/docs/tf-m_forum_20210916_test out-of-tree_build.pdf)
+* Date: September 16, 2021
 <br/>
 
 * **PSA FF-M 1.1 Extensions Beta Update** [PDF Presentation](/docs/tech_forum_20210902_PSA-FF-M_1.1_Extensions_Beta_update.pdf)
