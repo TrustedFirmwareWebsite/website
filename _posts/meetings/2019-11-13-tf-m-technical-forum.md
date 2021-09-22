@@ -36,7 +36,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date: August 19, 2021
 <br/>
 
-* **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
+* **TF-M OTP HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
 * **TF-M Test Config Refinement** [PDF presentation](/docs/TF-M_TEST_configuration_refinement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
 * Date: 05 August 2021
