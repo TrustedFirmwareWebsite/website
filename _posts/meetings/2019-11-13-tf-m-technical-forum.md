@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2021-09-02 08:00:00
+date: 2021-09-16 08:00:00
 categories:
   - Meetings
 layout: post
@@ -18,8 +18,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
-
 ### Recording and slides of previous meetings
+* **Secure Partition Managed(SPM) Implementation Update** [PDF Presentation](/docs/tf-m_forum_20210916_Updated_SPM_Design.pdf) 
+* **TF-M Tests Out-of-Tree Build** [PDF Presentation](/docs/tf-m_forum_20210916_test%20out-of-tree%20build.pdf)
+* Date: September 16, 2021
+<br/>
+
 * **PSA FF-M 1.1 Extensions Beta Update** [PDF Presentation](/docs/tech_forum_20210902_PSA-FF-M_1.1_Extensions_Beta_update.pdf)
 * **MMIO IRQ Bindings** [PDF Presentation](/docs/tech_forum_20210902_MMIO_IRQ_BINDING.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/AIllWcYNCITk_Om4gUeeaiCFr_4hvlPTV12-rMvvd8yj1LDAh3RCecefgIev6KEV.jbJWk4D_p6WBY4ui) Passcode: mXrF41K*
@@ -32,7 +36,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date: August 19, 2021
 <br/>
 
-* **TF-M OPT HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
+* **TF-M OTP HAL Proposal** [PDF Presentation](/docs/TF-M_OTP_HAL.pdf)
 * **TF-M Test Config Refinement** [PDF presentation](/docs/TF-M_TEST_configuration_refinement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/jiEYjGNAOvPLEdSBHxrPCShuEDWmuz95TEz1EkmcHizXuOjJfackre5yyknaDmkw.xVcnVszb67_1VXUf) Passcode: YcBU=4x5
 * Date: 05 August 2021

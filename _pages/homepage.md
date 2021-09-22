@@ -1,14 +1,14 @@
 ---
-title: Trusted Firmware - Open Source Secure World Software
+title: Trusted Firmware - Open Source Secure Software
 description: >
-  Arm Trusted Firmware provides a reference implementation of secure world software for Armv8-A, Armv9-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
+  Arm Trusted Firmware provides a reference implementation of secure software for Armv8-A, Armv9-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
 layout: flow
 permalink: /
 jumbotron:
   inner_class: text-center text-uppercase
   slider:
     - darken: true
-      title: Open Source Secure World Software
+      title: Open Source Secure Software
       image: /assets/images/content/TF_Banner_image.jpg
       inner-image: /assets/images/content/TrustedFirmware-Logo_vertical-white.png
       inner_class: text-center text-uppercase
@@ -19,7 +19,7 @@ flow:
         style: text-center
         text_content:
           text: |-
-            **Trusted Firmware** provides a reference implementation of secure world software for **Armv8-A**, **Armv9-A** and **Armv8-M**.
+            **Trusted Firmware** provides a reference implementation of secure software for **Armv8-A**, **Armv9-A** and **Armv8-M**.
             It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
 
             The code on this website is the preferred implementation of Arm specifications, allowing quick and easy
