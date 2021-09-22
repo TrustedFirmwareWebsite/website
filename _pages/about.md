@@ -13,7 +13,7 @@ flow:
 
 ### Why choose Trusted Firmware?
 
-Trusted Firmware provides a reference implementation of secure world software for processors implementing both the [A-Profile and M-Profile](https://developer.arm.com/products/architecture) Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. The code on this website is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+Trusted Firmware provides a reference implementation of secure software for processors implementing both the [A-Profile and M-Profile](https://developer.arm.com/products/architecture) Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. The code on this website is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
 
 #### Availability of Trusted Firmware
 
