@@ -25,16 +25,16 @@ While far from complete, the rme_prototype branch can provide developers with an
 
 The TF-A team will keep submitting patches to mainline TF-A following the usual upstream contribution flow and, once these patches are merged, the rme_prototype branch will be retired. The goal is to get enough functionality into mainline TF-A in time for the TF-A v2.6 release in November, then continue to mature the support over time.
 
-1: https://connect.linaro.org/resources/arm-cca/
+1: [Arm CCA sessions at Linaro Connect](https://connect.linaro.org/resources/arm-cca/)
 
-2: https://www.arm.com/why-arm/architecture/security-features/arm-confidential-compute-architecture
+2: [Arm CCA overview](https://www.arm.com/why-arm/architecture/security-features/arm-confidential-compute-architecture)
 
-3: https://developer.arm.com/architectures/architecture-security-features/confidential-computing
+3: [Arm CCA introduction](https://developer.arm.com/architectures/architecture-security-features/confidential-computing)
 
-4: https://www.trustedfirmware.org/blog/TrustedFirwmare_TF-A_Monitor_blogpost/
+4: [TF-A Monitor code for Arm CCA architecture blog on trustedfirmware.org](https://www.trustedfirmware.org/blog/TrustedFirwmare_TF-A_Monitor_blogpost/)
 
-5: https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms/arm-ecosystem-models 
+5: [Architecture Envelope Models(AEM) in Fixed Virtual Platforms(FVPs)](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms/arm-ecosystem-models) 
 
-6: https://trustedfirmware-a.readthedocs.io/en/topics-rme_prototype/components/rme/rme-userguide.html 
+6: [Realm Management Extension(RME) Enabled TF-A Users Guide](https://trustedfirmware-a.readthedocs.io/en/topics-rme_prototype/components/rme/rme-userguide.html) 
 
 7: https://connect.linaro.org/resources/armcca/tfa-monitor-firmware-deep-dive/ 
