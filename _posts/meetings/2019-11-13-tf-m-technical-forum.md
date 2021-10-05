@@ -21,6 +21,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 * **Open Topics - Internal Trusted Storage encryption, platform maintenance, Flash API update to match CMSIS**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C
+* Date: September 30, 2021
 <br/>
 
 * **Secure Partition Managed(SPM) Implementation Update** [PDF Presentation](/docs/tf-m_forum_20210916_Updated_SPM_Design.pdf) 
