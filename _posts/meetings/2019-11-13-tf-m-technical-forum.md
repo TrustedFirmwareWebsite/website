@@ -143,7 +143,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 15th October 2020
 <br/>
 
-* **TF-M Build System Update** [PDF Presentation](tech_forum_20201001_TF-M_Build_system_update.pdf)
+* **TF-M Build System Update** [PDF Presentation](/dosc/tech_forum_20201001_TF-M_Build_system_update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/OWYA8_R8B3pYvAB_uAx7mIzdM-t-UgcwH-lGzEBwXlZPbfmuRjzLEGOLp-p74kJ3.Bhm8JzJrs_3s0x0_?startTime=1601564615000)
 * Date - 1st October 2020
 <br/>
