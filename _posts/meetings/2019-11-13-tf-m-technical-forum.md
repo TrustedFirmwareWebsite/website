@@ -19,6 +19,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Open Topics - Internal Trusted Storage encryption, platform maintenance, Flash API update to match CMSIS**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C
+<br/>
+
 * **Secure Partition Managed(SPM) Implementation Update** [PDF Presentation](/docs/tf-m_forum_20210916_Updated_SPM_Design.pdf) 
 * **TF-M Tests Out-of-Tree Build** [PDF Presentation](/docs/tf-m_forum_20210916_test%20out-of-tree%20build.pdf)
 * Date: September 16, 2021
@@ -138,6 +142,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 15th October 2020
 <br/>
 
+* **TF-M Build System Update** [PDF Presentation](tech_forum_20201001_TF-M_Build_system_update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/OWYA8_R8B3pYvAB_uAx7mIzdM-t-UgcwH-lGzEBwXlZPbfmuRjzLEGOLp-p74kJ3.Bhm8JzJrs_3s0x0_?startTime=1601564615000)
+* Date - 1st October 2020
+<br/>
 
 * **TF-M Initialization Entry Enhancement** [PDF Presentation](/docs/TF-M_initialization_entry_enhancement.pdf)
 * **Updates on TF-M HAL** [PDF Presentation](/docs/updates_on_tfm_hal_tech_forum_2020_09_17.pdf)
