@@ -13,6 +13,9 @@ flow:
       - format: collapse
         style: #
         panels:
+          - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
+            content: |
+              A summary page of the various projects roadmaps can be found [here](https://developer.trustedfirmware.org/w/roadmaps/). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
           - title: Where can I find details about the governance model? Where can I find details about membership?
             content: |
               For details of the governance model, please visit the [about->join](https://www.trustedfirmware.org/join/) page of this website. 
@@ -31,9 +34,6 @@ flow:
           - title: Is there a clear role and responsibility for Linaro?
             content: |
               Linaro will be a board member of Trusted Firmware. The board of Trusted Firmware decides all the strategies and directions, including if it needs to fund Linaro for any service, or not.
-          - title: Do we have a Roadmap for Trusted Firmware on Cortex-M?
-            content: |
-              Arm has a roadmap for contributions to TF-M. [See here for more details](https://developer.trustedfirmware.org/w/tf_m/planning/) All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
           - title: What’s TBBR, do we have detail spec for TBBR?
             content: |
               Trusted Board Boot Requirements Client (TBBR-Client) is an Arm specification that defines the basic requirements implemented by TF-A for Trusted Boot. It can be found [at this link](https://developer.arm.com/docs/den0006/latest/trusted-board-boot-requirements-client-tbbr-client-armv8-a).
