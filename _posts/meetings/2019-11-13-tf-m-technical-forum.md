@@ -19,6 +19,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Open Agenda - Release cadence change proposal**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/gaHVdz9gsMBn4LVTF8Q2Z_SP8PLyIwB24Vm0CulmUOh7iVwXF8DqUXbT2i3sSbpf.dRo06cDpmEU6ZZnA) Passcode: L=&An$6E
+* Date: October 14, 2021
+* <br/>
+
 * **Open Topics - Internal Trusted Storage encryption, platform maintenance, Flash API update to match CMSIS**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C
 * Date: September 30, 2021
