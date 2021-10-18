@@ -22,12 +22,6 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **Open Agenda - Release cadence change proposal**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/gaHVdz9gsMBn4LVTF8Q2Z_SP8PLyIwB24Vm0CulmUOh7iVwXF8DqUXbT2i3sSbpf.dRo06cDpmEU6ZZnA) Passcode: L=&An$6E
-* Date: September 16, 2021
-<br/>
-
-
-* **Open Agenda - Release cadence change proposal**
-* [Video Recording](https://linaro-org.zoom.us/rec/share/gaHVdz9gsMBn4LVTF8Q2Z_SP8PLyIwB24Vm0CulmUOh7iVwXF8DqUXbT2i3sSbpf.dRo06cDpmEU6ZZnA) Passcode: L=&An$6E
 * Date: October 14, 2021
 <br/>
 
