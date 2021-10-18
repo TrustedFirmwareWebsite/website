@@ -25,18 +25,15 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date: October 14, 2021
 * <br/>
 
-
 * **Open Topics - Internal Trusted Storage encryption, platform maintenance, Flash API update to match CMSIS**
-* [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C
+* [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C 
 * Date: September 30, 2021
 <br/>
-
 
 * **Secure Partition Managed(SPM) Implementation Update** [PDF Presentation](/docs/tf-m_forum_20210916_Updated_SPM_Design.pdf) 
 * **TF-M Tests Out-of-Tree Build** [PDF Presentation](/docs/tf-m_forum_20210916_test%20out-of-tree%20build.pdf)
 * Date: September 16, 2021
 <br/>
-
 
 * **PSA FF-M 1.1 Extensions Beta Update** [PDF Presentation](/docs/tech_forum_20210902_PSA-FF-M_1.1_Extensions_Beta_update.pdf)
 * **MMIO IRQ Bindings** [PDF Presentation](/docs/tech_forum_20210902_MMIO_IRQ_BINDING.pdf)
