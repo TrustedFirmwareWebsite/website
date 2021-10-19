@@ -19,8 +19,15 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman/listinfo/tf-m), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+
+* **Release cadence change proposal** [PDF Presentation](/docs/tech_forum_2021014_TF-M_Cadence_change.pdf)
+* **Separating Vendor Code from TF-M Source Tree** [PDF Presentation](/docs/tech_forum_20211014_Separating_Vendor_Code_from_TF-M_Source_Tree.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/gaHVdz9gsMBn4LVTF8Q2Z_SP8PLyIwB24Vm0CulmUOh7iVwXF8DqUXbT2i3sSbpf.dRo06cDpmEU6ZZnA) Passcode: L=&An$6E
+* Date: October 14, 2021
+<br/>
+
 * **Open Topics - Internal Trusted Storage encryption, platform maintenance, Flash API update to match CMSIS**
-* [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C
+* [Video Recording](https://linaro-org.zoom.us/rec/share/SgyXWWyuxrLoftRDPJ7rFwGyYg8OHkZkMEjG9ZJZZYuhv1IiXb3zxW-1RDY8CNL2.mMYhfmVO9g0EM7NO) Passcode: 7jz=tR*C 
 * Date: September 30, 2021
 <br/>
 
@@ -105,10 +112,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 4th February 2021
 <br/>
 
+
 * **TF-M OpenCI Jobs** [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA )  Passcode: 8&K\.ENW8
 * Date - 21st January 2021
 <br/>
+
 
 * **TF-M Generic Threat Model** [PDF Presentation](/docs/TF-M_Generic_Threat_Model.pdf)
 * **Tech Forum 20210101 TFM Dependency TFM Tests** [PDF Presentation](/docs/Tech_Forum_20210107_tfm_dependency_tfm_tests.pdf)
@@ -116,10 +125,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 7th January 2021
 <br/>
 
+
 * **PSA-FF-M 1.1 Extenstions overview** [PDF Presentation](/docs/PSA-FF-M_1.1_Extensions-overview.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/S6eXvNSj6zc-FcxXPmXWVeNWcSYaE9l5cLDSqrcg7ndG5yHXvwVCw4q_PiTpUTmi.Nbu0efKMY5mdSgrB) Passcode: X\*KXE\*9m
 * Date - 10th December 2020
 <br/>
+
 
 * **TF-M OpenCI Introduction** [PDF Presentation](/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
 * **TF-M Dual CPU NS Mailbox Enhancement** [PDF Presentation](/docs/TF-M_Dual-cpu_NSPE_mailbox_enhancement.pdf)
@@ -127,16 +138,19 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * Date - 26th November 2020
 <br/>
 
+
 * **TF-M Partition Storage Arrangement** [PDF Presentation](/docs/TF-M_partition_storage_arrangement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/QoUcDJ3_fwV97NgcHOl2VgbXlbpWz273UfkK1joGpLOIzebJST1u8WRrs0ieRRww.ojzXRru0bAiBPY7i) (Access Password: K7$bwN3.)
 * Date - 12th November 2020
 <br/>
+
 
 * **TF-M Code Sharing** [PDF Presentation](/docs/TF-M_code_sharing.pdf)
 * **TF-M log update** [PDF Presentation](/docs/TF-M_log_update.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/J8VDp4qY8-KWxuofGn1SYkRB06k3JUrh35XsJDlmo51W4traNSf00mbQ0_NCoOrB.OFxRmUc0OlmWpo3i) (Access Password: aDG@t5BP)
 * Date - 29th October 2020
 <br/>
+
 
 * **PSA-FF-M v1-1 Interrupt Handling** [PDF Presentation](/docs/PSA-FF-M-v1-1-InterruptHandling.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/88749V4GrfQTvzeIO-bn6L_YAWCc5uUSDySFtvwwKzvirXpxUC1L6LLcseaDxnmT.C-BPcaTzGlN9AbEi) (Access Password: !#20XrL6)
