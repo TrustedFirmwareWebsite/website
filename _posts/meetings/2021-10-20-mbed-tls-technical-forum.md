@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
-title: TF-M open Tech Forum regular call
-date: 2021-09-16 08:00:00
+title: MBed TLS open Tech Forum regular call
+date: 2021-10-20 08:00:00
 categories:
   - Meetings
 layout: post
@@ -15,8 +15,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Upcoming tech forums - see the [Trusted Firmware Public Calendar](https://www.trustedfirmware.org/meetings/)
 
-
-**To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
+  **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls)**
 
 ### Recording and slides of previous meetings
 
