@@ -19,8 +19,9 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 
 * **Date**: October 25, 2021
-* **TLS 1.3 – plans and progress**
-* **Driver interface code-gen** 
+* Agenda:
+   * **TLS 1.3 – plans and progress**
+   * **Driver interface code-gen** 
 * [Presentation here](/docs/MbedTLS_Tech_Forum_2021-10-25.pdf)
 * [Video recording](https://armltd.zoom.us/rec/share/Flx_ohN6Fs1JL2xBdt9ofj1nj1Dcc3k2923QLTOYs-0vesGbu8qv25O6ndeTE6dY.c7lM_dlcEHrCzr3j) Passcode: KgM1T=qR
 <br/>
