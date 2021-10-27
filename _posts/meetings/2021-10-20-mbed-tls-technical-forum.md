@@ -18,8 +18,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **TLS 1.3 – high-level update on progress & direction** 
-* **PSA Cryptoprocessor Driver Interface** 
+* **TLS 1.3 – high-level update on progress & direction** [Presentation here](/docs/MbedTLS_Tech_Forum_2021-10-25.pdf)
+* [**Recording of meeting**](https://armltd.zoom.us/rec/share/Flx_ohN6Fs1JL2xBdt9ofj1nj1Dcc3k2923QLTOYs-0vesGbu8qv25O6ndeTE6dY.c7lM_dlcEHrCzr3j) Passcode: KgM1T=qR
 * Date: October 25, 2021
 <br/>
 
