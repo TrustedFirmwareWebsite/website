@@ -22,6 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **Introduction to pyOCD** [PDF Presentation](/docs/tech_forum_20211028_pyocd_intro.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/motcLeMhKLjj5Cw_9CdOliS-udWY-gbdnmN4i0ZTQ85TvCY6RkyaakDNOOxH2oiN.StMW5USulg_kOHxJ) Passcode: mMgT39=4
+* Date: Oct 28, 2021
 <br/>
 
 * **Release cadence change proposal** [PDF Presentation](/docs/tech_forum_2021014_TF-M_Cadence_change.pdf)
