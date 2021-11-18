@@ -20,6 +20,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Release Process Update**
+* Online documentation referenced during the presentation location [here](https://tf-m-user-guide.trustedfirmware.org/docs/releases/release_process.html)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/ZMPyQA7ZSRye6E3cyKasaEEiXxQvSIPLxwzgx7Z5uzi_iUxcmFCOslfwMM2N69wd.1s_w-XNtD3bxUOfu) Passcode: 8#usy11%
+<br/>
+
 * **Introduction to pyOCD** [PDF Presentation](/docs/tech_forum_20211028_pyocd_intro.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/motcLeMhKLjj5Cw_9CdOliS-udWY-gbdnmN4i0ZTQ85TvCY6RkyaakDNOOxH2oiN.StMW5USulg_kOHxJ) Passcode: mMgT39=4
 * Date: Oct 28, 2021
