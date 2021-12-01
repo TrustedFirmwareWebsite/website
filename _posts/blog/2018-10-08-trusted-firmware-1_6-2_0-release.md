@@ -57,7 +57,7 @@ A new Release information page (5) has also been created with all the informatio
 
 References:
 
-1. [v1.6 Change Log](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/change-log.rst#trusted-firmware-a-version-1-6)
+1. [v1.6 Change Log](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/change-log.md)
 
 2. [Trusted Firmware-A Security Advisory TFV-7](https://github.com/ARM-software/arm-trusted-firmware/wiki/Trusted-Firmware-A-Security-Advisory-TFV-7)
 
