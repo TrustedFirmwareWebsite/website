@@ -11,11 +11,23 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 9th September 2021 at 16:00 BST
+### The next call is planned on Thursday, 13th January 2022 at 16:00 GMT
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman/listinfo/tf-a) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Measured Boot Driver - Refactor and Critical Data Measurement Design - Presented by Manish Badarkhe** [PDF Presentation](/docs/MeasuredBoot-TechForum.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/WLfYDlZP1gHwsF3BTpc6CdKj9p8az-b0yPN1kOyJek5xrJeURKq6ekWHh_2QTc6n.7pV2fF20QzZ_44f_ ) (Access Password: jG^9k9$m)
+* Date - 2nd December 2021
+
+* **Realm Management Extension (RME) Granule Protection Table (GPT) Overview - Presented by John Powell** [PDF Presentation](/docs/tfa_tech_forum_2021_10_21_gpt.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Unc8GMHCr_0GpjiqP_ErKmkbOZ3eqR1bbGPcNySCflNyyNi9_2tiSPhEloKqXhWU.go6UxX4hdFmKQ8cS) (Access Password: R4F%RG9$)
+* Date - 21st October 2021
+
+* **Realm Management Extension (RME) Support in TF-A - Presented by Zelalem Aweke** [PDF Presentation](/docs/RME_TF-A_tech_forum.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/3wgs44tPAImLCvKZ4cT8QGt0PcTWmumEJxQ_qMoY2vadKGQZWfVOr930RGnmX6zK.QjA7078pebAUd-0R) (Access Password: \*9cJPhEN)
+* Date - 23rd September 2021
 
 * **Enabling S-EL0 FF-A partitions on Hafnium using ARMv8.1 FEAT_VHE - Presented by Raghupathy Krishnamurthy** [PDF Presentation](/docs/VHE-Support-updated.pdf) 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/WDTkYBCPMZbTt-KRLH69QnKFLRPCGR58VqCt4pzuCZWmfyI2lzAgnP0MtMLmr9Pf.BpzT9ZFKd8flN7xl) (Access Password: KYpe0+j%)
