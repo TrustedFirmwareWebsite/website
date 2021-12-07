@@ -57,9 +57,8 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
 
 Various Hardware errata software workarounds added for Cortex-A78, Cortex-A710, Neoverse-N2, Neoverse-V1
 
-[1] https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-6
+[1] https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-6 
+[2] https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-6 
+[3]https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_6 
 
-[2] https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-6
-
-[3]https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_6
 
