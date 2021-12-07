@@ -3,7 +3,7 @@
     {
       "image": "/assets/images/members/arm.jpg",
       "name": "Arm",
-      "type": "platinum",
+      "type": "diamond",
       "url": "https://www.arm.com/"
     },
     {
@@ -21,7 +21,7 @@
     {
       "image": "/assets/images/members/google.jpg",
       "name": "Google",
-      "type": "platinum",
+      "type": "diamond",
       "url": "https://www.google.com/"
     },
     {
