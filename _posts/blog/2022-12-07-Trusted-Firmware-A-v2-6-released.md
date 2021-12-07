@@ -7,12 +7,17 @@ categories:
 layout: post
 image: /assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 ---
+
+Introduction
+------------
 Trusted Firmware-A has just completed the official v2.6 release, tagged across four main repositories: TF-A, TF-A-Tests, Hafnium and TF-A OpenCI Scripts.
 
 This is the very first release to enable support for the recently announced Armv9 architecture features.
 
 The whole content of the release is described on the respective TF-A (1), TF-A-Tests (2) and Hafnium (3) change-logs, but here are some interesting highlights.
 
+Highlights
+------------
 - Armv9 features support:
    - Realm Management Extension (FEAT_RME): first prototype implementation (ENABLE_RME)
       - Context management changes
