@@ -41,7 +41,8 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
    - Updated toolchain to LLVM/Clang 12
    - Published new SPMC threat model
 
-New Arm cores and Arm/Partners platforms support:
+**New Arm cores and Arm/Partners platforms support:**
+
 - Arm CPUs: Neoverse-Demeter, Cortex Hunter & Hayes
 - Arm FVP-R: BL1 support for Armv8-R64 FVP
 - Arm TC platforms support
