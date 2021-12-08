@@ -8,9 +8,6 @@ layout: post
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
-**Trusted Firmware OP TEE: v3.15.0 Release**
-=====================================================
-
 Introduction
 ------------
 
