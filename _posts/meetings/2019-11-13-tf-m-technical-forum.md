@@ -20,6 +20,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Performance improvements in v1.5.0** [Presentation](/docs/tf-m_forum_20211209-TF-M_Performance-Improvement-in-v1.5.0.pdf)
+* **Eliminate unnecessary space in tfm_s.bin** [Presentation](/docs/tf-m_forum_20211209-TF-Eliminate-unnecessary-space-in-tfm_s.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/yeLKrYD0spQiG9NuCJKELEucxGZl8WTDDdr_peDJBebv-utaKM6ErWXbBSNS07zM.IsAGcjso0-0vxPPA)  Passcode: by1vd=g%
+* Date: Dec 9, 2021
+<br/>
+
 * **Release Process Update**
 * Online documentation referenced during the presentation located [here](https://tf-m-user-guide.trustedfirmware.org/docs/releases/release_process.html)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/ZMPyQA7ZSRye6E3cyKasaEEiXxQvSIPLxwzgx7Z5uzi_iUxcmFCOslfwMM2N69wd.1s_w-XNtD3bxUOfu) Passcode: 8#usy11%
