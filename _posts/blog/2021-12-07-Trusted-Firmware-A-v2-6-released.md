@@ -1,7 +1,7 @@
 ---
 author: matteo.carlini
 title: Trusted Firmware-A v2.6 released with Armv9 features support!
-date: 2022-12-07 09:00:00
+date: 2021-12-07 09:00:00
 categories:
   - Blog
 layout: post
