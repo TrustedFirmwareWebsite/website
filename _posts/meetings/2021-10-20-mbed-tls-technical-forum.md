@@ -18,6 +18,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Date**: December 20, 2021
+   * Agenda:
+      * **PSA Usage and roadmap**
+   * [Video recording](https://linaro-org.zoom.us/rec/share/c4I4aBmN1Eth-YAq-csnt-OSWBcsGgunP-_AEKT2W8y7WbnBNrzRs6rsAPNaCy-F.mHjLEKS6ejG2PFcJ) Passcode: G&T$H2S%
+<br/>
+
 * **Date**: October 25, 2021
    * Agenda:
       * **TLS 1.3 – plans and progress**
