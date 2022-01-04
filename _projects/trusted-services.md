@@ -20,7 +20,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:TS%252Ftrusted-services
   subscribe:
     text: Subscribe to Mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/trusted-services
+    url: https://lists.trustedfirmware.org/mailman3/lists/trusted-services.lists.trustedfirmware.org/
 top_text: |-
   The Trusted Services project provides a framework for developing and deploying device Root Of Trust (RoT) services across a range of secure processing environments such as those provided by OP-TEE and Hafnium.
 sort_key: 6
