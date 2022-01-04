@@ -23,7 +23,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:ci/tf-ci-users-guide
   subscribe:
     text: Subscribe to the Open CI mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/tf-openci
+    url: https://lists.trustedfirmware.org/mailman3/lists/tf-openci.lists.trustedfirmware.org/
 useful_links:
   - text: Ongoing CI build jobs
     url: https://ci.trustedfirmware.org/
