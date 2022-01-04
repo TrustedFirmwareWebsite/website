@@ -23,7 +23,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:hafnium/hafnium
   subscribe:
     text: Subscribe to the Hafnium mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/hafnium
+    url: https://lists.trustedfirmware.org/mailman3/lists/hafnium.lists.trustedfirmware.org/
 useful_links:
   - text: Hafnium Project Dashboard
     url: https://developer.trustedfirmware.org/project/21/item/view/67/
