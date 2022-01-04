@@ -20,10 +20,10 @@ links:
     url: https://github.com/ARMmbed/mbedtls/pulls
   subscribe:
     text: Subscribe to the Mbed TLS mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/mbed-tls
+    url: https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/
 useful_links:
   - text: Subscribe to the PSA Crypto mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/psa-crypto
+    url: https://lists.trustedfirmware.org/mailman3/lists/psa-crypto.lists.trustedfirmware.org/
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/mbed-tls/
 top_text: |-

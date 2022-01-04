@@ -25,7 +25,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
   subscribe:
     text: Subscribe to the TF-A mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/tf-a    
+    url: https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/    
 useful_links:
   - text: TF-A Dashboard
     url: https://developer.trustedfirmware.org/dashboard/view/6/

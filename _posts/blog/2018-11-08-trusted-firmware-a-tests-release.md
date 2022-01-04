@@ -32,7 +32,7 @@ Other useful resources to get started with TF-A-Tests include:
 * The [User Guide](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/docs/user-guide.rst) for instructions on how to install, build and use the TF-A Tests.
 * The [Design Guide](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/docs/design.rst) for information on how the TF-A Tests internally work.
 * The [Porting Guide](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/docs/porting-guide.rst) for information about how to use this software on another Armv8-A platform.
-* The [official Mailing List](https://lists.trustedfirmware.org/mailman/listinfo/tf-a-tests) for project's discussion.
+* The [official Mailing List](https://lists.trustedfirmware.org/mailman3/lists/tf-a-tests.lists.trustedfirmware.org/) for project's discussion.
 
 In line with the parent TF-A project, the TF-A-Tests open-source code is released under a [BSD 3-Clause license](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/license.rst) and contributions to the project are accepted under the same license with developer sign-off as described in the [Contributing Guidelines](https://git.trustedfirmware.org/TF-A/tf-a-tests.git/about/contributing.rst).
 

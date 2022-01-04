@@ -45,7 +45,7 @@ flow:
               We’re building the TF-M FAQ. [See here for more details](https://developer.trustedfirmware.org/ponder/query/all/)
           - title: How do I join the Trusted Firmeware Technical Mail lists? 
             content: |
-              To go to the mailists, simple [click here](https://lists.trustedfirmware.org/mailman/listinfo) and choose the list(s) you wish to subscribe.  The Archives are available as a resource here as well.
+              To go to the mailists, [click here](https://lists.trustedfirmware.org/mailman3/lists/?all-lists=&page=1) and choose the list(s) you wish to subscribe.  The Archives are available as a resource here as well.
           - title: Are Technical Maillists searchable?
             content: |
               Yes they are and this can be a great place to start when you may be stuck.
