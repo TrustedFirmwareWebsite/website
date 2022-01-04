@@ -23,7 +23,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:TF-M/trusted-firmware-m
   subscribe:
     text: Subscribe to the TF-M mailing list
-    url: https://lists.trustedfirmware.org/mailman/listinfo/tf-m
+    url: https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/
 useful_links:
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/tf_m/
