@@ -19,6 +19,13 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* Open topics: 
+   * Documentation updates, 
+   * Debug vs Release mode performance & Latency data - David Wang 
+   * Profiler tool update - David Wang
+* [Video Recording](https://linaro-org.zoom.us/rec/share/yWlkN08JW3DBiBS7imk8pLkZ5gNvI6xRG4MIk1FRiUy4W6JyHSZP9wcBYQPLdBDM.I6YRoE-oRwhYAo2p)  Passcode: 9snWt*yB
+* Date: Jan 6, 2022
+<br/>
 
 * **Performance improvements in v1.5.0** [Presentation](/docs/tf-m_forum_20211209-TF-M_Performance-Improvement-in-v1.5.0.pdf)
 * **Eliminate unnecessary space in tfm_s.bin** [Presentation](/docs/tf-m_forum_20211209-TF-Eliminate-unnecessary-space-in-tfm_s.pdf)
