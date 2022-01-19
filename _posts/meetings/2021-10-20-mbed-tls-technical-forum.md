@@ -18,6 +18,13 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Date**: January 17, 2022
+   * Agenda:
+      * **Getting started with MBed TLS**
+      * **[Roadmap](https://developer.trustedfirmware.org/w/mbed-tls/roadmap/) update FYI**
+   * [Video recording](https://linaro-org.zoom.us/rec/share/KG4Ij1mxPWsTeUPvuRVM45vRNlslxn_qCvSE8A-kkrHXZl4eHecqj3sAPy4ACkGu.982B8s2NLnNrY8H0) Passcode: wfshL#40
+<br/>
+
 * **Date**: December 20, 2021
    * Agenda:
       * **PSA Usage and roadmap**
