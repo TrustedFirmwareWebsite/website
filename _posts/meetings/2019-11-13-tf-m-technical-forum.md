@@ -19,6 +19,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Restructure TF-M Build System** - David Wang [Presentation](/docs/tf-m_forum_20220120_Restructure_TF-M_build_system.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/S3vpexrOiELRoIhsqSuTlC0RiNuSKfq_cqjbWNdziWpe_8De-QWwQWXfHQn78Jjv.i2KWnUIWrPO0J1mh) Passcode: 60jU^7+S
+* Date: Jan 20, 2022
+<br/>
+
 * Open topics: 
    * Documentation updates, 
    * Debug vs Release mode performance & Latency data - David Wang 
