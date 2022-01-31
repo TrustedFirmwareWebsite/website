@@ -22,7 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
    * Agenda:
       * **Discuss [Driver Specification for Key Derivation draft](https://github.com/ARMmbed/mbedtls/pull/5451)**
       * **[Use of PSA for hashing beyond X.509](https://github.com/ARMmbed/mbedtls/issues/5157)**
-   * [Video recording]https://linaro-org.zoom.us/rec/share/AOGtj4qe-lA7i8BOfC71XEPLhHh7lNBgmQoD5HhfSrrccApYN-ZSajy2ULusMzfG.YmhGOvIqGdkw3vik) Passcode: hS2^=v8P
+   * [Video recording](https://linaro-org.zoom.us/rec/share/AOGtj4qe-lA7i8BOfC71XEPLhHh7lNBgmQoD5HhfSrrccApYN-ZSajy2ULusMzfG.YmhGOvIqGdkw3vik) Passcode: hS2^=v8P
 <br/>
 
 * **Date**: January 17, 2022
