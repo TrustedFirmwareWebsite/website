@@ -17,7 +17,7 @@ TF-M [v1.0-Beta](https://git.trustedfirmware.org/trusted-firmware-m.git/tag/?h=v
 4. Cryptographic Service providing cryptographic function to applications. 
 5. Attestation Service providing a token formatted according to the [IETF Entity Attestation Token](https://tools.ietf.org/html/draft-mandyam-eat-00) (EAT) consisting of a series of claims enabling a relying party to determine the exact implementation of the PSA Root of Trust (PSA RoT) and its security state.
 
-As shown in the TF-M Diagram below, Secure Storage, Crypto and Attestation Services can be availed through a set of [PSA Developer APIs](https://pages.arm.com/PSA-APIs?_ga=2.20089022.766593894.1551711867-677364771.1536847751). This makes it easier for applications to make use of secure services across different PSA/TF-M enabled platforms using these PSA Developer APIs.
+As shown in the TF-M Diagram below, Secure Storage, Crypto and Attestation Services can be availed through a set of [PSA Developer APIs](file:///home/don/Downloads/IHI0086-PSA_Cryptography_API-1.0.1.pdf). This makes it easier for applications to make use of secure services across different PSA/TF-M enabled platforms using these PSA Developer APIs.
 ![TF-M](/assets/images/blog/tf.png)
 
 Obtaining PSA Functional API Certification involves running the [PSA Developer API Test Suite](https://github.com/ARM-software/psa-arch-tests/tree/ew_beta0/api-tests/dev_apis) on MuscaB1 against TF-M v1.0-Beta tag and passing all the secure storage, crypto and Attestation tests. PSA Level1 Certification involved answering the [PSA Level 1 Questionnaire](https://www.psacertified.org/app/uploads/2020/10/JSADEN001-PSA_Certified_Level_1-2.1_Beta_RC014.pdf) and submitting to one of the PSA Joint Stakeholder Agreement certification labs.
