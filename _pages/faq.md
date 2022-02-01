@@ -36,7 +36,7 @@ flow:
               Linaro will be a board member of Trusted Firmware. The board of Trusted Firmware decides all the strategies and directions, including if it needs to fund Linaro for any service, or not.
           - title: What’s TBBR, do we have detail spec for TBBR?
             content: |
-              Trusted Board Boot Requirements Client (TBBR-Client) is an Arm specification that defines the basic requirements implemented by TF-A for Trusted Boot. It can be found [at this link](https://developer.arm.com/docs/den0006/latest/trusted-board-boot-requirements-client-tbbr-client-armv8-a).
+              Trusted Board Boot Requirements Client (TBBR-Client) is an Arm specification that defines the basic requirements implemented by TF-A for Trusted Boot. It can be found [at this link](https://developer.arm.com/documentation/den0006/latest).
           - title: Will TF-A continue its presence on Github?
             content: |
               TF-A is migrating from GitHub to Trusted Firmware.org Git and Gerrit repositories. Details on the migration plan can be found [here](https://github.com/ARM-software/tf-issues/issues/681).
