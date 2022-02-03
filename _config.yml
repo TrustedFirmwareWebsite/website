@@ -198,7 +198,7 @@ readme_index:
 picture:
   nomarkdown: false
   source: ""
-  output: "assets/images"
+  output: "../generated"
   relative_url: true
 # -------- japr --------
 asset_pipeline:
