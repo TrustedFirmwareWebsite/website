@@ -3,10 +3,11 @@ author: matteo.carlini
 title: Trusted Firmware at the Open Source Firmware Conference (OSFC) - Erlangen, 12-15 Sep 2018
 date: 2018-09-18 12:00:00
 categories:
-- Blog
+  - Blog
 layout: post
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
+
 The Trusted Firmware-A team attended last week the first Open Source Firmware Conference ([OSFC](https://osfc.io/)) in Erlangen, Germany.
 
 Hosted by Siemens, 9 Elements and FAU, this was the very first conference all around open firmware, bringing together software companies, big data centre providers, industry players and software enthusiasts to talk about hot topics and latest trends in the firmware space.
@@ -29,7 +30,7 @@ In conclusion, a well-attended conference where all firmware enthusiasts could s
 
 References:
 
-1. https://osfc.io/talks/secure-partitions-in-trusted-firmware-a
+1. [https://2018.osfc.io/talks/secure-partitions-in-trusted-firmware-a.html](https://2018.osfc.io/talks/secure-partitions-in-trusted-firmware-a.html)
 
 2. [https://connect.linaro.org/resources/hkg18/hkg18-104/](https://connect.linaro.org/resources/hkg18/hkg18-104/)
 
@@ -38,5 +39,3 @@ References:
 4. [https://uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf](https://uefi.org/sites/default/files/resources/PI_Spec_1_6.pdf)
 
 5. [https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf](https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf)
-
-
