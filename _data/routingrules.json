@@ -6,5 +6,6 @@
   "^/blog/trusted-firmware-1\\.6-2\\.0-release(/?|/index.html)$ /blog/trusted-firmware-1_6-2_0-release/ [R,L,NC]",
   "^/blog/Trusted-Firmware-a-v2\\.1-release(/?|/index.html)$ /blog/Trusted-Firmware-a-v2_1-release/ [R,L,NC]",
   "^/docs/tf-a(/?|/index.html)$ https://trustedfirmware-a.readthedocs.org [R,L,NC]",
-  "^/security(/?|/index.html)$ https://developer.trustedfirmware.org/w/collaboration/security_center/ [R,L,NC]"
+  "^/security(/?|/index.html)$ https://developer.trustedfirmware.org/w/collaboration/security_center/ [R,L,NC]",
+  "^/foo(/?|/index.html)$ /foo2 [R,L,NC]"
 ]
