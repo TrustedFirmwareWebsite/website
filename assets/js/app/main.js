@@ -154,11 +154,12 @@ $(document).ready(function () {
   });
 
   //   Multi-level dropdowns
-  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on("click", function (
-    e
-  ) {
-    e.stopPropagation();
-  });
+  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on(
+    "click",
+    function (e) {
+      e.stopPropagation();
+    }
+  );
   $(".navbar .dropdown-item").on("click", function (e) {
     var $el = $(this).children(".dropdown-toggle");
     var $parent = $el.offsetParent(".dropdown-menu");
@@ -201,6 +202,101 @@ $(document).ready(function () {
       }
     }
   });
+  function getRandom(arr, n) {
+    var result = new Array(n),
+      len = arr.length,
+      taken = new Array(len);
+    if (n > len)
+      throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+      var x = Math.floor(Math.random() * len);
+      result[n] = arr[x in taken ? taken[x] : x];
+      taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+  }
+
+  // Other Posts
+  if ($("#other-posts-section").length > 0) {
+    var other_posts_elements = "";
+    $.getJSON("/assets/json/posts.json", function (data) {
+      var random_items = getRandom(data, 5);
+      for (let i = 0; i < random_items.length; i++) {
+        // Unlike the Recent Posts JSON file, the date in the Other Posts
+        // JSON file is formatted in "English", e.g. Thursday, February 13, 2020
+        // which can be parsed by Date.
+        var date_obj = new Date(random_items[i].date);
+        other_posts_elements += `<li class="media flex-column flex-sm-row">
+                <picture>
+                  <source srcset="${
+                    random_items[i].image_webp
+                  }" type="image/webp">
+                  <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
+                  src="${random_items[i].image}" alt="${
+          random_items[i].title
+        } featured image">
+                </picture>
+                <div class="media-body">
+                    <a href="${random_items[i].url}">
+                        <h5 class="mt-0 mb-1">${random_items[i].title}</h5>
+                        <em class="suggested_post_date">${date_obj.toDateString()}</em>
+                        <p>
+                        ${random_items[i].description}
+                        </p>
+                    </a>
+                </div>
+            </li>`;
+      }
+      $("#other-posts-section").html(other_posts_elements);
+    }).fail(function (error) {
+      console.log(error);
+      console.log("An error has occurred when fetching recent posts.");
+    });
+  }
+  // Latest Posts
+  if ($("#latest-posts-section").length > 0) {
+    var latest_posts_elements = "";
+    $.getJSON("/assets/json/recentPosts.json", function (data) {
+      for (let i = 0; i < data.length; i++) {
+        // Need a more robust way of getting the date string because
+        // Safari doesn't cope with "-".
+        // Start by splitting the date string on a space to separate
+        // the actual date.
+        var date_split = data[i].date_published.split(" ");
+        // Now split the date into its constituent parts.
+        var date_parts = date_split[0].split("-");
+        // Javascript counts months from 0 ...
+        console.log(data[i].date_published);
+        console.log(
+          `Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`
+        );
+        var date_obj = new Date(
+          date_parts[0],
+          date_parts[1] - 1,
+          date_parts[2]
+        );
+        latest_posts_elements += `<li class="media flex-column flex-sm-row">
+                <picture>
+                  <source srcset="${data[i].image_webp}" type="image/webp">
+                  <img class="mr-3 img-thumbnail suggested_post_thumb lazyload" 
+                  src="${data[i].image}" alt="${data[i].title} featured image">
+                </picture>
+                <div class="media-body">
+                    <a href="${data[i].url}">
+                        <h5 class="mt-0 mb-1">${data[i].title}</h5>
+                        <em class="suggested_post_date">${date_obj.toDateString()}</em>
+                        <p>
+                        ${data[i].summary}
+                        </p>
+                    </a>
+                </div>
+            </li>`;
+      }
+      $("#latest-posts-section").html(latest_posts_elements);
+    }).fail(function () {
+      console.log("An error has occurred when fetching recent posts.");
+    });
+  }
 
   if ($(".nav-tabs").length > 0) {
     let url = location.href.replace(/\/$/, "");
