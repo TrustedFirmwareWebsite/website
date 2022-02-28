@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **Date**: Feb 28, 2022
   * Agenda: 
-    * **Current activities update [presentation here](/docs/Mbed-TLS-TechForum-2022-02-28.pdf)  
+    * **Current activities** update - [presentation here](/docs/Mbed-TLS-TechForum-2022-02-28.pdf)  
 * [Video recording](https://linaro-org.zoom.us/rec/share/IGGHiWgBMrMZM2HX8gYgI53BrcPde7pUX1nS6grOXH2u7fCuTZ4kgT2td3r1Q8qM.7FpyjUY5J8fydaht) Passcode: h#z6MB0!
 <br/>
 
