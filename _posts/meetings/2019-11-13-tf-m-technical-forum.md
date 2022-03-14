@@ -19,6 +19,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* ** Proposal for ne3w design review quidelines ** - David Hu
+* ** Use of assembler ** - open question
+* [Video recording](https://linaro-org.zoom.us/rec/share/qqvhOnvNPsDDZThpGf0Zslh9CwmXJOBVjyyjOGAhQPtXHoYYLDnz9l8-7aro-Opr.gGKNhj8G_GP9JlP1) Passcode: J3^kTu5A 
+<br/>
+
 * **Refinement of TF-M tests** - Jianliang Shen [Presentation](/docs/TF-M-RegressionTestRefinementsSummary.pdf)
 * **Error handling strategy[halting/rebooting/panic]** - open topic
 * [Video recording](https://linaro-org.zoom.us/rec/share/a_u_wHDfyCdx_iSpFqW_lFDxrpdRr4hfQlGMsZoj1BX_b8B9hYVR2HQ3xWsCdSUe.We0kThYAAmwkscE0) (Passcode: V?R7B#S!)
