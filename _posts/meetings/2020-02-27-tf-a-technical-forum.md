@@ -18,12 +18,12 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 ### Recording and slides of previous meetings will appear here
 
 * **Introduction to Arm DRTM specification and its support in TF-A - Presented by Stuart Yoder, Lucian Pau-Trifu, Manish Pandey, Manish Badarkhe** [PDF Presentation](/docs/DRTM_Implementation.pdf) 
-* [Video Recording](https://linaro-org.zoom.us/rec/share/RcYX1TBh0I6E_PrJNRPpXHqKze2ODHYAOMXO7Yw-EgYusfcjVyTCxZlieTcjEUYt.YHjtoMaObguI4bBh) (Access Password: YA^LTJ7g)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/RcYX1TBh0I6E_PrJNRPpXHqKze2ODHYAOMXO7Yw-EgYusfcjVyTCxZlieTcjEUYt.YHjtoMaObguI4bBh) (Access Password: 78n#u$Gh)
 * Date - 10th March 2022
 <br/>
 
 * **Introduction of Arm CCA Context Management - Presented by Soby Mathew and Zelalem Aweke** [PDF Presentation](/docs/RefactorContextMgmt.pdf) 
-* [Video Recording](https://linaro-org.zoom.us/rec/share/FYs4ECk9MhH3rInKjFhn7KUSdObLW9hMkYbX2jlgEOl3vCGE3KNZLIjsyV1o-KXE.vIcIdXFYV2xEl4MM) (Access Password: 78n#u$Gh)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/FYs4ECk9MhH3rInKjFhn7KUSdObLW9hMkYbX2jlgEOl3vCGE3KNZLIjsyV1o-KXE.vIcIdXFYV2xEl4MM) (Access Password: YA^LTJ7g)
 * Date - 27th January 2022
 <br/>
 
