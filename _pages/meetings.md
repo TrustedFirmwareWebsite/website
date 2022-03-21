@@ -9,6 +9,15 @@ flow:
     sections:
       - format: custom_include
         source: meetings_calendar.html
+      - format: buttons
+        style: text-center
+        buttons_content:
+          - title: TF-A Tech Forum Minutes
+            url: /meetings/tf-a-technical-forum/
+          - title: TF-M Tech Forum Notes
+            url: /meetings/tf-m-technical-forum/
+          - title: MBed TLS Tech Forum Minutes
+            url: /meetings/mbed-tls-technical-forum/
       - format: custom_include
         source: blog/post_search.html
         payload:
