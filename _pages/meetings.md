@@ -4,11 +4,6 @@ meeting: true
 permalink: /meetings/
 description: >
   View the open Trusted Firmware meetings.
-jumbotron:
-  title: Meetings
-  inner_class: text-white
-  description: ""
-  image: /assets/images/content/TF_Banner_image.jpg
 flow:
   - row: container_row
     sections:
