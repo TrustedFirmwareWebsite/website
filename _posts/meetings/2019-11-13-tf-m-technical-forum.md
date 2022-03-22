@@ -28,7 +28,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **Use of assembler** - open question
 * [Video recording](https://linaro-org.zoom.us/rec/share/qqvhOnvNPsDDZThpGf0Zslh9CwmXJOBVjyyjOGAhQPtXHoYYLDnz9l8-7aro-Opr.gGKNhj8G_GP9JlP1) Passcode: J3^kTu5A 
 * Date: Mar 3,2022
-* <br/>
+<br/>
 
 * **Refinement of TF-M tests** - Jianliang Shen [Presentation](/docs/TF-M-RegressionTestRefinementsSummary.pdf)
 * **Error handling strategy[halting/rebooting/panic]** - open topic
