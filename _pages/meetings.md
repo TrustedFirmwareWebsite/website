@@ -18,6 +18,8 @@ flow:
             url: /meetings/tf-m-technical-forum/
           - title: MBed TLS Tech Forum Minutes
             url: /meetings/mbed-tls-technical-forum/
+          - title: OP-TEE Contributions Forum Minutes
+            url: https://bit.ly/loc-notes
       - format: custom_include
         source: blog/post_search.html
         payload:
