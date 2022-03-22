@@ -32,7 +32,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **Refinement of TF-M tests** - Jianliang Shen [Presentation](/docs/TF-M-RegressionTestRefinementsSummary.pdf)
 * **Error handling strategy[halting/rebooting/panic]** - open topic
-* [Video recording](https://linaro-org.zoom.us/rec/share/a_u_wHDfyCdx_iSpFqW_lFDxrpdRr4hfQlGMsZoj1BX_b8B9hYVR2HQ3xWsCdSUe.We0kThYAAmwkscE0) (Passcode: V?R7B#S!)
+* [Video recording](https://linaro-org.zoom.us/rec/share/a_u_wHDfyCdx_iSpFqW_lFDxrpdRr4hfQlGMsZoj1BX_b8B9hYVR2HQ3xWsCdSUe.We0kThYAAmwkscE0) Passcode: V?R7B#S!
 * Date: Feb 17, 2022
 <br/>
 
