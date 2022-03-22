@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **TF-M RPC Test Framework** - Arnold Gabriel Benedict [Presentation](/docs/tech_forum_20220317_tfm_rpc_ext.pdf)
-* [Video recording](https://linaro-org.zoom.us/rec/share/F9193Xn6rc5FuuDHirFf2RoRE1vjulmceKeYJujx6zfbeW5fxpJywlrBu1CY2oV3.FpAd9aqaSmEWdywE ) Passcode: k8s%&?tr 
+* [Video recording](https://linaro-org.zoom.us/rec/share/F9193Xn6rc5FuuDHirFf2RoRE1vjulmceKeYJujx6zfbeW5fxpJywlrBu1CY2oV3.FpAd9aqaSmEWdywE) Passcode: k8s%&?tr 
 * Date: Mar 17,2022
 <br/>
 
