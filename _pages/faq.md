@@ -56,7 +56,9 @@ flow:
               ```
               "OP-TEE:lists.trustedfirmware.org/pipermail/tf-m/"
               ```
-              
-              
+          - title: Where can I find the TrustedFirmware.org developer Community Code of Conduct?
+            content: |
+              The Community Code of Conduct is [located here](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/). 
+
 
 ---
