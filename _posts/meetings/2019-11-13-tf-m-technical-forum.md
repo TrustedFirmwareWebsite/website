@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2021-09-16 08:00:00
+date: 2022-03-22 08:00:00
 categories:
   - Meetings
 layout: post
@@ -19,14 +19,20 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **TF-M RPC Test Framework** - Arnold Gabriel Benedict [Presentation](/docs/tech_forum_20220317_tfm_rpc_ext.pdf)
+* [Video recording](https://linaro-org.zoom.us/rec/share/F9193Xn6rc5FuuDHirFf2RoRE1vjulmceKeYJujx6zfbeW5fxpJywlrBu1CY2oV3.FpAd9aqaSmEWdywE) Passcode: k8s%&?tr 
+* Date: Mar 17,2022
+<br/>
+
 * **Proposal for new design review quidelines** - David Hu
 * **Use of assembler** - open question
 * [Video recording](https://linaro-org.zoom.us/rec/share/qqvhOnvNPsDDZThpGf0Zslh9CwmXJOBVjyyjOGAhQPtXHoYYLDnz9l8-7aro-Opr.gGKNhj8G_GP9JlP1) Passcode: J3^kTu5A 
+* Date: Mar 3,2022
 <br/>
 
 * **Refinement of TF-M tests** - Jianliang Shen [Presentation](/docs/TF-M-RegressionTestRefinementsSummary.pdf)
 * **Error handling strategy[halting/rebooting/panic]** - open topic
-* [Video recording](https://linaro-org.zoom.us/rec/share/a_u_wHDfyCdx_iSpFqW_lFDxrpdRr4hfQlGMsZoj1BX_b8B9hYVR2HQ3xWsCdSUe.We0kThYAAmwkscE0) (Passcode: V?R7B#S!)
+* [Video recording](https://linaro-org.zoom.us/rec/share/a_u_wHDfyCdx_iSpFqW_lFDxrpdRr4hfQlGMsZoj1BX_b8B9hYVR2HQ3xWsCdSUe.We0kThYAAmwkscE0) Passcode: V?R7B#S!
 * Date: Feb 17, 2022
 <br/>
 
