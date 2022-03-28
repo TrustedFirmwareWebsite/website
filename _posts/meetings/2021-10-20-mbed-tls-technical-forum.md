@@ -19,14 +19,14 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 * **Date**: Mar 28,2022
   * Agenda:
-    * **Current activities** update - [presentation here](/docs/Mbed-TLS-TechForum2022-03-14.pdf)
-  * [Video recording](https://linaro-org.zoom.us/rec/share/gplpclIn99VtWMBLb5o7l9ChPgs80Ov4UF3QILX0SPTc_ckFGALr6D4NZFoHPgX2.c96A7LwH9bIjVVvq) Passcode: fe8W$6xj  
+    * **Current activities** update - [presentation here](/docs/Mbed-TLS-TechForum_2022-03-28.pdf)
+    * [Video recording](https://linaro-org.zoom.us/rec/share/X31BqZsYwC9mbODnSok5jFNJDd91l02xZWcy3wSoDd7MGEjWDucKwGt6MaR713YB.TOJNgul4B9HK-nAV?startTime=16484582480000) Passcode: kaw=50^b
 <br/>
 
 * **Date**: Mar 14,2022
   * Agenda:
     * **Current activities** update - [presentation here](/docs/Mbed-TLS-TechForum_2022-03-28.pdf)
-  * [Video recording](https://linaro-org.zoom.us/rec/share/X31BqZsYwC9mbODnSok5jFNJDd91l02xZWcy3wSoDd7MGEjWDucKwGt6MaR713YB.TOJNgul4B9HK-nAV?startTime=1648458248000 (Passcode: kaw=50^b))   
+    * [Video recording](https://linaro-org.zoom.us/rec/share/gplpclIn99VtWMBLb5o7l9ChPgs80Ov4UF3QILX0SPTc_ckFGALr6D4NZFoHPgX2.c96A7LwH9bIjVVvq) Passcode: fe8W$6xj  
 <br/>
 
 * **Date**: Feb 28, 2022
