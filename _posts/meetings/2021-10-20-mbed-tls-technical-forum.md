@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **Date**: Mar 28,2022
   * Agenda:
     * **Current activities** update - [presentation here](/docs/Mbed-TLS-TechForum_2022-03-28.pdf)
-    * [Video recording](https://linaro-org.zoom.us/rec/share/ya94QIxFEKOcGvx0QS-B0rp4wpFCnj9RwDs9_A0DGUWKHRhVyrVg9f0qsqXZWFDn.GRjE2IRBQYDY4HKn Access Passcode: kaw=50^b)
+    * [Video recording](https://linaro-org.zoom.us/rec/share/ya94QIxFEKOcGvx0QS-B0rp4wpFCnj9RwDs9_A0DGUWKHRhVyrVg9f0qsqXZWFDn.GRjE2IRBQYDY4HKn) Passcode: kaw=50^b
 <br/>
 
 * **Date**: Mar 14,2022
