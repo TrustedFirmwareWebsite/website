@@ -62,6 +62,6 @@ Useful links:
 
 TF-M CI Portal: [ci.trustedfirmware.org](https://ci.trustedfirmware.org/)
 
-Sample LAVA Tests Results: [validation.linaro.org/scheduler/job/1919709](https://validation.linaro.org/scheduler/job/1919709)
+Sample LAVA Tests Results: [validation.linaro.org/scheduler/job/1919709](https://validation.linaro.org/results/)
 
 Author: Shebu Varghese Kuriakose
