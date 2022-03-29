@@ -37,4 +37,4 @@ The TF-A team will keep submitting patches to mainline TF-A following the usual 
 
 6: [Realm Management Extension(RME) Enabled TF-A Users Guide](https://trustedfirmware-a.readthedocs.io/en/topics-rme_prototype/components/rme/rme-userguide.html) 
 
-7: [TF-A Monitor deep dive Linaro Connect Session](https://connect.linaro.org/resources/armcca/tfa-monitor-firmware-deep-dive/) 
+7: [TF-A Monitor deep dive Linaro Connect Session](https://resources.linaro.org/en/resource/DDim6AepcqxjEMpbr72LYe) 
