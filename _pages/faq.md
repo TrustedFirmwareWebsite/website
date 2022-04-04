@@ -58,7 +58,12 @@ flow:
               ```
           - title: Where can I find the TrustedFirmware.org developer Community Code of Conduct?
             content: |
-              The Community Code of Conduct is [located here](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/). 
-
+              The Community Code of Conduct is [located here](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/)
+          - title: Where can I find the archives of past presentations and meeting archives?
+            content: |
+              There are multiple locations useful historical presentation/meeting archives can be found:
+              * TF-A Presentation archive is [located here](https://developer.trustedfirmware.org/w/tf_a/)
+              * OP-TEE presentation archive is [located here](https://optee.readthedocs.io/en/latest/general/presentations.html)
+              * Tech Meeting minutes/presentation archives are [located here](https://www.trustedfirmware.org/meetings/)              
 
 ---
