@@ -1,7 +1,7 @@
 ---
-title: Trusted Firmware A (TF-A)
+title: TrustedFirmware-A (TF-A)
 description: >
-  The Trusted Firmware-A project provides a reference implementation of secure world software for
+  The TrustedFirmware-A (TF-A) project provides a reference implementation of secure world software for
   Armv7-A and Armv8-A class processors.
 layout: project
 icons:
