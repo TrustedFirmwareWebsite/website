@@ -1,5 +1,5 @@
 ---
-title: Trusted Firmware M (TF-M)
+title: TrustedFirmware-M (TF-M)
 description: >
   Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures or dual-core platforms.
 layout: project
