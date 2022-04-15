@@ -16,7 +16,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Upcoming calls - also posted to the TF-M mailing list
 
 
-**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/u/0/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c@group.calendar.google.com) for upcoming meetings.**
+**To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c@group.calendar.google.com) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
 * **Introduction_to_spm_backends_and_api_interfaces** - Kevin Peng [Presentation](/docs/tech_forum_20220331_introduction_to_spm_backends_and_api_interfaces.pdf)
