@@ -20,14 +20,15 @@ Highlights
 ----------
 
 Here are some of the main additions in OP TEE 3.17.0:
-Spectre BHB workaround
-Armv8 Security Extension Support
-FEAT_PAUTH (Pointer Authentication) support - Armv8.3-A introduces support of PAUTH to protect against ROP (Return oriented programming) attacks. This can now be enabled for TA’s.
-FF-A Support
-FF-A with SPMC at EL3
-Remote Attestation PTA
-RTC support
-Driver for TPMv2 (MMIO based) 
+- Spectre BHB workaround
+- Armv8 Security Extension Support
+- FEAT_PAUTH (Pointer Authentication) support - Armv8.3-A introduces support of PAUTH to protect against ROP (Return oriented programming) attacks. This can now be enabled for TA’s.
+- FF-A Support
+- FF-A with SPMC at EL3
+- Remote Attestation PTA
+- RTC support
+- Driver for TPMv2 (MMIO based) 
+
 The release included updates to the following repos:
 [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) - 202 commits and 71 PR's
 [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) - 9 commits and 6 PR's
