@@ -30,10 +30,10 @@ Here are some of the main additions in OP TEE 3.17.0:
 - Driver for TPMv2 (MMIO based) 
 
 The release included updates to the following repos:
-[optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) - 202 commits and 71 PR's
-[optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) - 9 commits and 6 PR's
-[optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) - 9 commits and 7 PR's
-[build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) - 8 commits and 6 PR's
+- [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) - 202 commits and 71 PR's
+- [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) - 9 commits and 6 PR's
+- [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) - 9 commits and 7 PR's
+- [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) - 8 commits and 6 PR's
  
 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/master/CHANGELOG.md). 
