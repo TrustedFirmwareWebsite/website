@@ -22,9 +22,9 @@ Highlights
 Here are some of the main additions in OP TEE 3.17.0:
 - Spectre BHB workaround
 - Armv8 Security Extension Support
-- FEAT_PAUTH (Pointer Authentication) support - Armv8.3-A introduces support of PAUTH to protect against ROP (Return oriented programming) attacks. This can now be enabled for TA’s.
+   - FEAT_PAUTH (Pointer Authentication) support - Armv8.3-A introduces support of PAUTH to protect against ROP (Return oriented programming) attacks. This can now be enabled for TA’s.
 - FF-A Support
-- FF-A with SPMC at EL3
+   - FF-A with SPMC at EL3
 - Remote Attestation PTA
 - RTC support
 - Driver for TPMv2 (MMIO based) 
