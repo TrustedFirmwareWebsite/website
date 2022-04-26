@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: MBed TLS open Tech Forum regular call
-date: 2021-12-20 08:00:00
+date: 2022-04-20 08:00:00
 categories:
   - Meetings
 layout: post
@@ -17,6 +17,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+* **Date**: April 25,2022
+  * Agenda:
+    * **Current activities** update - [presentation here](/docs/Mbed_TLS_TechForum2022-04-25.pdf)
+  * [Video recording](https://linaro-org.zoom.us/rec/share/oQY2Wmg39XG-vIRi1tLH3rTqT6OQNGpxFJ6Y5sPHOpYtXl6ww6pzNWAMYB5JNdaz.McdCZkSJkRIRMB0f) Passcode: .45Pk!c4
+<br/>
+
 * **Date**: April 11,2022
   * Agenda:
     * **Current activities** update - [presentation here](/docs/Mbed_TLS_TechForum2022-04-11.pdf)
