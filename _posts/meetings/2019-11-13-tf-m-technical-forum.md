@@ -19,6 +19,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **TF-M Documentation update** - Anton Komlev [Presentation](/docs/tech_forum_20220428_Documentation_update.pdf)
+* [Video recording](https://linaro-org.zoom.us/rec/share/1HXFr0J1YLHkOSpL-zJPFuwXIEbUYFc-rP8LpfcU6WPeybOGTExovSZWBEXXhouS.HXl20YGX6e1zfKfU) Passcode: L7k5V=Eu 
+* Date: April 28,2022
+<br/>
+
 * **Introduction_to_spm_backends_and_api_interfaces** - Kevin Peng [Presentation](/docs/tech_forum_20220331_introduction_to_spm_backends_and_api_interfaces.pdf)
 * **FP Support in TF-M** - Feder Liang [Presentation](/docs/tech_forum_20220331_FP_support_in_TF-M_update.pdf)
 * [Video recording](https://linaro-org.zoom.us/rec/share/isIQufp1pLbYof-th2VGJZh_yN9jA1Dzhb9MzWzZvzHrIgOXHRUreg0C28f44tgW.438JOJWkVLFHw68g) Passcode: 9??sZ=3! 
