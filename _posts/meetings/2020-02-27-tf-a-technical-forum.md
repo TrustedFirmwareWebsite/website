@@ -11,11 +11,16 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 21st April 2022 at 16:00 BST
+### The next call is planned on Thursday, 5th May 2022 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Feature Detection Mechanism- Presented by Jayanth Chidanand** [PDF Presentation](/docs/Feature-Detection.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/xTO89TRtAhVhiHw-bFfnD3E19vrwsKg-9jYH7S8_PbOugHfKarppKobRWW5q1sAl.LIsNHsLt9SsRkMe5) (Access Password: 3+\*!.bw$)
+* Date - 21st April 2022
+<br/>
 
 * **CCA Attestation and Measured Boot- Presented by Tamas Ban** [PDF Presentation](/docs/Attestation_and_Measured_Boot.pdf) 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/WLGj5HEiGsi9x2dmWWvlFy27vGQ5j06LS_fyWvBLPjFkrwikZDFIK-EysUXEi_08.E8fwaUn-8Kxbu4G8) (Access Password: U4=o\*8J2)
