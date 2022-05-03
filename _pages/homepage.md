@@ -46,6 +46,14 @@ flow:
           text: Our Members
       - format: custom_include
         source: members.html
+      - format: title
+        style: text-center font-weight-bold
+        title_content:
+          style: font-weight-bold
+          size: h3
+          text: Project Partners
+      - format: custom_include
+        source: project_partners.html
       - format: buttons
         style: text-center
         buttons_content:

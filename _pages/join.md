@@ -18,6 +18,12 @@ flow:
           text: Our Members
       - format: custom_include
         source: members.html
+      - format: title
+        title_content:
+          size: h2
+          text: Project Partners
+      - format: custom_include
+        source: project_partners.html
   - row: main_content_row
 permalink: /join/
 ---
