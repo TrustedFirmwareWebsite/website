@@ -58,8 +58,8 @@ flow:
               ```
           - title: Where can I find the TrustedFirmware.org developer Community Code of Conduct?
             content: |
-              The Community Code of Conduct is [located here](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/)
-              The TrustedFirmware Inclusive Language Policy can be found [here](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_inclusive_language/)
+              The Community Code of Conduct is [located here.](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/)
+               The TrustedFirmware Inclusive Language Policy can be found [here.](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_inclusive_language/)
           - title: Where can I find the archives of past presentations and meeting archives?
             content: |
               There are multiple locations useful historical presentation/meeting archives can be found:
