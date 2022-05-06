@@ -7,7 +7,7 @@ categories:
 layout: post
 image: /assets/images/trusted-firmware.jpg
 ---
-**TrustedFirmware.org chooses ECLAIR to reinforce Code Verification and Safety**
+# **TrustedFirmware.org chooses ECLAIR to reinforce Code Verification and Safety**
 
 *[Cambridge, Monday 9 May 2022]* TrustedFirmware.org and BUGSENG jointly announce the signature of a contract whereby BUGSENG provides a license of its ECLAIR Software Verification Platform® for the static analysis and MISRA compliance of Trusted Firmware projects (https://www.trustedfirmware.org/).
 
