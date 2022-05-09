@@ -30,7 +30,7 @@ In conclusion, a well-attended conference where all firmware enthusiasts could s
 
 References:
 
-1. [https://2018.osfc.io/talks/secure-partitions-in-trusted-firmware-a.html](https://2018.osfc.io/talks/secure-partitions-in-trusted-firmware-a.html)
+1. [https://www.osfc.io/2018/talks/secure-partitions-in-arm-trusted-firmware-a/](https://www.osfc.io/2018/talks/secure-partitions-in-arm-trusted-firmware-a/)
 
 2. [https://connect.linaro.org/resources/hkg18/hkg18-104/](https://connect.linaro.org/resources/hkg18/hkg18-104/)
 
