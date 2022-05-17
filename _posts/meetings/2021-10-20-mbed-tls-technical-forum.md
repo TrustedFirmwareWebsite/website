@@ -18,8 +18,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Date**: May 9,2022
-  * Agenda:
-  * **Current activities** update
+  * Agenda: **Current activities** update
   * [Video recording](https://linaro-org.zoom.us/rec/share/hAOm2SBTM-PJSdCaR4iFfW9me1oG-Nv-mJN9CcmH5LB0_Vl6-hHB0TyHpXJVZnUP.5Uzks0vacf1Co_Ok) Passcode: GF.Rix5t
 <br/>
 
