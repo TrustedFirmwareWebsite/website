@@ -19,6 +19,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Public Mailbox update** - Ken Liu [Presentation](/docs/tf-m_forum_20220526_public_mailbox_update.pdf)
+* [Video recording](https://linaro-org.zoom.us/rec/share/yT9wPoU3QKGpMWCEtY0QExf_FxUr_qSRgFGlK5A1vYLB4rBl1ge6XzJHNijjOO8-.YFW3qltyLA2yU--t)  Passcode: !^=B9Lh!
+<br/>
+
 * **TF-M Documentation update** - Anton Komlev [Presentation](/docs/tech_forum_20220428_Documentation_update.pdf)
 * [Video recording](https://linaro-org.zoom.us/rec/share/1HXFr0J1YLHkOSpL-zJPFuwXIEbUYFc-rP8LpfcU6WPeybOGTExovSZWBEXXhouS.HXl20YGX6e1zfKfU) Passcode: L7k5V=Eu 
 * Date: April 28,2022
