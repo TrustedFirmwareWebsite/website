@@ -20,6 +20,9 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Public Mailbox update** - Ken Liu [Presentation](/docs/tf-m_forum_20220526_public_mailbox_update.pdf)
+* Open Topics:
+  * Mailbox and code split between single and multi-core devices - Ken Liu 
+  * Split build. The use cases and priority
 * [Video recording](https://linaro-org.zoom.us/rec/share/yT9wPoU3QKGpMWCEtY0QExf_FxUr_qSRgFGlK5A1vYLB4rBl1ge6XzJHNijjOO8-.YFW3qltyLA2yU--t)  Passcode: !^=B9Lh!
 <br/>
 
