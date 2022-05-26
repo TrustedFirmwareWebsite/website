@@ -8,9 +8,9 @@ icons:
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://github.com/ARMmbed/mbedtls/blob/development/CONTRIBUTING.md
-  - text: Join the TF-M Tech Forum
+  - text: Join the Mbed TLS Tech Forum
     class: bg-green
-    url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
+    url: https://www.trustedfirmware.org/meetings/mbed-tls-technical-forum/
 links:
   code:
     text: "View Source Code"
