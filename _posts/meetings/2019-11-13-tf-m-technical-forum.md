@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2022-03-22 08:00:00
+date: 2022-05-26 08:00:00
 categories:
   - Meetings
 layout: post
