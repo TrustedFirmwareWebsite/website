@@ -33,4 +33,10 @@ flow:
       - format: custom_include
         source: blog/display_latest_posts.html
         category: Meetings
+      - format: buttons
+        style: text-center
+        buttons_content:
+          - title: View all
+            url: /meetings/all/
+            style: btn btn-green text-uppercase
 ---
