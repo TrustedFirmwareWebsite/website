@@ -41,6 +41,6 @@ Highlights
 - NXP Layerscape LS1043A*, LS1046A*, LS1088A* SoCs & Boards support
 - Various updates to existing platforms
 
-[1] [https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7) \
-[2] [https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7) \
-[3] [https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7  ](https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7)  
+1. [https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7) \
+2. [https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7) \
+3. [https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7  ](https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7)  
