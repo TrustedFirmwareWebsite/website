@@ -12,7 +12,7 @@ Introduction
 ------------
 Trusted Firmware-A has just completed the official v2.7 release, tagged across four main repositories: TF-A, TF-A-Tests, Hafnium and TF-A Open CI Scripts.
 Support for the 2020 Architecture extensions, Spectre BHB mitigations, Secure Partition Manager (SPM) operating at EL3 and much much more!
-The whole content of the release is described on the respective TF-A (1), TF-A-Tests (2) and Hafnium (3) change-logs, but here are some interesting highlights.
+The whole content of the release is described on the respective TF-A [1], TF-A-Tests [2] and Hafnium [3] change-logs, but here are some interesting highlights.
 
 
 Highlights
