@@ -43,4 +43,4 @@ Highlights
 
 [1] [https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-7) \
 [2] [https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-7) \
-[3] https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7  
+3. https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_7  
