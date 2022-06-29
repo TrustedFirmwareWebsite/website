@@ -20,6 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **External Trusted Secure Storage Proposal** - Poppy Wu & Julien Su [Presentation](/docs/tech_forum_20220623_TF-M External_TrustedSecureStorageProposal.pdf)
+* **Long Term Support(LTS) in TF-M project** - Anton Komlev 
 * * [Video Recording](https://linaro-org.zoom.us/rec/share/iVn07fmDJb89UerIDyXHUA_F1syp40YlMBjVh5bdyJxzCtMTQVWrqWNeCt_H73Fo.YQAne-9sQ36RHkB4) Passcode: F9r=8zY2
 * Date: June 23, 2022
 <br/>
