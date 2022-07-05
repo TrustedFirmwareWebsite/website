@@ -24,13 +24,9 @@ flow:
           - title: OP-TEE Contributions Forum Minutes
             url: https://bit.ly/loc-notes
             style: btn btn-primary my-1
+  - row: container_row
+    sections:
       - format: custom_include
-        source: blog/post_search.html
-        payload:
-          name: url
-          data: /assets/json/posts.json
-          category: Meetings
-      - format: custom_include
-        source: blog/display_latest_posts.html
+        source: blog/all_posts.html
         category: Meetings
 ---
