@@ -11,11 +11,28 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 5th May 2022 at 16:00 BST
+### The next call is planned on Thursday, 14th July 2022 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **SPMC Operating at EL3 and DRTM Support in TF-A**
+  * **SPMC Operating at EL3 - Presented by Marc Bonnici, Olivier Deprez - [PDF Presentation](/docs/EL3-SPMC-TechForum.pdf)**
+  * **DRTM Support in TF-A - Presented by Manish Badarkhe/Manish Pandey2- [PDF Presentation](/docs/DRTM_Phase_one.pdf)**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/_tNIPMVwa0kKf166dRWZnUYHsiwkKaGOB3RrsylxHexkkk86NaKgGvJ7cn8rCUyx.YREGNkg-5KCC28pW) (Access Password: 0!&pfS9!)
+* Date - 30th June 2022
+<br/>
+
+* **RMM-EL3 Interface - Presented by Javier Almansa Sobrino** [PDF Presentation](/docs/RMM-EL3-Interface.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/ziBiMWrxEl_c1cJ2TanEZZesaQdYUoIo_f0I_AXbfype1OQ5WEuIea3XMztt2le_.ereAAjHtq3y955tc) (Access Password: 0e%+0pSb)
+* Date - 23rd June 2022
+<br/>
+
+* **FF-A v1.1 Boot Protocol Implementation - Presented by Joao Alves** [PDF Presentation](/docs/ffa_boot_protocol_in_hafnium.pdf) 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/iOLbAGr8G0HpsDbCMgT7VqdNWxfMj_ZBiZR0mmcWxmD3CAWTXhpJu21s7po2_ODm.FN2jQp-eUq2vfmM_) (Access Password: YW=JA9.v)
+* Date - 5th May 2022
+<br/>
 
 * **Feature Detection Mechanism- Presented by Jayanth Chidanand** [PDF Presentation](/docs/Feature-Detection.pdf) 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/xTO89TRtAhVhiHw-bFfnD3E19vrwsKg-9jYH7S8_PbOugHfKarppKobRWW5q1sAl.LIsNHsLt9SsRkMe5) (Access Password: 3+\*!.bw$)
