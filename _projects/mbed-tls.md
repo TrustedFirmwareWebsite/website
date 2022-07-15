@@ -12,6 +12,9 @@ calls_to_action:
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/mbed-tls-technical-forum/
 links:
+  documentation:
+    text: "Mbed TLS Documentation"
+    url: https://mbed-tls.readthedocs.io
   code:
     text: "View Source Code"
     url: https://github.com/ARMmbed/mbedtls
