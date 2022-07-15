@@ -17,7 +17,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-* **LTS Proposal** - Okash Khawaja, Varun Wadekar- [PDF Presentation](/docs/TForg_LTS_proposal.pdf)
+* **LTS Proposal** - Presented by Okash Khawaja, Varun Wadekar- [PDF Presentation](/docs/TForg_LTS_proposal.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/wYFz4jQvpLZntYSamyjc5-n_bGNcx_RFm-amEdx4G_Zc9NHP_T352MHFTjjbtpzP.E7zK2HWdy2RxH5DU) (Access Password: NUx82^W= )
 * Date - 14 July 2022
 <br/>
