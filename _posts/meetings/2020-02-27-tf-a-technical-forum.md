@@ -20,7 +20,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * **LTS Proposal** - Okash Khawaja, Varun Wadekar- [PDF Presentation](/docs/TForg_LTS_proposal.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/wYFz4jQvpLZntYSamyjc5-n_bGNcx_RFm-amEdx4G_Zc9NHP_T352MHFTjjbtpzP.E7zK2HWdy2RxH5DU) (Access Password: NUx82^W= )
 * Date - 14 July 2022
-
+<br/>
 
 * **SPMC Operating at EL3 and DRTM Support in TF-A**
   * **SPMC Operating at EL3 - Presented by Marc Bonnici, Olivier Deprez - [PDF Presentation](/docs/EL3-SPMC-TechForum.pdf)**
