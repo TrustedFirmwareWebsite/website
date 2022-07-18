@@ -19,6 +19,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Library fetching improvements** - Infineon/Cypress
+* **Changes to Flash drivers** - Roman Mazurak 
+* [Video Recording](https://linaro-org.zoom.us/rec/share/KP96IiKsS76p8CI5Ps4adDGzYXFFuOOr1IUc1bF9ASG0P9Vnq08R-Bv8Pj8sVCLz.n-gDka4qW4TpK4KU) Passcode: gX&fmHR8
+* Date: July 8, 2022
+<br/>
+
 * **External Trusted Secure Storage Proposal** - Poppy Wu, Julien Su [Presentation](/docs/tech_forum_20220623_TF-M%20External_TrustedSecureStorageProposal.pdf)
 * **Long Term Support(LTS) in TF-M project** - Anton Komlev 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/iVn07fmDJb89UerIDyXHUA_F1syp40YlMBjVh5bdyJxzCtMTQVWrqWNeCt_H73Fo.YQAne-9sQ36RHkB4) Passcode: F9r=8zY2

@@ -17,6 +17,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+* **Date**: July 18 2022
+  * Agenda: **Recent community activity/Core team updates** - [presentation here](/docs/MbedTLS_TechForum2022-07-18.pdf)
+  * [Video recording](https://linaro-org.zoom.us/rec/share/S3tAnX72gztBcbG5UB6Jw0GF1kVELRZw96ZsKIEJ1067V2Ie3SwBfdyN5UWH-1xb.VYE_S1XPjleUjrUa) Passcode: ?0kfnzi*
+<br/>
+
 * **Date**: July 4, 2022
   * Agenda: **Recent community activity/Core team updates** - [presentation here](/docs/Mbed-TLS-TechForum2022-07-04.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/vR288QH_PXeYd8BIAc3cRsncUdAS9vyrmPVnyjik4w2UwZxnmymt7Ns5zJvmwhSV.zdgoIc73ByMGlVkN) Passcode: n#jLb7S^
