@@ -20,12 +20,13 @@ Highlights
 ----------
 
 Here are some of the main additions in OP TEE 3.18.0:
-Armv8.5-A Memory Tagging Extension support for OP-TEE core and TAs
-Arm SMCCC TRNG firmware interface support
-Add DT_GNU_HASH support to ldelf
-Enables loading TAs compiled with --hash-style=gnu
-Adds support for the elliptic curve X25519 as defined in TEE Internal Core API v1.2.
-SCMI fixes and updates
+- Armv8.5-A Memory Tagging Extension support for OP-TEE core and TAs
+- Arm SMCCC TRNG firmware interface support
+- Add DT_GNU_HASH support to ldelf
+  - Enables loading TAs compiled with --hash-style=gnu
+- Add support for the elliptic curve X25519 as defined in TEE Internal Core API v1.2.
+- SCMI fixes and updates
+
 The release included updates to the following repos:
 - [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) 
 - [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
