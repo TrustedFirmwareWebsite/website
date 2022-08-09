@@ -19,6 +19,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **[Configurable Stack Size for Secure Partitions](/doc/tech_forum_20220808_Configurable_Stack_Size_for_Secure_Partitions.pdf)** - Kevin Peng
+* **[Memory footprint distribution by profiles](/doc/tech_forum_20220808_Memory_footprint_distribution_by_profiles.pdf)**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/8u3Q6kEYn1y0EMGu-2DXIDcaQyb2-JcsJ139Jelz89FizsgQENzzerfb8A7wTwdN.c-gpDAo0UEnV93qF) Passcode: 9*j@j3$p
+* Date August 4, 2022
+<br/>
+
 * **Library fetching improvements** - Infineon/Cypress
 * **Changes to Flash drivers** - Roman Mazurak 
 * [Video Recording](https://linaro-org.zoom.us/rec/share/KP96IiKsS76p8CI5Ps4adDGzYXFFuOOr1IUc1bF9ASG0P9Vnq08R-Bv8Pj8sVCLz.n-gDka4qW4TpK4KU) Passcode: gX&fmHR8
