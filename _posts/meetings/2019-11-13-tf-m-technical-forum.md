@@ -22,7 +22,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **Open Discussions: Library Model review** - Anton Komlev
 * [Video Recording](https://linaro-org.zoom.us/rec/share/bdtd7z4TGpkCx4aImlMJzzXHtVBcdEOUpal3tHQ5u3Fab4p_Kujit2brEZm2Qc9Q.blzG2VbL-wnKwRA1) Passcode: ch4.jhTj
 * Date: Sept 1, 2022
-* <br/>
+<br/>
 
 * **Library Model vs SFN Model** - David Hu [Presentation](/docs/tf-m_forum_20220818_TF-M-Library-model-vs-SFN-model.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/PCB6GhSPLfnq0rFC2F1s1I4IgtcmO3p7J2QHX70Z70-Q1tM6NqsYmMEvKiMulYSG.jgNPsMlC3y8ZKJY0) Passcode: L3EX!CBz
