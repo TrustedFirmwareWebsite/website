@@ -26,7 +26,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **Library Model vs SFN Model** - David Hu [Presentation](/docs/tf-m_forum_20220818_TF-M-Library-model-vs-SFN-model.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/PCB6GhSPLfnq0rFC2F1s1I4IgtcmO3p7J2QHX70Z70-Q1tM6NqsYmMEvKiMulYSG.jgNPsMlC3y8ZKJY0) Passcode: L3EX!CBz
-* Date August 18, 2022
+* Date: August 18, 2022
 <br/>
 
 * **Configurable Stack Size for Secure Partitions** - Kevin Peng [Presentation](/docs/tech_forum_20220808_Configurable_Stack_Size_for_Secure_Partitions.pdf)
