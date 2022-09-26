@@ -21,7 +21,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 * Date - 22nd September 2022
 <br/>
 
-<br/>* **LTS Proposal Followup** - Presented by Okash Khawaja, Varun Wadekar- [PDF Presentation](/docs/LTS-Follow-up.pdf)
+* **LTS Proposal Followup** - Presented by Okash Khawaja, Varun Wadekar- [PDF Presentation](/docs/LTS-Follow-up.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/XwW9b0PpXN3Y-a2z_8Q1R1YGKeJ1ig9Wu_edxx8nIUZDRZnT-WjXxM9ueBqKc5fY.WIB111dNh846VnLr) (Access Password: 4CZ0\*6CG)
 * Date - 8th September 2022
 <br/>
