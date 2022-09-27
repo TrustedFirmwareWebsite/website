@@ -17,7 +17,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 * **Firmware Update on Total Compute Platform** - Presented by Davidson Kumaresan, Manish Badarkhe- [PDF Presentation](/docs/firmware-update-TC.pdf)
-* [Video Recording](https://linaro-org.zoom.us/rec/share/PUvg3ZzcY9J8wxgBsshafIDPA9ROyTyuGpBSLO-gql9HP7IdCqe8sGLLatrADFGX.-_P4kgxdWUwNle15)) (Access Password: \*F\*W\*31J)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/PUvg3ZzcY9J8wxgBsshafIDPA9ROyTyuGpBSLO-gql9HP7IdCqe8sGLLatrADFGX.-_P4kgxdWUwNle15) (Access Password: \*F\*W\*31J)
 * Date - 22nd September 2022
 <br/>
 
