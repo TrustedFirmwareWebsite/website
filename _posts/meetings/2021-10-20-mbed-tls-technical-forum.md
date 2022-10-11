@@ -18,7 +18,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Date:** Oct 10, 2022
-  * Agenda: **Recent community activity/Core team updates** - [presentation here](/dcos/Mbed-TLS-TechForum2022-09-26.pdf)
+  * Agenda: **Recent community activity/Core team updates** - [presentation here](/docs/Mbed-TLS-TechForum2022-09-26.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/VBIqQAHXjVJ_X0f3UapoNS8CjhapOV9pNkK-Y7qDEuQTS9-RMufKzSIVGvxo2Sk.65OFeT8Uwn7I4JAH) Passcode: V?mJLD%7
 <br/>
 
