@@ -21,6 +21,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 * **Open Discussions: General**
 * [Video Recording](https://linaro-org.zoom.us/rec/share/juCnYZTBNhAmEA1mYX7hAEEzBDEMhbmy-Y89vVsC-9deVEsDnoYs4UpYeVw1Qsyl.8j77qKgaFKIpLsid) Passcode: mzV!&i2C
+* Date: Sept 28, 2022
 <br/>
 
 * **Open Discussions: Library Model review** - Anton Komlev
