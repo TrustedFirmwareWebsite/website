@@ -19,6 +19,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Open Discussions: General**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/juCnYZTBNhAmEA1mYX7hAEEzBDEMhbmy-Y89vVsC-9deVEsDnoYs4UpYeVw1Qsyl.8j77qKgaFKIpLsid) Passcode: mzV!&i2C
+* Date: Sept 28, 2022
+<br/>
+
 * **Open Discussions: Library Model review** - Anton Komlev
 * [Video Recording](https://linaro-org.zoom.us/rec/share/bdtd7z4TGpkCx4aImlMJzzXHtVBcdEOUpal3tHQ5u3Fab4p_Kujit2brEZm2Qc9Q.blzG2VbL-wnKwRA1) Passcode: ch4.jhTj
 * Date: Sept 1, 2022
