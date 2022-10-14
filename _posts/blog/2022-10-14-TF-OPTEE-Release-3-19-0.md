@@ -38,7 +38,7 @@ The release included updates to the following repos:
 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/3.19.0/CHANGELOG.md).
 
-Testing of the release has been performed by the committers and can be found [here]https://github.com/OP-TEE/optee_os/commit/afacf356f9593a7f83cae9f96026824ec242ff52)
+Testing of the release has been performed by the committers and can be found [here](https://github.com/OP-TEE/optee_os/commit/afacf356f9593a7f83cae9f96026824ec242ff52)
 
 Test plan for this release using the OP-TEE are [here](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html) test suite. Testing results can be found in the [pull request itself](https://github.com/OP-TEE/optee_os/pull/5550)
 
