@@ -26,7 +26,8 @@ Here are some of the main additions in OP TEE 3.19.0:
 - MBedTLS updated to 2.28.1
 - Zlib updated to v1.12.1
 - Fixes linker errors with GNU binutils 2.39
--Support for loading SP images from the TF-A FIP (Firmware Image Package)
+- Support for loading SP images from the TF-A FIP (Firmware Image Package)
+- Added a new suite to xtest (ffa_spmc) to enable testing the SPMC as part of the normal OP-TEE test procedure
 - Platforms: adds support for Arm Corstone-1000, NXP i.MX 93 EVK and TI K3 J784S4; various improvements and fixes for Renesas R-Car H3, STMicroelectronics STM32MP1, TI K3, Xilinx Versal, Xilinx ZynqMP
 
 The release included updates to the following repos:
