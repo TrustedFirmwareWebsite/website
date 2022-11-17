@@ -59,7 +59,7 @@ References:
 
 1. [Trusted Firmware-A Security Advisory TFV-7](https://github.com/ARM-software/arm-trusted-firmware/wiki/Trusted-Firmware-A-Security-Advisory-TFV-7)
 
-2. [Platform Compatibility Policy](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/process/platform-compatibility-policy.rst)
+2. [Platform Ports Policy](https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/process/platform-ports-policy.rst)
 
 3. [Trusted Firmware-A Release information](https://github.com/ARM-software/arm-trusted-firmware/wiki/TF-A-Release-information)
 
