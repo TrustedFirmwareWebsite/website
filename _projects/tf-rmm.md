@@ -30,7 +30,7 @@ useful_links:
   - text: TF-RMM Issues list
     url: https://github.com/TF-RMM/tf-rmm/issues
 top_text: |-
-  ** TF-RMM is the Trusted Firmware Implementation of the Realm Management Monitor (RMM) Specification which is part of Arm Confidential Compute Architecture (Arm CCA). Arm CCA is an architecture which provides Protected Execution Environments called Realms.**
+  **TF-RMM is the Trusted Firmware Implementation of the Realm Management Monitor (RMM) Specification which is part of Arm Confidential Compute Architecture (Arm CCA). Arm CCA is an architecture which provides Protected Execution Environments called Realms.**
 
   Contribution guidelines can be found in the documentation.
 
