@@ -11,11 +11,16 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 6th October 2022 at 16:00 BST
+### The next call is planned on Thursday, 15th December 2022 at 16:00 GMT
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+* **TF-RMM Unit Test Framework** - Presented by Javier Almansa Sobrino- [PDF Presentation](/docs/TF-RMM-UnitTestFramework.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/GsxoR_WyylZ6FbQSunilS0UYT-8C2D69204GO3wybl3zxL-T0UAcHWsvW0VNLr54.PYDJ9abkD5OP-wX4) (Access Password: =aUUc9DD)
+* Date - 17th November 2022
+<br/>
+
 * **Firmware Update on Total Compute Platform** - Presented by Davidson Kumaresan, Manish Badarkhe- [PDF Presentation](/docs/firmware-update-TC.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/PUvg3ZzcY9J8wxgBsshafIDPA9ROyTyuGpBSLO-gql9HP7IdCqe8sGLLatrADFGX.-_P4kgxdWUwNle15) (Access Password: \*F\*W\*31J)
 * Date - 22nd September 2022
