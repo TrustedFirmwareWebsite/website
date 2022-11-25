@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 79.64 79.49"
+   version="1.1"
+   id="svg331"
+   sodipodi:docname="TF_Icon_TF-RMM.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata335">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     id="namedview333"
+     showgrid="false"
+     inkscape:zoom="7.4789284"
+     inkscape:cx="30.205053"
+     inkscape:cy="30.531721"
+     inkscape:window-x="0"
+     inkscape:window-y="242"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs286">
+    <style
+       id="style284">.cls-1{fill:#11a9d4;opacity:0.8;}.cls-2,.cls-3{fill:#fff;}.cls-3{font-size:12.4px;font-family:Lato-Bold, Lato;font-weight:700;letter-spacing:0.03em;}.cls-4{letter-spacing:0.02em;}.cls-5{letter-spacing:0.03em;}</style>
+  </defs>
+  <g
+     id="Layer_1"
+     data-name="Layer 1">
+    <rect
+       class="cls-1"
+       x="12.13"
+       y="12.05"
+       width="55.39"
+       height="55.39"
+       id="rect288" />
+    <path
+       class="cls-2"
+       d="M71.64,73.4H8.16a1.93,1.93,0,0,1-1.92-1.92V8A1.93,1.93,0,0,1,8.16,6.09H71.64A1.92,1.92,0,0,1,73.56,8V71.48A1.92,1.92,0,0,1,71.64,73.4ZM8.16,7.37A.64.64,0,0,0,7.52,8V71.48a.64.64,0,0,0,.64.64H71.64a.64.64,0,0,0,.64-.64V8a.64.64,0,0,0-.64-.64Z"
+       id="path290" />
+    <path
+       class="cls-2"
+       d="M33.12,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,33.12,0a.64.64,0,0,1,.64.64V6.19A.64.64,0,0,1,33.12,6.83Z"
+       id="path292" />
+    <path
+       class="cls-2"
+       d="M46.38,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,46.38,0,.64.64,0,0,1,47,.64V6.19A.64.64,0,0,1,46.38,6.83Z"
+       id="path294" />
+    <path
+       class="cls-2"
+       d="M59.64,6.83A.64.64,0,0,1,59,6.19V.64a.64.64,0,0,1,1.28,0V6.19A.64.64,0,0,1,59.64,6.83Z"
+       id="path296" />
+    <path
+       class="cls-2"
+       d="M19.85,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,19.85,0a.64.64,0,0,1,.64.64V6.19A.64.64,0,0,1,19.85,6.83Z"
+       id="path298" />
+    <path
+       class="cls-2"
+       d="M59.64,79.49a.64.64,0,0,1-.64-.64V73.3a.64.64,0,0,1,1.28,0v5.55A.64.64,0,0,1,59.64,79.49Z"
+       id="path300" />
+    <path
+       class="cls-2"
+       d="M19.85,79.49a.64.64,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.63.63,0,0,1,19.85,79.49Z"
+       id="path302" />
+    <path
+       class="cls-2"
+       d="M6.19,47H.64A.64.64,0,0,1,0,46.38a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,47Z"
+       id="path304" />
+    <path
+       class="cls-2"
+       d="M6.19,33.76H.64A.64.64,0,0,1,0,33.12a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,33.76Z"
+       id="path306" />
+    <path
+       class="cls-2"
+       d="M6.19,20.49H.64A.64.64,0,0,1,0,19.85a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,20.49Z"
+       id="path308" />
+    <path
+       class="cls-2"
+       d="M6.19,60.28H.64A.64.64,0,0,1,.64,59H6.19a.64.64,0,0,1,0,1.28Z"
+       id="path310" />
+    <path
+       class="cls-2"
+       d="M79,47H73.46a.64.64,0,1,1,0-1.28H79A.64.64,0,0,1,79,47Z"
+       id="path312" />
+    <path
+       class="cls-2"
+       d="M79,33.76H73.46a.64.64,0,1,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path314" />
+    <path
+       class="cls-2"
+       d="M79,20.49H73.46a.64.64,0,0,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path316" />
+    <path
+       class="cls-2"
+       d="M79,60.28H73.46a.64.64,0,0,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path318" />
+    <path
+       class="cls-2"
+       d="M46.38,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,46.38,79.49Z"
+       id="path320" />
+    <path
+       class="cls-2"
+       d="M33.12,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,33.12,79.49Z"
+       id="path322" />
+    <text
+       class="cls-3"
+       id="text328"
+       style="font-weight:700;font-size:11.23981285px;font-family:Lato-Bold, Lato;letter-spacing:0.03em;fill:#ffffff;stroke-width:0.9064365"
+       x="15.555143"
+       y="42.633095">T<tspan
+   class="cls-4"
+   x="22.634415"
+   y="42.633095"
+   id="tspan324"
+   style="letter-spacing:0.02em;stroke-width:0.9064365">F</tspan>
+<tspan
+   class="cls-5"
+   x="29.169823"
+   y="42.633095"
+   id="tspan326"
+   style="letter-spacing:0.03em;stroke-width:0.9064365">-RMM</tspan>
+</text>
+  </g>
+</svg>
