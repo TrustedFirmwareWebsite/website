@@ -1,6 +1,6 @@
 ---
 author: shebu.kuriakose
-title: Trusted Services v1.0.0-beta: Enabling PSA Certified on Cortex-A devices 
+title: Trusted Services v1.0.0-beta and enabling PSA Certified on Cortex-A devices 
 date: 2022-12-05 10:00:00
 categories:
 - Blog
@@ -8,7 +8,7 @@ layout: post
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
-**Trusted Services v1.0.0-beta: Enabling PSA Certified on Cortex-A devices**
+**Trusted Services v1.0.0-beta and enabling PSA Certified on Cortex-A devices**
 =====================================================
 
 Introduction
