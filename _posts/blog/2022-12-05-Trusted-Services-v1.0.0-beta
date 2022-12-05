@@ -8,12 +8,11 @@ layout: post
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
-**Trusted Services v1.0.0-beta and enabling PSA Certified on Cortex-A devices**
-===================================================================================
+**TS v1.0.0-beta and enabling PSA Certified on Cortex-A devices**
+===================================================================
 
 The Trusted Services project has made the first tagged release [v1.0.0-beta](https://git.trustedfirmware.org/TS/trusted-services.git/tag/?h=v1.0.0-beta). The release includes PSA
-Certified Secure Services that can be deployed on Cortex-A devices to meet PSA Certified requirements.
-The release also includes necessary build and test infrastructure and documentation content.
+Certified Secure Services that can be deployed on Cortex-A devices to meet PSA Certified requirements. The release also includes necessary build and test infrastructure and documentation content.
 
 
 The project provides a framework for developing and deploying device root-of-trust services for A-
