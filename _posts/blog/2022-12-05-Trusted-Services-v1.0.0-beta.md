@@ -28,7 +28,7 @@ services within the Secure Partitions can be invoked by applications for secure 
 OP-TEE in 3.17 and later releases support Secure Partition Manager Core (SPMC). Details can be found
 [here](https://developer.trustedfirmware.org/w/trusted-services/op-tee-spmc/). The diagram below shows Trusted Services deployment on a reference platform.
 
-PICTURE HERE
+![TS deployment on reference platform](/assets/images/TF_TS_Diagram.png) 
 
 Visit project [documentation](https://trusted-services.readthedocs.io/en/latest/) to find out more and [subscribe to the mailing list](https://lists.trustedfirmware.org/mailman3/lists/trusted-services.lists.trustedfirmware.org/) to remain updated and get
 involved in the project. The TS roadmap can be found [here](https://developer.trustedfirmware.org/w/trusted-services/roadmap/). The project will make further releases as more
