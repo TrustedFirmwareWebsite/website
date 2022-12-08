@@ -12,7 +12,7 @@ Introduction
 ------------
 Trusted Firmware-A has just completed the official v2.8 release, tagged across multiple repositories.
 
-Support for the 2021 Architecture extensions, DRTM, FF-A v1.1, EAC0 and, for the first time, compatibility with the newly released TF-RMM!
+Support for the 2021 Architecture extensions, DRTM, FF-A v1.1, EAC0 and, for the first time, compatibility with the [newly released TF-RMM](https://www.webwire.com/ViewPressRel.asp?aId=297328)!
 The whole content of the release is described on the respective TF-A (1), TF-A-Tests (2) and Hafnium (3) change-logs.
 See also the related TF-RMM v0.2.0 documentation (4) and release note (5).
 
