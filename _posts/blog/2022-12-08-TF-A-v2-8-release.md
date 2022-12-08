@@ -1,7 +1,7 @@
 ---
 author: matteo.carlini
 title: Trusted Firmware-A v2.8 released with new content and TF-RMM compatibility!
-date: 2022-06-10 09:00:00
+date: 2022-12-08 09:00:00
 categories:
   - Blog
 layout: post
