@@ -19,7 +19,13 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
-* **TF-M Configuration High-level Design Update** - Andton Komlev [Presentation](/docs/tech_forum_20221027_TF-M_NewConfiguration.pdf)
+* **1.6.1 Stack Sealing Hotfix** - Ken Liu [Presentation](/docs/tech_forum_20221208_StackSealing.pdf)
+* **Update on release v1.7.0** - Anton Komlev
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Zyz_RFJ5XuNH6DYdgnIIO1IyEqJoWQDmDRtCndB1mCDtlIsqvplVnGblXnK9rA1V.NcHCMhQ4ojlHPjML) Passcode: Ys5c9T@3
+* Date: Dec 8, 2022
+<br/>
+
+* **TF-M Configuration High-level Design Update** - Anton Komlev [Presentation](/docs/tech_forum_20221027_TF-M_NewConfiguration.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/rCFE68iogmLEz3aoCDtyG2UgnQQQQ6YPq4VldcNvy_4OD0gftiuAgRkgMyVNQecd.xjwmSX5Ea4sq_cnL) Passcode: 6fYGx+QG
 * Date: Oct 27, 2022
 <br/>
