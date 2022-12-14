@@ -1,6 +1,6 @@
 ---
 author: trusted.firmware
-title: First LTS release of Trusted Firmware - A (TF-A)
+title: First LTS Release of Trusted Firmware - A (TF-A)
 description: >
   Trusted Firmware is pleased to announce the initial Long Term Support (LTS) release of the TF-A
 date: 2022-12-14 10:00:00
