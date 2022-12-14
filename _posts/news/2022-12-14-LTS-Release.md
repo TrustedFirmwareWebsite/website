@@ -10,7 +10,7 @@ layout: post
 image: /assets/images/trusted-firmware.jpg
 ---
 
-The TrustedFirmware.org community is delighted to announce the creation of the first TF-A Long Term Support (LTS) release, which will be based on the recent TF-Av2.8 release, and it is expected by February 2023.
+The TrustedFirmware.org community is delighted to announce the creation of the first TF-A Long Term Support (LTS) release, which will be based on the recent TF-A v2.8 release, and it is expected by February 2023.
 
 The goal is for this first LTS to be supported for 5 years.
 
