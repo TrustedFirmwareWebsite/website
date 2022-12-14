@@ -17,9 +17,9 @@ The goal is for this first LTS to be supported for 5 years.
 The effort is sustained for the first year by individual engineers from interested companies.
 We are seeking for a wider engagement from the Trusted Firmware community to contribute and help supporting this initiative, in order to fulfil the long-term requirements.
 
-Full details (technical description, branch name, LTS mailing lists) can be found at [this page](https://developer.trustedfirmware.org/w/tf_a/lts_proposal/) and its attached document
+Full details (technical description, branch name, LTS mailing lists) can be found at [this page](https://developer.trustedfirmware.org/w/tf_a/lts_proposal/) including the proposal as an attached document on the page.
 
-Register to the official TF-A LTS mailing list (<link here>) to receive all the latest news
+Register to the [official TF-A LTS mailing list](https://lists.trustedfirmware.org/mailman3/lists/tfa-lts.lists.trustedfirmware.org/) to receive all the latest news
 
 ### About TrustedFirmware.org
 
