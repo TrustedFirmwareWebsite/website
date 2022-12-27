@@ -18,6 +18,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Date:** Dec 19, 2022
+  * Agenda:  **Recent community activity/Core team updates**
   * [Video recording](https://linaro-org.zoom.us/rec/share/0akK2hrVyRKqqQgXN1kZ8TeaHqJTttOa3ubps-PO71d8gzN1pS6rAnrE4DMDTe_c.V6nER-_0EQVCghp2) Passcode: p8kt=ht7
 <br/>
 
