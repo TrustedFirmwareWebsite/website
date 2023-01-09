@@ -1,7 +1,7 @@
 ---
 title: Mbed TLS
 description: >
-  A C library implementing cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
+  Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
 layout: project
 icons:
   - svgs/TF_Icon_MBedTLS.svg
