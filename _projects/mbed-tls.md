@@ -30,7 +30,7 @@ useful_links:
   - text: Wiki pages
     url: https://developer.trustedfirmware.org/w/mbed-tls/
 top_text: |-
-  **A C library implementing cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols. Its small code footprint makes it suitable for embedded systems. It has many users, including TF-A, TF-M and OP-TEE.**
+  **Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols. The project provides reference implementation of [PSA Cryptography API Specification](https://developer.arm.com/documentation/ihi0086/b) by supporting the cryptographic operations via. PSA Crypto APIs. The project also supports the [PSA Cryptoprocessor driver interface Specification](https://github.com/Mbed-TLS/mbedtls/blob/development/docs/proposed/psa-driver-interface.md) which defines an interface for cryptoprocessor drivers. The small code footprint makes the project suitable for embedded systems. It has many users, including TF-A, TF-M and OP-TEE.**
 
   Contribution guidelines can be found in the documentation.
 
