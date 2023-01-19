@@ -20,6 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Default implemeation of tsm_ns_interface_dispatch** - Bohdan Hunko [Presentation](/docs/tech_forum_20230119_Default_implementation_of_tfm_ns_interface.pdf)
+* **The line endings in terminal output, CR, LF, CRLF** - Anton Komlev
 * **TF-M Platform Documentation** - Anton Komlev [Presentation](/docs/tech_forum_20230119_Platform_documentation.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/OM5eqd__1VfUkWg2KzuOKS6TUbxcgI0OlYdrKOv4TvkbCqZ0jVXr6or2-7BIQJU4.-CUOZnu19EG_pzW4) Passcode: KFn6E?yh
 * Date: Jan 19, 2023
