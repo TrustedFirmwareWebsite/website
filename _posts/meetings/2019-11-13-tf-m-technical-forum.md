@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
-* **Default implemeation of tsm_ns_interface_dispatch\(\)** - Anton Komlev [Presentation](/docs/tech_forum_20230119_Default implementation_of_tfm_ns_interface.pdf)
+* **Default implemeation of tsm_ns_interface_dispatch()** - Anton Komlev [Presentation](/docs/tech_forum_20230119_Default implementation_of_tfm_ns_interface.pdf)
 * **TF-M Platform Documentation** - Anton Komlev [Presentation](/docs/tech_forum_20230119_Platform_documentation.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/OM5eqd__1VfUkWg2KzuOKS6TUbxcgI0OlYdrKOv4TvkbCqZ0jVXr6or2-7BIQJU4.-CUOZnu19EG_pzW4) Passcode: KFn6E?yh
 * Date: Jan 19, 2023
