@@ -20,21 +20,22 @@ Highlights
 ----------
 
 Here are some of the main additions in OP TEE 3.20.0:
-Signing TAs using subkeys
-SCMI server from SCP-firmware
-SHA-512 and SM3 using ARMv8.2-A cryptographic extensions
-Add support for compiler stack protector (Core and TAs)
-Adds support for the SM4-XTS algorithm
-Adds mitigations in TA loading against hardware fault injection attacks
-Reject weak hash algorithms when verifying for instance signed TAs
+
+- Signing TAs using subkeys
+- SCMI server from SCP-firmware
+- SHA-512 and SM3 using ARMv8.2-A cryptographic extensions
+- Add support for compiler stack protector (Core and TAs)
+- Adds support for the SM4-XTS algorithm
+- Adds mitigations in TA loading against hardware fault injection attacks
+- Reject weak hash algorithms when verifying for instance signed TAs
+
 The release included updates to the following repos:
-[optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) 
-[optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
-[optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
-[build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
 
-
-
+- [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) 
+- [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
+- [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
+- [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
+ 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/3.20.0/CHANGELOG.md).
 
 Testing of the release has been performed by the committers and can be found [here]https://github.com/OP-TEE/optee_os/commit/8e74d47616a20eaa23ca692f4bbbf917a236ed94)
