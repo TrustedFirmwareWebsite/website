@@ -36,7 +36,7 @@ The release included updates to the following repos:
 - [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
 - [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
  
-More details can be found [here](https://github.com/OP-TEE/optee_os/blob/3.20.0/CHANGELOG.md).
+More details can be found in the change log [here](https://github.com/OP-TEE/optee_os/blob/3.20.0/CHANGELOG.md).
 
 Testing of the release has been performed by the committers and can be found [here](https://github.com/OP-TEE/optee_os/commit/8e74d47616a20eaa23ca692f4bbbf917a236ed94)
 
