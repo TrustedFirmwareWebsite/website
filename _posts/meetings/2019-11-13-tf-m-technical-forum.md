@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-M open Tech Forum regular call
-date: 2022-05-26 08:00:00
+date: 2023-02-02 08:00:00
 categories:
   - Meetings
 layout: post
@@ -19,6 +19,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **TF-M eRPC Test Framework integration intro** - Kevin Peng [Presentation](/docs/tech_forum_20230202_erpc_test_framework.pdf)
+* **Open discussions: Value of copyright date update** - Anton Komlev
+* [Video Recording](https://linaro-org.zoom.us/rec/share/PpDns90aR7CcwbmqYnZuFUZSfSjA6Wq37PX-ST3vNM6lvusi5kDkUc8kehugHv95.ZNfTX_-yEj0tvUUT) Passcode: 6^4?A?mC
+* Date: Feb 2, 2023
+<br/>
+
 * **Default implemeation of tsm_ns_interface_dispatch** - Bohdan Hunko [Presentation](/docs/tech_forum_20230119_Default_implementation_of_tfm_ns_interface.pdf)
 * **The line endings in terminal output, CR, LF, CRLF** - Anton Komlev
 * **TF-M Platform Documentation** - Anton Komlev [Presentation](/docs/tech_forum_20230119_Platform_documentation.pdf)
