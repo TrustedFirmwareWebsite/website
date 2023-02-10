@@ -11,11 +11,16 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 9th February 2023 at 16:00 GMT
+### The next call is planned on Thursday, 23rd February 2023 at 16:00 GMT
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Firmware Update Support in the Trusted Services Project** - Presented by Julian Hall - [PDF Presentation](/docs/FWUsupportInTrustedServices.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/DH1v2ravrV6T9oawcSGLYSUEvHrt2wc1tbZOTupdQ6LJqxYlwLWHXOVG5hDkljc.PFyxWse9jrXkCiTw) (Access Password: &vnx=2TA)
+* Date - 10th February 2023
+<br/>
 
 * **TF-A LTS updates** - Presented by Bipin Ravi, Okash Khawaja, Varun Wadekar - [PDF Presentation](/docs/TF-A_LTS_updates.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/o1ZhtJL8hDsL70piPyT4qyMOkasGNkErxlzTpSph6zV4hxfcgHhmvGgkODu6v9W7.ubeiQ6qrkmotWpgp) (Access Password: %QW@j7iC)
