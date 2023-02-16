@@ -1,7 +1,7 @@
 ---
 author: matteo.carlini
 title: Trusted Firmware-A LTS v2.8.0 released!
-date: 2022-12-08 09:00:00
+date: 2023-02-13 09:00:00
 categories:
   - Blog
 layout: post
