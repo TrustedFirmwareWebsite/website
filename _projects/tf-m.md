@@ -7,7 +7,7 @@ icons:
   - svgs/TF_Icon_TF-M.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    url: https://tf-m-user-guide.trustedfirmware.org/docs/contributing/contributing_process.html
+    url: https://tf-m-user-guide.trustedfirmware.org/contributing/contributing_process.html
   - text: Join the TF-M Tech Forum
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
