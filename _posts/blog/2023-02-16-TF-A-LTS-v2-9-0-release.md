@@ -22,4 +22,5 @@ Notable changes of the TF-A LTS v2.8.0 release are as follows:
 Please refer to the TF-A LTS [2] changelog for the complete summary of changes.
 
 [1] [TF-A LTS v2.8.0 Release announcement](mailto:https://lists.trustedfirmware.org/archives/list/tfa-lts@lists.trustedfirmware.org/thread/5QK6N3LN4UCTPI2F4N7J4UAHBB2RLVG6/)
+
 [2] [TF-A LTS v2.8.0 ChangeLog](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/tree/docs/change-log.md?h=refs/heads/lts-v2.8) 
