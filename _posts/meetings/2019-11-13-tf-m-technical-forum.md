@@ -137,7 +137,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 <br/>
 
 * **Release Process Update**
-* Online documentation referenced during the presentation located [here](https://tf-m-user-guide.trustedfirmware.org/docs/releases/release_process.html)
+* Online documentation referenced during the presentation located [here](https://tf-m-user-guide.trustedfirmware.org/releases/release_process.html?highlight=release%20process)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/ZMPyQA7ZSRye6E3cyKasaEEiXxQvSIPLxwzgx7Z5uzi_iUxcmFCOslfwMM2N69wd.1s_w-XNtD3bxUOfu) Passcode: 8#usy11%
 * Date: Nov 11, 2021
 <br/>
