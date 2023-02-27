@@ -1,4 +1,4 @@
 
 
 
-Look [here](TrustedFirmware-MTechnicalOverviewQ1-2023.pdf)
+Look [here](/docs/TrustedFirmware-MTechnicalOverviewQ1-2023.pdf)
