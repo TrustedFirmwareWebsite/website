@@ -1,7 +1,7 @@
 ---
 author: don.harbin
 title: TF-M Technical Overview
-date: 2023-21-27 10:00:00
+date: 2023-02-27 10:00:00
 categories:
 - Blog
 layout: post
