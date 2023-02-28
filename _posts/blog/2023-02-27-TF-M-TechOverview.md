@@ -11,6 +11,6 @@ image: /assets/images/blog/musca_tf_crop_1500x1500.png
 **White Paper: Trusted Firmware-M (TF-M) Technical Overview**
 =============================================================
 
-A very nice technical overview has been created with the goal of heling software developers to become more familiar with Trusted Firmware-M
+A technical overview document has been written to help software developers to be more familiar with the Trusted Firmware-M.
 
 To access this white paper, please click [here](/docs/TrustedFirmware-MTechnicalOverviewQ1-2023.pdf)
