@@ -1,5 +1,5 @@
 ---
-author: jospeh.yiu
+author: joseph.yiu
 title: TF-M Technical Overview
 date: 2023-02-27 10:00:00
 categories:
