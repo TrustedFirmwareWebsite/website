@@ -14,6 +14,7 @@ calls_to_action:
     class: bg-green
     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
   - text: TF-A LTS Project
+    url: /projects/tf-a/tf-a-lts/
 links:
   documentation:
     text: Trusted Firmware-A Documentation
