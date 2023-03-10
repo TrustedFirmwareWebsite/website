@@ -28,7 +28,7 @@ links:
     url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a+branch:lts-v2.8
   subscribe:
     text: Subscribe to the TF-A LTS mailing list
-    # url: https://lists.trustedfirmware.org/mailman3/lists/tfa-lts.lists.trustedfirmware.org/  
+    url: https://lists.trustedfirmware.org/mailman3/lists/tfa-lts.lists.trustedfirmware.org/  
 useful_links:
   - text: TF-A LTS Dashboard
     url: https://developer.trustedfirmware.org/dashboard/view/6/
