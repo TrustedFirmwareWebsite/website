@@ -7,8 +7,6 @@ strap_image: /assets/images/content/TF_Banner_image.jpg
 hide_other_projects: "true"
 layout: project
 icons:
-  - svgs/TF_Icon_TF-A.svg
-  - svgs/TF_Icon_TF-ATesting.svg
   - svgs/TF_Icon_TF-A_LTS.svg
 calls_to_action:
   - text: Contribute/Submit Code
