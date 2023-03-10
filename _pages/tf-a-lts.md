@@ -7,36 +7,35 @@ strap_image: /assets/images/content/TF_Banner_image.jpg
 hide_other_projects: "true"
 layout: project
 icons:
-  - svgs/TF_Icon_TF-A.svg
-  - svgs/TF_Icon_TF-ATesting.svg
+  - svgs/TF_Icon_TF-A_LTS.svg
 calls_to_action:
   - text: Contribute/Submit Code
-    # url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
+    url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
   - text: Join the TF-A LTS Tech Forum
     class: bg-green
-    # url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
 links:
   documentation:
     text: Trusted Firmware-A LTS Documentation
-    # url: https://trustedfirmware-a.readthedocs.org/
+    url: https://trustedfirmware-a.readthedocs.org/
   code:
     text: View source code
-    # url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
+    url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/log/?h=lts-v2.8
   review:
     text: "Gerrit review"
-    # url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
+    url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a+branch:lts-v2.8
   subscribe:
     text: Subscribe to the TF-A LTS mailing list
-    # url: https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/    
+    url: https://lists.trustedfirmware.org/mailman3/lists/tfa-lts.lists.trustedfirmware.org/  
 useful_links:
   - text: TF-A LTS Dashboard
-    # url: https://developer.trustedfirmware.org/dashboard/view/6/
+    url: https://developer.trustedfirmware.org/dashboard/view/6/
   - text: TF-A LTS Project page
-    # url: https://developer.trustedfirmware.org/project/profile/1/
+    url: https://developer.trustedfirmware.org/project/profile/1/
   - text: TF-A LTS Tests Project page
-    # url: https://developer.trustedfirmware.org/project/view/9/
+    url: https://developer.trustedfirmware.org/project/view/9/
   - text: Wiki pages
-    # url: https://developer.trustedfirmware.org/w/tf_a/
+    url: https://developer.trustedfirmware.org/w/tf_a/
 top_text: |-
   **The Trusted Firmware-A LTS project provides ...**
 
