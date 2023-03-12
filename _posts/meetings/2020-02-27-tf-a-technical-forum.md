@@ -11,11 +11,17 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 9th March 2023 at 16:00 GMT
+### The next call is planned on Thursday, 23rd March 2023 at 16:00 GMT
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **Errata ABI** - Presented by Sona Rebecca Mathew - [PDF Presentation](/docs/Errata_ABI.pdf) 
+* **Errata Framework** - Presented by Boyan Karatotev - [PDF Presentation](/docs/errata_framework.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/sturHTxz8UXpoiQ7h7CgF9cpXF8c0NDUZb2ErLhK60LUWYCqJt7G4S7-4YMriVRN.iH1ZznileLiFKdxu) (Access Password: Prs$uk5@)
+* Date - 9th March 2023
+<br/>
 
 * **PSCI OS Initiated Mode** - Presented by Maulik Shah, Ulf Hansson, Wing Li - [PDF Presentation](/docs/PSCI-OS-initiated.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/6D_mfYz1u3rUs5rsPiYC-dS7R1ryjvOPKbqIcy3YppypUF8ixBZAtH1-Yv8pNN0.3yGZOm2SF3-gxh7K) (Access Password: =Ue54&uK)
