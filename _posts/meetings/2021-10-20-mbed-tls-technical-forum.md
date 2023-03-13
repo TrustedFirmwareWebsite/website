@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 * **Date:** Mar 13, 2023
   * Agenda:  **Recent activity/Core updates/PSA Header Collisions** [Presentation here](/docs/MbedTLS-TechForum2023-03-13.pdf)
-  * [Video recording](https://linaro-org.zoom.us/rec/share/zZ6XC2bvw7jEwsj4fMMI7BoEgcMhlpnllyes5tRBDZfj0Vsc2L8zlYEwpp3HQJp3.SCGPs8daz8ekr3Tt) Passcode: Db#gS2^m
+  * No video recording this week
 <br/>
 
 * **Date:** Feb 27, 2023
