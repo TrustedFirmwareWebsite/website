@@ -7,12 +7,6 @@
       "url": "https://www.arm.com/"
     },
     {
-      "image": "/assets/images/members/IFX_LOGO_RGB.jpg",
-      "name": "Infineon",
-      "type": "platinum",
-      "url": "https://www.cypress.com/"
-    },
-    {
       "image": "/assets/images/members/Futurewei_Logo_RGB.png",
       "name": "Futurewei",
       "type": "general",
@@ -39,7 +33,7 @@
     {
       "image": "/assets/images/members/ST.jpg",
       "name": "ST",
-      "type": "diamond",
+      "type": "platinum",
       "url": "https://www.st.com/content/st_com/en.html"
     },
     {
