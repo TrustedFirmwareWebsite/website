@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 * **Updates of TF-M build split** - David Hu [Presentation](/docs/tech_forum_20230316_UpdatesofTF-Mbuildsystemrestructure.pdf)
-* **Proposal for TF-M confiuration improvement** - Anton Komlev [Presentation](/docs/tech_forum_20230316_TFMConfigurationProposalNXPAndrejButok.pdf)
+* **Proposal for TF-M confiuration improvement** - Andrej Butok [Presentation](/docs/tech_forum_20230316_TFMConfigurationProposalNXPAndrejButok.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Jba2NgMtwgg-lzd0LiguzwsYxiBV9exvTayZM2sHwDN0M9Q9goq9F-nL7bAgFLpf.Rq_lF2SzXfS69yyL) Passcode: .@sk?5Gz
 * Date: Feb 2, 2023
 <br/>
