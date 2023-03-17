@@ -19,6 +19,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
 ### Recording and slides of previous meetings
+* **Updates of TF-M build split** - David Hu [Presentation](/docs/tech_forum_20230316_UpdatesofTF-Mbuildsystemrestructure.pdf)
+* **Proposal for TF-M confiuration improvement** - Anton Komlev [Presentation](tech_forum_20230316_TFMConfigurationProposalNXPAndrejButok.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/Jba2NgMtwgg-lzd0LiguzwsYxiBV9exvTayZM2sHwDN0M9Q9goq9F-nL7bAgFLpf.Rq_lF2SzXfS69yyL) Passcode: .@sk?5Gz
+* Date: Feb 2, 2023
+<br/>
+
 * **TF-M eRPC Test Framework integration intro** - Kevin Peng [Presentation](/docs/tech_forum_20230202_erpc_test_framework.pdf)
 * **Open discussions: Value of copyright date update** - Anton Komlev
 * [Video Recording](https://linaro-org.zoom.us/rec/share/PpDns90aR7CcwbmqYnZuFUZSfSjA6Wq37PX-ST3vNM6lvusi5kDkUc8kehugHv95.ZNfTX_-yEj0tvUUT) Passcode: 6^4?A?mC
