@@ -22,7 +22,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 * **Updates of TF-M build split** - David Hu [Presentation](/docs/tech_forum_20230316_UpdatesofTF-Mbuildsystemrestructure.pdf)
 * **Proposal for TF-M confiuration improvement** - Andrej Butok [Presentation](/docs/tech_forum_20230316_TFMConfigurationProposalNXPAndrejButok.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/Jba2NgMtwgg-lzd0LiguzwsYxiBV9exvTayZM2sHwDN0M9Q9goq9F-nL7bAgFLpf.Rq_lF2SzXfS69yyL) Passcode: .@sk?5Gz
-* Date: Feb 2, 2023
+* Date: Mar 16, 2023
+<br/>
+
+* **Interrupt handling in multiple contents: Open Discussion** - Ken Lui
+* [Video Recording](https://linaro-org.zoom.us/rec/share/mkH7qy81kEGYNe5BjhWRP9pQGRU0tWWVLQA9-ARUSEM_meu7_Ev7_beDHqxqOIrS.O_AQYXtcEeK8B0wm) Passcode: K70NZqN%
+* Date: Mar 2, 2023
 <br/>
 
 * **TF-M eRPC Test Framework integration intro** - Kevin Peng [Presentation](/docs/tech_forum_20230202_erpc_test_framework.pdf)
