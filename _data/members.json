@@ -13,6 +13,12 @@
       "url": "https://www.futurewei.com/"
     },
     {
+      "image": "/assets/images/members/Nordic.png",
+      "name": "Nordic",
+      "type": "general",
+      "url": "https://www.nordicsemi.com/"
+    },
+    {
       "image": "/assets/images/members/google.jpg",
       "name": "Google",
       "type": "diamond",
