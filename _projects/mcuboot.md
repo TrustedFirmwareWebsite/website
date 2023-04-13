@@ -10,7 +10,7 @@ calls_to_action:
     url: https://docs.mcuboot.com/SubmittingPatches.html
   - text: Join the MCUboot Tech Forum
     class: bg-green
-    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+    url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
 links:
   documentation:
     text: MCUboot Documentation
