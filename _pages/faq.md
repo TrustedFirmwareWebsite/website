@@ -13,6 +13,15 @@ flow:
       - format: collapse
         style: #
         panels:
+          - title: How can I purchase TrustedFirmware.org Shirts, hats and other gear?
+            content: |
+             To purchase in the US/North America, use [this URL](https://trustedfirmware.myspreadshop.com/)
+             
+             To purchase in Europe, go to the UK store [here](https://trustedfirmwareorg.myspreadshop.co.uk/)
+             
+             If you wish to purchase a gift voucher for another person, use the following linke:
+             - [Vouchers for US/NA Store](https://www.spreadshirt.com/custom/gifts/gift-cards)
+             - [Vouchers for UK/Europe store](https://www.spreadshirt.net/personalised/gifts/gift-voucher)
           - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
             content: |
               A summary page of the various projects roadmaps can be found [here](https://developer.trustedfirmware.org/w/roadmaps/). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
