@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 * **Date:** Apr 27, 2023
   * Agenda:  **Recent activity** 
-  * [Video recording](https://linaro-org.zoom.us/rec/share/TCbCRTMoZ9ygk1lOoDFm-0MKUYyRIZFM-DoJHTLvg0EgD2U_1B_935m8XMFC6TrF.3q2YasCXJEwCFHiX) Passcode: AxcA3kz%
+  * [Video recording](https://linaro-org.zoom.us/rec/share/TUY624yIwBMCcljm2LmU7c3XDKaf1ojOo12hoH_4ZGGLMiBJv3lt6aL6RdwrBLDv.wPAylIimLpi6taKv) Passcode: e^K27%pj
 <br/>
 
 * **Date:** Mar 27, 2023
