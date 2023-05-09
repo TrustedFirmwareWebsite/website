@@ -20,9 +20,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* Agenda: TF-M v1.8.0 Release review
-* [Video recording](https://linaro-org.zoom.us/rec/share/TCbCRTMoZ9ygk1lOoDFm-0MKUYyRIZFM-DoJHTLvg0EgD2U_1B_935m8XMFC6TrF.3q2YasCXJEwCFHiX) Passcode: AxcA3kz%
+* **TF-M v1.8.0 Release review** - Anton Komlev**
+* [Video Recording](https://linaro-org.zoom.us/rec/share/TCbCRTMoZ9ygk1lOoDFm-0MKUYyRIZFM-DoJHTLvg0EgD2U_1B_935m8XMFC6TrF.3q2YasCXJEwCFHiX) Passcode: AxcA3kz%
 * Date: Apr 27
+<br/>
 
 * **Direct memory access to MMIO by secure partitions** - Sherry Wang
 * [Video Recording](https://linaro-org.zoom.us/rec/share/8PgFPmsFI5o-oO6vKKj1W_3JTw07wvgsQ6wY6RccDYT7MNWFZWgutzFsAbtBeg2M.zawIE6NA3Q3rg5FZ) Passcode: h2^gWNh0
