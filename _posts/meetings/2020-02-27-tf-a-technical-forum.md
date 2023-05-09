@@ -1,7 +1,7 @@
 ---
 author: trusted.firmware
 title: TF-A open Tech Forum regular call
-date: 2020-09-09 08:00:00
+date: 2023-03-23 08:00:00
 categories:
   - Meetings
 layout: post
