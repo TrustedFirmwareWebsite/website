@@ -24,6 +24,8 @@ flow:
           - title: OP-TEE Contributions Forum Minutes
             url: https://bit.ly/loc-notes
             style: btn btn-primary my-1
+          - title: MCUboot Tech Forum Minutes
+            url: /meetings/mcuboot-technical-forum
   - row: container_row
     sections:
       - format: custom_include
