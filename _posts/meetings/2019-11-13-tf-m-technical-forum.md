@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
-* **TF-M v1.8.0 Release review** - Anton Komlev**
+* **TF-M v1.8.0 Release review** - Anton Komlev
 * [Video Recording](https://linaro-org.zoom.us/rec/share/TCbCRTMoZ9ygk1lOoDFm-0MKUYyRIZFM-DoJHTLvg0EgD2U_1B_935m8XMFC6TrF.3q2YasCXJEwCFHiX) Passcode: AxcA3kz%
 * Date: Apr 27
 <br/>
