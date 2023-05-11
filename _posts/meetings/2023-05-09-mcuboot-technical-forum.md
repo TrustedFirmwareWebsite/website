@@ -14,13 +14,13 @@ This is an open forum conference call for anyone to participate. It is not restr
 ### Upcoming tech forums - see the [Trusted Firmware Public Calendar](https://www.trustedfirmware.org/meetings/)
 * To receive an invite, please join the MCUboot mailing list by [subcribing here](https://groups.io/g/MCUBoot)**
 
-### Recording and slides of previous meetings
-* **Date:** Apr xy, 2023
-  * Agenda:  **Recent activity review** -  
+### Recording and slides of previous meetings:
+* **Date:** May 23 2023
+  * Agenda:  **Recent activity review** -  TO COMPLETE AFTER MEETING
   * [Video recording]() Passcode: 
 <br/>
 
-* **Date:** Mar xu, 2023
-  * Agenda:  **Recent activity** [Presentation here]()
+* **Date:** June 13, 2023
+  * Agenda:  **Recent activity** [Presentation here]() - TO COMPLETE AFTER MEETING
   * [Video recording]() Passcode: 
 <br/>
