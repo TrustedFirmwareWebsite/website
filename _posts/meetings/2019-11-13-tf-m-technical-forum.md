@@ -20,9 +20,14 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **Confidential AI with TF-M & Zephyr** - Kevin Townsend [Presentation](/docs/ConfidentialAI_Overview_TF_TechForum.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/WeXisI2cSa5V0gKMQUP8oCz6AB1izodzMDX2ppPMkdt0NxmpEyWCOLAMETKpeBdY.bGPIgfaAQJgcJVOv) Passcode: 2i^j2xy*
+* Date: May 11, 2023
+<br/>
+
 * **TF-M v1.8.0 Release review** - Anton Komlev
 * [Video Recording](https://linaro-org.zoom.us/rec/share/TCbCRTMoZ9ygk1lOoDFm-0MKUYyRIZFM-DoJHTLvg0EgD2U_1B_935m8XMFC6TrF.3q2YasCXJEwCFHiX) Passcode: AxcA3kz%
-* Date: Apr 27
+* Date: Apr 27, 2023
 <br/>
 
 * **Direct memory access to MMIO by secure partitions** - Sherry Wang
