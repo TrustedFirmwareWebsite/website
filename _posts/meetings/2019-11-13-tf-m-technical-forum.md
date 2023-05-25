@@ -22,7 +22,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 * **S-NS Split Build Alternative** - Anton Komlev [Presentation](/docs/tech_forum_20221208_StackSealing.pdf)
    * Demo at 26:00 mark of video
-* **Use of #ifdef / #endifdef to control inclusion of C files** - Anton Komlev (40:00 mark of video)
+* **Use of #ifdef / #endifdef to control inclusion of C files** - Anton Komlev 
+   * Starts at 40:00 mark of video
 * [Video Recording](https://linaro-org.zoom.us/rec/share/ljMl4K-sUv_MEQ1zmVC741afcZlR4JXa_LypRqRrQyDO9azD6T0kOzpRmkytbJBR.cC1FfSxqaLX3FhzM) Passcode: eWtX9N#3
 * Date: May 25, 2023
 <br/>
