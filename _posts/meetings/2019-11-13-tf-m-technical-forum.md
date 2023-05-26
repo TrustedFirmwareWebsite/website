@@ -20,6 +20,14 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **S-NS Split Build Alternative** - Anton Komlev [Presentation](/docs/tech_forum_20221208_StackSealing.pdf)
+   * Demo at 26:00 mark of video
+* **Use of #ifdef / #endifdef to control inclusion of C files** - Anton Komlev 
+   * Starts at 40:00 mark of video
+* [Video Recording](https://linaro-org.zoom.us/rec/share/ljMl4K-sUv_MEQ1zmVC741afcZlR4JXa_LypRqRrQyDO9azD6T0kOzpRmkytbJBR.cC1FfSxqaLX3FhzM) Passcode: eWtX9N#3
+* Date: May 25, 2023
+<br/>
+
 * **Confidential AI with TF-M & Zephyr** - Kevin Townsend [Presentation](/docs/ConfidentialAI_Overview_TF_TechForum.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/WeXisI2cSa5V0gKMQUP8oCz6AB1izodzMDX2ppPMkdt0NxmpEyWCOLAMETKpeBdY.bGPIgfaAQJgcJVOv) Passcode: 2i^j2xy*
 * Date: May 11, 2023
