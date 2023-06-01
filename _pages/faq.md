@@ -13,9 +13,9 @@ flow:
       - format: collapse
         style: #
         panels:
-          - title: How can I join the TrustedFirmware Discord chat channels?
+          - title: How can I join the TrustedFirmware Discord Server chat channels?
             content: |
-              Click on the invite link [here](https://discord.gg/5PpXhvda5p) page of this website.
+              Click on the invite link [here](https://discord.gg/5PpXhvda5p).
               Note you may have to create a Discord account first if you don't already have one.
               Welcome!
           - title: How can I purchase TrustedFirmware.org Shirts, hats and other gear?
