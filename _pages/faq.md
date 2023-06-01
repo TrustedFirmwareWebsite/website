@@ -13,6 +13,11 @@ flow:
       - format: collapse
         style: #
         panels:
+          - title: How can I join the TrustedFirmware Discord chat channels?
+            content: |
+              Click on the invite link [here](https://discord.gg/5PpXhvda5p) page of this website.
+              Note you may have to create a Discord account first if you don't already have one.
+              Welcome!
           - title: How can I purchase TrustedFirmware.org Shirts, hats and other gear?
             content: |
              To purchase in the US/North America, use [this URL](https://trustedfirmware.myspreadshop.com/)
