@@ -33,7 +33,7 @@ The main highlights comprise :
 - Added RAS extension handling and crash reporting
 - Eighteen CPU Errata Mitigations for Cortex-A510, A-78, X2, Neoverse V1, N2 cores and GICv3 bug fixes
 - Errata Management Firmware Interface implementation supported for version 1.0 of the public specification
-- First OpenCI release done solely relying on[TrustedFirmware.org](https://www.trustedfirmware.org)
+- First OpenCI release done solely relying on [TrustedFirmware.org](https://www.trustedfirmware.org)
 - Ethos-N NPU Driver Added support for Protected Firmware Setup
 - EL3 SPMC enhanced feature hardening (scan warning fixes, report execution stage in partition info etc)
 - Arm CCA support:
