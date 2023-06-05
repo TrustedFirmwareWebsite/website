@@ -1,7 +1,7 @@
 ---
 author: akanksha.jain
 title: Trusted Firmware-A v2.9 released!
-date: 2023-05-05 09:00:00
+date: 2023-06-05 09:00:00
 categories:
   - Blog
 layout: post
