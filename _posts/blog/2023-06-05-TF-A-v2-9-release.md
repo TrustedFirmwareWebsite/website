@@ -22,6 +22,7 @@ The main highlights comprise :
 - Errata Management Firmware Interface against spec 1.0
 - FF-A v1.2 Spec Early Adoption, FF-A v1.1 Memory Sharing
 - Realm Support to leverage SVE hardware functionality 
+
   The whole content of the release is described on the respective TF-A (1), TF-A-Tests (2), Hafnium (3) and TF-RMM (4) and (5) change logs.
 - Architecture extensions support:
   - Support for PSCI OS initiated mode
