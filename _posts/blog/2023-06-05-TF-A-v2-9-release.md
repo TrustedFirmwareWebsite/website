@@ -17,23 +17,23 @@ Hafnium, TF-A OpenCI Scripts & Jobs and  TF-RMM 0.3.0
 Highlights
 ------------
 The main highlights comprise :
-- Support for the 2021|2022 Architecture extensions,
+- Support for the 2021, 2022 Architecture extensions,
 - Dynamic feature detection,
 - Errata Management Firmware Interface against spec 1.0
 - FF-A v1.2 Spec Early Adoption, FF-A v1.1 Memory Sharing
 - Realm Support to leverage SVE hardware functionality 
 
-  The whole content of the release is described on the respective [TF-A](https://trustedfirmware-a.readthedocs.io/en/v2.9/change-log.html#id1), [TF-A-Tests](https://trustedfirmware-a-tests.readthedocs.io/en/v2.9/change-log.html#version-2-9), [Hafnium](https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/refs/tags/v2.9/docs/ChangeLog.md) and [TF-RMM](https://tf-rmm.readthedocs.io/en/tf-rmm-v0.3.0/about/change-log.html#v0-3-0) change logs.
+The whole content of the release is described on the respective [TF-A](https://trustedfirmware-a.readthedocs.io/en/v2.9/change-log.html#id1), [TF-A-Tests](https://trustedfirmware-a-tests.readthedocs.io/en/v2.9/change-log.html#version-2-9), [Hafnium](https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/refs/tags/v2.9/docs/ChangeLog.md) and [TF-RMM](https://tf-rmm.readthedocs.io/en/tf-rmm-v0.3.0/about/change-log.html#v0-3-0) change logs.
 - Architecture extensions support:
   - Support for PSCI OS initiated mode
   - Architecture support for FEAT_TCR2, Guarded Control Stack (FEAT_GCS), Config Register Support for FEAT_HCX
-  - Save/Restore Support for FEAT_PIE/POE, FEAT_SME | SME2, FEAT_MPAM: runtime check
+  - Save/Restore Support for FEAT_PIE/POE, FEAT_SME \| SME2, FEAT_MPAM: runtime check
   - Added dynamic detection of architecture feature enablement
   - System registers access trap handler
 - Added RAS extension handling and crash reporting
 - Eighteen CPU Errata Mitigations for Cortex-A510, A-78, X2, Neoverse V1, N2 cores and GICv3 bug fixes
 - Errata Management Firmware Interface implementation supported for version 1.0 of the public specification
-- First OpenCI release done solely relying on [TrustedFirmware.org](https://www.trustedfirmware.org)
+- First release done solely relying on [TrustedFirmware.org Open CI](https://www.trustedfirmware.org/projects/open-ci/)
 - Ethos-N NPU Driver Added support for Protected Firmware Setup
 - EL3 SPMC enhanced feature hardening (scan warning fixes, report execution stage in partition info etc)
 - Arm CCA support:
