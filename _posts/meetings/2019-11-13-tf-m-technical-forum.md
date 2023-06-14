@@ -20,6 +20,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+* **PSA Crypto headers for v8-M TrustZone Solution** - Antonio De Angelis [Presentation](/docs/PSACryptoHeader_June23_Antonio_shareable.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/1bBb9d06OWPACMtT_wC6C336k2Y0oeAtbM5REGe5bsR0zceBliDbGU6oaCd8KN9e.xkqrJn7wMxBBYJp5) Passcode: *%RuR8Q8
+* Date: June 8, 2023
+<br/>
+
 * **S-NS Split Build Alternative** - Anton Komlev [Presentation](/docs/tech_forum_20230525_TFM_split_build.pdf)
    * Demo at 26:00 mark of video
 * **Use of #ifdef / #endifdef to control inclusion of C files** - Anton Komlev 
