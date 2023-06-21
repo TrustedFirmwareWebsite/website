@@ -16,6 +16,6 @@ This is an open forum conference call for anyone to participate. It is not restr
 
 ### Recording and slides of previous meetings:
 * **Date:** June 15, 2023
-  * Agenda:  **Recent activity** [Presentation here]() - TO COMPLETE AFTER MEETING
+  * Agenda:  **MCUboot Overview** - David Brown [Presentation here](/docs/2023_06_15_mcuboot_overview.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/xWEAW8FO0g_YqLhDJ2hHdEiZct-CpdrWT2dNytwci2VUM4FleFi7wCW77eishMFi.2_TMfz8LpqwdN482) Passcode: ATDy?3fT
 <br/>
