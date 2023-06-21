@@ -14,7 +14,7 @@ calls_to_action:
 links:
   documentation:
     text: Hafnium Documentation
-    url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/README.md
+    url: https://hafnium.readthedocs.io/en/latest/
   code:
     text: View source code and documentation
     url: https://git.trustedfirmware.org/hafnium/hafnium.git/ 
