@@ -28,7 +28,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 <br/>
 
 * **Date:** Mar 27, 2023
-  * Agenda:  **Recent activity** [Presentation here](/docs/MbedTLS-TechForum2023-03-27.pdf)
+  * Agenda:  **Recent activity** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-03-27.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/YGYfoVLcZseCi6sxYu2gfwHBuRu1x9rziFxDEFb5uQjaJEHiUTt9C4XYY0baTrPJ.zvvsfXJtANC-rwYB) Passcode: Se3+09$f
 <br/>
 
