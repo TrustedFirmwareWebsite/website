@@ -15,12 +15,7 @@ This is an open forum conference call for anyone to participate. It is not restr
 * To receive an invite, please join the MCUboot mailing list by [subcribing here](https://groups.io/g/MCUBoot)**
 
 ### Recording and slides of previous meetings:
-* **Date:** May 23 2023
-  * Agenda:  **Recent activity review** -  TO COMPLETE AFTER MEETING
-  * [Video recording]() Passcode: 
-<br/>
-
-* **Date:** June 13, 2023
+* **Date:** June 15, 2023
   * Agenda:  **Recent activity** [Presentation here]() - TO COMPLETE AFTER MEETING
-  * [Video recording]() Passcode: 
+  * [Video recording](https://linaro-org.zoom.us/rec/share/xWEAW8FO0g_YqLhDJ2hHdEiZct-CpdrWT2dNytwci2VUM4FleFi7wCW77eishMFi.2_TMfz8LpqwdN482) Passcode: ATDy?3fT
 <br/>
