@@ -23,7 +23,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 <br/>
 
 * **Date:** Apr 24, 2023
-  * Agenda:  **Recent activity** - Dave Rodgman 
+  * Agenda:  **Recent activity** - Dave Rodgman [Presentation here](/docs/MbedTLS_TechForum2023_04_24.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/TUY624yIwBMCcljm2LmU7c3XDKaf1ojOo12hoH_4ZGGLMiBJv3lt6aL6RdwrBLDv.wPAylIimLpi6taKv) Passcode: e^K27%pj
 <br/>
 
