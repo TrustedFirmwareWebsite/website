@@ -18,7 +18,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 **To receive an invite, please join the TF-M mailing list. [Subscribe to the TF-M list](https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/), or see the [Trusted Firmware Public Calendar](https://calendar.google.com/calendar/embed?src=linaro.org_havjv2figrh5egaiurb229pd8c%40group.calendar.google.com&ctz=America%2FPhoenix) for upcoming meetings.**
 
-### Recording and slides of previous meetings
+### Recording and slides of previous meetings:
+
+* **Hybrid Platforms (A+M) Requirements** - Anton Komlev [Presentation](/docs/tech_forum_20230622_Hybrid_platforms.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/yseF-mYwUTtHHPkQJQO6IEv72xCd0Lz1pQQecc2PjmDWHzC5q65G71F3E8dOt9O9.VakV_-RuD_96uueL) Passcode: 5s=Npv=w
+* Date: June 22, 2023
+<br/>
 
 * **PSA Crypto headers for v8-M TrustZone Solution** - Antonio De Angelis [Presentation](/docs/PSACryptoHeader_June23_Antonio_shareable.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/1bBb9d06OWPACMtT_wC6C336k2Y0oeAtbM5REGe5bsR0zceBliDbGU6oaCd8KN9e.xkqrJn7wMxBBYJp5) Passcode: *%RuR8Q8
