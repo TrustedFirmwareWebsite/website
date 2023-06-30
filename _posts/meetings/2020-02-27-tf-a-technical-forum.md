@@ -11,11 +11,16 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 6th April 2023 at 16:00 BST
+### The next call is planned on Thursday, 13th July 2023 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **SVE Enablement in RMM for Realms** - Presented by Arunachalam Ganapathy - [PDF Presentation](/docs/RMM-Realms_SVE_enablement.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/ro4UMzDcCkIuVtRgYHwwkwDCNlxODbiC8UMc5d_L29q6f88zcZ19vgvnSNB-ZmTb.7-mQUTEksnyByD_S) (Access Password: 5?U2V6&a)
+* Date - 1st June 2023
+<br/>
 
 * **RAS Handling** - Presented by Manish Pandey and Soby Mathew - [PDF Presentation](/docs/RAS_Tech_Forum.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/tDVtSGeqwaFnbP0JwUGh1erqWb50KUZ5f3E94yL74x-2wNxD_HMJ4A_2tZVhI8kQ.h_OhwTjZmd_7Los3) (Access Password: E#6B#pY1)
