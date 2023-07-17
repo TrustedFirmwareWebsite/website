@@ -20,22 +20,23 @@ Highlights
 ----------
 
 Here are some of the main additions in OP TEE 3.22.0:
-Support for FF-A v1.1
-Support for stack canary randomization
-Interrupt framework updates, new interrupt chip framework
-New i2c framework
-Performance improvements of the ftrace implementation
-PKCS#11 TA fixes related to authentication mode
-Platform updates
-AOSP build fixes
-TPM2 driver removed
-CAAM driver updates
-SE050 driver updates (software fallback)
-Plat-k3 updates, plat-stm32mp1 updates (SCMI, GPIO, DTS)
-More RISC-V support (MMU, stack unwinding, ftrace)
-Miscellaneous fixes and improvements
+- Support for FF-A v1.1
+- Support for stack canary randomization
+- Interrupt framework updates, new interrupt chip framework
+- New i2c framework
+- Performance improvements of the ftrace implementation
+- PKCS#11 TA fixes related to authentication mode
+- Platform updates
+  - AOSP build fixes
+  - TPM2 driver removed
+  - CAAM driver updates
+  - SE050 driver updates (software fallback)
+  - Plat-k3 updates, plat-stm32mp1 updates (SCMI, GPIO, DTS)
+  - More RISC-V support (MMU, stack unwinding, ftrace)
+- Miscellaneous fixes and improvements
 
 The release included updates to the following repos:
+
 [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) 
 [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
 [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
