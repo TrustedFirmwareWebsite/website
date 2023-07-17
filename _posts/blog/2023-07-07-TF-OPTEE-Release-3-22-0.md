@@ -32,7 +32,6 @@ Here are some of the main additions in OP TEE 3.22.0:
   - CAAM driver updates
   - SE050 driver updates (software fallback)
   - Plat-k3 updates, plat-stm32mp1 updates (SCMI, GPIO, DTS)
-  - More RISC-V support (MMU, stack unwinding, ftrace)
 - Miscellaneous fixes and improvements
 
 The release included updates to the following repos:
