@@ -44,8 +44,7 @@ The release included updates to the following repos:
 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/3.22.0/CHANGELOG.md).
 
-Testing of the release has been performed by the committers and can be found [here](https://github.com/OP-TEE/optee_os/commit/001ace6655dd6bb9cbe31aa31b4ba69746e1a1d9)
-Test plan for this release using the OP-TEE are [here](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html) test suite. Testing results can be found in the [pull request itself](https://github.com/OP-TEE/optee_os/pull/6125)
+Testing of the release has been performed by the committers and can be found [here](https://github.com/OP-TEE/optee_os/commit/001ace6655dd6bb9cbe31aa31b4ba69746e1a1d9). Test plans for this release using the OP-TEE test suites are [here](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html). Testing results can be found in the [pull request itself](https://github.com/OP-TEE/optee_os/pull/6125).
 
 The release has been tagged at [3.22.0](https://github.com/OP-TEE/optee_os/releases/tag/3.22.0) using the OP TEE [release procedure](https://optee.readthedocs.io/en/latest/general/releases.html#release-procedure). 
 
