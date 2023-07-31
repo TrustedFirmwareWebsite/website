@@ -11,11 +11,21 @@ image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 13th July 2023 at 16:00 BST
+### The next call is planned on Thursday, 11th August 2023 at 16:00 BST
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+* **TrustedFirmware OpenCI and MISRA testing using ECLAIR** - Presented by Roberto Bagnara & Paul Sokolovsky - [PDF Presentation](/docs/OpenCI-and-MISRA_ECLAIR.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/_ejqS6jvDiDB-7orFIz8roG3UFcNQLUMRCLVRZhLoQi3lXgMvhQe4uGnNO0mvAhH.N5od8T_wshfg03nx) (Access Password: k\*Z2\*?bN)
+* Date - 27th July 2023
+<br/>
+
+* **EL3 Exception vector improvements** - Presented by Manish Pandey - [PDF Presentation](/docs/Error-Synchronization-at-EL3-entry.pdf)
+* **Signer ID Retrieval Design** - Presented by Manish Badarkhe - [PDF Presentation](/docs/Signer-ID-retrieval.pdf)
+* Date - 13th July 2023
+<br/>
 
 * **SVE Enablement in RMM for Realms** - Presented by Arunachalam Ganapathy - [PDF Presentation](/docs/RMM-Realms_SVE_enablement.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/ro4UMzDcCkIuVtRgYHwwkwDCNlxODbiC8UMc5d_L29q6f88zcZ19vgvnSNB-ZmTb.7-mQUTEksnyByD_S) (Access Password: 5?U2V6&a)
