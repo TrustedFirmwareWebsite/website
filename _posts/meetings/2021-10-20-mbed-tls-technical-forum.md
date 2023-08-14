@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 ### Recording and slides of previous meetings
 
 * **Date:** August 14, 2023
-  * Agenda:  **Recent activity** - Dave Rodgman [Presentation here](/docs/MbedTLS\-TechForum2023\-08\-14.pdf) 
+  * Agenda:  **Recent activity** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-08-14.pdf) 
   * [Video recording](https://linaro-org.zoom.us/rec/share/PCs0DYPcwkq3tatUSKlBEpbhfRY-fb9Qr-qSciR6oLRST2A1qOfIVVIwp8URrDfD.zSl_4s2uYZXzjkFr) Passcode: QH4R^H\.S
 <br/>
 
