@@ -41,6 +41,9 @@ To gain more insight into Open CI it’s architecture and its usages, please ref
 * To see ongoing CI build jobs, see [here](https://ci.trustedfirmware.org/)
 * To see what devices are using Open CI to validate Trusted Firmware solutions on, see [here](https://tf.validation.linaro.org/scheduler/device_types)
 * For overviews of Open CI, see the following:
+  * TrustedFirmware OpenCI and MISRA testing using ECLAIR
+    * [PDF Presentation](/docs/OpenCI-and-MISRA_ECLAIR.pdf)
+    * [Video Recording](https://linaro-org.zoom.us/rec/share/_ejqS6jvDiDB-7orFIz8roG3UFcNQLUMRCLVRZhLoQi3lXgMvhQe4uGnNO0mvAhH.N5od8T_wshfg03nx)  Password: k\*Z2\*?bN
   * TF-M OpenCI Introduction 
     * [PDF Presentation](https://www.trustedfirmware.org/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
     * [Video Recording](https://linaro-org.zoom.us/rec/share/88bwx7gjtalte2qmfnGg8mOWQlGFWw0vIoQfbC1Og1_lKlBVnikzdkiq3VVE4Jk.Z_J-YzNQPWROIG58) Passcode: 8X%Y620h
