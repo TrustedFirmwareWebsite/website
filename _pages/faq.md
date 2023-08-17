@@ -31,6 +31,10 @@ flow:
               ```
               "OP-TEE:lists.trustedfirmware.org/pipermail/tf-m/"
               ```
+          - title: Is there a project Wiki?
+            content: |
+              Yes. The project wiki is located [here](https://developer.trustedfirmware.org/w/).
+              Access requires logging in with a valid github account. Additional access provided to members as needed.
           - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
             content: |
               A summary page of the various projects roadmaps can be found [here](https://developer.trustedfirmware.org/w/roadmaps/). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
@@ -57,24 +61,21 @@ flow:
               We’re building the TF-M FAQ. [See here for more details](https://developer.trustedfirmware.org/ponder/query/all/)
           - title: How can I purchase TrustedFirmware.org Shirts, hats and other gear?
             content: |
-             To purchase in the US/North America, use [this URL](https://trustedfirmware.myspreadshop.com/)
+              To purchase in the US/North America, use [this URL](https://trustedfirmware.myspreadshop.com/)
              
-             To purchase in Europe, go to the UK store [here](https://trustedfirmwareorg.myspreadshop.co.uk/)
+              To purchase in Europe, go to the UK store [here](https://trustedfirmwareorg.myspreadshop.co.uk/)
              
-             If you wish to purchase a gift voucher for another person, use the following linke:
-             - [Vouchers for US/NA Store](https://www.spreadshirt.com/custom/gifts/gift-cards)
-             - [Vouchers for UK/Europe store](https://www.spreadshirt.net/personalised/gifts/gift-voucher)
-          - title: How do I gain access to the project Wiki?
-            content: |
-              The project wiki is located [here](https://developer.trustedfirmware.org/w/).  Access requires logging in with a valid github account.  Additional access provided to members as needed.
-            
+              If you wish to purchase a gift voucher for another person, use the following links:
+              - [Vouchers for US/NA Store](https://www.spreadshirt.com/custom/gifts/gift-cards)
+              - [Vouchers for UK/Europe store](https://www.spreadshirt.net/personalised/gifts/gift-voucher)
           - title: Where can I find the archives of past presentations and meeting archives?
             content: |
-              The best place to start is the public meeting archives for multiple TrustedFirmware projects. These often include recorded technical meetings for developers to be able to listen to this content at the convenience of the listener.
-               * Technical Meetings home page [located here](https://www.trustedfirmware.org/meetings/)
+              The best place to start is the public meeting archives for multiple TrustedFirmware projects. These often include recorded technical meetings enabling content review at the convenience of the listener.
+              - Technical Meetings home page [located here](https://www.trustedfirmware.org/meetings/)
 
-             There are additional locations useful for historical presentation/meeting archives located here:
-              * TF-A Presentation archive is [located here](https://developer.trustedfirmware.org/w/tf_a/)
-              * OP-TEE presentation archive is [located here](https://optee.readthedocs.io/en/latest/general/presentations.html)
-              * Tech Meeting minutes/presentation archives are [located here](https://www.trustedfirmware.org/meetings/)              
+              There are additional locations useful for historical presentation/meeting archives located here:
+              - TF-A Presentation archive is [located here](https://developer.trustedfirmware.org/w/tf_a/)
+              - OP-TEE presentation archive is [located here](https://optee.readthedocs.io/en/latest/general/presentations.html)
+              - Tech Meeting minutes/presentation archives are [located here](https://www.trustedfirmware.org/meetings/)
+                           
 ---
