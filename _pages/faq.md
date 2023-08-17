@@ -64,9 +64,10 @@ flow:
              If you wish to purchase a gift voucher for another person, use the following linke:
              - [Vouchers for US/NA Store](https://www.spreadshirt.com/custom/gifts/gift-cards)
              - [Vouchers for UK/Europe store](https://www.spreadshirt.net/personalised/gifts/gift-voucher)
-          - title: How do I get access to the project Wiki?
+          - title: How do I gain access to the project Wiki?
             content: |
               The project wiki is located [here](https://developer.trustedfirmware.org/w/).  Access requires logging in with a valid github account.  Additional access provided to members as needed.
+            
           - title: Where can I find the archives of past presentations and meeting archives?
             content: |
               The best place to start is the public meeting archives for multiple TrustedFirmware projects. These often include recorded technical meetings for developers to be able to listen to this content at the convenience of the listener.
