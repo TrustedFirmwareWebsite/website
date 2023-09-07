@@ -19,3 +19,8 @@ This is an open forum conference call for anyone to participate. It is not restr
   * Agenda:  **MCUboot Overview** - David Brown [Presentation here](/docs/2023_06_15_mcuboot_overview.pdf)
   * [Video recording](https://linaro-org.zoom.us/rec/share/xWEAW8FO0g_YqLhDJ2hHdEiZct-CpdrWT2dNytwci2VUM4FleFi7wCW77eishMFi.2_TMfz8LpqwdN482) Passcode: ATDy?3fT
 <br/>
+
+* **Date:** Aug 24, 2023
+  * Agenda:  **General Updates** - David Brown 
+  * [Video recording](https://linaro-org.zoom.us/rec/share/dvOnElCzQtGNFHd8kxhe5gSTDoS8epySvo6V7R2EVt_nrvqkEKYtJVhfpykvJCkX.KJlQZXivIBMRq_R9) Passcode: !0DuPfqQ
+<br/>
