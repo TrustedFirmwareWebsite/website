@@ -20,7 +20,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
-* **Non-Secure Clients** - Anton Komlev [Presentation](/docs/tech_forum_20230914_non_seucure_clients
+* **Hybrid Platform Desing Update/Dev Branch Renaming** - Hen Liu/Anton Komlev [Presentation](/docs/tech_forum_20230914_non_seucure_clients
 .pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/psMpH9ZGQ7LQRcmOyNjZzhguhTXVW90SAJ5EYxMjB9WI6CHxTQCXUdBSQ73Sq5FA._nOds7BsfC-pebWt) Passcode: jrr+D?X1
 * Date: Sept 14, 2023
