@@ -20,6 +20,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+* **Split Build Update** - Anton Komlev [Presentation](/docs/tech_forum_20230928_split_build_update.pdf)
+* [Video Recording](https://linaro-org.zoom.us/rec/share/C_hFo7-EHhwzsnS4ytEqXFxv_8m_At50n6u03XZyXU-3NF0OL2YcIqfVz_ZqIF-e.ZaRT5u7m18AlQ6YX) Passcode: xSmmK@4p
+* Date: Sept 28, 2023
+<br/>
+
 * **Hybrid Platform Desing Update/Dev Branch Renaming** - Ken Liu/Anton Komlev [Presentation](/docs/tech_forum_20230914_non_seucure_clients.pdf)
 * [Video Recording](https://linaro-org.zoom.us/rec/share/psMpH9ZGQ7LQRcmOyNjZzhguhTXVW90SAJ5EYxMjB9WI6CHxTQCXUdBSQ73Sq5FA._nOds7BsfC-pebWt) Passcode: jrr+D?X1
 * Date: Sept 14, 2023
