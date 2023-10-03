@@ -1852,6 +1852,11 @@ markdown-table@^3.0.0:
   resolved "https://registry.npmjs.org/markdown-table/-/markdown-table-3.0.3.tgz#e6331d30e493127e031dd385488b5bd326e4a6bd"
   integrity sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==
 
+marked@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.npmjs.org/marked/-/marked-9.0.3.tgz#95be5e8cba93f2c2ca1d6503794c4f02d81c97d9"
+  integrity sha512-pI/k4nzBG1PEq1J3XFEHxVvjicfjl8rgaMaqclouGSMPhk7Q3Ejb2ZRxx/ZQOcQ1909HzVoWCFYq6oLgtL4BpQ==
+
 mdast-util-definitions@^5.0.0:
   version "5.1.2"
   resolved "https://registry.npmjs.org/mdast-util-definitions/-/mdast-util-definitions-5.1.2.tgz#9910abb60ac5d7115d6819b57ae0bcef07a3f7a7"

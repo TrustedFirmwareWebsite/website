@@ -30,7 +30,7 @@ flow:
       - component: Title
         style: text-center
         title_content:
-          style: font-weight-bold
+          style: font-bold
           size: h3
           text: Available Trusted Firmware Projects
       - component: Custom
@@ -39,17 +39,17 @@ flow:
     style: #
     sections:
       - component: Title
-        style: text-center font-weight-bold
+        style: text-center font-bold
         title_content:
-          style: font-weight-bold
+          style: font-bold
           size: h3
           text: Our Members
       - component: Custom
         source: Members
       - component: Title
-        style: text-center font-weight-bold
+        style: text-center font-bold
         title_content:
-          style: font-weight-bold
+          style: font-bold
           size: h3
           text: Project Partners
       - component: Custom

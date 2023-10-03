@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         secondary: "rgb(87,87,87)",
-        openampred: "rgb(220, 74, 74)",
+        light: "rgb(208, 238, 246)",
       },
     },
     fontFamily: {
