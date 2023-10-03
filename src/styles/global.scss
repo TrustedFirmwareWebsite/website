@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+@layer base {
+	html {
+		color: black;
+		background-color: green
+	}
+	h1 {
+		width: auto;
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2rem;
+		width: auto;
+		margin-bottom: 1rem;
+		text-align: center
+
+	}
+	p {
+		margin-bottom: 1rem;
+	}
+	a {
+		@apply text-openampred underline
+	}
+	section {
+		@apply p-4 max-w-4xl mx-auto
+	}
+}
