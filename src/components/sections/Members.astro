@@ -1,1 +1,55 @@
-<div>Members</div>
+---
+import type { GetImageResult } from "astro";
+import { Image, getImage } from "astro:assets";
+import { getEntry, type ImageFunction } from "astro:content";
+const members = await getEntry("data", "members");
+
+const memberImages = {} as Record<string, any>;
+for (const member of members.data) {
+  memberImages[member.name] = (
+    await import(member.image.replace("@assets", "../../assets"))
+  ).default;
+}
+
+const tiers = [
+  {
+    type: "diamond",
+    title: "Diamond Members",
+  },
+  {
+    type: "platinum",
+    title: "Platinum Members",
+  },
+  {
+    type: "general",
+    title: "General Members",
+  },
+];
+---
+
+<section
+  class="border-t-8 border-dotted border-gray-300 pt-8 mt-8 max-w-6xl mx-auto"
+>
+  {
+    tiers.map(({ type, title }) => (
+      <div>
+        <h3 class="text-center font-normal py-2">{title}</h3>
+        <ul class="flex flex-wrap justify-center items-center gap-10">
+          {members.data
+            .filter((member: any) => member.type === type)
+            .map((member: any) => (
+              <li class="py-16">
+                <a href={member.url}>
+                  <Image
+                    src={memberImages[member.name]}
+                    alt={member.name}
+                    class="w-48"
+                  />
+                </a>
+              </li>
+            ))}
+        </ul>
+      </div>
+    ))
+  }
+</section>

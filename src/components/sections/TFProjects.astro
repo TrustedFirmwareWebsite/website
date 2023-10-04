@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 const projects = await getCollection("projects");
 ---
 
-    <div class="grid grid-cols-12 p-12 place-around">
+    <section class="grid grid-cols-12 p-12 place-around">
   {
     projects.sort((project1,project2) => project1.data.sort_key- project2.data.sort_key).map(({slug, data: {title}}) => (
       <div class="col-span-6 sm:col-span-4 xl:col-span-2 relative cursor-pointer">
@@ -93,12 +93,12 @@ const projects = await getCollection("projects");
           </g>
         </svg>
       
-        <div class="absolute w-full h-full top-0 left-0 right-0 bottom-0 mx-auto my-auto flex items-center justify-center text-white p-12  pointer-events-none " >
+        <div class="absolute w-full h-full top-0 left-0 right-0 bottom-0 mx-auto my-auto flex items-center justify-center text-white p-12  pointer-events-none" >
         <p class="text-center break-words text-xl sm:text-3xl font-bold">{title.includes("(") ? title.replace( /(^.*\(|\).*$)/g, '' ) : title}</p>
             </div>
       </div>
     ))
   }
-</div>
+</section>
 
 <style lang="scss"></style>

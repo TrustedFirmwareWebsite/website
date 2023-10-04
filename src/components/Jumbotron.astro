@@ -8,7 +8,6 @@ const BackgroundImage = await import(
 const SliderImage = await import(
   slider.inner_image.src.replace("@assets", "../assets")
 );
-console.log(BackgroundImage);
 
 const optimizedBackgroundImage = await getImage({
   src: BackgroundImage.default,

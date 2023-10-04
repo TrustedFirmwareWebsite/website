@@ -1,10 +1,8 @@
-{
-  "items": [
-    {
-      "image": "/assets/images/content/bugseng.jpg",
-      "name": "BUGSENG",
-      "type": "partner",
-      "url": "https://www.bugseng.com/"
-    }
-  ]
-}
+[
+  {
+    "image": "@assets/images/members/bugseng.jpg",
+    "name": "BUGSENG",
+    "type": "partner",
+    "url": "https://www.bugseng.com/"
+  }
+]

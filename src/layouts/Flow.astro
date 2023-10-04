@@ -43,7 +43,6 @@ console.log(jumbotron)
           const { row: component, sections, ...rowProps } = row
           const RowComp = rowComponents[component].default;
           return RowComp ? (
-            <div class="py-2.5 w-full">
             <RowComp {...rowProps}>
               {sections ? sections.map((section: any) => {
                 const {component, ...sectionProps} = section
@@ -51,7 +50,7 @@ console.log(jumbotron)
                 return SectionComp ? <SectionComp {...sectionProps} /> : <div>Not implemented</div>
               }) : <></>}
             </RowComp>
-          </div>
+
           ) : <div>Not implemented</div>;
         })
       }
