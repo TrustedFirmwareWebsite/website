@@ -1,0 +1,45 @@
+---
+import { Image, getImage } from "astro:assets";
+const { style, slider } = Astro.props;
+const BackgroundImage = await import(
+  slider.image.replace("@assets", "../assets")
+);
+
+const SliderImage = await import(
+  slider.inner_image.src.replace("@assets", "../assets")
+);
+console.log(BackgroundImage);
+
+const optimizedBackgroundImage = await getImage({
+  src: BackgroundImage.default,
+});
+
+const backgroundUrl = optimizedBackgroundImage.src;
+---
+
+<section class:list={[style, "h-96"]}>
+  <div
+    class:list={[
+      slider.style,
+      "jumbotron-background",
+      "flex flex-col items-center text-white h-full justify-around px-5",
+    ]}
+  >
+    <Image
+      src={SliderImage.default}
+      alt={slider.inner_image.alt}
+      class="w-64"
+    />
+    <h1 class="sr-only">Trusted Firmware</h1>
+    <p class="text-inherit text-3xl lg:text-5xl">{slider.title}</p>
+  </div>
+</section>
+
+<style define:vars={{ backgroundUrl: `url(${backgroundUrl})` }}>
+  .jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0.2)),
+      var(--backgroundUrl);
+    background-position: center;
+    object-fit: cover;
+  }
+</style>

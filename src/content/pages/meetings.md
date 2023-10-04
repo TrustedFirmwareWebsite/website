@@ -6,11 +6,10 @@ description: >
   View the open Trusted Firmware meetings.
 layout: ../../layouts/Flow.astro
 flow:
-  - row: ContainerRow
+  - row: container_row
     sections:
-      - component: Custom
-        source: MeetingsCalendar
-      - component: Buttons
+      - component: meetings_calendar
+      - component: buttons
         style: text-center
         buttons_content:
           - title: TF-A Tech Forum Minutes
@@ -27,9 +26,8 @@ flow:
             style: btn btn-primary my-1
           - title: MCUboot Tech Forum Minutes
             url: /meetings/mcuboot-technical-forum
-  - row: ContainerRow
+  - row: container_row
     sections:
-      - component: Custom
-        source: AllPosts
+      - component: all_posts
         category: Meetings
 ---

@@ -8,7 +8,7 @@ jumbotron:
   description: ""
   image: /assets/images/content/TF_Banner_image.jpg
 flow:
-  - row: MainContentRow
+  - row: main_content_row
 ---
 
 ### Why choose Trusted Firmware?

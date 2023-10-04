@@ -1,0 +1,9 @@
+---
+const { style } = Astro.props;
+---
+
+<div class:list={[style]}>
+  <div class:list={["container mx-auto"]}>
+    <slot />
+  </div>
+</div>

@@ -6,8 +6,7 @@ description: >
   View the Trusted Firmware news.
 layout: ../../layouts/Flow.astro
 flow:
-  - row: ContainerRow
+  - row: container_row
     sections:
-      - component: Custom
-        source: AllPosts
+      - component: all_posts
 ---

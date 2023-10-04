@@ -9,22 +9,20 @@ jumbotron:
   description: ""
   image: /assets/images/content/TF_Banner_image.jpg
 flow:
-  - row: ContainerRow
+  - row: container_row
     style: members_row text-center
     sections:
-      - component: Title
+      - component: title
         title_content:
           size: h2
           text: Our Members
-      - component: Custom
-        source: Members
-      - component: Title
+      - component: members
+      - component: title
         title_content:
           size: h2
           text: Project Partners
-      - component: Custom
-        source: ProjectPartners
-  - row: MainContentRow
+      - component: project_partners
+  - row: main_content_row
 slug: /join/
 ---
 

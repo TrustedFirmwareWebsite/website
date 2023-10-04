@@ -1,0 +1,15 @@
+---
+const { style, buttons_content } = Astro.props;
+---
+
+<div class:list={[style]}>
+  {
+    buttons_content.map(({ title, url, style: buttonStyle }) => {
+      return (
+        <button class:list={[buttonStyle, "uppercase rounded-sm"]} href={url}>
+          {title}
+        </button>
+      );
+    })
+  }
+</div>

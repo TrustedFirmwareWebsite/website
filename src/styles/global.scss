@@ -15,4 +15,18 @@
 	strong {
 		font-weight: bold;
 	}
+	
+}
+
+@layer utilities {
+	.nav-hover {
+
+		:before {
+			@apply w-0 lg:bg-customturquoise content-[""] bottom-0 h-0.5 block absolute left-[50%] duration-150 
+		}
+		:before:hover {
+				@apply w-full left-0
+		}
+
+	}
 }

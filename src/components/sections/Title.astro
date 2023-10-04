@@ -1,0 +1,11 @@
+---
+const {
+  style,
+  title_content: { text, size },
+} = Astro.props;
+import marked from "marked";
+const markdown = marked.parse(text);
+const Element = size;
+---
+
+<div class:list={[style]}><Element set:html={markdown} /></div>

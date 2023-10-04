@@ -3,37 +3,28 @@
 import '@fontsource/lato';
 // import NavBar from '../components/Nav/NavBar.astro';
 import "../styles/global.scss"
+import { getCollection, getEntry } from 'astro:content';
+import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
+import Jumbotron from '../components/Jumbotron.astro'
+import NavBar from "@components/nav/NavBar.astro"
 
+const rowComponents = {} as Record<string, {default: AstroComponentFactory}>
 
-const rowComponents = await Astro.glob("../components/layouts/flow/rows/**/*.astro").then(
-  (res) =>
-    res.reduce(
-      (obj, comp) => ({
-        ...obj,
-        [comp.default.name]: comp.default,
-      }),
-      {} as Record<string, any>
-    )
-);
+for  (const rowData of  await getCollection("rows")) {
+    rowComponents[rowData.slug] = await import(rowData.data.path.replace("@components", "../components"))
+}
 
+const sectionComponents = {} as Record<string, {default: AstroComponentFactory}>
 
-const sectionComponents = await Astro.glob("../components/layouts/flow/sections/**/*.astro").then(
-  (res) =>
-    res.reduce(
-      (obj, comp) => ({
-        ...obj,
-        [comp.default.name]: comp.default,
-      }),
-      {} as Record<string, any>
-    )
-);
-
+for  (const sectionData of  await getCollection("sections")) {
+    sectionComponents[sectionData.slug] = await import(sectionData.data.path.replace("@components", "../components"))
+}
 
 const {
-  content: { title, flow },
+  content: { title, flow, jumbotron },
 } = Astro.props;
 
-console.log(flow)
+console.log(jumbotron)
 
 ---
 
@@ -44,20 +35,19 @@ console.log(flow)
     <title>{title}</title>
   </head>
   <body>
-    <!-- <NavBar /> -->
+    <NavBar />
     <main class="">
+    <Jumbotron {...jumbotron} />
       {
         flow.map((row: any) => {
-          const { row: component, source, sections, ...rowProps } = row
-          const RowComp =
-            component === "Custom" ? rowComponents[source] : rowComponents[component];
+          const { row: component, sections, ...rowProps } = row
+          const RowComp = rowComponents[component].default;
           return RowComp ? (
-            <div class="py-2.5">
+            <div class="py-2.5 w-full">
             <RowComp {...rowProps}>
               {sections ? sections.map((section: any) => {
-                const {component: component, source, ...sectionProps} = section
-                const SectionComp = component === "Custom" ? sectionComponents[source] : sectionComponents[component]
-                console.log(SectionComp)
+                const {component, ...sectionProps} = section
+                const SectionComp = sectionComponents[component].default
                 return SectionComp ? <SectionComp {...sectionProps} /> : <div>Not implemented</div>
               }) : <></>}
             </RowComp>

@@ -8,11 +8,10 @@ jumbotron:
   title: Cookies
   description: ""
 flow:
-  - row: MainContentRow
-  - row: ContainerRow
+  - row: main_content_row
+  - row: container_row
     sections:
-      - component: Custom
-        source: CookieManager
+      - component: cookie_manager
 ---
 
 ## What does this policy cover?

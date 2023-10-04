@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         secondary: "rgb(87,87,87)",
         light: "rgb(208, 238, 246)",
+        customgreen: "#33ab66",
+        customturquoise: "#0cb2dd",
       },
     },
     fontFamily: {
@@ -18,4 +20,8 @@ module.exports = {
       spacing: "margin, padding",
     },
   },
+  plugins: [
+    require("@tailwindcss/typography"),
+    // ...
+  ],
 };

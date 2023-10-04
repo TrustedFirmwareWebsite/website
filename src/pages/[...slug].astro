@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   return pages.map((page) => {
     return {
       params: {
-        slug: page.data.slug,
+        slug: page.data!.slug,
       },
       props: {
         page,
@@ -16,7 +16,6 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.props;
-console.log(page);
 const { Content } = await page.render();
 ---
 

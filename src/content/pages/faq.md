@@ -8,9 +8,9 @@ jumbotron:
   description: ""
   image: /assets/images/content/TF_Banner_image.jpg
 flow:
-  - row: ContainerRow
+  - row: container_row
     sections:
-      - component: Collapse
+      - component: collapse
         style: #
         panels:
           - title: How can I join the TrustedFirmware Discord Server chat channels?

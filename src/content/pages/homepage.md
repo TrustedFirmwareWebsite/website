@@ -5,17 +5,19 @@ description: >
 layout: ../../layouts/Flow.astro
 slug: /
 jumbotron:
-  inner_class: text-center text-uppercase
+  style: text-center uppercase
   slider:
-    - darken: true
-      title: Open Source Secure Software
-      image: /assets/images/content/TF_Banner_image.jpg
-      inner-image: /assets/images/content/TrustedFirmware-Logo_vertical-white.png
-      inner_class: text-center text-uppercase
+    darken: true
+    title: Open Source Secure Software
+    image: "@assets/images/TF_Banner_image.jpg"
+    inner_image:
+      src: "@assets/images/TrustedFirmware-Logo_vertical-white.png"
+      alt: Trusted Firmware Logo
+    style: text-center uppercase
 flow:
-  - row: ContainerRow
+  - row: container_row
     sections:
-      - component: Text
+      - component: text
         style: text-center
         text_content:
           text: |-
@@ -24,40 +26,38 @@ flow:
 
             The code on this website is the preferred implementation of Arm specifications, allowing quick and easy
             porting to modern chips and platforms. This forms the foundations of a **Trusted Execution Environment (TEE)** on application processors, or the **Secure Processing Environment (SPE)** of microcontrollers.
-  - row: ContainerRow
+  - row: container_row
     style: bg-light
     sections:
-      - component: Title
+      - component: title
         style: text-center
         title_content:
           style: font-bold
           size: h3
           text: Available Trusted Firmware Projects
-      - component: Custom
-        source: TFProjects
-  - row: ContainerRow
+      - component: tf_projects
+
+  - row: container_row
     style: #
     sections:
-      - component: Title
+      - component: title
         style: text-center font-bold
         title_content:
           style: font-bold
           size: h3
           text: Our Members
-      - component: Custom
-        source: Members
-      - component: Title
+      - component: members
+      - component: title
         style: text-center font-bold
         title_content:
           style: font-bold
           size: h3
           text: Project Partners
-      - component: Custom
-        source: ProjectPartners
-      - component: Buttons
+      - component: project_partners
+      - component: buttons
         style: text-center
         buttons_content:
           - title: General Enquiries
             url: mailto:enquiries@trustedfirmware.org
-            style: btn btn-green text-uppercase
+            style: bg-customgreen text-white
 ---

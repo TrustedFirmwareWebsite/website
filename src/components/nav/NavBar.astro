@@ -1,0 +1,85 @@
+---
+import Dropdown from "./Dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
+import { Image } from "astro:assets";
+
+const menuitems = [
+  {
+    title: "About",
+    path: "#",
+    children: [
+      { title: "Overview", path: "/about" },
+      { title: "Join", path: "/join" },
+      { title: "FAQ", path: "/faq" },
+    ],
+  },
+  {
+    title: "News & Blogs",
+    path: "#",
+    children: [
+      { title: "News", path: "/news" },
+      { title: "Blog", path: "/blog" },
+      { title: "Meetings", path: "/meetings" },
+    ],
+  },
+  {
+    title: "Security Center",
+    path: "https://developer.trustedfirmware.org/w/collaboration/security_center/",
+  },
+
+  {
+    title: "Contact",
+    path: "/contact",
+  },
+];
+---
+
+<header
+  class="flex flex-col lg:flex-row justify-around items-center bg-zinc-900"
+>
+  <Astronav>
+    <div class="flex w-full lg:w-auto items-center justify-between px-8">
+      <a href="/" class="text-lg"
+        ><Image
+          src={TrustedFirmwareLogo}
+          alt="Trusted Firmware Logo"
+          width={60}
+          height={60}
+        /></a
+      >
+      <div class="block lg:hidden">
+        <MenuIcon class="w-4 h-4 text-white" />
+      </div>
+    </div>
+    <MenuItems
+      class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0 text-white font-medium"
+    >
+      <ul class="flex flex-col lg:flex-row lg:gap-3 items-center">
+        {
+          menuitems.map((item, index) => (
+            <>
+              {item.children && (
+                <Dropdown
+                  title={item.title}
+                  children={item.children}
+                  lastItem={index === menuitems.length - 1}
+                />
+              )}
+
+              {!item.children && (
+                <div class="my-5 relative  ">
+                  <div class="nav-hover transition">
+                    <a href={item.path} class="flex lg:px-3 py-2 text-inherit ">
+                      {item.title}
+                    </a>
+                  </div>
+                </div>
+              )}
+            </>
+          ))
+        }
+      </ul>
+    </MenuItems>
+  </Astronav>
+</header>
