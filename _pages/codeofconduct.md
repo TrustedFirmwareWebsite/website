@@ -79,8 +79,24 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
-## Attribution
+## Inclusive Language Policy
+
+TrustedFirmware.org has strict policy that requires use of inclusive language in all the projects which are part this organization. Any terminology that is against this policy is banned from being used in any part of TrustedFirmware.org.
+
+### General terms
+Terms listed here may not normally be part of code but are barred from use within the project regardless.
+- Blackball
+
+### Coding Standard
+
+Maintainers are required to adopt the specific addition below to their coding guidelines and ensure adherence to it. Project has code and documents which predate this policy and the current guideline does not mandate a retrospective action.
+
+# Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
-For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq
+For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq1
+
+
+
+
