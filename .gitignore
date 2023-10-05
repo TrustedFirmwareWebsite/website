@@ -8,3 +8,4 @@ production.trustedfirmware.org
 staging.trustedfirmware.org
 .asset_pipeline
 .jekyll-cache
+generated
