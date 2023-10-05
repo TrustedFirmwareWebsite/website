@@ -3,7 +3,7 @@ layout: flow
 title: Code of Conduct
 permalink: /coc/
 jumbotron:
-  title: Code of Conduct
+  title: TrustedFirmware.org Code of Conduct
   inner_class: text-white
   description: ""
   image: /assets/images/content/TF_Banner_image.jpg
