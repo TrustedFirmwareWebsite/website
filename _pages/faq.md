@@ -47,6 +47,11 @@ flow:
               For details of the governance model, please visit the [about->join](https://www.trustedfirmware.org/join/) page of this website and click on the downloadable current version of the Charter. 
               
               Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for any questions regarding membership.
+          - title: Where can I find the rules around TSC participation and voting?
+            content: |
+              This is found in the Project Charter. Please visit the [about->join](https://www.trustedfirmware.org/join/) page of this website and click on the downloadable current version of the Charter for details.
+              
+              Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for any questions regarding membership.
           - title: Is there a clear role and responsibility for Linaro?
             content: |
               Linaro is a Platinum Member of the Trusted Firmware project and provides governance, hosting and other services.
