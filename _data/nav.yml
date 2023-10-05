@@ -17,6 +17,8 @@ pages:
         url: /join/
       - text: FAQ
         url: /faq/
+      - text: Code of Conduct
+        url: /coc/
   - title: News & Blogs
     options:
       - text: News
