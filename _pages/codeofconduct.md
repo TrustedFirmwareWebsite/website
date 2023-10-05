@@ -8,6 +8,7 @@ jumbotron:
   description: ""
   image: /assets/images/content/TF_Banner_image.jpg
 flow:
+  - row: container_row
   - row: main_content_row
 ---
 
