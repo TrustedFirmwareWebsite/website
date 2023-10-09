@@ -40,10 +40,10 @@ const { title, lastItem, children } = Astro.props;
           {
             children.map((item: any) => (
               <a
-                href={item.path}
+                href={item.url}
                 class=" px-3 py-1 lg:text-gray-600 lg:hover:text-white hover:bg-customturquoise"
               >
-                {item.title}
+                {item.text}
               </a>
             ))
           }

@@ -3,10 +3,11 @@ layout: ../../layouts/Flow.astro
 title: FAQ
 slug: /faq/
 jumbotron:
-  title: Frequently Asked Questions
-  inner_class: text-white
-  description: ""
-  image: /assets/images/content/TF_Banner_image.jpg
+  slider:
+    title: Frequently Asked Questions
+    inner_class: text-white
+    description: ""
+    image: "@assets/images/TF_Banner_image.jpg"
 flow:
   - row: container_row
     sections:

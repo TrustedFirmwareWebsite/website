@@ -17,6 +17,8 @@ pages:
         url: /join/
       - text: FAQ
         url: /faq/
+      - text: Code of Conduct
+        url: /coc/
   - title: News & Blogs
     options:
       - text: News
@@ -25,6 +27,7 @@ pages:
         url: /blog/
       - text: Meetings
         url: /meetings/
+
   # - title: Code
   #   options:
   #       - text: TF-A

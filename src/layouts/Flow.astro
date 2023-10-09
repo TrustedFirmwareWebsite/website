@@ -7,6 +7,7 @@ import { getCollection, getEntry } from 'astro:content';
 import type { AstroComponentFactory } from 'astro/runtime/server/index.js';
 import Jumbotron from '../components/Jumbotron.astro'
 import NavBar from "@components/nav/NavBar.astro"
+import "@fontsource/lato"
 
 const rowComponents = {} as Record<string, {default: AstroComponentFactory}>
 
@@ -24,8 +25,6 @@ const {
   content: { title, flow, jumbotron },
 } = Astro.props;
 
-console.log(jumbotron)
-
 ---
 
 <html lang="en">
@@ -37,7 +36,7 @@ console.log(jumbotron)
   <body>
     <NavBar />
     <main class="">
-    <Jumbotron {...jumbotron} />
+    {jumbotron ? <Jumbotron {...jumbotron} /> : <></>}
       {
         flow.map((row: any) => {
           const { row: component, sections, ...rowProps } = row
@@ -47,7 +46,8 @@ console.log(jumbotron)
               {sections ? sections.map((section: any) => {
                 const {component, ...sectionProps} = section
                 const SectionComp = sectionComponents[component].default
-                return SectionComp ? <SectionComp {...sectionProps} /> : <div>Not implemented</div>
+                console.log(SectionComp)
+                return SectionComp ? <SectionComp {...sectionProps} ><slot /></SectionComp> : <div>Not implemented</div>
               }) : <></>}
             </RowComp>
 
@@ -57,4 +57,7 @@ console.log(jumbotron)
     </main>
     <!-- <Footer /> -->
   </body>
+  <script
+  type="text/javascript"
+  src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </html>

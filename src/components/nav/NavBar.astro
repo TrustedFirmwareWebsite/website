@@ -3,36 +3,9 @@ import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import { Image } from "astro:assets";
+import { getEntry } from "astro:content";
 
-const menuitems = [
-  {
-    title: "About",
-    path: "#",
-    children: [
-      { title: "Overview", path: "/about" },
-      { title: "Join", path: "/join" },
-      { title: "FAQ", path: "/faq" },
-    ],
-  },
-  {
-    title: "News & Blogs",
-    path: "#",
-    children: [
-      { title: "News", path: "/news" },
-      { title: "Blog", path: "/blog" },
-      { title: "Meetings", path: "/meetings" },
-    ],
-  },
-  {
-    title: "Security Center",
-    path: "https://developer.trustedfirmware.org/w/collaboration/security_center/",
-  },
-
-  {
-    title: "Contact",
-    path: "/contact",
-  },
-];
+const navData = await getEntry("data", "nav");
 ---
 
 <header
@@ -57,20 +30,20 @@ const menuitems = [
     >
       <ul class="flex flex-col lg:flex-row lg:gap-3 items-center">
         {
-          menuitems.map((item, index) => (
+          navData.data.pages.map((item: any, index: number) => (
             <>
-              {item.children && (
+              {item.options && (
                 <Dropdown
                   title={item.title}
-                  children={item.children}
-                  lastItem={index === menuitems.length - 1}
+                  children={item.options}
+                  lastItem={index === item.options.length - 1}
                 />
               )}
 
-              {!item.children && (
+              {!item.options && (
                 <div class="my-5 relative  ">
                   <div class="nav-hover transition">
-                    <a href={item.path} class="flex lg:px-3 py-2 text-inherit ">
+                    <a href={item.url} class="flex lg:px-3 py-2 text-inherit ">
                       {item.title}
                     </a>
                   </div>

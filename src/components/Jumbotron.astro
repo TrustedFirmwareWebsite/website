@@ -1,12 +1,14 @@
 ---
 import { Image, getImage } from "astro:assets";
 const { style, slider } = Astro.props;
+
+
+const SliderImage = slider?.inner_image ? await import(
+  slider.inner_image.src.replace("@assets", "../assets")
+) : undefined;
+
 const BackgroundImage = await import(
   slider.image.replace("@assets", "../assets")
-);
-
-const SliderImage = await import(
-  slider.inner_image.src.replace("@assets", "../assets")
 );
 
 const optimizedBackgroundImage = await getImage({
@@ -24,13 +26,13 @@ const backgroundUrl = optimizedBackgroundImage.src;
       "flex flex-col items-center text-white h-full justify-around px-5",
     ]}
   >
-    <Image
+    {slider.inner_image ?  <Image
       src={SliderImage.default}
       alt={slider.inner_image.alt}
       class="w-64"
-    />
+    /> : <></>}
     <h1 class="sr-only">Trusted Firmware</h1>
-    <p class="text-inherit text-3xl lg:text-5xl">{slider.title}</p>
+    <p class="text-inherit text-3xl lg:text-5xl text-left">{slider.title}</p>
   </div>
 </section>
 

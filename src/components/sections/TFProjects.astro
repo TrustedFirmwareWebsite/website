@@ -3,10 +3,10 @@ import { getCollection } from "astro:content";
 const projects = await getCollection("projects");
 ---
 
-    <section class="grid grid-cols-12 p-12 place-around">
+    <section class="flex flex-wrap justify-center">
   {
     projects.sort((project1,project2) => project1.data.sort_key- project2.data.sort_key).map(({slug, data: {title}}) => (
-      <div class="col-span-6 sm:col-span-4 xl:col-span-2 relative cursor-pointer">
+      <div class="basis-1/2 sm:basis-1/3 xl:basis-1/6 relative cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.64 79.49" >
           <defs><style>.cls-1{fill:#11a9d4;opacity:0.8;}.cls-2,.cls-3{fill:#fff;}.cls-3{font-size:12.4px;font-family:Lato-Bold, Lato;font-weight:700;letter-spacing:0.03em;}.cls-4{letter-spacing:0.02em;}.cls-5{letter-spacing:0.03em;}</style></defs>
           <g id="Layer_1" data-name="Layer 1">

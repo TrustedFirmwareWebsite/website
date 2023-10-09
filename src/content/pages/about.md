@@ -3,12 +3,15 @@ layout: ../../layouts/Flow.astro
 title: About
 slug: /about
 jumbotron:
-  title: About
-  inner_class: text-white
-  description: ""
-  image: /assets/images/content/TF_Banner_image.jpg
+  slider:
+    title: About
+    inner_class: text-white
+    description: ""
+    image: "@assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
+    sections:
+      - component: md_content
 ---
 
 ### Why choose Trusted Firmware?

@@ -76,6 +76,30 @@ const projects = defineCollection({
   }),
 });
 
+const news = defineCollection({
+  type: "content",
+  schema: z.any(),
+});
+
+const blogs = defineCollection({
+  type: "content",
+  schema: z.any(),
+});
+
+const meetings = defineCollection({
+  type: "content",
+  schema: z.any(),
+});
+
 // Expose your defined collection to Astro
 // with the `collections` export
-export const collections = { pages, rows, sections, data, projects };
+export const collections = {
+  pages,
+  rows,
+  sections,
+  data,
+  projects,
+  news,
+  blogs,
+  meetings,
+};

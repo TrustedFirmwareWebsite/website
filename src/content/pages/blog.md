@@ -5,8 +5,6 @@ description: >
   The official Trusted Firmware blog!
 layout: ../../layouts/Flow.astro
 flow:
-  - row: container_row
-    sections:
-      - component: all_posts
-        # category: Blog
+  - row: article_grid
+    collection: blog
 ---

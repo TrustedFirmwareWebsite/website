@@ -4,6 +4,7 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     ...defaultTheme,
+    content: ["./node_modules/tw-elements/dist/js/**/*.js"],
     extend: {
       colors: {
         secondary: "rgb(87,87,87)",
@@ -11,17 +12,24 @@ module.exports = {
         customgreen: "#33ab66",
         customturquoise: "#0cb2dd",
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            code: { color: theme("colors.red.600") },
+            pre: {
+              code: { color: "white" },
+            },
+          },
+        },
+      }),
     },
     fontFamily: {
       sans: ["Lato", "system-ui", ...defaultTheme.fontFamily.sans],
     },
-    transitionProperty: {
-      maxHeight: "max-height",
-      spacing: "margin, padding",
-    },
   },
   plugins: [
     require("@tailwindcss/typography"),
+    require("tw-elements/dist/plugin.cjs"),
     // ...
   ],
 };

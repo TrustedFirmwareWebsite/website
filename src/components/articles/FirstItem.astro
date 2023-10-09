@@ -1,0 +1,57 @@
+---
+import { Image, imageConfig } from "astro:assets";
+import { getCollection } from "astro:content";
+import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
+import dayjs from "dayjs";
+import { marked } from "marked";
+
+const { data, body, collection, slug } = Astro.props;
+
+const dateObj = dayjs(data.date);
+const dateString = dateObj.format("dddd, MMMM D, YYYY");
+const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
+
+const image = (await import(data.image.replace("@assets", "../../assets")))
+  .default;
+
+console.log(body);
+
+const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
+---
+
+<div
+  class="flex col-span-full prose-xl flex-col-reverse md:flex-row w-full items-stretch
+rounded-lg mx-auto bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+>
+  <div class="w-full basis-1/2 p-6">
+    <div class="flex w-full justify-between items-center my-4">
+      <i class="text-xl m-0">TrustedFirmware</i>
+      <Image
+        class="w-12 m-0"
+        width={48}
+        src={TrustedFirmwareLogo}
+        alt="Trusted Firmware logo"
+      />
+    </div>
+    <h2 class="text-xl text-left m-0">{data.title}</h2>
+    <p class="text-slate-500 my-2 text-sm">{dateString}</p>
+    <div class="prose" set:html={content} />
+    <a
+      id="readme"
+      href={`/${collection}/${slug}`}
+      class="bg-customturquoise transition ease-in-out delay-150 text-white text-sm px-4 py-2 rounded-sm"
+    >
+      Read
+    </a>
+  </div>
+  <a
+    href={`/${collection}/${slug}`}
+    class="basis-1/2 w-full rounded-r-none rounded-t-lg md:rounded-t-none md:rounded-r-lg overflow-hidden m-0 h-96 max-h-full"
+  >
+    <Image
+      src={image}
+      alt={data.title}
+      class="w-full object-cover object-top m-0"
+    />
+  </a>
+</div>

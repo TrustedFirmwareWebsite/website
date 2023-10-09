@@ -1,5 +1,63 @@
 ---
-const { style } = Astro.props;
+import { marked } from "marked";
+const { style, panels } = Astro.props;
 ---
 
-<div class:list={[style]}>Collapse</div>
+<ul class:list={[style]} id="accordionExample">
+  {
+    panels.map((panel: any, index: number) => (
+      <li class="my-4">
+        <div class="rounded-t-lg ">
+          <h2 class="mb-0" id={`heading-${index}`}>
+            <button
+              class="
+              w-full  text-left py-5 px-10 bg-neutral-100 text-xl border border-neutral-300 text-neutral-700
+              group relative flex x items-center rounded-t-[15px]text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none hover:underline [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:underline [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              type="button"
+              data-te-collapse-init
+              data-te-target={`#collapse-${index}`}
+              aria-expanded="false"
+              data-te-collapse-collapsed
+              aria-controls={`#collapse-${index}`}
+            >
+              {panel.title}
+              <span class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-6 w-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </button>
+          </h2>
+          <div
+            id={`collapse-${index}`}
+            class="!visible hidden border border-neutral-200 bg-white mt-4 py-5 px-5 sm:px-10"
+            data-te-collapse-item
+            data-te-collapse-show={false}
+            aria-labelledby={`heading-${index}`}
+          >
+            <div
+              set:html={marked.parse(panel.content)}
+              class="prose-2xl prose-pre:bg-slate-950 prose-pre:text-white prose-li:list-disc"
+            />
+          </div>
+        </div>
+      </li>
+    ))
+  }
+</ul>
+<script>
+  import { Collapse, initTE } from "tw-elements";
+
+  initTE({ Collapse });
+</script>
