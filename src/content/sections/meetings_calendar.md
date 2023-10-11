@@ -1,3 +1,3 @@
 ---
-path: "@components/sections/MeetingsCalendar.astro"
+path: "@/components/sections/MeetingsCalendar.astro"
 ---

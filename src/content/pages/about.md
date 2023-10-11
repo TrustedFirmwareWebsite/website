@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/Flow.astro
 title: About
+description: About trusted firmware
 slug: /about
-jumbotron:
-  slider:
-    title: About
-    inner_class: text-white
-    description: ""
-    image: "@assets/images/TF_Banner_image.jpg"
+hero:
+  title: About
+  style: text-white
+  description: ""
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
     sections:

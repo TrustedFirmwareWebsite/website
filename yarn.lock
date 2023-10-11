@@ -764,6 +764,11 @@ astro-navbar@^2.2.1:
   resolved "https://registry.npmjs.org/astro-navbar/-/astro-navbar-2.2.1.tgz#47a7ec919ed884316ca9625c12b16a0c11de658c"
   integrity sha512-VtWD7lOjDMlbSyujBe/CDAO+ILLysI2tP7c/komR66NqbD104OZVoPgq2ad6apR91KAgEFsB+Tp4Q61CRlWyNg==
 
+astro-seo@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/astro-seo/-/astro-seo-0.8.0.tgz#4d930a8fc3e23fd1b9923486843b2a85febae35d"
+  integrity sha512-7gq6lhibCM8FuzZIJlbLLWP5EJ9KL2/4XqeFrAg9O6ZK2xMFxJ5ubKf+a0VJwwTu8W8Xr421CmpiXu6Hq7n/7Q==
+
 astro@^3.2.2:
   version "3.2.2"
   resolved "https://registry.npmjs.org/astro/-/astro-3.2.2.tgz#2630cae4d4bcfb0de36fa3f27d3a6c1ff6bedfc7"
@@ -3577,6 +3582,11 @@ uvu@^0.5.0:
     diff "^5.0.0"
     kleur "^4.0.3"
     sade "^1.7.3"
+
+vanilla-cookieconsent@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.npmjs.org/vanilla-cookieconsent/-/vanilla-cookieconsent-2.9.2.tgz#d4ac2169fdde5e76f7b8345d0dbfb9b946fe99f0"
+  integrity sha512-SHAS5W0DBvvcUtjmVvvYkhmLPmTlgwKzFvViUp5mBimbZCdZKbDQzwyk/TgYq02+61RrtxmDdLGzDWNFpSbsGQ==
 
 vfile-location@^4.0.0:
   version "4.1.0"

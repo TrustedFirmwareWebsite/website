@@ -2,7 +2,7 @@
 title: Mbed TLS
 description: >
   Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_MBedTLS.svg
 calls_to_action:

@@ -11,6 +11,7 @@ module.exports = {
         light: "rgb(208, 238, 246)",
         customgreen: "#33ab66",
         customturquoise: "#0cb2dd",
+        accent: "#0cb2dd",
       },
       typography: (theme) => ({
         DEFAULT: {

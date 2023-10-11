@@ -1,11 +1,12 @@
 ---
 import { getCollection, getEntry } from "astro:content";
-import FirstItem from "@components/articles/FirstItem.astro";
-import NewsItem from "@components/articles/Article.astro";
+import FirstItem from "@/components/articles/FirstItem.astro";
+import NewsItem from "@/components/articles/Article.astro";
 import dayjs from "dayjs";
 const { collection } = Astro.props;
+console.log(Astro.props);
 const articles: any[] = await getCollection(collection);
-
+console.log(articles);
 const sortedArticles = articles.sort((a, b) =>
   dayjs(a.date).diff(dayjs(b.date))
 );

@@ -3,12 +3,11 @@ layout: ../../layouts/Flow.astro
 title: Join the Trusted Firmware Project
 description: >
   Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
-jumbotron:
-  slider:
-    title: Join the Trusted Firmware Project
-    inner_class: text-white
-    description: ""
-    image: "@assets/images/TF_Banner_image.jpg"
+hero:
+  title: Join the Trusted Firmware Project
+  style: text-white
+  description: ""
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: container_row
     style: members_row text-center
@@ -23,7 +22,9 @@ flow:
           size: h2
           text: Project Partners
       - component: project_partners
-  - row: main_content_row
+  - row: container_row
+    sections:
+      - component: md_content
 slug: /join/
 ---
 

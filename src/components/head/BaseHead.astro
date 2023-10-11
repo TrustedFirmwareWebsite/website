@@ -1,0 +1,54 @@
+---
+import Cookies from "./Cookies.astro";
+import GoogleAnalytics from "./GoogleAnalytics.astro";
+import { SEO } from "astro-seo";
+import "@fontsource/lato";
+import "../../styles/global.scss";
+
+const {
+  title = "The OpenAMP Project",
+  description = "OpenAMP (Open Asymmetric Multi-Processing) seeks to standardize the interactions between operating environments in a heterogeneous embedded system through open source solutions for Asymmetric MultiProcessing (AMP).",
+  type = "website",
+} = Astro.props;
+---
+
+<head>
+  <title>{title}</title>
+  <meta property="description" content={description} />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <Cookies />
+  <GoogleAnalytics id="G-PT82VBC5KD" />
+  <SEO
+    title={title}
+    description={description}
+    openGraph={{
+      basic: {
+        title: title,
+        type: type,
+        image: "https://www.openampproject.org/images/social-media-image.png",
+      },
+    }}
+    twitter={{
+      creator: "@LinaroOrg",
+    }}
+    extend={{
+      link: [
+        { rel: "icon", href: "/favicon.png" },
+        {
+          rel: "me",
+          href: "https://mastodon.org.uk/@LinaroLtd@mastodon.social",
+        },
+      ],
+      meta: [
+        {
+          name: "twitter:image",
+          content:
+            "https://www.openampproject.org/images/openAMP_share_image.png",
+        },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+      ],
+    }}
+  />
+</head>

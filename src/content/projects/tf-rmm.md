@@ -3,7 +3,7 @@ title: TF-RMM
 slug: tf-rmm
 description: >
   TF-RMM is the Trusted Firmware Implementation of the Realm Management Monitor (RMM) Specification which is part of Arm Confidential Compute Architecture (Arm CCA).
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_TF-RMM.svg
 calls_to_action:

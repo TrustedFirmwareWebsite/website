@@ -1,8 +1,0 @@
----
-import { getEntryBySlug } from "astro:content";
-// import "../styles/global.scss";
-const page = await getEntryBySlug("pages", "/");
-const { Content } = await page!.render();
----
-
-<Content />

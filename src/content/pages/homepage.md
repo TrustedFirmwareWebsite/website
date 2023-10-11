@@ -3,17 +3,14 @@ title: Trusted Firmware - Open Source Secure Software
 description: >
   Arm Trusted Firmware provides a reference implementation of secure software for Armv8-A, Armv9-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
 layout: ../../layouts/Flow.astro
-slug: /
-jumbotron:
+slug: ""
+hero:
   style: text-center uppercase
-  slider:
-    darken: true
-    title: Open Source Secure Software
-    image: "@assets/images/TF_Banner_image.jpg"
-    inner_image:
-      src: "@assets/images/TrustedFirmware-Logo_vertical-white.png"
-      alt: Trusted Firmware Logo
-    style: text-center uppercase
+  title: Open Source Secure Software
+  background_image: "../../assets/images/TF_Banner_image.jpg"
+  inner_image:
+    src: "../../assets/images/TrustedFirmware-Logo_vertical-white.png"
+    alt: Trusted Firmware Logo
 flow:
   - row: container_row
     sections:

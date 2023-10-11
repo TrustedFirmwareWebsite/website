@@ -1,27 +1,44 @@
 import { z, defineCollection, reference } from "astro:content";
 const pages = defineCollection({
   type: "content",
-  schema: z
-    .object({
-      flow: z
-        .array(
-          z.object({
-            row: reference("rows"),
-            sections: z
-              .array(
-                z
-                  .object({
-                    component: reference("sections"),
-                  })
-                  .catchall(z.any())
-              )
+  schema: ({ image }) =>
+    z
+      .object({
+        title: z.string(),
+        description: z.string(),
+        hero: z
+          .object({
+            title: z.string(),
+            background_image: image(),
+            style: z.string().optional(),
+            inner_image: z
+              .object({
+                src: image(),
+                alt: z.string(),
+              })
               .optional(),
           })
-        )
-        .optional(),
-    })
-    .catchall(z.any())
-    .optional(),
+          .optional(),
+        flow: z
+          .array(
+            z
+              .object({
+                row: reference("rows"),
+                sections: z.array(
+                  z
+                    .object({
+                      component: reference("sections"),
+                    })
+                    .catchall(z.any())
+                ),
+              })
+              .catchall(z.any())
+          )
+
+          .optional(),
+      })
+      .catchall(z.any())
+      .optional(),
 });
 
 const rows = defineCollection({
@@ -40,7 +57,17 @@ const sections = defineCollection({
 
 const data = defineCollection({
   type: "data",
-  schema: z.any(),
+  schema: ({ image }) =>
+    z
+      .array(
+        z.object({
+          image: image(),
+          name: z.string(),
+          type: z.enum(["diamond", "platinum", "general", "partner"]),
+          url: z.string(),
+        })
+      )
+      .or(z.any()),
 });
 
 const projects = defineCollection({
@@ -78,12 +105,37 @@ const projects = defineCollection({
 
 const news = defineCollection({
   type: "content",
-  schema: z.any(),
+  schema: ({ image }) =>
+    z.object({
+      author: reference("authors"),
+      title: z.string(),
+      date: z.date(),
+      categories: z.array(z.string()),
+      image: image(),
+    }),
 });
 
 const blogs = defineCollection({
   type: "content",
-  schema: z.any(),
+  schema: ({ image }) =>
+    z.object({
+      author: reference("authors"),
+      title: z.string(),
+      date: z.date(),
+      categories: z.array(z.string()),
+      image: image(),
+    }),
+});
+
+const authors = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      username: z.string(),
+      email: z.string().email().optional(),
+      image: image(),
+    }),
 });
 
 const meetings = defineCollection({
@@ -101,5 +153,6 @@ export const collections = {
   projects,
   news,
   blogs,
+  authors,
   meetings,
 };

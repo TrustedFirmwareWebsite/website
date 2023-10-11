@@ -1,6 +1,6 @@
 ---
 const { style, text_content } = Astro.props;
-import marked from "marked";
+import * as marked from "marked";
 const markdown = marked.parse(text_content.text);
 ---
 

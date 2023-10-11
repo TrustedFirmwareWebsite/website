@@ -2,7 +2,7 @@
 title: Hafnium
 description: >
   A reference Secure Partition Manager (SPM) for systems that implement the Armv8.4-A Secure-EL2 extension. It enables multiple, isolated Secure Partitions (SPs) to run at Secure-EL1.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_Hafnium.svg
 calls_to_action:

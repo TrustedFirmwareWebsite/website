@@ -3,7 +3,7 @@ title: OP-TEE
 slug: op-tee
 description: >
   A Trusted Execution Environment (TEE) designed as a companion to a non-secure Linux kernel running on Arm A-Profile systems (Armv8-A and Armv7-A) using TrustZone technology.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_OP-TEE.svg
 calls_to_action:

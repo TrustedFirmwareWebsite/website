@@ -1,11 +1,11 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: Renesas Electronics and NXP Semiconductors N.V. join the Trusted Firmware Project
 date: 2020-03-25 08:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 # Renesas Electronics and NXP Semiconductors N.V. join the Trusted Firmware Project

@@ -1,11 +1,11 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: Hafnium, MbedTLS, PSA Crypto join the Trusted Firmware Project
 date: 2020-07-17 08:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 # Hafnium, MbedTLS, PSA Crypto join the Trusted Firmware Project

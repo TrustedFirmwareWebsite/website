@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   return pages.map((page) => {
     return {
       params: {
-        slug: page.data!.slug,
+        slug: page.slug || undefined,
       },
       props: {
         page,

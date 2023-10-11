@@ -1,3 +1,3 @@
 ---
-path: "@components/sections/Members.astro"
+path: "@/components/sections/Members.astro"
 ---

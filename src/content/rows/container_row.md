@@ -1,3 +1,3 @@
 ---
-path: "@components/rows/ContainerRow.astro"
+path: "@/components/rows/ContainerRow.astro"
 ---

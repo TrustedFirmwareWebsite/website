@@ -4,11 +4,11 @@ const { style, slider } = Astro.props;
 
 
 const SliderImage = slider?.inner_image ? await import(
-  slider.inner_image.src.replace("@assets", "../assets")
+  slider.inner_image.src.replace("@/assets", "../../assets")
 ) : undefined;
 
 const BackgroundImage = await import(
-  slider.image.replace("@assets", "../assets")
+  slider.image.replace("@/assets", "../../assets")
 );
 
 const optimizedBackgroundImage = await getImage({

@@ -1,3 +1,3 @@
 ---
-path: "@components/sections/TFProjects.astro"
+path: "@/components/sections/TFProjects.astro"
 ---

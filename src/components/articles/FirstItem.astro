@@ -11,11 +11,6 @@ const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
 const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
 
-const image = (await import(data.image.replace("@assets", "../../assets")))
-  .default;
-
-console.log(body);
-
 const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
 ---
 
@@ -49,7 +44,7 @@ rounded-lg mx-auto bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px
     class="basis-1/2 w-full rounded-r-none rounded-t-lg md:rounded-t-none md:rounded-r-lg overflow-hidden m-0 h-96 max-h-full"
   >
     <Image
-      src={image}
+      src={data.image}
       alt={data.title}
       class="w-full object-cover object-top m-0"
     />

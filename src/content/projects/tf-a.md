@@ -4,7 +4,7 @@ slug: tf-a
 description: >
   The TrustedFirmware-A (TF-A) project provides a reference implementation of secure world software for
   Armv7-A and Armv8-A class processors.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_TF-A.svg
   - svgs/TF_Icon_TF-ATesting.svg

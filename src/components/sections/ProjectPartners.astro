@@ -4,14 +4,6 @@ import { Image, getImage } from "astro:assets";
 import { getEntry, type ImageFunction } from "astro:content";
 
 const members = await getEntry("data", "projectPartners");
-
-const memberImages = {} as Record<string, any>;
-for (const member of members.data) {
-  memberImages[member.name] = (
-    await import(member.image.replace("@assets", "../../assets"))
-  ).default;
-}
-
 const tiers = [
   {
     type: "partner",
@@ -33,11 +25,7 @@ const tiers = [
             .map((member: any) => (
               <li class="py-16">
                 <a href={member.url}>
-                  <Image
-                    src={memberImages[member.name]}
-                    alt={member.name}
-                    class="w-48"
-                  />
+                  <Image src={member.image} alt={member.name} class="w-48" />
                 </a>
               </li>
             ))}

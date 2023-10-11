@@ -1,11 +1,11 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: Linaro is transferring OP-TEE to become part of the Trusted Firmware project
 date: 2019-10-21 08:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 Linaro is transferring OP-TEE to become part of the Trusted Firmware open governance community project.

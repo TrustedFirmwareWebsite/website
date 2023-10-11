@@ -3,7 +3,7 @@ title: Open CI
 slug: open-ci
 description: >
   The Trusted Firmware Open CI (Continuous Integration) is a cloud-based CI infrastructure that leverages multiple components including Gerrit, Jenkins and LAVA to create a comprehensive end-to-end integration and test infrastructure.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_OpenCI.svg
 calls_to_action:

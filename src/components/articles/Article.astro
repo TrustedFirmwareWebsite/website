@@ -1,6 +1,5 @@
 ---
 import { Image, imageConfig } from "astro:assets";
-import { getCollection } from "astro:content";
 import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import dayjs from "dayjs";
 import { marked } from "marked";
@@ -10,8 +9,8 @@ const { data, body, collection, slug } = Astro.props;
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
 
-const image = (await import(data.image.replace("@assets", "../../assets")))
-  .default;
+// const image = (await import(data.image.replace("@assets", "../../assets")))
+//   .default;
 
 marked.use({
   renderer: {
@@ -62,7 +61,7 @@ rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rg
   </div>
   <div class="basis-1/4 w-full rounded-t-lg m-0">
     <Image
-      src={image}
+      src={data.image}
       alt={data.title}
       class="object-cover object-center m-0 w-full h-full"
     />

@@ -3,7 +3,7 @@ const {
   style,
   title_content: { text, size },
 } = Astro.props;
-import marked from "marked";
+import * as marked from "marked";
 const markdown = marked.parse(text);
 const Element = size;
 ---

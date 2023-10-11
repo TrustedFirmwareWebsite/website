@@ -1,3 +1,3 @@
 ---
-path: "@components/sections/Collapse.astro"
+path: "@/components/sections/Collapse.astro"
 ---

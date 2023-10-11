@@ -4,14 +4,14 @@ title: Cookies Policy
 description: |-
   Update and remove cookies from your browser set by our site.
 slug: /cookies/
-jumbotron:
+hero:
   title: Cookies
   description: ""
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
-  - row: main_content_row
   - row: container_row
     sections:
-      - component: cookie_manager
+      - component: md_content
 ---
 
 ## What does this policy cover?

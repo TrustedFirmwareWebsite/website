@@ -1,14 +1,17 @@
 ---
 layout: ../../layouts/Flow.astro
 title: Contact Trusted Firmware
+description: Contact information for Trusted Firmware
 slug: /contact/
-jumbotron:
+hero:
   title: Contact Us
-  inner_class: text-white
+  style: text-white
   description: ""
-  image: /assets/images/content/TF_Banner_image.jpg
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
+    sections:
+      - component: md_content
 ---
 
 # Get Involved - Join The Trusted Firmware Mailing Lists

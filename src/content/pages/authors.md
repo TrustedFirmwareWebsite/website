@@ -1,5 +1,6 @@
 ---
 title: Authors
+description: Authors of Trusted Firmware blogs
 slug: /authors/
 layout: ../../layouts/Flow.astro
 pagination:
@@ -11,23 +12,4 @@ pagination:
   trail:
     before: 4
     after: 4
-css-package: blog
-redirect_from:
-  - /author/
 ---
-
-{% for author in paginator.posts %}
-
-<div class="row blog_post">
-    <div class="col-xs-8 post_title no-padding">
-        <a href="{{author.url}}">
-            <h3 class="blog_title">{{ author.name}}</h3>
-        </a>
-    </div>
-    <div class="col-xs-4  no-padding">
-        <a href="{{author.url}}">
-            <button class="btn btn-primary pull-right">View Posts</button>
-        </a>
-    </div>
-</div>
-{% endfor %}

@@ -1,0 +1,29 @@
+---
+import { getEntry } from "astro:content";
+import { Image } from "astro:assets";
+// import LinaroLogo from "../../assets/images/linaro-logo.png";
+const footer = await getEntry("data", "footer");
+const { data }: any = footer;
+---
+
+<!-- 
+<footer class="justify-self-end mt-auto">
+  {
+    data.map((row: any) => (
+      <ul class="flex flex-row flex-wrap justify-center gap-5">
+        {row.map((item: any) => {
+          const Component = item.url ? "a" : "p";
+          return (
+            <li>
+              <Component href={item.url}>{item.label}</Component>
+            </li>
+          );
+        })}
+      </ul>
+    ))
+  }
+  <div class="flex flex-row justify-center my-4">
+    <a href="/">
+      <!-- <Image class="w-[80px]" src={LinaroLogo} alt="logo" /> -->-->
+
+

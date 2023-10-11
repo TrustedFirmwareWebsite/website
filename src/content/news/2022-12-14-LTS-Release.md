@@ -1,13 +1,13 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: First LTS Release of Trusted Firmware - A (TF-A)
 description: >
   Trusted Firmware is pleased to announce the initial Long Term Support (LTS) release of the TF-A
 date: 2022-12-14 10:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 The TrustedFirmware.org community is delighted to announce the creation of the first TF-A Long Term Support (LTS) release, which will be based on the recent TF-A v2.8 release, and it is expected by February 2023.

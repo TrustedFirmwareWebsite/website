@@ -1,3 +1,3 @@
 ---
-path: "@components/rows/ArticleGrid.astro"
+path: "@/components/rows/ArticleGrid.astro"
 ---

@@ -1,11 +1,11 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: NXM Labs Inc. and Open Mobile Platform LLC join the Trusted Firmware Project
 date: 2021-01-04 08:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 # NXM Labs Inc. and Open Mobile Platform LLC join the Trusted Firmware Project

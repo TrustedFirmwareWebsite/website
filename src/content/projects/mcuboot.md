@@ -3,7 +3,7 @@ title: MCUboot
 slug: mcuboot
 description: >
   MCUboot is a secure bootloader for 32-bits microcontrollers.
-layout: project
+layout: "../../layouts/ProjectLayout.astro"
 icons:
   - svgs/TF_Icon_MCUboot.svg
 calls_to_action:

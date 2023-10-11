@@ -1,3 +1,3 @@
 ---
-path: "@components/sections/CookieManager.astro"
+path: "@/components/sections/CookieManager.astro"
 ---

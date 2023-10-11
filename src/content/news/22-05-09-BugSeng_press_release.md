@@ -1,11 +1,11 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: TrustedFirmware.org chooses ECLAIR to reinforce Code Verification and Safety
 date: 2022-05-09 08:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 # TrustedFirmware.org chooses ECLAIR to reinforce Code Verification and Safety

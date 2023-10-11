@@ -1,13 +1,13 @@
 ---
-author: trusted.firmware
+author: trusted-firmware
 title: First open-source release of the Trusted Firmware Realm Management Monitor (TF-RMM)
 description: >
   Trusted Firmware is pleased to announce the release of the open-source Realm Management Monitor project (TF-RMM), the first reference implementation of the Arm® Realm Management Monitor (RMM) specification
 date: 2022-12-01 10:00:00
 categories:
   - News
-layout: post
-image: "@assets/images/trusted-firmware.jpg"
+layout: "../../layouts/BlogLayout.astro"
+image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 Trusted Firmware is pleased to announce the release of the open-source Realm Management Monitor project (TF-RMM), the first reference implementation of the Arm® Realm Management Monitor (RMM) [specification](https://developer.arm.com/documentation/den0137/).

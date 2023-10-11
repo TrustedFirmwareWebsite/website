@@ -1,54 +1,54 @@
 [
   {
-    "image": "@assets/images/members/arm.jpg",
+    "image": "../../assets/images/members/arm.jpg",
     "name": "Arm",
     "type": "diamond",
     "url": "https://www.arm.com/"
   },
   {
-    "image": "@assets/images/members/Futurewei_Logo_RGB.png",
+    "image": "../../assets/images/members/Futurewei_Logo_RGB.png",
     "name": "Futurewei",
     "type": "general",
     "url": "https://www.futurewei.com/"
   },
   {
-    "image": "@assets/images/members/Nordic.png",
+    "image": "../../assets/images/members/Nordic.png",
     "name": "Nordic",
     "type": "general",
     "url": "https://www.nordicsemi.com/"
   },
   {
-    "image": "@assets/images/members/google.jpg",
+    "image": "../../assets/images/members/google.jpg",
     "name": "Google",
     "type": "diamond",
     "url": "https://www.google.com/"
   },
   {
-    "image": "@assets/images/members/Linaro.jpg",
+    "image": "../../assets/images/members/Linaro.jpg",
     "name": "Linaro",
     "type": "platinum",
     "url": "https://www.linaro.org/"
   },
   {
-    "image": "@assets/images/members/NXM Logo.svg",
+    "image": "../../assets/images/members/NXM Logo.svg",
     "name": "NXM Labs",
     "type": "general",
     "url": "https://www.nxmlabs.com/"
   },
   {
-    "image": "@assets/images/members/ST.jpg",
+    "image": "../../assets/images/members/ST.jpg",
     "name": "ST",
     "type": "platinum",
     "url": "https://www.st.com/content/st_com/en.html"
   },
   {
-    "image": "@assets/images/members/renesas.jpg",
+    "image": "../../assets/images/members/renesas.jpg",
     "name": "Renesas",
     "type": "platinum",
     "url": "https://www.renesas.com/eu/en/"
   },
   {
-    "image": "@assets/images/members/nxp.jpg",
+    "image": "../../assets/images/members/nxp.jpg",
     "name": "NXP",
     "type": "platinum",
     "url": "https://www.nxp.com/"

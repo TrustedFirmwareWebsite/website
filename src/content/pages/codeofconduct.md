@@ -1,13 +1,13 @@
 ---
 layout: "../../layouts/Flow.astro"
 title: Code of Conduct
+description: Trusted Firmware Code of Conduct and Inclusive Lanugage Policy
 slug: /coc/
 jumbotron:
-  slider:
-    title: TrustedFirmware.org Code of Conduct and Inclusive Language Policy
-    inner_class: text-white
-    description: ""
-    image: "@assets/images/TF_Banner_image.jpg"
+  title: TrustedFirmware.org Code of Conduct and Inclusive Language Policy
+  style: text-white
+  description: ""
+  image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
     sections:

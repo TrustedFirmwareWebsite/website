@@ -1,6 +1,6 @@
 [
   {
-    "image": "@assets/images/members/bugseng.jpg",
+    "image": "../../assets/images/members/bugseng.jpg",
     "name": "BUGSENG",
     "type": "partner",
     "url": "https://www.bugseng.com/"

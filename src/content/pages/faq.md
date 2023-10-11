@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/Flow.astro
 title: FAQ
+description: Trusted Firwmare frequently asked questions (FAQ)
 slug: /faq/
-jumbotron:
-  slider:
-    title: Frequently Asked Questions
-    inner_class: text-white
-    description: ""
-    image: "@assets/images/TF_Banner_image.jpg"
+hero:
+  title: Frequently Asked Questions
+  style: text-white
+  description: ""
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: container_row
     sections:
