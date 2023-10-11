@@ -1,4 +1,12 @@
 ---
+interface Props {
+  buttons_content: {
+    url: string;
+    title: string;
+    style: string;
+  }[];
+  style: string;
+}
 const { style, buttons_content } = Astro.props;
 ---
 
@@ -6,9 +14,9 @@ const { style, buttons_content } = Astro.props;
   {
     buttons_content.map(({ title, url, style: buttonStyle }) => {
       return (
-        <button class:list={[buttonStyle, "uppercase rounded-sm"]} href={url}>
+        <a class:list={[buttonStyle, "uppercase rounded-sm"]} href={url}>
           {title}
-        </button>
+        </a>
       );
     })
   }

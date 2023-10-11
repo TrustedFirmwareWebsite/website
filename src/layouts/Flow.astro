@@ -1,16 +1,12 @@
 ---
-// import NavBar from '../components/Nav/NavBar.astro';
-
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-import { getCollection, getEntries } from "astro:content";
+import { getEntries } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
 import Hero from "@/components/hero/Hero.astro";
 import { getEntryBySlug } from "astro:content";
-import { getEntry } from "astro:content";
 
 type Props = { frontmatter: CollectionEntry<"pages">};
-
 
 const {
   frontmatter: { slug },
@@ -37,7 +33,6 @@ for (const sectionData of await getEntries(flow.map((row: any) => row.sections.m
   }
 }
 
-console.log(flow)
 
 ---
 
@@ -48,7 +43,6 @@ console.log(flow)
         flow?.map((row: any) => {
           const { row: component, sections, ...rowProps } = row
           const RowComp = rowComponents[component.slug].default;
-          console.log(row, rowProps)
           return RowComp ? (
             <RowComp {...rowProps}>
               {sections ? sections.map((section: any) => {

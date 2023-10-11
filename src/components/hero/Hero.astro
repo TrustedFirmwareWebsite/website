@@ -1,5 +1,5 @@
 ---
-import { Image, getImage } from "astro:assets";
+import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"pages">["data"]["hero"];
@@ -20,12 +20,12 @@ const { title, background_image, style, inner_image } = Astro.props!;
     alt={inner_image.alt}
     class="w-64"
   /> : <></>}
-  <h1 class="text-inherit text-3xl lg:text-5xl text-left">{title}</h1>
+  <h1 class="text-inherit text-3xl lg:text-5xl text-left font-medium">{title}</h1>
 </section>
 
 <style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
   .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       var(--backgroundUrl);
     background-position: center;
     object-fit: cover;

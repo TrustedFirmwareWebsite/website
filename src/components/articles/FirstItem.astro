@@ -1,6 +1,5 @@
 ---
-import { Image, imageConfig } from "astro:assets";
-import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import dayjs from "dayjs";
 import { marked } from "marked";
@@ -9,7 +8,6 @@ const { data, body, collection, slug } = Astro.props;
 
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
-const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
 
 const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
 ---

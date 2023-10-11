@@ -3,7 +3,7 @@ import { marked } from "marked";
 const { style, panels } = Astro.props;
 ---
 
-<ul class:list={[style]} id="accordionExample">
+<ul class:list={[style, "list-none"]} id="accordionExample">
   {
     panels.map((panel: any, index: number) => (
       <li class="my-4">

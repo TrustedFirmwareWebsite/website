@@ -1,7 +1,6 @@
 ---
-import type { GetImageResult } from "astro";
-import { Image, getImage } from "astro:assets";
-import { getEntry, type ImageFunction } from "astro:content";
+import { Image } from "astro:assets";
+import { getEntry } from "astro:content";
 
 const members = await getEntry("data", "projectPartners");
 const tiers = [
@@ -19,7 +18,7 @@ const tiers = [
     tiers.map(({ type, title }) => (
       <div>
         <h3 class="text-center font-normal py-2">{title}</h3>
-        <ul class="flex flex-wrap justify-center items-center gap-10">
+        <ul class="flex flex-wrap justify-center items-center gap-10 list-none">
           {members.data
             .filter((member: any) => member.type === type)
             .map((member: any) => (
