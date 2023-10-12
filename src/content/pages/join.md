@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/Flow.astro
+slug: /join/
 title: Join the Trusted Firmware Project
 description: >
   Companies and other organisations who adopt, deploy or contribute to Trusted Firmware, or who participate in the firmware and security ecosystem are warmly invited to join the Trusted Firmware community project. Membership of the project is open to all and governance is overseen by a board of Member representatives.
@@ -25,7 +26,6 @@ flow:
   - row: container_row
     sections:
       - component: md_content
-slug: /join/
 ---
 
 ## About Membership And How To Join

@@ -1,10 +1,11 @@
 ---
 title: Mbed TLS
+slug: mbed-tls
 description: >
   Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_Icon_MBedTLS.svg
+  - Mbed TLS
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://github.com/ARMmbed/mbedtls/blob/development/CONTRIBUTING.md

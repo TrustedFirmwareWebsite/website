@@ -5,7 +5,7 @@ description: >
   MCUboot is a secure bootloader for 32-bits microcontrollers.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_Icon_MCUboot.svg
+  - MCUboot
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://docs.mcuboot.com/SubmittingPatches.html

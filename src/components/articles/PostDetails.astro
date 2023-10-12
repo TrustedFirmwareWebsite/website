@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import { getEntry } from "astro:content";
+import dayjs from "dayjs";
+const { author, readTime, date } = Astro.props;
+
+const { data: authorData } = await getEntry(author);
+console.log(authorData);
+const dateObj = dayjs(date);
+const dateString = dateObj.format("dddd, MMMM D, YYYY");
+---
+
+<div class="bg-accentbg my-4">
+  <div class="mx-auto py-2 max-w-5xl px-5">
+    <div class="flex flex-wrap w-full">
+      <div
+        class="flex md:flex-row flex-col justify-between items-start md:items-center mx-auto md:mx-0"
+      >
+        <Image
+          class=""
+          src={authorData.image}
+          alt="logo"
+          class="w-24 aspect-square object-cover rounded-[50%] my-4"
+        />
+        <div class="flex flex-col ml-4 text-lg">
+          <!-- Added ml-4 for spacing -->
+          <div>
+            <div class="mx-2 flex flex-wrap gap-5">
+              <strong>{authorData.name}</strong>|
+              <span class="font-normal">{dateString}</span>|<span
+                class="font-bold">{readTime}</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

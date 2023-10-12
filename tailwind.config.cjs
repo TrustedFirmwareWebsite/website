@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: [
+    "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
   theme: {
     ...defaultTheme,
-    content: ["./node_modules/tw-elements/dist/js/**/*.js"],
     extend: {
       colors: {
         secondary: "rgb(87,87,87)",
@@ -12,6 +14,7 @@ module.exports = {
         customgreen: "#33ab66",
         customturquoise: "#0cb2dd",
         accent: "#0cb2dd",
+        accentbg: "#d0eef6",
       },
       typography: (theme) => ({
         DEFAULT: {

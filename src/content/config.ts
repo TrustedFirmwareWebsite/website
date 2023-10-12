@@ -81,6 +81,7 @@ const projects = defineCollection({
     ),
     links: z.array(
       z.object({
+        button_style: z.string().optional(),
         title: z.string(),
         text: z.string(),
         url: z.string().url(),
@@ -106,19 +107,17 @@ const news = defineCollection({
       author: reference("authors"),
       title: z.string(),
       date: z.date(),
-      categories: z.array(z.string()),
       image: image(),
     }),
 });
 
-const blogs = defineCollection({
+const blog = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
       author: reference("authors"),
       title: z.string(),
       date: z.date(),
-      categories: z.array(z.string()),
       image: image(),
     }),
 });
@@ -139,8 +138,6 @@ const meetings = defineCollection({
   schema: z.any(),
 });
 
-// Expose your defined collection to Astro
-// with the `collections` export
 export const collections = {
   pages,
   rows,
@@ -148,7 +145,7 @@ export const collections = {
   data,
   projects,
   news,
-  blogs,
+  blog,
   authors,
   meetings,
 };

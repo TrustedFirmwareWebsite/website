@@ -5,7 +5,7 @@ description: >
   A Trusted Execution Environment (TEE) designed as a companion to a non-secure Linux kernel running on Arm A-Profile systems (Armv8-A and Armv7-A) using TrustZone technology.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_Icon_OP-TEE.svg
+  - OP-TEE
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://optee.readthedocs.io/en/latest/general/contribute.html

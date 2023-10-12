@@ -5,7 +5,7 @@ description: >
   The Trusted Firmware Open CI (Continuous Integration) is a cloud-based CI infrastructure that leverages multiple components including Gerrit, Jenkins and LAVA to create a comprehensive end-to-end integration and test infrastructure.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_Icon_OpenCI.svg
+  - Open CI
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://tf-ci-users-guide.readthedocs.io/en/latest/#how-to-contribute-code

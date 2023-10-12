@@ -18,8 +18,10 @@ const { title, description, type = "website" } = Astro.props;
     <NavBar />
     <slot />
     <Footer />
-    <script
-      type="text/javascript"
-      src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script>
+      import { Collapse, initTE } from "tw-elements";
+
+      initTE({ Collapse }, true);
+    </script>
   </body>
 </html>

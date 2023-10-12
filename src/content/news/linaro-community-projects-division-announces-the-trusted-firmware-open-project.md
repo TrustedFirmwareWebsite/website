@@ -2,9 +2,6 @@
 author: trusted-firmware
 title: Linaro Community Projects Division announces the Trusted Firmware open project
 date: 2018-10-16 08:00:00
-categories:
-  - News
-layout: "../../layouts/BlogLayout.astro"
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 

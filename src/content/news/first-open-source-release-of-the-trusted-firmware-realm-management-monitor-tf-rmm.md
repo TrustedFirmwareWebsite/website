@@ -4,9 +4,6 @@ title: First open-source release of the Trusted Firmware Realm Management Monito
 description: >
   Trusted Firmware is pleased to announce the release of the open-source Realm Management Monitor project (TF-RMM), the first reference implementation of the Arm® Realm Management Monitor (RMM) specification
 date: 2022-12-01 10:00:00
-categories:
-  - News
-layout: "../../layouts/BlogLayout.astro"
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 

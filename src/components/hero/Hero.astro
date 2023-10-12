@@ -12,7 +12,8 @@ const { title, background_image, style, inner_image } = Astro.props!;
   class:list={[
     style,
     "hero-background",
-    "flex flex-col items-center text-white justify-around px-5 h-96",
+    "flex flex-col items-center text-white justify-around px-5 ",
+    title ? "h-96" : "h-48"
   ]}
 >
   {inner_image ?  <Image

@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from "astro:content";
+type Props = {
+  calls_to_action: CollectionEntry<"projects">["data"]["calls_to_action"];
+};
+
+const { calls_to_action } = Astro.props;
+console.log(calls_to_action);
+---
+
+<ul class="p-0 m-0 w-full">
+  {
+    calls_to_action.map(({ url, text, style }) => (
+      <li class="m-0 mb-4 p-0 flex flex-col xl:flex-row xl:items-center gap-4 w-full">
+        <a
+          href={url}
+          class:list={[
+            "uppercase font-bold text-center py-4 transition duration-300 text-white m-0 w-full h-full",
+            style || "bg-accent hover:bg-cyan-700",
+          ]}
+        >
+          {text}
+        </a>
+      </li>
+    ))
+  }
+</ul>

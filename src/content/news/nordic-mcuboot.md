@@ -2,9 +2,6 @@
 author: trusted-firmware
 title: Nordic Semiconductor and MCUboot join the Trusted Firmware Project
 date: 2023-05-09 08:00:00
-categories:
-  - News
-layout: "../../layouts/BlogLayout.astro"
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 

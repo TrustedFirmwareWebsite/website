@@ -1,1 +1,27 @@
-<slot />
+---
+import Hero from "@/components/hero/Hero.astro";
+import BaseLayout from "./BaseLayout.astro";
+import BackgroundImage from "../assets/images/TF_Banner_image.jpg";
+import PostDetails from "@/components/articles/PostDetails.astro";
+
+const { post } = Astro.props;
+const { data, body } = post;
+const { title, description, author, date } = data;
+const { Content } = await post.render();
+
+const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
+---
+
+<BaseLayout title={title} description={description}>
+  <main>
+    <Hero title="" background_image={BackgroundImage} />
+
+    <h1 class="text-3xl max-w-6xl px-5 mx-auto my-6">{title}</h1>
+    <PostDetails author={author} date={date} readTime={readTime} />
+    <article
+      class="prose:lg md:prose-xl max-w-5xl mx-auto my-12 prose-h1:mb-4 prose-h1:text-2xl md:prose-h1:text-4xl prose-h1:font-bold px-5"
+    >
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

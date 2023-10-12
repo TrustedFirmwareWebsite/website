@@ -2,22 +2,21 @@
 title: TrustedFirmware-A (TF-A)
 slug: tf-a
 description: >
-  The TrustedFirmware-A (TF-A) project provides a reference implementation of secure world software for
-  Armv7-A and Armv8-A class processors.
+  The TrustedFirmware-A (TF-A) project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_Icon_TF-A.svg
-  - svgs/TF_Icon_TF-ATesting.svg
+  - TF-A
+  - TF-A Testing
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
   - text: Join the TF-A Tech Forum
-    style: bg-green
+    style: bg-green-600 hover:bg-green-800
     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
   - text: TF-A LTS Project
     url: /projects/tf-a/tf-a-lts/
 links:
-  - title: documentation
+  - title: docs
     text: Trusted Firmware-A Documentation
     url: https://trustedfirmware-a.readthedocs.org/
   - title: code
@@ -27,6 +26,7 @@ links:
     text: "Gerrit review"
     url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
   - title: subscribe
+    button_style: bg-green-600
     text: Subscribe to the TF-A mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/
 useful_links:

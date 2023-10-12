@@ -4,7 +4,7 @@ title: TF-A open Tech Forum regular call
 date: 2023-03-23 08:00:00
 categories:
   - Meetings
-layout: "../../layouts/BlogLayout.astro"
+
 image: /assets/images/blog/x15_demo_tf_crop_1500x1500.png
 ---
 

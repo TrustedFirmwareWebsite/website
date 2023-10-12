@@ -3,10 +3,10 @@ import { marked } from "marked";
 const { style, panels } = Astro.props;
 ---
 
-<ul class:list={[style, "list-none"]} id="accordionExample">
+<div class:list={[style, "list-none"]} id="accordionExample">
   {
     panels.map((panel: any, index: number) => (
-      <li class="my-4">
+      <div class="my-4">
         <div class="rounded-t-lg ">
           <h2 class="mb-0" id={`heading-${index}`}>
             <button
@@ -41,23 +41,17 @@ const { style, panels } = Astro.props;
           </h2>
           <div
             id={`collapse-${index}`}
-            class="!visible hidden border border-neutral-200 bg-white mt-4 py-5 px-5 sm:px-10"
+            class="!visible hidden "
             data-te-collapse-item
-            data-te-collapse-show={false}
             aria-labelledby={`heading-${index}`}
           >
             <div
               set:html={marked.parse(panel.content)}
-              class="prose-2xl prose-pre:bg-slate-950 prose-pre:text-white prose-li:list-disc"
+              class="prose-xl prose-a:text-blue-400 prose-pre:bg-slate-950 prose-pre:text-white prose-li:list-disc border border-neutral-200 bg-white mt-4 py-5 px-5 sm:px-10"
             />
           </div>
         </div>
-      </li>
+      </div>
     ))
   }
-</ul>
-<script>
-  import { Collapse, initTE } from "tw-elements";
-
-  initTE({ Collapse });
-</script>
+</div>

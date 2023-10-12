@@ -5,7 +5,7 @@ description: >
   The Trusted Services project provides a framework for developing and deploying device Root Of Trust (RoT) services across a range of secure processing environments such as those provided by OP-TEE and Hafnium.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - svgs/TF_TrustedServices.svg
+  - Trusted Services
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://trusted-services.readthedocs.io/en/latest/project/contributing.html

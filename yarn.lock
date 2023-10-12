@@ -568,10 +568,10 @@
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
   integrity sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==
 
-"@fontsource/lato@^5.0.14":
-  version "5.0.14"
-  resolved "https://registry.npmjs.org/@fontsource/lato/-/lato-5.0.14.tgz#550f9dbc3c9065ef542868558a88b371648aeef0"
-  integrity sha512-LVygmrEjoxlBPBcp5QMaH5fZ+aAIMR2h2Q3K4W2DETh1kphEjn/bBwiZEhg3ZFPIMu5A34lOVZygKq4HOVY8iQ==
+"@fontsource/lato@^5.0.15":
+  version "5.0.15"
+  resolved "https://registry.npmjs.org/@fontsource/lato/-/lato-5.0.15.tgz#e6eb2bb7b6dbac915eeafb4a990c4badc3ff4bae"
+  integrity sha512-9aDcNLhisbUHLa4sisBtN7qh7Bzs4oCMO5q3xypc7WNY6ZOtGwf0HF8u/DuYhVMmwo6C/QvlpwUgjYJO8PPL1g==
 
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"

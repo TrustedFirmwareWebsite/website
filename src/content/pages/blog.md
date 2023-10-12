@@ -6,6 +6,6 @@ description: >
 layout: ../../layouts/Flow.astro
 flow:
   - row: article_grid
-    collection: blogs
+    collection: blog
     sections: []
 ---

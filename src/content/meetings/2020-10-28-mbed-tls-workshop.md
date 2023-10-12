@@ -4,7 +4,7 @@ title: Mbed TLS Virtual Workshop - 3rd November
 date: 2020-10-28 14:00 GMT
 categories:
   - Meetings
-layout: "../../layouts/BlogLayout.astro"
+
 image: /assets/images/trusted-firmware.jpg
 ---
 

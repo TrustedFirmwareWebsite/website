@@ -1,1 +1,48 @@
-<slot />
+---
+import { getEntryBySlug, type CollectionEntry } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+import ProjectHero from "../components/projects/ProjectHero.astro";
+import * as marked from "marked";
+import ProjectLinks from "@/components/projects/ProjectLinks.astro";
+import TFProjects from "@/components/sections/TFProjects.astro";
+import ProjectCTAs from "@/components/projects/ProjectCTAs.astro";
+
+type Props = { frontmatter: CollectionEntry<"projects"> };
+
+const {
+  frontmatter: { slug },
+} = Astro.props!;
+
+const {
+  data: { title, description, top_text, icons, links, calls_to_action },
+} = await getEntryBySlug("projects", slug);
+
+const toptextMarkdown = marked.parse(top_text);
+---
+
+<BaseLayout title={title} description={description}>
+  <main>
+    <ProjectHero title={title} icons={icons} />
+    <section class="max-w-5xl mx-auto mt-8 px-10 prose-xl">
+      <div set:html={toptextMarkdown} class="prose-a:text-blue-400" />
+    </section>
+    <section
+      class="prose-lg max-w-5xl mx-auto mt-8 px-10 flex flex-col md:flex-row items-start gap-4"
+    >
+      <div class="w-full md:basis-1/2">
+        <ProjectLinks links={links} />
+        <ProjectCTAs calls_to_action={calls_to_action} />
+      </div>
+
+      <aside class="basis-1/2 bg-sky-200 p-5">
+        <h2 class="font-bold text-md m-0 mb-4">
+          Other Trusted Firmware Projects
+        </h2>
+        <TFProjects
+          textClass="text-xl md:text-md lg:text-lg"
+          containerClass="basis-1/3 "
+        />
+      </aside>
+    </section>
+  </main>
+</BaseLayout>

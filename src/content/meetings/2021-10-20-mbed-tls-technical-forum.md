@@ -4,7 +4,7 @@ title: MBed TLS open Tech Forum regular call
 date: 2023-03-13 08:00:00
 categories:
   - Meetings
-layout: "../../layouts/BlogLayout.astro"
+
 image: /assets/images/blog/Workshop.png
 ---
 
