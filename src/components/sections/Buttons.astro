@@ -10,11 +10,17 @@ interface Props {
 const { style, buttons_content } = Astro.props;
 ---
 
-<div class:list={[style]}>
+<div class:list={[style, "py-12 flex flex-wrap justify-center items-center"]}>
   {
     buttons_content.map(({ title, url, style: buttonStyle }) => {
       return (
-        <a class:list={[buttonStyle, "uppercase rounded-sm"]} href={url}>
+        <a
+          class:list={[
+            buttonStyle,
+            "uppercase rounded-sm py-2 px-4 no-underline",
+          ]}
+          href={url}
+        >
           {title}
         </a>
       );

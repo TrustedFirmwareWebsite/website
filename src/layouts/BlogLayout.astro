@@ -3,6 +3,7 @@ import Hero from "@/components/hero/Hero.astro";
 import BaseLayout from "./BaseLayout.astro";
 import BackgroundImage from "../assets/images/TF_Banner_image.jpg";
 import PostDetails from "@/components/articles/PostDetails.astro";
+import RecentPosts from "@/components/articles/RecentPosts.astro";
 
 const { post } = Astro.props;
 const { data, body } = post;
@@ -23,5 +24,6 @@ const readTime = `${Math.ceil(body.split(" ").length / 183)} min read`;
     >
       <Content />
     </article>
+    <RecentPosts />
   </main>
 </BaseLayout>

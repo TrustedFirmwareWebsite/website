@@ -56,5 +56,5 @@ flow:
         buttons_content:
           - title: General Enquiries
             url: mailto:enquiries@trustedfirmware.org
-            style: bg-customgreen text-white
+            style: bg-customgreen hover:bg-green-700 text-white
 ---

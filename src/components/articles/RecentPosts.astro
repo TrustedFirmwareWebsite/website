@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+import { Image } from "astro:assets";
+import { marked } from "marked";
+
+const news = await getCollection("news");
+const blogs = await getCollection("blog");
+
+const latestPosts = [...news, ...blogs]
+  .sort((a, b) => dayjs(b.data.date).diff(a.data.date))
+  .slice(0, 5);
+
+function dateConvertor(text: string) {
+  const dateObj = dayjs(text);
+  const dateString = dateObj.format("dddd, MMMM D, YYYY");
+  return dateString;
+}
+---
+
+<div class="max-w-5xl mx-auto mb-16 px-5">
+  <h2 class="my-12 font-bold text-3xl">Recent Posts</h2>
+  {
+    latestPosts.map(async (post: any) => {
+      console.log(post);
+      marked.use({
+        renderer: {
+          heading(text) {
+            return `<span>
+              ${text}
+            </span>`;
+          },
+          paragraph(text) {
+            return `
+            <span>
+              ${text}
+            </span>`;
+          },
+          link(text) {
+            return `
+            <span>
+              ${text}
+            </span>`;
+          },
+        },
+      });
+      const { Content, headings } = await post.render();
+      console.log(headings);
+      return (
+        <a
+          href={`/news/${post.slug}`}
+          class="text-black no-underline cursor-pointer text-[20px] hover:text-accent m-0"
+        >
+          <div class="flex flex-col sm:flex-row items-start gap-0 sm:gap-5 mt-4">
+            <Image
+              class="object-cover border border-lightgray m-0 aspect-square w-full max-w-md sm:h-28 sm:w-28"
+              src={post.data.image}
+              alt="post image"
+            />
+            <div>
+              <h5 class="text-[1.7rem] font-medium ">{post.data.title}</h5>
+              <p class="text-[16px] italic md:mb-4">
+                {dateConvertor(post.data.date)}
+              </p>
+              <p
+                class="text-[16px]"
+                set:html={post.data.description || headings[0].text}
+              />
+            </div>
+          </div>
+        </a>
+      );
+    })
+  }
+</div>

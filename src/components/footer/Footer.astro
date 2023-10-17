@@ -1,14 +1,72 @@
 ---
 import { getEntry } from "astro:content";
 import { Image } from "astro:assets";
+import Icon from "astro-icon";
+import PreFooter from "./PreFooter.astro";
 // import LinaroLogo from "../../assets/images/linaro-logo.png";
 const footer = await getEntry("data", "footer");
 const { data }: any = footer;
 ---
 
-<!-- 
 <footer class="justify-self-end mt-auto">
-  {
+  <PreFooter />
+  <section class="bg-neutral-900 text-white my-0 py-4 px-4">
+    <div class="flex flex-wrap flex-row items-center justify-center gap-4">
+      <a href="https://www.github.com/TrustedFirmware/website">
+        <Icon name="mdi:github" class="w-6 text-white hover:text-accent" />
+      </a>
+
+      <a
+        href="https://www.github.com/TrustedFirmware/website/issues/new?title=Problem+with+_pages/homepage.md&body=Please+enter+some+details+about+the+bug/issue+so+we+can+promptly+resolve+it.+%0D%0AURL%3A++https://www.trustedfirmware.org/"
+        class="flex item-center no-underline text-white font-medium p-2 cursor-pointer hover:text-accent hover:underline hover:transition-all rounded-md"
+        >Report an Issue</a
+      >
+      <!--
+        <a
+          href="https://github.com/OpenAMP/website/blob/master/_pages/news_tags.sm"
+          class="flex item-center mb-[1rem] no-underline text-white font-medium p-2 cursor-pointer hover:text-accent hover:underline hover:transition-all rounded-md"
+        >
+          Edit on Github
+        </a>
+        -->
+    </div>
+    <ul class="flex flex-wrap flex-row items-center justify-center gap-4 my-6">
+      <span>
+        Copyright © {new Date().getFullYear()}&nbsp;{data.copyright_text}
+      </span>
+      {
+        data.company_links.map((link: any) => (
+          <a
+            href={link.url}
+            class="before:content-['•'] before:mr-4 hover:text-accent before:hover:text-white"
+          >
+            {link.name}
+          </a>
+        ))
+      }
+      <div
+        class="flex flex-row justify-center items-center flex-wrap h-full gap-8 ml-4"
+      >
+        <a href="https://twitter.com/linaroorg" class="h-full">
+          <Icon name="mdi:twitter" class="w-5 text-white hover:text-accent" />
+        </a>
+        <a href="https://www.facebook.com/LinaroOrg" class="h-full">
+          <Icon name="mdi:facebook" class="w-5 text-white hover:text-accent" />
+        </a>
+        <a href="https://www.linkedin.com/company/1026961" class="h-full">
+          <Icon name="mdi:linkedin" class="w-5 text-white hover:text-accent" />
+        </a>
+        <a href="https://instagram.com/linaroorg">
+          <Icon name="mdi:instagram" class="w-5 text-white hover:text-accent" />
+        </a>
+        <a href="https://www.youtube.com/linaroorg">
+          <Icon name="mdi:youtube" class="w-5 text-white hover:text-accent" />
+        </a>
+        <a href="https://github.com/Linaro">
+          <Icon name="mdi:github" class="w-5 text-white hover:text-accent" />
+        </a>
+      </div>
+      <!-- {
     data.map((row: any) => (
       <ul class="flex flex-row flex-wrap justify-center gap-5">
         {row.map((item: any) => {
@@ -21,7 +79,12 @@ const { data }: any = footer;
         })}
       </ul>
     ))
-  }
-  <div class="flex flex-row justify-center my-4">
-    <a href="/">
-       <Image class="w-[80px]" src={LinaroLogo} alt="logo" /> -->
+  } -->
+    </ul>
+    <div class="flex flex-row justify-center my-4">
+      <a href="/">
+        <Image class="w-[80px]" src={data.footer_brand.logo} alt="logo" />
+      </a>
+    </div>
+  </section>
+</footer>

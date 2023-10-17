@@ -12,13 +12,13 @@ const tiers = [
 ---
 
 <section
-  class="border-t-8 border-dotted border-gray-300 pt-8 mt-8 max-w-6xl mx-auto"
+  class="border-y-8 border-dotted border-gray-300 pt-8 mt-8 max-w-6xl mx-auto"
 >
   {
     tiers.map(({ type, title }) => (
       <div>
         <h3 class="text-center font-normal py-2">{title}</h3>
-        <ul class="flex flex-wrap justify-center items-center gap-10 list-none">
+        <ul class="flex flex-wrap justify-center items-center gap-10 list-none px-0">
           {members.data
             .filter((member: any) => member.type === type)
             .map((member: any) => (

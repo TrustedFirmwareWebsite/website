@@ -1,0 +1,45 @@
+---
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+const news = await getCollection("news");
+const blogs = await getCollection("blog");
+
+const latestPosts = [...news, ...blogs]
+  .sort((a, b) => dayjs(b.data.date).diff(a.data.date))
+  .slice(0, 4);
+---
+
+<section class="bg-neutral-700 py-12 my-0">
+  <div
+    class="flex flex-wrap justify-center align-center max-w-5xl mx-auto text-white"
+  >
+    <div class="basis-1/2">
+      <p class="break-words mb-4">
+        For general and membership enquiries: <a
+          href="mailto:enquiries@trustedfirmware.org"
+          class="text-customturquoise font-bold hover:underline"
+          >enquiries@trustedfirmware.org</a
+        >
+      </p>
+      <p>Harston Mill</p>
+      <p>Royston Rd, Harston</p>
+      <p>Cambridge, United Kingdom</p>
+      <p>CB22 7GG</p>
+    </div>
+    <div class="basis-1/2">
+      <h2 class="text-3xl mb-4">Latest News and Blogs</h2>
+      <ul>
+        {
+          latestPosts.map((post) => (
+            <a class="hover:underline cursor-pointer">
+              <li class="mb-2">
+                {post.data.title}
+                <p>{dayjs(post.data.date).format("dddd, MMMM D, YYYY")}</p>
+              </li>
+            </a>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</section>

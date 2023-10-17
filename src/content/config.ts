@@ -1,3 +1,4 @@
+import { boolean } from "astro/zod";
 import { z, defineCollection, reference } from "astro:content";
 const pages = defineCollection({
   type: "content",
@@ -54,6 +55,7 @@ const sections = defineCollection({
 const data = defineCollection({
   type: "data",
   schema: ({ image }) =>
+    // members/project partners
     z
       .array(
         z.object({
@@ -61,6 +63,22 @@ const data = defineCollection({
           name: z.string(),
           type: z.enum(["diamond", "platinum", "general", "partner"]),
           url: z.string(),
+        })
+      )
+      .or(
+        //footer
+        z.object({
+          copyright_text: z.string(),
+          footer_brand: z.object({
+            logo: image(),
+          }),
+          social_media_icons: z.boolean(),
+          company_links: z.array(
+            z.object({
+              name: z.string(),
+              url: z.string(),
+            })
+          ),
         })
       )
       .or(z.any()),
