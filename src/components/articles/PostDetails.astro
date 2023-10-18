@@ -4,26 +4,25 @@ import { getEntry } from "astro:content";
 import dayjs from "dayjs";
 const { author, readTime, date } = Astro.props;
 
-const { data: authorData } = await getEntry(author);
+const { data: authorData }: any = await getEntry(author);
 console.log(authorData);
 const dateObj = dayjs(date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
 ---
 
 <div class="bg-accentbg my-4">
-  <div class="mx-auto py-2 max-w-5xl px-5">
+  <div class="mx-auto py-2 md:max-w-6xl px-5 md:px-16">
     <div class="flex flex-wrap w-full">
-      <div
-        class="flex md:flex-row flex-col justify-between items-start md:items-center mx-auto md:mx-0"
-      >
-        <Image
-          class=""
-          src={authorData.image}
-          alt="logo"
-          class="w-24 aspect-square object-cover rounded-[50%] my-4"
-        />
+      <div class="flex flex-wrap justify-between items-center">
+        <a href=`/authors/${author.slug}` class="">
+          <Image
+            class=""
+            src={authorData.image}
+            alt="logo"
+            class="w-24 aspect-square object-cover my-4 rounded-[50%] hover:scale-105 hover:-rotate-12 hover:shadow-lg duration-200"
+          />
+        </a>
         <div class="flex flex-col ml-4 text-lg">
-          <!-- Added ml-4 for spacing -->
           <div>
             <div class="mx-2 flex flex-wrap gap-5">
               <strong>{authorData.name}</strong>|

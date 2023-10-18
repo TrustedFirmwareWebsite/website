@@ -8,7 +8,7 @@ const { collection } = Astro.props;
 const articles: any[] = await getCollection(collection);
 
 const sortedArticles = articles.sort((a, b) =>
-  dayjs(a.date).diff(dayjs(b.date))
+  dayjs(b.data.date).diff(a.data.date)
 );
 ---
 

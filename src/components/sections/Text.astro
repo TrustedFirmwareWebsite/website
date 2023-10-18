@@ -1,6 +1,9 @@
 ---
 const { style, text_content } = Astro.props;
 import * as marked from "marked";
+marked.setOptions({
+  renderer: new marked.Renderer(),
+});
 const markdown = marked.parse(text_content.text);
 ---
 

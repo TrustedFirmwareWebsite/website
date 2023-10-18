@@ -89,14 +89,40 @@ const WrapperElement = slug ? "a" : "g";
       class="cls-2"
       d="M46.38,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,46.38,79.49Z"
     ></path>
-    <WrapperElement href={`/projects/${slug}`}>
+    <WrapperElement class="no-underline" href={`/projects/${slug}`}>
       <g>
         <rect
-          class="cls-1 hover:scale-[1.18] origin-center ease-in-out transition duration-300"
+          class="cls-1 hover:scale-[1.17] origin-center ease-in-out transition duration-300"
           x="12.13"
           y="12.05"
           width="55.39"
-          height="55.39"></rect>
+          height="55.39"
+        >
+        </rect>
+        <foreignObject
+          x="12.13"
+          y="12.05"
+          width="55.39"
+          height="55.39"
+          xmlns="http://www.w3.org/1999/xhtml"
+          class="pointer-events-none"
+        >
+          <div
+            class="relative no-underline bg-transparent flex justify-center items-center h-full"
+          >
+            <p
+              class:list={[
+                "text-center text-white break-words font-bold relative text-xs w-full max-w-full",
+              ]}
+            >
+              {
+                title.includes("(")
+                  ? title.replace(/(^.*\(|\).*$)/g, "")
+                  : title
+              }
+            </p>
+          </div></foreignObject
+        >
         <path
           class="cls-2"
           d="M33.12,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,33.12,79.49Z"
@@ -106,10 +132,16 @@ const WrapperElement = slug ? "a" : "g";
   </g>
 </svg>
 
-<div
+<!-- <div
   class="absolute w-full h-full top-0 left-0 right-0 bottom-0 mx-auto my-auto flex items-center justify-center text-white p-12 pointer-events-none"
 >
-  <p class:list={["text-center break-words font-bold", textClass]}>
-    {title.includes("(") ? title.replace(/(^.*\(|\).*$)/g, "") : title}
-  </p>
-</div>
+  <div class="relative">
+    <p
+      class:list={[
+        "text-center break-words font-bold relative text-[50%] w-full",
+      ]}
+    >
+      {title.includes("(") ? title.replace(/(^.*\(|\).*$)/g, "") : title}
+    </p>
+  </div>
+</div> -->

@@ -3,32 +3,60 @@ import { Image } from "astro:assets";
 import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import dayjs from "dayjs";
 import { marked } from "marked";
+import { getEntry, type ImageFunction } from "astro:content";
 
 const { data, body, collection, slug } = Astro.props;
 
+const author = await getEntry(data.author);
+
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
-
+marked.use({
+  renderer: {
+    heading(text) {
+      return `<span>
+              ${text}
+            </span>`;
+    },
+    paragraph(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+    link(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+    strong(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+  },
+});
 const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
 ---
 
 <div
   class="flex col-span-full prose-xl flex-col-reverse md:flex-row w-full items-stretch
-rounded-lg mx-auto bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+rounded-lg mx-auto bg-white shadow-lg border border-gray-200"
 >
   <div class="w-full basis-1/2 p-6">
-    <div class="flex w-full justify-between items-center my-4">
+    <div class="flex w-full justify-between flex-wrap items-center my-4">
       <i class="text-xl m-0">TrustedFirmware</i>
       <Image
-        class="w-12 m-0"
-        width={48}
-        src={TrustedFirmwareLogo}
-        alt="Trusted Firmware logo"
+        class="w-12 m-0 rounded-[50%] aspect-square object-cover"
+        src={author!.data.image}
+        alt={author!.data.name}
       />
     </div>
     <h2 class="text-xl text-left m-0">{data.title}</h2>
     <p class="text-slate-500 my-2 text-sm">{dateString}</p>
-    <div class="prose" set:html={content} />
+    <div class="prose-lg mb-4" set:html={content} />
     <a
       id="readme"
       href={`/${collection}/${slug}`}
@@ -39,12 +67,12 @@ rounded-lg mx-auto bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px
   </div>
   <a
     href={`/${collection}/${slug}`}
-    class="basis-1/2 w-full rounded-r-none rounded-t-lg md:rounded-t-none md:rounded-r-lg overflow-hidden m-0 h-96 max-h-full"
+    class="basis-1/2 w-full rounded-t-lg md:rounded-l-none md:rounded-r-lg overflow-hidden m-0 h-96 md:h-full max-h-full"
   >
     <Image
       src={data.image}
       alt={data.title}
-      class="w-full object-cover object-top m-0"
+      class="object-cover object-top m-0 h-full"
     />
   </a>
 </div>

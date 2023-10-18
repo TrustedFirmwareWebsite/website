@@ -25,14 +25,17 @@ const tiers = [
   {
     tiers.map(({ type, title }) => (
       <div>
-        <h3 class="text-center font-normal py-2">{title}</h3>
-        <ul class="flex flex-wrap justify-center items-center gap-10 list-none px-0">
+        <h3 class="text-center font-normal py-2 text-3xl my-6">{title}</h3>
+        <ul class="flex flex-wrap justify-center items-center gap-10 list-none px-0 p-0">
           {members.data
             .filter((member: any) => member.type === type)
             .map((member: any) => (
-              <li class="py-16">
                 <a href={member.url}>
-                  <Image src={member.image} alt={member.name} class="w-48" />
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    class="w-48 p-0"
+                  />
                 </a>
               </li>
             ))}

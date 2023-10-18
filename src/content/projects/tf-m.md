@@ -10,7 +10,7 @@ calls_to_action:
   - text: Contribute/Submit Code
     url: https://tf-m-user-guide.trustedfirmware.org/contributing/contributing_process.html
   - text: Join the TF-M Tech Forum
-    style: bg-green
+    style: bg-green-600 hover:bg-green-800
     url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
 links:
   - title: documentation

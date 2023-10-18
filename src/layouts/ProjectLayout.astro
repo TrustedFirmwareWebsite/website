@@ -27,7 +27,7 @@ const toptextMarkdown = marked.parse(top_text);
       <div set:html={toptextMarkdown} class="prose-a:text-blue-400" />
     </section>
     <section
-      class="prose-lg max-w-5xl mx-auto mt-8 px-10 flex flex-col md:flex-row items-start gap-4"
+      class="prose-lg max-w-5xl mx-auto my-8 px-10 flex flex-col md:flex-row items-start gap-4"
     >
       <div class="w-full md:basis-1/2">
         <ProjectLinks links={links} />
@@ -39,8 +39,8 @@ const toptextMarkdown = marked.parse(top_text);
           Other Trusted Firmware Projects
         </h2>
         <TFProjects
-          textClass="text-xl md:text-md lg:text-lg"
-          containerClass="basis-1/3 "
+          text_class="text-xl md:text-md lg:text-lg"
+          container_class="basis-1/3 "
         />
       </aside>
     </section>

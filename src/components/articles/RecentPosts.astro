@@ -4,68 +4,75 @@ import dayjs from "dayjs";
 import { Image } from "astro:assets";
 import { marked } from "marked";
 
-const news = await getCollection("news");
-const blogs = await getCollection("blog");
-
-const latestPosts = [...news, ...blogs]
-  .sort((a, b) => dayjs(b.data.date).diff(a.data.date))
-  .slice(0, 5);
+const { posts, title } = Astro.props;
 
 function dateConvertor(text: string) {
   const dateObj = dayjs(text);
   const dateString = dateObj.format("dddd, MMMM D, YYYY");
   return dateString;
 }
+
+marked.use({
+  renderer: {
+    heading(text) {
+      return `<span>
+              ${text}
+            </span>`;
+    },
+    paragraph(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+    link(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+    strong(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
+  },
+});
 ---
 
-<div class="max-w-5xl mx-auto mb-16 px-5">
-  <h2 class="my-12 font-bold text-3xl">Recent Posts</h2>
+<div class="max-w-5xl mx-auto mb-16 px-5 md:px-16">
+  <h2 class="my-12 font-bold text-3xl">{title}</h2>
   {
-    latestPosts.map(async (post: any) => {
+    posts.map(async (post: any) => {
       console.log(post);
-      marked.use({
-        renderer: {
-          heading(text) {
-            return `<span>
-              ${text}
-            </span>`;
-          },
-          paragraph(text) {
-            return `
-            <span>
-              ${text}
-            </span>`;
-          },
-          link(text) {
-            return `
-            <span>
-              ${text}
-            </span>`;
-          },
-        },
-      });
+
       const { Content, headings } = await post.render();
+
       console.log(headings);
+      const h1 = headings[0].text;
+      const firstBlock = post.body.split("\n").slice(0, 6).join(" ");
+
+      const parsedDescription = marked.parse(
+        post.data.description || (h1.length > 15 && h1) || firstBlock
+      );
       return (
         <a
-          href={`/news/${post.slug}`}
+          href={`/${post.collection}/${post.slug}`}
           class="text-black no-underline cursor-pointer text-[20px] hover:text-accent m-0"
         >
-          <div class="flex flex-col sm:flex-row items-start gap-0 sm:gap-5 mt-4">
+          <div class="flex flex-col  sm:flex-row items-start gap-0 sm:gap-5 mb-8">
             <Image
-              class="object-cover border border-lightgray m-0 aspect-square w-full max-w-md sm:h-28 sm:w-28"
+              class="object-cover border border-lightgray m-0 aspect-square w-full mb-4  max-w-sm sm:max-w-[10rem]"
               src={post.data.image}
               alt="post image"
             />
             <div>
-              <h5 class="text-[1.7rem] font-medium ">{post.data.title}</h5>
-              <p class="text-[16px] italic md:mb-4">
+              <h5 class="text-2xl font-medium">{post.data.title}</h5>
+              <p class="text-[16px] italic md:mb-2">
                 {dateConvertor(post.data.date)}
               </p>
-              <p
-                class="text-[16px]"
-                set:html={post.data.description || headings[0].text}
-              />
+              <p class="text-lg " set:html={parsedDescription} />
             </div>
           </div>
         </a>

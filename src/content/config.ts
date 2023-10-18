@@ -9,7 +9,7 @@ const pages = defineCollection({
       hero: z
         .object({
           title: z.string(),
-          background_image: image(),
+          background_image: image().optional(),
           style: z.string().optional(),
           inner_image: z
             .object({
@@ -140,6 +140,17 @@ const blog = defineCollection({
     }),
 });
 
+const meetings = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      author: reference("authors"),
+      title: z.string(),
+      date: z.date(),
+      image: image(),
+    }),
+});
+
 const authors = defineCollection({
   type: "content",
   schema: ({ image }) =>
@@ -149,11 +160,6 @@ const authors = defineCollection({
       email: z.string().email().optional(),
       image: image(),
     }),
-});
-
-const meetings = defineCollection({
-  type: "content",
-  schema: z.any(),
 });
 
 export const collections = {

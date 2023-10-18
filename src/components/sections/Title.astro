@@ -1,11 +1,16 @@
 ---
 const {
   style,
-  title_content: { text, size },
+  title_content: { text, size, style: text_style },
 } = Astro.props;
 import * as marked from "marked";
+marked.setOptions({
+  renderer: new marked.Renderer(),
+});
 const markdown = marked.parse(text);
 const Element = size;
 ---
 
-<div class:list={[style, "py-4"]}><Element set:html={markdown} /></div>
+<div class:list={["x", style]}>
+  <Element set:html={markdown} class:list={["m-0", text_style]} />
+</div>

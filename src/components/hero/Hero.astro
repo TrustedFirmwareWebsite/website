@@ -10,10 +10,10 @@ const { title, background_image, style, inner_image } = Astro.props!;
 
 <section
   class:list={[
-    style,
     "hero-background",
     "flex flex-col items-center text-white justify-around px-5 ",
-    title ? "h-96" : "h-48"
+    title ? "h-96" : "h-48",
+    style,
   ]}
 >
   {inner_image ?  <Image
@@ -24,8 +24,9 @@ const { title, background_image, style, inner_image } = Astro.props!;
   <h1 class="text-inherit text-3xl lg:text-5xl text-left font-medium">{title}</h1>
 </section>
 
-<style define:vars={{ backgroundUrl: `url(${background_image.src})` }}>
+<style define:vars={{ backgroundUrl: background_image ? `url(${background_image.src})` : `` }}>
   .hero-background {
+    background: lightgray;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       var(--backgroundUrl);
     background-position: center;

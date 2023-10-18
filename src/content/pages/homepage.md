@@ -29,10 +29,12 @@ flow:
       - component: title
         style: text-center
         title_content:
-          style: font-bold
+          style: font-bold  text-4xl
           size: h3
           text: Available Trusted Firmware Projects
       - component: tf_projects
+        container_class: basis-1/2 sm:basis-1/3 xl:basis-1/6
+        section_class: px-10 mb-8
 
   - row: container_row
     style: #
@@ -40,16 +42,10 @@ flow:
       - component: title
         style: text-center font-bold
         title_content:
-          style: font-bold
+          style: font-bold text-4xl
           size: h3
           text: Our Members
       - component: members
-      - component: title
-        style: text-center font-bold
-        title_content:
-          style: font-bold
-          size: h3
-          text: Project Partners
       - component: project_partners
       - component: buttons
         style: text-center

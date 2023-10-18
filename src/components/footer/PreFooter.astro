@@ -11,9 +11,9 @@ const latestPosts = [...news, ...blogs]
 
 <section class="bg-neutral-700 py-12 my-0">
   <div
-    class="flex flex-wrap justify-center align-center max-w-5xl mx-auto text-white"
+    class="flex flex-col sm:flex-row justify-center align-center max-w-5xl mx-auto text-white gap-5"
   >
-    <div class="basis-1/2">
+    <div class="basis-1/2 max-w-md px-5">
       <p class="break-words mb-4">
         For general and membership enquiries: <a
           href="mailto:enquiries@trustedfirmware.org"
@@ -26,7 +26,7 @@ const latestPosts = [...news, ...blogs]
       <p>Cambridge, United Kingdom</p>
       <p>CB22 7GG</p>
     </div>
-    <div class="basis-1/2">
+    <div class="basis-1/2 px-5">
       <h2 class="text-3xl mb-4">Latest News and Blogs</h2>
       <ul>
         {

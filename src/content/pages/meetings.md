@@ -14,20 +14,20 @@ flow:
         buttons_content:
           - title: TF-A Tech Forum Minutes
             url: /meetings/tf-a-technical-forum/
-            style: btn btn-primary my-1
+            style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: TF-M Tech Forum Notes
             url: /meetings/tf-m-technical-forum/
-            style: btn btn-primary my-1
+            style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: MBed TLS Tech Forum Minutes
             url: /meetings/mbed-tls-technical-forum/
-            style: btn btn-primary my-1
+            style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: OP-TEE Contributions Forum Minutes
             url: https://bit.ly/loc-notes
-            style: btn btn-primary my-1
+            style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: MCUboot Tech Forum Minutes
             url: /meetings/mcuboot-technical-forum
-  - row: container_row
-    sections:
-      - component: all_posts
-        category: Meetings
+            style: bg-accent hover:bg-cyan-600 text-white my-1
+  - row: article_grid
+    collection: meetings
+    sections: []
 ---

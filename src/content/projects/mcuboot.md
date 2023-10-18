@@ -10,7 +10,7 @@ calls_to_action:
   - text: Contribute/Submit Code
     url: https://docs.mcuboot.com/SubmittingPatches.html
   - text: Join the MCUboot Tech Forum
-    style: bg-green
+    style: bg-green-600 hover:bg-green-800
     url: https://www.trustedfirmware.org/meetings/mcuboot-technical-forum
 links:
   - title: documentation

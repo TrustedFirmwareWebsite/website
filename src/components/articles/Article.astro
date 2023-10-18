@@ -3,16 +3,18 @@ import { Image } from "astro:assets";
 import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import dayjs from "dayjs";
 import { marked } from "marked";
+import { getEntry } from "astro:content";
 
 const { data, body, collection, slug } = Astro.props;
 
+const author = await getEntry(data.author);
+
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
-
 marked.use({
   renderer: {
     heading(text) {
-      return ` <span>
+      return `<span>
               ${text}
             </span>`;
     },
@@ -28,24 +30,29 @@ marked.use({
               ${text}
             </span>`;
     },
+    strong(text) {
+      return `
+            <span>
+              ${text}
+            </span>`;
+    },
   },
 });
 const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
 ---
 
 <a
-  class="flex prose-xl flex-col-reverse p-0 w-full h-full justify-end
-rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:drop-shadow-xl hover:scale-105 duration-300"
+  class="flex prose-xl flex-col-reverse p-0 w-full h-full justify-end border border-gray-300
+  rounded-lg bg-white drop-shadow-lg hover:drop-shadow-2xl hover:scale-105 duration-300"
   href={`/${collection}/${slug}`}
 >
   <div class="w-full p-6">
-    <div class="flex w-full justify-between items-center my-4">
+    <div class="flex w-full flex-wrap justify-between items-center my-4">
       <i class="text-xl m-0">TrustedFirmware</i>
       <Image
-        class="w-12 m-0"
-        width={48}
-        src={TrustedFirmwareLogo}
-        alt="Trusted Firmware logo"
+        class="w-12 m-0 rounded-[50%] aspect-square object-cover object-center"
+        src={author!.data.image}
+        alt={author!.data.name}
       />
     </div>
     <h2 class="text-xl text-left m-0">{data.title}</h2>
@@ -56,11 +63,11 @@ rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rg
       <div set:html={content} />
     </div>
   </div>
-  <div class="basis-1/4 w-full rounded-t-lg m-0">
+  <div class="md:h-40 w-full rounded-t-lg m-0">
     <Image
       src={data.image}
       alt={data.title}
-      class="object-cover object-center m-0 w-full h-full"
+      class="object-cover object-center m-0 w-full h-full rounded-t-lg"
     />
   </div>
 </a>

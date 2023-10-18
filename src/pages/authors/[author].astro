@@ -1,0 +1,22 @@
+---
+import AuthorLayout from "../../layouts/AuthorLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const authors = await getCollection("authors");
+  return authors.map((author) => {
+    return {
+      params: {
+        author: author.slug,
+      },
+      props: {
+        author,
+      },
+    };
+  });
+}
+
+const { author } = Astro.props;
+---
+
+<AuthorLayout author={author} />
