@@ -65,7 +65,6 @@ After the TLS PSK connection is established between the gateway and device, the 
 
 The overall workflow is shown as the diagram below.
 
-{% include image.html path="/assets/images/blog/workflow.png" alt="Workflow image" %}
 ![Workflow image](../../assets/images/blog/workflow.png)
 
 <div align="center">Workflow Diagram</div>
