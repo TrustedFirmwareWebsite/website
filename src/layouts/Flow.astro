@@ -24,11 +24,11 @@ const sectionComponents = {} as Record<
 >;
 
 if (flow && flow?.length > 0) {
-  for (const rowData of await getEntries(flow.map((row: any) => row.row))) {
+  for (const rowData of await getEntries(flow.map((row: any) => row.row)) as CollectionEntry<"rows">[]) {
     rowComponents[rowData.slug] = await allComponents[rowData.data.path.replace("@/components", "../components")]()
   }
 
-for (const sectionData of await getEntries(flow.map((row: any) => row.sections.map((section: any) => section.component)).flat())) {
+for (const sectionData of await getEntries(flow.map((row: any) => row.sections.map((section: any) => section.component)).flat()) as CollectionEntry<"sections">[]) {
     sectionComponents[sectionData.slug] = await allComponents[sectionData.data.path.replace("@/components", "../components")]()
   }
 }

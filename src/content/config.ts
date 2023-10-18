@@ -1,4 +1,3 @@
-import { boolean } from "astro/zod";
 import { z, defineCollection, reference } from "astro:content";
 const pages = defineCollection({
   type: "content",

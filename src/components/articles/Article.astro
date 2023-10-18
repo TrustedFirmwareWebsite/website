@@ -1,13 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import TrustedFirmwareLogo from "../../assets/images/TrustedFirmware-Logo_icon.png";
 import dayjs from "dayjs";
 import { marked } from "marked";
-import { getEntry } from "astro:content";
+import { getEntry, type CollectionEntry } from "astro:content";
 
 const { data, body, collection, slug } = Astro.props;
 
-const author = await getEntry(data.author);
+const author = (await getEntry(data.author)) as CollectionEntry<"authors">;
 
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
