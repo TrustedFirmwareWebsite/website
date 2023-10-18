@@ -36,6 +36,6 @@ Project members have added benefits, including the ability to have their devices
 
 Matteo’s presentation was well received, dispelling common misconceptions on Trusted Firmware and providing a deeper understanding of its benefits for the community. Attendees responded favourably to the presentation and TrustedFimware.org, with leaflets and stickers flying off the tables like hot cakes! It’s clear that there is a strong desire and passion for a more collaborative firmware environment, and companies across all markets are starting to take notice of this. With almost 50% of commits now coming from partners, over 30 partner platforms supported upstream and over 16 different vendors, collaboration is at the forefront of this project, with its efforts expected to increase by 600% by 2019. By reducing the barriers to collaborative development whilst still fostering healthy competition in the market, Trusted Firmware empowers developers to innovate, share and collaborate on ideas that shape the future of Firmware on Arm devices. TrustedFirmware.org hopes to provide an open source reference implementation, implementing standard interfaces and secure partitions in order to make unique standard open source firmware across all Arm devices a reality.
 
-![OSFC19](/assets/images/blog/OSFC19.jpg)
+![OSFC19](../../assets/images/blog/OSFC19.jpg)
 
 Author: Augustina Adjei

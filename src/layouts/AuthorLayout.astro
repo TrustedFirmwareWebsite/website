@@ -9,9 +9,15 @@ import dayjs from "dayjs";
 const { author } = Astro.props;
 const { data } = author;
 const { title, description, name, image } = data;
-const latestPosts = (await getCollection("blog", ({ data }) => {
+
+const blogs = await getCollection("blog", ({ data }) => {
   return data.author.slug === author.slug
-})).sort((a, b) => dayjs(b.data.date).diff(a.data.date))
+})
+
+const news = await getCollection("news", ({ data }) => {
+  return data.author.slug === author.slug
+})
+const latestPosts = [...blogs, ...news].sort((a, b) => dayjs(b.data.date).diff(a.data.date))
 ---
 
 <BaseLayout title={title} description={description}>
@@ -25,7 +31,7 @@ const latestPosts = (await getCollection("blog", ({ data }) => {
     {image ?  <Image
       src={image}
       alt={name}
-      class="w-32"
+      class="w-32 rounded-[50%] aspect-square object-cover object-center"
     /> : <></>}
     <h1 class="text-inherit text-3xl md:text-5xl text-left font-medium">{name}</h1>
   </section>

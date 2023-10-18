@@ -45,16 +45,17 @@ marked.use({
   <h2 class="my-12 font-bold text-3xl">{title}</h2>
   {
     posts.map(async (post: any) => {
-      console.log(post);
+      const { headings } = await post.render();
 
-      const { Content, headings } = await post.render();
-
-      console.log(headings);
-      const h1 = headings[0].text;
+      const h1 = headings[0]?.text;
       const firstBlock = post.body.split("\n").slice(0, 6).join(" ");
 
       const parsedDescription = marked.parse(
-        post.data.description || (h1.length > 15 && h1) || firstBlock
+        post.data.description ||
+          (h1?.length > 15 && h1) ||
+          (firstBlock.split(" ").length > 50
+            ? firstBlock.split(" ").slice(0, 50).join(" ") + "..."
+            : firstBlock)
       );
       return (
         <a

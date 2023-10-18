@@ -24,7 +24,7 @@ The currently supported SPM based on the Arm Management Mode (MM) Interface spec
 
 A lot of new Arm and Partners platforms have been included, particularly aligned with the Arm Neoverse Roadmap and recent announcements.
 
-![Neoverse](/assets/images/blog/arm_neoverse.jpg)
+![Neoverse](../../assets/images/blog/arm_neoverse.jpg)
 
 Arm Neoverse support in TF-A now includes:
 

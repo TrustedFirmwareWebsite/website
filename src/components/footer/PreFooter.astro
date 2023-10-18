@@ -31,7 +31,10 @@ const latestPosts = [...news, ...blogs]
       <ul>
         {
           latestPosts.map((post) => (
-            <a class="hover:underline cursor-pointer">
+            <a
+              class="hover:underline cursor-pointer"
+              href={`/${post.collection}/${post.slug}`}
+            >
               <li class="mb-2">
                 {post.data.title}
                 <p>{dayjs(post.data.date).format("dddd, MMMM D, YYYY")}</p>

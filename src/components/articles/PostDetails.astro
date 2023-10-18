@@ -5,7 +5,6 @@ import dayjs from "dayjs";
 const { author, readTime, date } = Astro.props;
 
 const { data: authorData }: any = await getEntry(author);
-console.log(authorData);
 const dateObj = dayjs(date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
 ---

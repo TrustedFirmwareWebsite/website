@@ -39,7 +39,7 @@ The gateway is Raspberry Pi (RPi) in this demo. You can replace it with any devi
 - Connects to the device via TLS PSK
 - Forward the messages securely between the device and cloud
 
-{% include image.html path="/assets/images/blog/demo-overview2.png" alt="Demo Overview image" %}
+![Demo Overview Image](../../assets/images/blog/demo-overview2.png)
 
 <div align="center">Demo Overview</div>
 
@@ -57,7 +57,7 @@ The gateway runs Linux as the OS. It uses TLS PSK server application to establis
 
 After the TLS PSK connection is established between the gateway and device, the gateway can conduct the Initial Attestation (IAT) to verify if the device is in an acceptable status. For more information of attestation, please check the [PSA website](https://developer.arm.com/architectures/security-architectures/platform-security-architecture).
 
-{% include image.html path="/assets/images/blog/symmetric-attestation.png" alt="Symmetric Attestation image" %}
+![Symmetric Attestation Image](../../assets/images/blog/symmetric-attestation.png)
 
 <div align="center">Symmetric Attestation Block Diagram</div>
 
@@ -66,6 +66,7 @@ After the TLS PSK connection is established between the gateway and device, the 
 The overall workflow is shown as the diagram below.
 
 {% include image.html path="/assets/images/blog/workflow.png" alt="Workflow image" %}
+![Workflow image](../../assets/images/blog/workflow.png)
 
 <div align="center">Workflow Diagram</div>
 

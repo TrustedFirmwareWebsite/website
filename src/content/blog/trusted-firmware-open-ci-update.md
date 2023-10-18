@@ -41,7 +41,7 @@ step, Jenkins collects all the information into a report, and determines the pas
 which is then communicated back to gerrit. In this initial deployment LAVA runs the TF-M regression test on
 an MPS2+ board.
 
-![TF Open CI](/assets/images/blog/TFMCI.png)
+![TF Open CI](../../assets/images/blog/TFMCI.png)
 
 This has now made it possible to verify whether any new patch pushed to gerrit is introducing any
 regression. There are more MPS2+ boards getting added to make it possible to get through the testing
