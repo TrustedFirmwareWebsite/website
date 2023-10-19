@@ -30,7 +30,8 @@ const tiers = [
           {members.data
             .filter((member: any) => member.type === type)
             .map((member: any) => (
-                <a href={member.url}>
+              <li>
+                <a href={member.url} target="_blank">
                   <Image
                     src={member.image}
                     alt={member.name}

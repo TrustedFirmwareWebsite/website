@@ -1,6 +1,10 @@
 ---
 import { marked } from "marked";
 const { style, panels } = Astro.props;
+
+marked.setOptions({
+  renderer: new marked.Renderer(),
+});
 ---
 
 <div class:list={[style, "list-none"]} id="accordionExample">
