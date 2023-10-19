@@ -1,7 +1,7 @@
 ---
 author: shebu.kuriakose
 title: MBed TLS v3.5.0 Released with new and smaller ECC implementation! 
-date: 2023-04-13 10:00:00
+date: 2023-10-19 10:00:00
 categories:
 - Blog
 layout: post
@@ -32,7 +32,6 @@ Here are some of the highlights of 3.5.0:
 7.	Parsing of additional extensions in X.509 Certificates and Certificate Signing Request (CSR). Enhancements to X.509 hostname verification
 
 8.	Support for SHA-3.
-
 
 What’s Next
 -----------
