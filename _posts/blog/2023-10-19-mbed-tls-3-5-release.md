@@ -1,6 +1,6 @@
 ---
 author: shebu.kuriakose
-title: MBed TLS v3.5.0 Released with new and smaller ECC implementation! 
+title: MBed TLS 3.5.0 Released with new and smaller ECC implementation! 
 date: 2023-10-19 10:00:00
 categories:
 - Blog
