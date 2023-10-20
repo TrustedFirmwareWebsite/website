@@ -1,6 +1,6 @@
-# OpenAMP Project Website
+# Trusted Firwmare Website
 
-This is the git repository for the OpenAMP project website.
+This is the git repository for the Trusted Firmware website.
 
 ## Project Structure
 

@@ -4,10 +4,11 @@ import GoogleAnalytics from "./GoogleAnalytics.astro";
 import { SEO } from "astro-seo";
 import "@fontsource/lato";
 import "../../styles/global.scss";
+const GA_ID = import.meta.env.GA_ID;
 
 const {
-  title = "The OpenAMP Project",
-  description = "OpenAMP (Open Asymmetric Multi-Processing) seeks to standardize the interactions between operating environments in a heterogeneous embedded system through open source solutions for Asymmetric MultiProcessing (AMP).",
+  title = "Trusted Firmware - Open Source Secure Software",
+  description = "Trusted Firmware provides a reference implementation of secure software for Armv8-A, Armv9-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.",
   type = "website",
 } = Astro.props;
 ---
@@ -19,7 +20,7 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
   <Cookies />
-  <GoogleAnalytics id="G-PT82VBC5KD" />
+  <GoogleAnalytics id={GA_ID} />
   <SEO
     title={title}
     description={description}
@@ -27,7 +28,7 @@ const {
       basic: {
         title: title,
         type: type,
-        image: "https://www.openampproject.org/images/social-media-image.png",
+        image: "https://www.trustedfirmwware.org/images/social-media-image.jpg",
       },
     }}
     twitter={{
@@ -35,7 +36,7 @@ const {
     }}
     extend={{
       link: [
-        { rel: "icon", href: "/favicon.png" },
+        { rel: "icon", href: "/favicon.ico" },
         {
           rel: "me",
           href: "https://mastodon.org.uk/@LinaroLtd@mastodon.social",
@@ -45,7 +46,7 @@ const {
         {
           name: "twitter:image",
           content:
-            "https://www.openampproject.org/images/openAMP_share_image.png",
+            "https://www.trustedfirmwware.org/images/social-media-image.jpg",
         },
         { name: "twitter:title", content: title },
         { name: "twitter:description", content: description },
