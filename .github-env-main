@@ -1,0 +1,5 @@
+AWS_STATIC_SITE_PROFILE=trustedfirmware-org-buildbot
+AWS_STATIC_SITE_URL=production-trustedfirmware-org
+CF_DIST_ID_STATIC_LO=E2SU7TH4NVPGHS
+CLOUDFRONT_ADD_SECURITY_HEADERS_ARN=arn:aws:lambda:us-east-1:987685672616:function:cloudfront-add-security-headers:4
+SITE_URL=www.trustedfirmware.org

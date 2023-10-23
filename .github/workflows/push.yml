@@ -1,0 +1,44 @@
+name: PushAction
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  process-push:
+    runs-on: self-hosted
+    steps:
+      - name: Fetch git repository
+        uses: actions/checkout@v3
+        with:
+          path: website
+
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - name: Build site
+        run: cd ${{ github.workspace }}/website && /srv/github-action-scripts/build-astro-site.sh
+
+      - name: Check links
+        run: /srv/github-action-scripts/check-links.sh ${{ github.workspace }}/website/dist
+
+      - name: Make staging directory
+        run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
+
+      - name: Sync build to staging directory
+        run: rsync -crui ${{ github.workspace }}/website/dist/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+
+      - name: Upload to S3
+        run: /srv/github-action-scripts/upload-to-s3-root.sh
+
+      - name: Set up security headers
+        run: cd /srv/github-action-scripts && pipenv run python lambda-security-headers.py
+
+      - name: Invalidate CloudFront cache
+        run: /srv/github-action-scripts/invalidate-cloudfront.sh

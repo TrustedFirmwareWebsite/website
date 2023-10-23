@@ -19,3 +19,9 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# Old Jekyll stuff but make sure they don't contaminate the repo
+generated/
+production.trustedfirmware.org/
+Gemfile.lock
+.jekyll-cache/
