@@ -40,7 +40,7 @@ This is a major version update, from 3.x to 4.x. Here are a few questions and an
         - A binary produced with OP-TEE version 3.6.0 or earlier will not succeed in calling another TA using memory buffers
         - Recompiling without source changes should be enough
 
-Here are some of the main additions in OP TEE 4.0.0: 
+**Here are some of the main additions in OP TEE 4.0.0:** 
 - Support for PAN (Privileged Access Never)
 - Some refactoring in the interrupt handling framework
 - Address static code analysis issues (Coverity)
@@ -67,13 +67,12 @@ Here are some of the main additions in OP TEE 4.0.0:
     - ZynqMP
     - K3
 
-The release included updates to the following repos:
+**The release included updates to the following repos:**
 - [optee_os](https://optee.readthedocs.io/en/latest/building/gits/optee_os.html#optee-os) 
 - [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
 - [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
 - [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
 - [manifest] (https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests)
-
 
 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/4.0.0/CHANGELOG.md).
