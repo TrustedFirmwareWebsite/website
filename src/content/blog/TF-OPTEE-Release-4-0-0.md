@@ -70,7 +70,7 @@ This is a major version update, from 3.x to 4.x. Here are a few questions and an
 - [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
 - [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
 - [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
-- [manifest] (https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests)
+- [manifest](https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests)
 
 
 More details can be found [here](https://github.com/OP-TEE/optee_os/blob/4.0.0/CHANGELOG.md).
