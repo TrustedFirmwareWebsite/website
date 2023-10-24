@@ -17,6 +17,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** October 23, 2023
+
+  - Agenda: **Community Activity & Release Plans** - Dave Rodgman [Presentation here](/docs/MbedTLS%20-TechForum-2023-10-23.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/PAprZs08WAR81Y4JQW17bDNpJLaiIf8Cgpt5UtL0vrsbciWT6-9uO_Vm9w-s8nf2.4liq087hf93J0uQa)  Passcode: ?SY0p#2b
+    <br/>
+
 - **Date:** September 25, 2023
 
   - Agenda: **Recent activity** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-09-25.pdf)
@@ -228,6 +234,6 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   - Agenda:
     - **TLS 1.3 – plans and progress**
     - **Driver interface code-gen**
-  - [Presentation here](/docs/MbedTLS_Tech_Forum_2021-10-25.pdf)
+  - [Presentation here](/public/docs/MbedTLS_Tech_Forum_2021-10-25.pdf)
   - [Video recording](https://armltd.zoom.us/rec/share/yRBD0sDAl-XRqikyiwFrMg0jQc6JNscdC8xT2CTYvLliEk4AI7ll2wtcejl7aCyX.ZN5lOUJtT3-FtlF3) Passcode: KgM1T=qR
     <br/>
