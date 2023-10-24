@@ -21,24 +21,24 @@ Highlights
 
 This is a major version update, from 3.x to 4.x. Here are a few questions and answers explaining why and how this has changed.
 - Why stepping up? What's the reason for this?
-- OP-TEE follows Semantic Versioning 2.0.0 and we’re making incompatible API/ABI changes
-- The changes are needed to make the code easier to maintain and to keep up with changes in third-party code
+    - OP-TEE follows [Semantic Versioning 2.0.0](https://semver.org/) and we’re making incompatible API/ABI changes
+    - The changes are needed to make the code easier to maintain and to keep up with changes in third-party code
 - What new features will we see?
-- Stepping up to 4 is not about introducing new major features, but making some incompatible changes
+    - Stepping up to 4 is not about introducing new major features, but making some incompatible changes
 - What will disappear?
-- MBedTLS crypto code baseline is updated from 2.28.1 to 3.4.0 in the TEE core. That is an internal change which is relevant only to people building OP-TEE with CFG_CRYPTOLIB_NAME=mbedtls CFG_CRYPTOLIB_DIR=lib/libmbedtls. Even so, no functional or performance impact is expected.
-- MBedTLS will switch from 2.28.1 to 3.4.0 for TAs, too (see impacts below)
+    - MBedTLS crypto code baseline is updated from 2.28.1 to 3.4.0 in the TEE core. That is an internal change which is relevant only to people building OP-TEE with CFG_CRYPTOLIB_NAME=mbedtls CFG_CRYPTOLIB_DIR=lib/libmbedtls. Even so, no functional or performance impact is expected.
+    - MBedTLS will switch from 2.28.1 to 3.4.0 for TAs, too (see impacts below)
 - Will security issues be backported in some way to 3.x.x?
-- No, unless someone steps up to maintain a 3.x branch.
+    - No, unless someone steps up to maintain a 3.x branch.
 - What impacts will have the stepping up to the major version?
-- TAs calling other TAs with memory buffers as arguments will need to be recompiled to overcome the ABI changes (see Remove TA temp memory #6318).
-- TAs using MBedTLS may need to be updated to use the new API in MBedTLS 3.x compared to the old 2.x API. Otherwise they might not compile cleanly.
-- Tools working with TAs may need to be updated due to Relax location of ta head #6316
+    - TAs calling other TAs with memory buffers as arguments will need to be recompiled to overcome the ABI changes (see [Remove TA temp memory #6318](https://github.com/OP-TEE/optee_os/pull/6318)).
+    - TAs using MBedTLS may need to be updated to use the new API in MBedTLS 3.x compared to the old 2.x API. Otherwise they might not compile cleanly.
+- Tools working with TAs may need to be updated due to [Relax location of ta head #6316](https://github.com/OP-TEE/optee_os/pull/6316)
 - Who is going to be impacted?
-- TAs using the MBedTLS API when recompiling, an old binary will still work unless the other point below applies
-- TAs calling other TAs with memory buffers as arguments
-- A binary produced with OP-TEE version 3.6.0 or earlier will not succeed in calling another TA using memory buffers
-- Recompiling without source changes should be enough
+    - TAs using the MBedTLS API when recompiling, an old binary will still work unless the other point below applies
+    - TAs calling other TAs with memory buffers as arguments
+        - A binary produced with OP-TEE version 3.6.0 or earlier will not succeed in calling another TA using memory buffers
+        - Recompiling without source changes should be enough
 
 Here are some of the main additions in OP TEE 4.0.0: 
 - Support for PAN (Privileged Access Never)
