@@ -16,7 +16,9 @@ const {
 const {
   data: { title, description, top_text, icons, links, calls_to_action },
 } = await getEntryBySlug("projects", slug);
-
+marked.setOptions({
+  renderer: new marked.Renderer(),
+});
 const toptextMarkdown = marked.parse(top_text);
 ---
 
