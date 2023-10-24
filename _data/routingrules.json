@@ -1,3 +1,0 @@
-[
-    "^/docs/(.*)$ /public/docs/$1 [R,L,NC]"
-]
