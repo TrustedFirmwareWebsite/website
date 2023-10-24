@@ -17,7 +17,7 @@ Trusted Firmware OP TEE [v4.0.0](https://github.com/OP-TEE/optee_os/blob/4.0.0/C
 Highlights 
 ----------
 
-This is a major version update, from 3.x to 4.x. Here are a few questions and answers explaining why and how this has changed.
+This is a major version update, from 3.x to 4.x. Here are a few questions and answers explaining details on these changes.
 - Why stepping up? What's the reason for this?
     - OP-TEE follows [Semantic Versioning 2.0.0](https://semver.org/) and we’re making incompatible API/ABI changes
     - The changes are needed to make the code easier to maintain and to keep up with changes in third-party code
