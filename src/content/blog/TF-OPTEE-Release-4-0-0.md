@@ -2,9 +2,7 @@
 author: jerome.forissier
 title: Trusted Firmware OP TEE Release 4.0.0
 date: 2023-10-20 10:00:00
-categories:
-- Blog
-layout: post
+
 image: /assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
