@@ -21,7 +21,7 @@ const { title, background_image, style, inner_image } = Astro.props!;
     alt={inner_image.alt}
     class="w-64"
   /> : <></>}
-  <h1 class="text-inherit text-3xl lg:text-5xl text-left font-medium">{title}</h1>
+  <h1 class="text-inherit text-3xl lg:text-5xl text-left font-medium text-center">{title}</h1>
 </section>
 
 <style define:vars={{ backgroundUrl: background_image ? `url(${background_image.src})` : `` }}>

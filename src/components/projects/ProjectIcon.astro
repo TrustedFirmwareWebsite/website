@@ -1,7 +1,9 @@
 ---
-const { title, slug } = Astro.props;
+const { title, slug, textClass } = Astro.props;
 
 const WrapperElement = slug ? "a" : "g";
+
+let formattedTitle = title.replace(/(^.*\(|\).*$)/g, "").replace("-", "‑");
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.64 79.49">
@@ -99,7 +101,7 @@ const WrapperElement = slug ? "a" : "g";
           height="55.39"
         >
         </rect>
-        <foreignObject
+        <!-- <foreignObject
           x="12.13"
           y="12.05"
           width="55.39"
@@ -122,7 +124,7 @@ const WrapperElement = slug ? "a" : "g";
               }
             </p>
           </div></foreignObject
-        >
+        > -->
         <path
           class="cls-2"
           d="M33.12,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,33.12,79.49Z"
@@ -132,16 +134,17 @@ const WrapperElement = slug ? "a" : "g";
   </g>
 </svg>
 
-<!-- <div
+<div
   class="absolute w-full h-full top-0 left-0 right-0 bottom-0 mx-auto my-auto flex items-center justify-center text-white p-12 pointer-events-none"
 >
   <div class="relative">
     <p
       class:list={[
-        "text-center break-words font-bold relative text-[50%] w-full",
+        "text-center break-words font-bold relative  w-full p-0 m-0",
+        textClass,
       ]}
     >
-      {title.includes("(") ? title.replace(/(^.*\(|\).*$)/g, "") : title}
+      {formattedTitle}
     </p>
   </div>
-</div> -->
+</div>
