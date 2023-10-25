@@ -58,6 +58,6 @@ const toptextMarkdown = marked.parse(top_text);
         )
       }
     </section>
-    <UsefulLinks links={useful_links} />
+    {useful_links && <UsefulLinks links={useful_links} />}
   </main>
 </BaseLayout>
