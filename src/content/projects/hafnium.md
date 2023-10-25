@@ -11,7 +11,7 @@ calls_to_action:
     url: https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/CONTRIBUTING.md
   - text: Join the TF-A Tech Forum
     style: bg-green-600 hover:bg-green-800
-    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+    url: /meetings/tf-a-technical-forum/
 links:
   - title: documentation
     text: Hafnium Documentation

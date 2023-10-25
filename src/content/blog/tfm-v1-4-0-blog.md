@@ -20,7 +20,7 @@ documentation since the last release v1.3.0. This release was tested using the T
 While there have been around 250 commits in TF-M master branch since TF-Mv1.3.0, here are some of
 the highlights included in TF-Mv1.4.0.
 
-- Mbed TLS3.0.0: PSA Crypto service is updated to Mbed TLS3.0. Mbed TLS3.0.0 was a major [release](https://www.trustedfirmware.org/blog/mbed-tls-30/)
+- Mbed TLS3.0.0: PSA Crypto service is updated to Mbed TLS3.0. Mbed TLS3.0.0 was a major [release](/blog/mbed-tls-30/)
   with numerous changes and support for new PSA Crypto APIs one-shot cipher functions,
   psa_cipher_encrypt and psa_cipher_decrypt, according to the PSA Crypto API 1.0.0 specification.
 

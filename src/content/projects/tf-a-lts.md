@@ -12,7 +12,7 @@ calls_to_action:
     url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
   - text: Join the TF-A LTS Tech Forum
     style: bg-green-600 hover:bg-green-800
-    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+    url: /meetings/tf-a-technical-forum/
 links:
   - title: docs
     text: Trusted Firmware-A LTS Documentation

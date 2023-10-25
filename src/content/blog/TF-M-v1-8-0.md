@@ -37,7 +37,7 @@ Crypto and MCUBoot.
   further improvements to PSA ADAC integration within TF-M and support has been extended to the
   Arm reference platform, MuscaB1e.
 
-- [Mbed TLS release v3.4.0](https://www.trustedfirmware.org/blog/MBed-TLS-3-4-0/) and [MCUboot v1.10.0](https://docs.mcuboot.com/release-notes.html#version-1100) are integrated in the release. Mbed TLS release
+- [Mbed TLS release v3.4.0](/blog/MBed-TLS-3-4-0/) and [MCUboot v1.10.0](https://docs.mcuboot.com/release-notes.html#version-1100) are integrated in the release. Mbed TLS release
   includes further PSA Crypto enhancements such as PSA Crypto driver dispatch layer for EC J-PAKE
   enabling alternative software or hardware implementations via. PSA Crypto drivers. PSA Crypto
   support for interruptible sign and verify hash operations is also supported.
@@ -61,4 +61,4 @@ TrustedFirmware.org is an open source project implementing foundational software
 
 [TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
 
-To learn more about membership and its benefits, please see the [following page](https://www.trustedfirmware.org/about) or send a request for more information to enquiries@trustedfirmware.org.
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.

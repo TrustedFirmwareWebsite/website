@@ -11,7 +11,7 @@ calls_to_action:
     url: https://tf-rmm.readthedocs.io/en/latest/process/contributing.html
   - text: Join the TF-A Tech Forum
     style: bg-green-600 hover:bg-green-800
-    url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+    url: /meetings/tf-a-technical-forum/
 links:
   - title: documentation
     text: TF-RMM Documentation
