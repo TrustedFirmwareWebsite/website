@@ -9,3 +9,6 @@ staging.trustedfirmware.org
 .asset_pipeline
 .jekyll-cache
 generated
+.astro
+dist/
+node_modules/
