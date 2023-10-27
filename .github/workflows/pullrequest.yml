@@ -1,8 +1,8 @@
-name: PullRequestAction
+name: OldPullRequestAction
 
 on:
   pull_request_target:
-    branches: [ master ]
+    branches: [ old_master ]
 
 # Cancel in-progress jobs or runs for the current pull request
 concurrency:
@@ -39,11 +39,11 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check links
-        run: /srv/github-action-scripts/check-links.sh
+      # - name: Check links
+      #   run: /srv/github-action-scripts/check-links.sh
 
-      - name: Check routing rules
-        run: /srv/github-action-scripts/test-routing-rules.sh
+      # - name: Check routing rules
+      #   run: /srv/github-action-scripts/test-routing-rules.sh
 
       # - name: Run Pa11y scan
       #   uses: benc-uk/workflow-dispatch@v1

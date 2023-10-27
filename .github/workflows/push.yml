@@ -1,8 +1,8 @@
 name: OldPushAction
 
 on:
-  push:
-    branches: [ old_master ]
+  # push:
+  #   branches: [ old_master ]
   workflow_dispatch:
 
 # Cancel in-progress jobs or runs for the current workflow
