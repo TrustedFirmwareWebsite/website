@@ -7,14 +7,14 @@ image: ../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png
 
 ## Introduction
 
-Building on the [Beta version](https://www.trustedfirmware.org/blog/Trusted-Services-v1-0-0-beta/) of the [Trusted Services release, v1.0.0](https://git.trustedfirmware.org/TS/trusted-services.git/tag/?h=v1.0.0) is the first stable release of the
+Building on the [Beta version](/blog/Trusted-Services-v1-0-0-beta/) of the [Trusted Services release, v1.0.0](https://git.trustedfirmware.org/TS/trusted-services.git/tag/?h=v1.0.0) is the first stable release of the
 project. The release comprises PSA Services that can be deployed on Cortex-A devices to meet PSA
 Certified requirements and, necessary build and test infrastructure and documentation.
 
 The project provides a framework for developing and deploying device root-of-trust services for A-
 profile devices. The services in the project exists as [Firmware Framework-A](https://developer.arm.com/documentation/den0077/latest) Secure Partitions. The
 Secure Partitions are managed by a Secure Partition Manager (SPM) running as part of a Trusted
-Operating System (e.g. [OP-TEE](https://www.trustedfirmware.org/projects/op-tee/)) or Secure-EL2 Hypervisor (e.g. [Hafnium](https://www.trustedfirmware.org/projects/hafnium/)) within a Trusted Execution
+Operating System (e.g. [OP-TEE](/projects/op-tee/)) or Secure-EL2 Hypervisor (e.g. [Hafnium](/projects/hafnium/)) within a Trusted Execution
 Environment.
 
 The deltas from the [Beta release](https://git.trustedfirmware.org/TS/trusted-services.git/tag/?h=v1.0.0-beta) include:
@@ -46,4 +46,4 @@ TrustedFirmware.org is an open source project implementing foundational software
 
 Trusted Firmware provides a reference implementation of secure software for processors implementing both the A-Profile and M-Profile Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. Trusted Firmware code is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers. Visit: [https://www.trustedfirmware.org/](https://www.trustedfirmware.org) for more information.
 
-TrustedFirmware.org is member driven and member funded. To learn more about membership and its benefits, please see the [following page](https://www.trustedfirmware.org/about) or send a request for more information to [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org).
+TrustedFirmware.org is member driven and member funded. To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org).

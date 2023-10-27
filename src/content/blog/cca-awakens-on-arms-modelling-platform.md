@@ -28,7 +28,7 @@ The TF-A team will keep submitting patches to mainline TF-A following the usual 
 
 3: [Arm CCA introduction](https://developer.arm.com/architectures/architecture-security-features/confidential-computing)
 
-4: [TF-A Monitor code for Arm CCA architecture blog on trustedfirmware.org](https://www.trustedfirmware.org/blog/TrustedFirwmare_TF-A_Monitor_blogpost/)
+4: [TF-A Monitor code for Arm CCA architecture blog on trustedfirmware.org](/blog/TrustedFirwmare_TF-A_Monitor_blogpost/)
 
 5: [Architecture Envelope Models(AEM) in Fixed Virtual Platforms(FVPs)](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms/arm-ecosystem-models)
 

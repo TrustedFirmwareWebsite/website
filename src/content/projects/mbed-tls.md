@@ -11,7 +11,7 @@ calls_to_action:
     url: https://github.com/ARMmbed/mbedtls/blob/development/CONTRIBUTING.md
   - text: Join the Mbed TLS Tech Forum
     style: bg-green-600 hover:bg-green-800
-    url: https://www.trustedfirmware.org/meetings/mbed-tls-technical-forum/
+    url: /meetings/mbed-tls-technical-forum/
 links:
   - title: documentation
     text: "Mbed TLS Documentation"

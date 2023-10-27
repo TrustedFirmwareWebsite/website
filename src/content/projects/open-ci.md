@@ -11,7 +11,7 @@ calls_to_action:
     url: https://tf-ci-users-guide.readthedocs.io/en/latest/#how-to-contribute-code
 #   - text: Join the TF-A Tech Forum
 #     class: bg-green
-#     url: https://www.trustedfirmware.org/meetings/tf-a-technical-forum/
+#     url: /meetings/tf-a-technical-forum/
 links:
   - title: documentation
     text: Open CI Documentation
@@ -48,14 +48,14 @@ To gain more insight into Open CI it’s architecture and its usages, please ref
     - [PDF Presentation](/docs/OpenCI-and-MISRA_ECLAIR.pdf)
     - [Video Recording](https://linaro-org.zoom.us/rec/share/_ejqS6jvDiDB-7orFIz8roG3UFcNQLUMRCLVRZhLoQi3lXgMvhQe4uGnNO0mvAhH.N5od8T_wshfg03nx) Password: k\*Z2\*?bN
   - TF-M OpenCI Introduction
-    - [PDF Presentation](https://www.trustedfirmware.org/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
+    - [PDF Presentation](/docs/TF-M_openCI_introduction-Nov_2020-tech_forum.pdf)
     - [Video Recording](https://linaro-org.zoom.us/rec/share/88bwx7gjtalte2qmfnGg8mOWQlGFWw0vIoQfbC1Og1_lKlBVnikzdkiq3VVE4Jk.Z_J-YzNQPWROIG58) Passcode: 8X%Y620h
   - TF-M OpenCI Static Checks
-    - [PDF Presentation](https://www.trustedfirmware.org/docs/tech_forum_20210204_TF-M_openCI_static_check.pdf)
+    - [PDF Presentation](/docs/tech_forum_20210204_TF-M_openCI_static_check.pdf)
     - [Video Recording](https://linaro-org.zoom.us/rec/share/xuKc-tvKOt1k8pYMpit2SB9peJZuExB7ycs-T3fway205PDJqUAsT_Kk5p1cv4Z0.IIMkEaLAUVZH6NO5) Passcode: 0DTZ=PKr
   - TF-M OpenCI Jobs
-    - [PDF Presentation](https://www.trustedfirmware.org/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
+    - [PDF Presentation](/docs/TF-M_openCI_jobs_TechForum_2021_Jan.pdf)
     - [Video Recording](https://linaro-org.zoom.us/rec/share/Uy-UsHHtDQZ7sXTifS7aR5q-G1Z6Q9VgbEgpeb9NHzgxn_FnYSI8x4ng0sS6ELZi.SASDK_NJqug4R5rA) Passcode: 8&K.ENW8
   - TF-A: OpenCI Introduction and Demo
-    - [PDF Presentation](https://www.trustedfirmware.org/docs/OpenCI_Intro.pdf)
+    - [PDF Presentation](/docs/OpenCI_Intro.pdf)
     - [Video Recording](https://linaro-org.zoom.us/rec/share/LkBy57jLIexPFxLkKd9K8Fifc89xSvyBbISC1DFbYQ0Z7E-12biGahVhIkRl8eo8.EpY0XY1pLvfUdg3T) Passcode: n5EvT%d%

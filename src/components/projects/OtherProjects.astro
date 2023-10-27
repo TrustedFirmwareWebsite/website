@@ -1,23 +1,25 @@
 ---
 import { getCollection } from "astro:content";
 import ProjectIcon from "../projects/ProjectIcon.astro";
-const { container_class, section_class } = Astro.props;
+const {} = Astro.props;
+const { slug } = Astro.params;
 const projects = await getCollection("projects");
 ---
 
-<section class:list={["flex flex-wrap justify-center", section_class]}>
+<section class:list={["flex flex-wrap justify-center  "]}>
   {
     projects
+      .filter((project) => project.slug !== slug)
       .filter((project) => !project.data.is_sub_project)
       .sort(
         (project1, project2) => project1.data.sort_key - project2.data.sort_key
       )
       .map(({ slug, data: { title } }) => (
-        <div class:list={["relative cursor-pointer", container_class]}>
+        <div class:list={["relative cursor-pointer basis-1/2 sm:basis-1/3"]}>
           <ProjectIcon
             title={title}
             slug={slug}
-            textClass={"text-lg sm:text-xl lg:text-2xl"}
+            textClass="text-sm sm:text-lg md:text-sm"
           />
         </div>
       ))

@@ -21,7 +21,7 @@ TF-A is the reference Secure world software for Arm Cortex-A and Arm Neoverse™
 
 This gives SoC developers and OEMs a reference trusted code base complying with the relevant Arm specifications and forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) on microcontrollers. The collaborative design, development and validation amongst the project members allows faster and cost-effective deployment of secure devices.
 
-For further information on the Trusted Firmware Project, visit [trustedfirmware.org](https://www.trustedfirmware.org/).
+For further information on the Trusted Firmware Project, visit [trustedfirmware.org](/).
 
 _About Linaro Community Projects Division_
 
