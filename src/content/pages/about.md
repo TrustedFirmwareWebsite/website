@@ -2,7 +2,7 @@
 layout: ../../layouts/Flow.astro
 title: About
 description: About trusted firmware
-slug: /about
+slug: about/
 hero:
   title: About
   style: text-white
