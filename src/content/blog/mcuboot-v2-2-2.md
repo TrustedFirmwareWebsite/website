@@ -10,7 +10,8 @@ image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
 
 ## Introduction
 
-I am pleased to announce the final release for MCUboot 2.0.0. Due to semantic
+I am pleased to announce the final release for [MCUboot 2.0.0](https://github.com/mcu-tools/mcuboot/releases/tag/v2.0.0
+). Due to semantic
 versioning, this bump is a major version change.
 
 ## Summary
