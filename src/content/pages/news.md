@@ -1,7 +1,7 @@
 ---
 title: News
 news: true
-slug: /news/
+slug: news/
 description: >
   View the Trusted Firmware news.
 layout: ../../layouts/Flow.astro

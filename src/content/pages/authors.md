@@ -1,7 +1,7 @@
 ---
 title: Authors
 description: Authors of Trusted Firmware blogs
-slug: /authors/
+slug: authors/
 layout: ../../layouts/Flow.astro
 pagination:
   title: "Authors - Page :num"

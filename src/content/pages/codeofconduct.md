@@ -2,7 +2,7 @@
 layout: "../../layouts/Flow.astro"
 title: Code of Conduct
 description: Trusted Firmware Code of Conduct and Inclusive Lanugage Policy
-slug: /coc/
+slug: coc/
 jumbotron:
   title: TrustedFirmware.org Code of Conduct and Inclusive Language Policy
   style: text-white

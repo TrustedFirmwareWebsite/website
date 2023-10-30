@@ -1,6 +1,6 @@
 ---
 title: Blog
-slug: /blog/
+slug: blog/
 description: >
   The official Trusted Firmware blog!
 layout: ../../layouts/Flow.astro

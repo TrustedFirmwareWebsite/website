@@ -2,7 +2,7 @@
 layout: ../../layouts/Flow.astro
 title: FAQ
 description: Trusted Firwmare frequently asked questions (FAQ)
-slug: /faq/
+slug: faq/
 hero:
   title: Frequently Asked Questions
   style: text-white
