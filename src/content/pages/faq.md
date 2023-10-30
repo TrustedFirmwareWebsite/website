@@ -16,7 +16,9 @@ flow:
         panels:
           - title: How can I join the TrustedFirmware Discord Server chat channels?
             content: |
-              Click on the invite link [here](https://discord.gg/5PpXhvda5p).
+              The TrusedFirmware Discord Server is located [here](https://discord.com/channels/1106321706588577904/1144310640341700739).
+
+              If you aren't already a member, please click on the invite link [here](https://discord.gg/5PpXhvda5p).
               Note you may have to create a Discord account first if you don't already have one.
               Welcome!
           - title: How do I join the Trusted Firmeware Technical Mail lists?
