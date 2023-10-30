@@ -89,6 +89,7 @@ const projects = defineCollection({
     title: z.string(),
     description: z.string(),
     icons: z.array(z.string()),
+    is_sub_project: z.boolean().default(false),
     calls_to_action: z.array(
       z.object({
         text: z.string(),

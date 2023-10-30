@@ -2,7 +2,7 @@
 layout: ../../layouts/Flow.astro
 title: About
 description: About trusted firmware
-slug: /about
+slug: about/
 hero:
   title: About
   style: text-white
@@ -32,5 +32,5 @@ Trusted Firmware provides a reference implementation of secure software for proc
 
 **If you want to get involved, join the notification mailing list or contact enquiries@TrustedFirmware.org for more information.**
 
-Additional information in regards to membership and joining can be found on the [about-join](https://www.trustedfirmware.org/join/) page of this website.
-For additional information on other topics such as current roadmaps & plans, joining maillists, and more, please see the [FAQ page here](https://www.trustedfirmware.org/faq/)
+Additional information in regards to membership and joining can be found on the [about-join](/join/) page of this website.
+For additional information on other topics such as current roadmaps & plans, joining maillists, and more, please see the [FAQ page here](/faq/)

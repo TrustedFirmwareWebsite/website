@@ -1,0 +1,20 @@
+---
+const { links } = Astro.props;
+---
+
+<section class="max-w-5xl px-10 mx-auto my-24">
+  <div class="border-t">
+    <h2 class="text-3xl mt-8">Useful Links</h2>
+    <ul class="list-disc ml-6 text-xl">
+      {
+        links.map((link: { text: string; url: string }) => (
+          <li class="my-4">
+            <a href={link.url} class="text-accent hover:underline">
+              {link.text}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

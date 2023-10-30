@@ -29,7 +29,7 @@ Here are some of the main additions in OP TEE 3.15.0:
 
   - Total compute platform for [TC1](https://developer.arm.com/tools-and-software/open-source-software/arm-platforms-software/total-compute-solution)
 
-- [Mbed TLS library](https://www.trustedfirmware.org/projects/mbed-tls/) in OP-TEE upgraded to 2.27.0
+- [Mbed TLS library](/projects/mbed-tls/) in OP-TEE upgraded to 2.27.0
 - Support for Arm MMU for address space >=40 bits.
 
 More details regarding the updates in this release can be found [here](https://github.com/OP-TEE/optee_os/blob/master/CHANGELOG.md).

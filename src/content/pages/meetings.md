@@ -1,7 +1,7 @@
 ---
 title: Meetings
 meeting: true
-slug: /meetings/
+slug: meetings/
 description: >
   View the open Trusted Firmware meetings.
 layout: ../../layouts/Flow.astro

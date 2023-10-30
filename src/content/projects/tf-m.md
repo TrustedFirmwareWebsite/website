@@ -11,7 +11,7 @@ calls_to_action:
     url: https://tf-m-user-guide.trustedfirmware.org/contributing/contributing_process.html
   - text: Join the TF-M Tech Forum
     style: bg-green-600 hover:bg-green-800
-    url: https://www.trustedfirmware.org/meetings/tf-m-technical-forum/
+    url: /meetings/tf-m-technical-forum/
 links:
   - title: documentation
     text: Trusted Firmware-M Documentation

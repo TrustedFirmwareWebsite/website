@@ -11,7 +11,7 @@ This is an open forum conference call for anyone to participate. It is not restr
 
 Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
 
-### Upcoming tech forums - see the [Trusted Firmware Public Calendar](https://www.trustedfirmware.org/meetings/)
+### Upcoming tech forums - see the [Trusted Firmware Public Calendar](/meetings/)
 
 **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 

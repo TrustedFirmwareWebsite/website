@@ -2,7 +2,7 @@
 layout: ../../layouts/Flow.astro
 title: FAQ
 description: Trusted Firwmare frequently asked questions (FAQ)
-slug: /faq/
+slug: faq/
 hero:
   title: Frequently Asked Questions
   style: text-white
@@ -43,11 +43,11 @@ flow:
               The TrustedFirmware Inclusive Language Policy can be found [here.](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_inclusive_language/)
           - title: Where can I find details about the governance model? Where can I find details about membership?
             content: |
-              For details of the governance model, please visit the [about->join](https://www.trustedfirmware.org/join/) page of this website and click on the downloadable current version of the Charter.
+              For details of the governance model, please visit the [about->join](/join/) page of this website and click on the downloadable current version of the Charter.
               Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for any questions regarding membership.
           - title: Where can I find the rules around TSC participation and voting?
             content: |
-              This is found in the Project Charter. Please visit the [about->join](https://www.trustedfirmware.org/join/) page of this website and click on the downloadable current version of the Charter for details.
+              This is found in the Project Charter. Please visit the [about->join](/join/) page of this website and click on the downloadable current version of the Charter for details.
               Please email [enquiries@trustedfirmware.org](mailto:enquiries@trustedfirmware.org) for any questions regarding membership.
           - title: Is there a clear role and responsibility for Linaro?
             content: |
@@ -72,10 +72,10 @@ flow:
             content: |
               The best place to start is the public meeting archives for multiple TrustedFirmware projects. These often include recorded technical meetings enabling content review at the convenience of the listener.
 
-              - Technical Meetings home page [located here](https://www.trustedfirmware.org/meetings/)
+              - Technical Meetings home page [located here](/meetings/)
 
             There are additional locations useful for historical presentation/meeting archives located here:
               - TF-A Presentation archive is [located here](https://developer.trustedfirmware.org/w/tf_a/)
               - OP-TEE presentation archive is [located here](https://optee.readthedocs.io/en/latest/general/presentations.html)
-              - Tech Meeting minutes/presentation archives are [located here](https://www.trustedfirmware.org/meetings/)
+              - Tech Meeting minutes/presentation archives are [located here](/meetings/)
 ---

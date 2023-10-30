@@ -14,7 +14,7 @@ Certified Secure Services that can be deployed on Cortex-A devices to meet PSA C
 The project provides a framework for developing and deploying device root-of-trust services for A-
 profile devices. The services in the project exists as [Firmware Framework-A](https://developer.arm.com/documentation/den0077/latest) Secure Partitions. The
 Secure Partitions are managed by a Secure Partition Manager Core (SPMC) running as part of a Trusted
-Operating System (e.g., [OP-TEE](https://www.trustedfirmware.org/projects/op-tee/)) or Secure-EL2 Hypervisor (e.g., [Hafnium](https://www.trustedfirmware.org/projects/hafnium/)) within a Trusted Execution
+Operating System (e.g., [OP-TEE](/projects/op-tee/)) or Secure-EL2 Hypervisor (e.g., [Hafnium](/projects/hafnium/)) within a Trusted Execution
 Environment.
 
 The release includes PSA Crypto, Storage and Attestation Secure Partitions exposing the PSA Certified

@@ -18,7 +18,7 @@ The TF-RMM open-source release is part of the Trusted Firmware.org community pro
 - [Open-source code](https://git.trustedfirmware.org/TF-RMM/tf-rmm.git/) released under BSD 3-clause license
 - A [GitHub mirror](https://github.com/TF-RMM/tf-rmm)
 - A new dedicated [mailing list](https://lists.trustedfirmware.org/mailman3/lists/tf-rmm.lists.trustedfirmware.org/)
-- A [new section](https://www.trustedfirmware.org/projects/tf-rmm/) on the Trusted Firmware.org website
+- A [new section](/projects/tf-rmm/) on the Trusted Firmware.org website
 
 All contributions are accepted under DCO and BSD 3-Clause.
 

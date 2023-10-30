@@ -47,7 +47,7 @@ the highlights included in TF-Mv1.2.0:
 
 - PSA Crypto updated to use Mbed TLS v2.24.
 
-In addition to this latest release, the TF-M [mini-website](https://www.trustedfirmware.org/projects/tf-m/) as part of the new Trusted Firmware [website](https://www.trustedfirmware.org/)
+In addition to this latest release, the TF-M [mini-website](/projects/tf-m/) as part of the new Trusted Firmware [website](/)
 was launched recently. The [Open Test System](https://ci.trustedfirmware.org/) has also started testing more build configurations for
 multiple platforms. Mbed OS, Free RTOS, TF-M CMSIS Pack and Zephyr upstream integration of Trusted
 Firmware-M are expected to be updated to TF-M v1.2.0 soon.

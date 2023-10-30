@@ -16,7 +16,7 @@ tf-m
 tf-a-tests
 ```
 
-Details on how to join these lists are on the [Contacts page](https://www.trustedfirmware.org/contact/)
+Details on how to join these lists are on the [Contacts page](/contact/)
 
 Trusted Firmware A (TF-A) is used widely throughout the Arm ecosystem. It's been joined by Trusted Firmware M (TF-M) reference code which supports the Arm Platform Security Architecture (PSA) program.
 By becoming a member of this project, your organization will be able to steer the strategy of the project. If you would like your organization to be a member, please get in touch with enquiries@TrustedFirmware.org for more details.

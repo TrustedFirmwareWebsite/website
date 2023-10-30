@@ -45,7 +45,7 @@ New Arm cores and Arm/Partners platforms support:
 - Allwinner H616 SoC
 - NXP lx2160a family: lx2160a-aqds, lx2160a-rdb, lx2162a-aqds
 
-1. [OpenCI Homepage](https://www.trustedfirmware.org/projects/open-ci/)
+1. [OpenCI Homepage](/projects/open-ci/)
 2. [TF-A v2.5 ChangeLog](https://trustedfirmware-a.readthedocs.io/en/latest/change-log.html#version-2-5)
 3. [TF-A-Tests v2.5 ChangeLog](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-5)
 4. [Hafnium v2.5 ChangeLog](https://review.trustedfirmware.org/plugins/gitiles/hafnium/hafnium/+/HEAD/docs/ChangeLog.md#v2_5)

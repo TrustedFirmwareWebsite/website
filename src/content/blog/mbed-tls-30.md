@@ -9,7 +9,7 @@ image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
 # **Mbed TLS 3.0 Release**
 
 Mbed TLS 3.0 has been released on 2021-07-07. It is the first major release from the project since it
-migrated to [Trustedfirmware.org](https://www.trustedfirmware.org/) community project in 2020. The release is available from the [Mbed TLS
+migrated to [Trustedfirmware.org](/) community project in 2020. The release is available from the [Mbed TLS
 GitHub page](https://github.com/ARMmbed/mbedtls/releases).
 
 There are several changes in the release since the last release, Mbed TLS 2.26. Here are some of the

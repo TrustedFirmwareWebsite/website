@@ -7,17 +7,17 @@ const { links } = Astro.props;
 <ul class="p-0 m-0">
   {
     links.map((link) => (
-      <a href={link.url}>
+      <a href={link.url} class="hover:underline">
         <li class="bg-neutral-200 px-2 py-4 m-0 mb-4 flex flex-col xl:flex-row xl:items-center gap-2">
-          <div
+          <button
             class:list={[
-              "uppercase font-bold text-center py-2 px-8 bg-black text-white m-0 hover:scale-[1.03]",
+              "uppercase font-bold text-center py-2 px-8 bg-black text-white m-0 no-underline hover:no-underline",
               link.button_style,
             ]}
           >
-            {link.title}
-          </div>
-          <span class="m-0 text-center hover:underline">{link.text}</span>
+            <span class=" no-underline hover:no-underline">{link.title}</span>
+          </button>
+          <span class="m-0 text-center">{link.text}</span>
         </li>
       </a>
     ))

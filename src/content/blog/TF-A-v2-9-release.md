@@ -32,7 +32,7 @@ The whole content of the release is described on the respective [TF-A](https://t
 - Added RAS extension handling and crash reporting
 - Eighteen CPU Errata Mitigations for Cortex-A510, A-78, X2, Neoverse V1, N2 cores and GICv3 bug fixes
 - Errata Management Firmware Interface implementation supported for version 1.0 of the public specification
-- First release done solely relying on [TrustedFirmware.org Open CI](https://www.trustedfirmware.org/projects/open-ci/)
+- First release done solely relying on [TrustedFirmware.org Open CI](/projects/open-ci/)
 - Ethos-N NPU Driver Added support for Protected Firmware Setup
 - EL3 SPMC enhanced feature hardening (scan warning fixes, report execution stage in partition info etc)
 - Arm CCA support:
@@ -80,4 +80,4 @@ TrustedFirmware.org is an open source project implementing foundational software
 
 [TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
 
-To learn more about membership and its benefits, please see the [following page](https://www.trustedfirmware.org/about) or send a request for more information to enquiries@trustedfirmware.org.
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.

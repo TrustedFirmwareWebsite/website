@@ -9,7 +9,7 @@ image: ../../assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate. It is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the MCUboot mailing list. Attendees are welcome to propose agenda items.
 
-### Upcoming tech forums - see the [Trusted Firmware Public Calendar](https://www.trustedfirmware.org/meetings/)
+### Upcoming tech forums - see the [Trusted Firmware Public Calendar](/meetings/)
 
 - To receive an invite, please join the MCUboot mailing list by [subcribing here](https://groups.io/g/MCUBoot)\*\*
 

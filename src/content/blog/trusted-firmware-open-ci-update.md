@@ -8,7 +8,7 @@ image: "../../assets/images/blog/TFMCI.png"
 
 As an Open Source community project, Trusted Firmware is committed to building a platform that
 allows the development of Trusted Firmware-A and Trusted Firmware-M in a collaborative manner. The
-[mailing list](https://www.trustedfirmware.org/contact/) discussions on the design and other technical
+[mailing list](/contact/) discussions on the design and other technical
 aspects of the code base, open [gerrit](https://review.trustedfirmware.org/) for reviewing patches
 publicly, [phabricator tasks](https://developer.trustedfirmware.org/) etc. are all aimed towards nurturing
 collaboration.

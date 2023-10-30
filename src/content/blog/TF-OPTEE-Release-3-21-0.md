@@ -53,4 +53,4 @@ TrustedFirmware.org is an open source project implementing foundational software
 
 [TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
 
-To learn more about membership and its benefits, please see the [following page](https://www.trustedfirmware.org/about) or send a request for more information to enquiries@trustedfirmware.org.
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.

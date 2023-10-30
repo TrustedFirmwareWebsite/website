@@ -2,7 +2,7 @@
 layout: ../../layouts/Flow.astro
 title: Contact Trusted Firmware
 description: Contact information for Trusted Firmware
-slug: /contact/
+slug: contact/
 hero:
   title: Contact Us
   style: text-white
