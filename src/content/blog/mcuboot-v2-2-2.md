@@ -6,7 +6,7 @@ date: 2023-10-30 10:00:00
 image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
 ---
 
-# **MCUnoot v2.0.0 Release**
+# **MCUboot v2.0.0 Release**
 
 ## Introduction
 
