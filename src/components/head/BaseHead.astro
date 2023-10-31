@@ -11,6 +11,9 @@ const {
   description = "Trusted Firmware provides a reference implementation of secure software for Armv8-A, Armv9-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.",
   type = "website",
 } = Astro.props;
+
+const social_image =
+  "https://www.trustedfirmware.org/images/social-media-image.png";
 ---
 
 <head>
@@ -28,28 +31,36 @@ const {
       basic: {
         title: title,
         type: type,
-        image: "https://www.trustedfirmware.org/images/social-media-image.png",
+        image: social_image,
       },
-    }}
-    twitter={{
-      creator: "@LinaroOrg",
     }}
     extend={{
       link: [
-        { rel: "icon", href: "/favicon.ico" },
         {
           rel: "me",
           href: "https://mastodon.org.uk/@LinaroLtd@mastodon.social",
         },
       ],
       meta: [
+        { property: "twitter:creator", content: "@LinaroOrg" },
         {
-          name: "twitter:image",
-          content:
-            "https://www.trustedfirmware.org/images/social-media-image.png",
+          property: "twitter:image",
+          content: social_image,
         },
-        { name: "twitter:title", content: title },
-        { name: "twitter:description", content: description },
+        { property: "twitter:title", content: title },
+        { property: "twitter:description", content: description },
+        {
+          property: "twitter:card",
+          content: social_image,
+        },
+        {
+          property: "og:image",
+          content: social_image,
+        },
+        {
+          property: "og:description",
+          content: description,
+        },
       ],
     }}
   />
