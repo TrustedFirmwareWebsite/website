@@ -34,6 +34,14 @@ const social_image =
         image: social_image,
       },
     }}
+    ,
+    twitter={{
+      title: title,
+      description: description,
+      card: "summary_large_image",
+      image: social_image,
+      creator: "@LinaroOrg",
+    }}
     extend={{
       link: [
         {
@@ -42,17 +50,6 @@ const social_image =
         },
       ],
       meta: [
-        { property: "twitter:creator", content: "@LinaroOrg" },
-        {
-          property: "twitter:image",
-          content: social_image,
-        },
-        { property: "twitter:title", content: title },
-        { property: "twitter:description", content: description },
-        {
-          property: "twitter:card",
-          content: social_image,
-        },
         {
           property: "og:image",
           content: social_image,
