@@ -69,7 +69,7 @@ flow:
               To purchase in Europe, go to the UK store [here](https://trustedfirmwareorg.myspreadshop.co.uk/)
               If you wish to purchase a gift voucher for another person, use the following links:
               - [Vouchers for US/NA Store](https://www.spreadshirt.com/custom/gifts/gift-cards)
-              - [Vouchers for UK/Europe store](https://www.spreadshirt.net/personalised/gifts/gift-voucher)
+              - [Vouchers for UK/Europe store](https://www.spreadshirt.co.uk/personalised/gifts/gift-voucher)
           - title: Where can I find the archives of past presentations and meeting archives?
             content: |
               The best place to start is the public meeting archives for multiple TrustedFirmware projects. These often include recorded technical meetings enabling content review at the convenience of the listener.
