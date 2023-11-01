@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.2.0",
-    "@astrojs/sitemap": "^2.0.2",
-    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/check": "^0.3.0",
+    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.2",
     "@fontsource/lato": "^5.0.15",
     "astro": "^3.4.0",
     "astro-icon": "^0.8.1",
