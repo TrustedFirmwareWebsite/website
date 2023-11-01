@@ -9,11 +9,14 @@ image: ../../assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
 
-### The next call is planned on Thursday, 11th August 2023 at 16:00 BST
-
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+- **Migration to PSA Crypto API** - Presented by Manish Badarkhe
+  - [PDF Presentation](/docs/TF-A-PSA-Crypto-191023.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/he8bmdCnND0k2X_W2Y0HGICzZ2pwspbQJE310C45AHzx2S2BM8MqIqkbVaEHu21K.351u_Y0w5pFgQJll) (Access Password: fdo&48!k)
+  - Date - 19th October 2023
 
 - **TrustedFirmware OpenCI and MISRA testing using ECLAIR** - Presented by Roberto Bagnara & Paul Sokolovsky
   - [PDF Presentation](/docs/OpenCI-and-MISRA_ECLAIR.pdf)
