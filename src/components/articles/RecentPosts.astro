@@ -2,6 +2,9 @@
 import dayjs from "dayjs";
 import { Image } from "astro:assets";
 import { marked } from "marked";
+import { remark } from "remark";
+import strip from "strip-markdown";
+import { parseDescription } from "@/lib/parseDescription";
 
 const { posts, title } = Astro.props;
 
@@ -44,18 +47,7 @@ marked.use({
   <h2 class="my-12 font-bold text-3xl">{title}</h2>
   {
     posts.map(async (post: any) => {
-      const { headings } = await post.render();
-
-      const h1 = headings[0]?.text;
-      const firstBlock = post.body.split("\n").slice(0, 6).join(" ");
-
-      const parsedDescription = marked.parse(
-        post.data.description ||
-          (h1?.length > 15 && h1) ||
-          (firstBlock.split(" ").length > 50
-            ? firstBlock.split(" ").slice(0, 50).join(" ") + "..."
-            : firstBlock)
-      );
+      const parsedDescription = await parseDescription(post);
       return (
         <a
           href={`/${post.collection}/${post.slug}`}
