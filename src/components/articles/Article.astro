@@ -1,8 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import dayjs from "dayjs";
-import { marked } from "marked";
 import { getEntry, type CollectionEntry } from "astro:content";
+import { remark } from "remark";
+import strip from "strip-markdown";
 
 const { data, body, collection, slug } = Astro.props;
 
@@ -10,34 +11,19 @@ const author = (await getEntry(data.author)) as CollectionEntry<"authors">;
 
 const dateObj = dayjs(data.date);
 const dateString = dateObj.format("dddd, MMMM D, YYYY");
-marked.use({
-  renderer: {
-    heading(text) {
-      return `<span>
-              ${text}
-            </span>`;
-    },
-    paragraph(text) {
-      return `
-            <span>
-              ${text}
-            </span>`;
-    },
-    link(href, title, text) {
-      return `
-            <span>
-              ${text}
-            </span>`;
-    },
-    strong(text) {
-      return `
-            <span>
-              ${text}
-            </span>`;
-    },
-  },
-});
-const content = marked.parse(body.split(" ").slice(0, 30).join(" ") + "...");
+
+const content =
+  String(
+    await remark()
+      .use(strip, {
+        remove: ["heading"],
+      })
+      .process(body)
+  )
+    .split(" ")
+    .slice(0, 30)
+    .join(" ")
+    .replace("\\", "") + "...";
 ---
 
 <a

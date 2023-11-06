@@ -123,6 +123,7 @@ const news = defineCollection({
   schema: ({ image }) =>
     z.object({
       author: reference("authors"),
+      description: z.string().optional(),
       title: z.string(),
       date: z.date(),
       image: image(),
@@ -134,6 +135,7 @@ const blog = defineCollection({
   schema: ({ image }) =>
     z.object({
       author: reference("authors"),
+      description: z.string().optional(),
       title: z.string(),
       date: z.date(),
       image: image(),
@@ -145,6 +147,7 @@ const meetings = defineCollection({
   schema: ({ image }) =>
     z.object({
       author: reference("authors"),
+      description: z.string().optional(),
       title: z.string(),
       date: z.date(),
       image: image(),
