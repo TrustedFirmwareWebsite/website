@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Date:** November 6, 2023
 
-  - Agenda: **Community Activity & Release Plans** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-11-06.pdf)
+  - Agenda: **Community Activity & Major Activities** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-11-06.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/DVwLtAk1UboeYGoJxz6itwd0O8pwd988JGnx7JnG3zTd2sVzADpeLWnYxdlfZwfi.UzhvH3zB8f-2ntZI)  Passcode: %HmFt6Dw
     <br/>
 
