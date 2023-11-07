@@ -31,7 +31,7 @@ flow:
         title_content:
           style: font-bold  text-4xl
           size: h3
-          text: Available Trusted Firmware Projects
+          text: Trusted Firmware Projects
       - component: tf_projects
         container_class: basis-1/2 sm:basis-1/3 lg:basis-1/5 xl:basis-1/6
         section_class: px-10 mb-8
