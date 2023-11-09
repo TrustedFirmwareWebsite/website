@@ -17,7 +17,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
-- **General updates** - Andton Komlev
+- **Open Agenda** - Anton Komlev
   - [Video Recording](https://linaro-org.zoom.us/rec/share/mOGQKqtWVP_hzxIILhrng6gJUcDKkveWrZju1auYuMQuuPkTCIxTdP7MJBJ5pV1a.B1-AXEnvbQ1GTbDh) Passcode: %0hSw6.E
 
 - **Split Build Update** - Anton Komlev
