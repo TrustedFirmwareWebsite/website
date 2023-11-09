@@ -19,6 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Open Agenda** - Anton Komlev
   - [Video Recording](https://linaro-org.zoom.us/rec/share/mOGQKqtWVP_hzxIILhrng6gJUcDKkveWrZju1auYuMQuuPkTCIxTdP7MJBJ5pV1a.B1-AXEnvbQ1GTbDh) Passcode: %0hSw6.E
+  - Date: Oct 26, 2023
 
 - **Split Build Update** - Anton Komlev
   - [Presentation](/docs/tech_forum_20230928_split_build_update.pdf)
