@@ -17,6 +17,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **Runtime Security Engine(RSE)** - Jamie Fox
+  - [Presentation](/dpcs/tech_forum_20231123_RTE_Introduction.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/VMm4FhjMdCcJylb99GIF1QYGQWezLfFokN5T3Um7bl3PSnngiX13CIgTaqVY-SMV.VOk9NnIXYgRBLS-G) Passcode: &17j*uUN
+  - Date: Nov 23, 2023
+
 - **Open Agenda** - Anton Komlev
   - [Video Recording](https://linaro-org.zoom.us/rec/share/mOGQKqtWVP_hzxIILhrng6gJUcDKkveWrZju1auYuMQuuPkTCIxTdP7MJBJ5pV1a.B1-AXEnvbQ1GTbDh) Passcode: %0hSw6.E
   - Date: Oct 26, 2023
