@@ -41,8 +41,8 @@ flow:
               A summary page of the various projects roadmaps can be found [here](https://developer.trustedfirmware.org/w/roadmaps/). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
           - title: Where can I find the TrustedFirmware.org developer Community Code of Conduct?
             content: |
-              The Community Code of Conduct is [located here.](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_code_of_conduct/)
-              The TrustedFirmware Inclusive Language Policy can be found [here.](https://developer.trustedfirmware.org/w/collaboration/community_guidelines/community_inclusive_language/)
+              The Community Code of Conduct is [located here.](https://www.trustedfirmware.org/coc/)
+              The TrustedFirmware Inclusive Language Policy can be found on the same page as the Community Code of Conduct.
           - title: Where can I find details about the governance model? Where can I find details about membership?
             content: |
               For details of the governance model, please visit the [about->join](/join/) page of this website and click on the downloadable current version of the Charter.
