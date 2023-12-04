@@ -17,6 +17,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** December 4, 2023
+
+  - Agenda: **Community Activity & Major Activities** - Dave Rodgman [Presentation here](/docs/Mbed%20TLS%20TechForum%202023-12-04.pdf)
+  - No video recording for this sync
+    <br/>
+
 - **Date:** November 6, 2023
 
   - Agenda: **Community Activity & Major Activities** - Dave Rodgman [Presentation here](/docs/MbedTLS-TechForum2023-11-06.pdf)
