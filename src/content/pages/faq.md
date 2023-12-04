@@ -32,6 +32,9 @@ flow:
               ```
               "OP-TEE:lists.trustedfirmware.org/pipermail/tf-m/"
               ```
+          - title: Are there other Firmware-related chatrooms worth following?
+            content: |
+              Yes. There is an Open Source FirmWare channel that can be found on slack at https://osfw.slack.com/
           - title: Is there a project Wiki?
             content: |
               Yes. The project wiki is located [here](https://developer.trustedfirmware.org/w/).
