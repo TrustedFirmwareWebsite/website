@@ -100,3 +100,23 @@ Terms listed here may not normally be part of code but are barred from use withi
 ### Coding Standard
 
 Maintainers are required to adopt the specific addition below to their coding guidelines and ensure adherence to it. Project has code and documents which predate this policy and the current guideline does not mandate a retrospective action.
+
+```
+==================
+
+Inclusive Language
+------------------
+
+The use of the terms "blacklist / whitelist" and "master / slave" in
+code and documentation is considered deprecated and should be avoided
+for new submissions. The former can usually be substituted with
+"blocklist / allowlist". Suitable substitutes for the latter should be
+selected based on the individual situation. Common examples include
+"controller / peripheral", "host / device", "initiator / target" or
+"main / secondary".
+
+Exceptions can be made in cases where the code or documentation is
+directly referring to hardware that already uses these terms (e.g. in
+register names) or to a common industry standard (until an updated
+version of that standard avoiding these terms is available).
+```
