@@ -6,7 +6,7 @@ date: 2023-11-28 10:00:00
 image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
 ---
 
-# **Trusted Firmware-M: v2.0.0 Released: Includes reduced footprint and more!**
+# **TF-M: 2.0.0: Smaller footprint Trusted Firmware-M**
 
 ## Introduction
 
