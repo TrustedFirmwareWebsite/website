@@ -17,6 +17,13 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **Open CI auto parse** - Xinyu Zhang
+     - [Presentation](/docs/tech_forum_20231207_OpenCIAutoparseTF-Mdependencyversions.pdf)
+  **Non-secure Client ID Mgt** - Ken Liu (@6:15 mark)
+     - [Presentation](/docs/tech_forum_20231207_non_seucure_clients_public_nsid.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/A7nwnMOMsD_UdM9okFUUcPgcNN8gZq-cL-biEvnYXUWWvznJIZi7rME6qmGro4uB.IsoxMKlT--pH6PVj) Passcode: .Id2#.ut
+  - Date: Dec 7, 2023
+
 - **Runtime Security Engine(RSE)** - Jamie Fox
   - [Presentation](/docs/tech_forum_20231123_RTE_Introduction.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/VMm4FhjMdCcJylb99GIF1QYGQWezLfFokN5T3Um7bl3PSnngiX13CIgTaqVY-SMV.VOk9NnIXYgRBLS-G) Passcode: &17j*uUN
