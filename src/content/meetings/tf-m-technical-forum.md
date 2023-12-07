@@ -19,6 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Open CI auto parse** - Xinyu Zhang
      - [Presentation](/docs/tech_forum_20231207_OpenCIAutoparseTF-Mdependencyversions.pdf)
+  
   **Non-secure Client ID Mgt** - Ken Liu (@6:15 mark)
      - [Presentation](/docs/tech_forum_20231207_non_seucure_clients_public_nsid.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/A7nwnMOMsD_UdM9okFUUcPgcNN8gZq-cL-biEvnYXUWWvznJIZi7rME6qmGro4uB.IsoxMKlT--pH6PVj) Passcode: .Id2#.ut
