@@ -15,7 +15,7 @@ calls_to_action:
 links:
   - title: documentation
     text: Trusted Firmware-M Documentation
-    url: https://tf-m-user-guide.trustedfirmware.org/
+    url: https://trustedfirmware-m.readthedocs.io/en/latest/index.html
   - title: code
     text: View source code
     url: https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/
