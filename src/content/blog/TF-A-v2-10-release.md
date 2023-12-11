@@ -82,6 +82,14 @@ platforms
 - mbedTLS Update to 3.4.1
 - Crypto-cell support for 712/713 removal ( deprecation announced in TF-A 2.9)
 
+## About TrustedFirmware.org
+
+TrustedFirmware.org is an open source project implementing foundational software components for creating secure devices. Trusted Firmware provides a reference implementation of secure software for processors implementing both the A-Profile and M-Profile Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. Trusted Firmware code is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+
+[TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
+
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.
+
 1. [https://trustedfirmware-a.readthedocs.io/en/v2.10/change-log.html#id1](https://trustedfirmware-a.readthedocs.io/en/v2.10/change-log.html#id1)
 2. [https://trustedfirmware-a-tests.readthedocs.io/en/v2.10/change-log.html#version-2-10](https://trustedfirmware-a-tests.readthedocs.io/en/v2.10/change-log.html#version-2-10)
 3. [https://hafnium.readthedocs.io/en/latest/change-log.html#v2-10](https://hafnium.readthedocs.io/en/latest/change-log.html#v2-10)
