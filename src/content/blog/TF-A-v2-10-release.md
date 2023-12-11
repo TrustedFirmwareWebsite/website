@@ -29,8 +29,8 @@ The main highlights comprise:
 The whole content of the release is described on the respective TF-A (1), TF-A-Tests (2) and
 Hafnium (3) and TF-RMM (4).
 
-Architecture extensions support:
-- Arm v8.9 | 2022 Architecture extension support enabled for FEAT_HAFT,RPRFM,
+- Architecture extensions support:
+  - Arm v8.9 | 2022 Architecture extension support enabled for FEAT_HAFT,RPRFM,
 LRCPC3, and MTE_PERM
   - Non Secure SME support in RMM 
   - PAC+ BTI support enabled in RMM and Realm
