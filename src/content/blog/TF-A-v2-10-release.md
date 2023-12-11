@@ -43,7 +43,7 @@ option
 - Boot Support :
   - Trusted Boot support for ECDSA (Elliptic Curve Digital Signature Algorithm) P-
 384 keys
-  Migrated to PSA crypto API’s (Except for authenticated decryption feature. Also,
+  -  Migrated to PSA crypto API’s (Except for authenticated decryption feature. Also,
 mbedTLS legacy crypto APIs will still be supported for some time)
   - Improved the GUID Partition Table (GPT) parser
   - Various security Improvements and threat Model updates for ARM CCA
