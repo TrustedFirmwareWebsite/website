@@ -1,6 +1,6 @@
 ---
 author: akanksha-jain
-title: Trusted Firmware-A v2.9 released!
+title: Trusted Firmware-A v2.10 released!
 date: 2023-12-09 09:00:00
 
 image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
