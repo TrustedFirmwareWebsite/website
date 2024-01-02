@@ -122,6 +122,6 @@ pages:
   #       - text: Board Minutes
   #         url: https://developer.trustedfirmware.org/w/resources/board-minutes/
   - title: Security Center
-    url: https://developer.trustedfirmware.org/w/collaboration/security_center/
+    url: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/index.html
   - title: Contact
     url: /contact/
