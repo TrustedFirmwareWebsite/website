@@ -32,6 +32,11 @@ flow:
               ```
               "OP-TEE:lists.trustedfirmware.org/pipermail/tf-m/"
               ```
+          - title: What's a good way to get notifications of the latest releases from TrustedFirmware.org?
+            content: |
+              There are two good ways to do this.  For individual projects subscribe to the associated maillist
+
+              To recieve notifications of all the project releases along with other interesting content such as white papers and blogs, you are encouraged to follow the TrustedFirmware.org LinkedIn channel [here](https://www.linkedin.com/company/82960623/admin/feed/posts/)
           - title: Are there other Firmware-related chatrooms worth following?
             content: |
               Yes. There is an Open Source FirmWare channel that can be found on slack at https://osfw.slack.com/
