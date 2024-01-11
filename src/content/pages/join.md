@@ -34,7 +34,7 @@ Companies and other organisations who adopt, deploy or contribute to Trusted Fir
 
 Companies joining the project at the Diamond/Platinum levels can vote and have a seat at Board meetings. Companies joining as General members may attend general meetings and have joint representation at Board meetings. The Community class of membership is open to universitities and other similar not-for-profit organisations.
 
-You are welcome to circulate **[this slide deck](/docs/TrustedFirmware_2023_October.pdf)** within your organisation which explains more about the project.
+You are welcome to circulate **[this slide deck](/docs/TrustedFirmware_2024v1.2.pdf)** within your organisation which explains more about the project.
 
 #### Trusted Firmware is an open governance project
 
