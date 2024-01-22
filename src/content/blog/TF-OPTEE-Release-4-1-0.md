@@ -1,5 +1,5 @@
 ---
-author: jens.wiklander
+author: jens-wiklander
 title: Trusted Firmware OP TEE Release 4.1.0
 date: 2024-01-18 10:00:00
 categories:
