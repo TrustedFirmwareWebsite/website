@@ -5,7 +5,7 @@ date: 2024-01-18 10:00:00
 categories:
 - Blog
 layout: post
-image: /assets/images/blog/musca_tf_crop_1500x1500.png
+image: ../../assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
 **Trusted Firmware OP TEE: v4.1.0 Release**
