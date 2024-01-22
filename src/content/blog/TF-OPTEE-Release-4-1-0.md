@@ -2,9 +2,7 @@
 author: jens-wiklander
 title: Trusted Firmware OP TEE Release 4.1.0
 date: 2024-01-18 10:00:00
-categories:
-- Blog
-layout: post
+
 image: ../../assets/images/blog/musca_tf_crop_1500x1500.png
 ---
 
