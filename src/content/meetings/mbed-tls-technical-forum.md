@@ -17,9 +17,20 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** January 29, 2024
+
+  - Agenda: **Community Activity & Major Activities** - Dave Rodgman [Presentation here](/docs/MbedTLSTechForum2024-01-29.pdf)
+  - [Video recording](https://linaro-org.zoom.us/rec/share/cHdT5Ddt9jKOs56RbDRnWcoV1jki6Zb_GrZGHB7yeRRi46z0PIyUX97gsMTDasc.DRQJd4yls0JNjmAy) Passcode: 1v.P++5%
+    <br/>
+
+- **Date:** January 15, 2024
+
+  - Agenda: **Community Activity & Major Activities** - Dave Rodgman [Presentation here](/docs/MbedTLSTechForum2024-01-15.pdf)
+    <br/>
+
 - **Date:** December 18, 2023
 
-  - Agenda: **Community Activity & Major Activities** - Dave Rodgman
+  - Agenda: **Community Activity & Major Activities** - Dave Rodgman 
   - [Video recording](https://linaro-org.zoom.us/rec/share/P8Wy7q9GfKeV7aJG1rwHAzo_dG5sBlRfHhoTRTAeqf5GHum7yVx8YwcT8PbDej0R.AcXJTLd-xXbuDNwD) Passcode: k$ghKDK2
     <br/>
 
