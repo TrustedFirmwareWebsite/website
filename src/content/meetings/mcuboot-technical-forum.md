@@ -15,6 +15,15 @@ This is an open forum conference call for anyone to participate. It is not restr
 
 ### Recording and slides of previous meetings:
 
+https://linaro-org.zoom.us/rec/share/RQCsyvu7RCNR1ziSsHoF0wyEBCymqFZc5YljBIRM3vMNyk8xns7-D2mVmjRXeimP.0WHvwj3Y-jaqpbBX
+Passcode: 3*RHJkH0
+
+- **Date:** Jan 25, 2024
+
+  - Agenda: **Vulnerability Review / Private Field Macro Removal** - David Brown
+  - [Video recording](https://linaro-org.zoom.us/rec/share/RQCsyvu7RCNR1ziSsHoF0wyEBCymqFZc5YljBIRM3vMNyk8xns7-D2mVmjRXeimP.0WHvwj3Y-jaqpbBX) Passcode: 3*RHJkH0
+    <br/>
+
 - **Date:** Dec 14, 2023
 
   - Agenda: **PR Review** - David Brown
