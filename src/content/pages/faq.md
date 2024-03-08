@@ -39,10 +39,10 @@ flow:
               To recieve notifications of all the project releases along with other interesting content such as white papers and blogs, you are encouraged to follow the TrustedFirmware.org LinkedIn channel [here](https://www.linkedin.com/company/82960623/admin/feed/posts/)
           - title: Are there other Firmware-related chatrooms worth following?
             content: |
-              Yes. There is an Open Source FirmWare channel that can be found on slack at https://osfw.slack.com/
+              Yes. There is an Open Source Firmware channel that can be found on slack at https://osfw.slack.com/
           - title: Is there a project Wiki?
             content: |
-              Yes. The project wiki is located [here](https://developer.trustedfirmware.org/w/).
+              As of March 2024, the traditional project wiki has been depricated with its content moved to a project-wide readthedocs instance that is located [here]([https://developer.trustedfirmware.org/w/](https://trusted-firmware-docs.readthedocs.io/en/latest/index.html)) as well as the per project readthedocs content available for each project.
               Access requires logging in with a valid github account. Additional access provided to members as needed.
           - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
             content: |
