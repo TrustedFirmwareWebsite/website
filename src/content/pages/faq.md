@@ -42,7 +42,7 @@ flow:
               Yes. There is an Open Source Firmware channel that can be found on slack at https://osfw.slack.com/
           - title: Is there a project Wiki?
             content: |
-              As of March 2024, the traditional project wiki has been depricated with its content moved to a project-wide readthedocs instance that is located [here](https://trusted-firmware-docs.readthedocs.io/en/latest/index.html)) as well as the per project readthedocs content available for each project.
+              As of March 2024, the traditional project wiki has been depricated with its content moved to a project-wide readthedocs instance that is located [here](https://trusted-firmware-docs.readthedocs.io/en/latest/index.html) as well as the per project readthedocs content available for each project.
               Access requires logging in with a valid github account. Additional access provided to members as needed.
           - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
             content: |
