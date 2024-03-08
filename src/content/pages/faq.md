@@ -46,7 +46,7 @@ flow:
               Access requires logging in with a valid github account. Additional access provided to members as needed.
           - title: Where can I find the current roadmaps for TrustedFirmware.org projects?
             content: |
-              A summary page of the various projects roadmaps can be found [here](https://developer.trustedfirmware.org/w/roadmaps/). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
+              A summary page of the various projects roadmaps can be found [here](https://trusted-firmware-docs.readthedocs.io/en/latest/general_information/trusted_firmware_roadmaps.html). All members are encouraged to contribute to the roadmap here with either change requests or their own planned contributions.
           - title: Where can I find the TrustedFirmware.org developer Community Code of Conduct?
             content: |
               The Community Code of Conduct is [located here.](https://www.trustedfirmware.org/coc/)
