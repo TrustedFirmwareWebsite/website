@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **EL3 GPT Fusing Discussion on various issues and approaches** - Presented by Soby Mathew & Alexei Fedorov
+  - [PDF Presentation](/docs/TechForum-EL3-GPT-fusing-7thMar24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/9VQgBNUA0hdFEtmN3S3tJyJ3D4KV99dIoNZy6om0aMQpHYBdw3dGCRo0_MV5QSeR.TCObMSrakgtjFQLi) (Access Password: t+J$9gqS)
+  - Date - 7th March 2024
+
 - **Firmware Handoff on FVP** - Presented by Harrison Mutai and Manish Pandey
   - [PDF Presentation](/docs/firmware-handoff-22ndFeb24.pdf)
   - [Video Recording](/docs/firmware-handoff-22ndFeb24-Recording.mp4)
