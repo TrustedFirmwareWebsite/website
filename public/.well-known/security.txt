@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/mailing_aliases.html
+Expires: 2025-12-31T23:59:00.000Z
+Canonical: https://www.trustedfirmware.org/.well-known/security.txt
+Policy: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/incident_handling_process.html
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEY8nBD+3SbjJ4arSI1H4kDefwMFgFAmXp6dcACgkQ1H4kDefw
+MFjOXA//WpGf4Cu1HRQVCtBus8EaAmU7s4FT6QpKcfIHMzZhnRhXtBW59PTzSNMJ
++M2WD8Uv74LyG6RwsFFWulMJ0euFrAY+hguJg8bTH1MX9FQ24DN4GVSjHy1PxUPy
+xVxrDOi+2/6l9sjAE78qB4arBmMgs16Aomrc6fN057BANmrA93PVICHkvBpsFytQ
+bjxJXaqLUbOaA3Tw8YAh3TRb5H7v2nbS8c++x25TVwbtElnJ8iGgGGxq4bS6ZMkA
+MvJcaB7x3kcL96aFp21LksVcPVKryx2Irk2pRjuYRKZvCssl9rhy4fZXDnoOmi7j
+ior/RnnyUSUdwsGrwrVnDmY9SnlTY2AaBW/sy9i84JLcO6YozMSyUmzYWwnG2IDx
+8gAnzAc1aO3xk6DUL4M8UvK3MxxYYfhbTbkG5bk4SdU0KTQ1SWKpVdWt8AZk8bed
+BTtZrwO+K6w6Cd+/690jPDhlqny6qnJxxzYtpXqMmHu8x0N9g4x3GjVdvP2INiHe
+tcR8uMSUelMUMIedpLYWh9QQrbH5pOHUxTFPLs37aSueaZukTi359D/zkpTWMpq9
+VFVQGMp5lmR1gVpQmejkdbMjpBs5LtzudkVZU+PB2oaQ5zZjnDWgP/KjPjp98xty
+jpjKuwNjCsQKT1UxMvQ4swnNigd9rHrQ+vbUuPZ58rHaZiJBNkw=
+=J6X+
+-----END PGP SIGNATURE-----
