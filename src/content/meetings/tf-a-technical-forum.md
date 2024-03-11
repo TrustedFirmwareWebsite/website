@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Firmware Handoff on FVP** - Presented by Harrison Mutai and Manish Pandey
+  - [PDF Presentation](/docs/firmware-handoff-22ndFeb24.pdf)
+  - [Video Recording](/docs/firmware-handoff-22ndFeb24-Recording.mp4)
+  - Date - 22nd February 2024
+
 - **Migration to PSA Crypto API** - Presented by Manish Badarkhe
   - [PDF Presentation](/docs/TF-A-PSA-Crypto-191023.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/he8bmdCnND0k2X_W2Y0HGICzZ2pwspbQJE310C45AHzx2S2BM8MqIqkbVaEHu21K.351u_Y0w5pFgQJll) (Access Password: fdo&48!k)
