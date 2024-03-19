@@ -1,7 +1,7 @@
 ---
 author: trusted-firmware
 title: TF-M open Tech Forum regular call
-date: 2023-02-02 08:00:00
+date: 2023-12-07 08:00:00
 image: ../../assets/images/blog/Workshop.png
 ---
 
