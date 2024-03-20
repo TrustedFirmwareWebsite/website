@@ -52,7 +52,7 @@ This is a major version update, from 3.x to 4.x. Here are a few questions and an
 - Fault mitigation framework: support non-threaded (interrupt) code
 - Introduced a power regulator framework
 - Some RISC-V updates (including SBI support)
-- SPMC (Secure Partition Manager Core) updates, see [https://developer.trustedfirmware.org/w/trusted-services/op-tee-spmc/](https://developer.trustedfirmware.org/w/trusted-services/op-tee-spmc/) for details
+- SPMC (Secure Partition Manager Core) updates, see [https://optee.readthedocs.io/en/latest/architecture/spmc.html](https://optee.readthedocs.io/en/latest/architecture/spmc.html) for details
     - Added support for the boot-order property of the SP manifest
     - Xen hypervisor support (Dom0 and DomU)
     - Bug fixes
