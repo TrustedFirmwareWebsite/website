@@ -10,7 +10,7 @@ As an Open Source community project, Trusted Firmware is committed to building a
 allows the development of Trusted Firmware-A and Trusted Firmware-M in a collaborative manner. The
 [mailing list](/contact/) discussions on the design and other technical
 aspects of the code base, open [gerrit](https://review.trustedfirmware.org/) for reviewing patches
-publicly, [phabricator tasks](https://developer.trustedfirmware.org/) etc. are all aimed towards nurturing
+publicly, are aimed towards nurturing
 collaboration.
 
 Testing of the codebase is an important aspect in the Software Development Lifecycle. In projects such
