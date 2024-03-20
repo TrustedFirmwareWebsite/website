@@ -7,11 +7,21 @@ image: ../../assets/images/blog/x15_demo_tf_crop_1500x1500.png
 
 ## TF-A Technical Forum
 
-This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items. A [Scheduling Tracking Page](https://developer.trustedfirmware.org/w/tf_a/tf-a-tech-forum-scheduling/) shows possible future items and their current status.
+This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-A mailing list. Attendees are welcome to propose agenda items.
 
 To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A list](https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/) , or see the calendar links at the bottom of the page.
 
 ### Recording and slides of previous meetings will appear here
+
+- **EL3 GPT Fusing Discussion on various issues and approaches** - Presented by Soby Mathew & Alexei Fedorov
+  - [PDF Presentation](/docs/TechForum-EL3-GPT-fusing-7thMar24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/9VQgBNUA0hdFEtmN3S3tJyJ3D4KV99dIoNZy6om0aMQpHYBdw3dGCRo0_MV5QSeR.TCObMSrakgtjFQLi) (Access Password: t+J$9gqS)
+  - Date - 7th March 2024
+
+- **Firmware Handoff on FVP** - Presented by Harrison Mutai and Manish Pandey
+  - [PDF Presentation](/docs/firmware-handoff-22ndFeb24.pdf)
+  - [Video Recording](/docs/firmware-handoff-22ndFeb24-Recording.mp4)
+  - Date - 22nd February 2024
 
 - **Migration to PSA Crypto API** - Presented by Manish Badarkhe
   - [PDF Presentation](/docs/TF-A-PSA-Crypto-191023.pdf)
