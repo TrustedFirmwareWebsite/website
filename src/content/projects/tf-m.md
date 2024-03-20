@@ -25,11 +25,6 @@ links:
   - title: subscribe
     text: Subscribe to the TF-M mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/tf-m.lists.trustedfirmware.org/
-useful_links:
-  - text: Wiki pages
-    url: https://developer.trustedfirmware.org/w/tf_m/
-  - text: Dashboard
-    url: https://developer.trustedfirmware.org/dashboard/view/5/
 top_text: |-
   **Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55, Cortex-M85 processors) or dual-core platforms. It is the platform security architecture reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.**
 
