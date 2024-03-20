@@ -32,7 +32,7 @@ The deltas from the [Beta release](https://git.trustedfirmware.org/TS/trusted-se
 
 More details around the latest changes, known issues etc. can be found in the Release Notes [here](https://trusted-services.readthedocs.io/en/v1.0.0/project/change-log.html).
 
-OP-TEE 3.17 and beyond, supports SPMC. Further details can be found [here](https://developer.trustedfirmware.org/w/trusted-services/op-tee-spmc/). The diagram below shows a reference design for Trusted Services deployment.
+OP-TEE 3.17 and beyond, supports SPMC. Further details can be found [here](https://optee.readthedocs.io/en/latest/architecture/spmc.html). The diagram below shows a reference design for Trusted Services deployment.
 
 ![Reference Implementation](../../assets/images/blog/ts-reference-implementation.png)
 
