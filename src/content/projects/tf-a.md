@@ -30,14 +30,12 @@ links:
     text: Subscribe to the TF-A mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/tf-a.lists.trustedfirmware.org/
 useful_links:
-  - text: TF-A Dashboard
-    url: https://developer.trustedfirmware.org/dashboard/view/6/
-  - text: TF-A Project page
-    url: https://developer.trustedfirmware.org/project/profile/1/
-  - text: TF-A Tests Project page
-    url: https://developer.trustedfirmware.org/project/view/9/
-  - text: Wiki pages
-    url: https://developer.trustedfirmware.org/w/tf_a/
+  - text: TF-A Github mirror
+    url: https://github.com/TrustedFirmware-A/trusted-firmware-a
+  - text: TF-A Issues list
+    url: https://github.com/TrustedFirmware-A/trusted-firmware-a/issues
+  - text: TF-A-tests project documentation
+    url: https://trustedfirmware-a-tests.readthedocs.io/en/latest/index.html
 top_text: |-
   **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
 
