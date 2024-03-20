@@ -37,7 +37,7 @@ OP-TEE 3.17 and beyond, supports SPMC. Further details can be found [here](https
 ![Reference Implementation](../../assets/images/blog/ts-reference-implementation.png)
 
 For more contextual insight, visit project [documentation](https://trusted-services.readthedocs.io/en/latest/) and subscribe to the [mailing list](https://lists.trustedfirmware.org/mailman3/lists/trusted-services.lists.trustedfirmware.org/) for latest
-updates. The direction of travel on further TS engagements can be found in the [Roadmap](https://developer.trustedfirmware.org/w/trusted-services/roadmap/) section.
+updates. The direction of travel on further TS engagements can be found in the [Roadmap](https://github.com/Trusted-Services/trusted-services/wiki/Trusted-Services-Roadmap) section.
 The project will continue to make further releases against new feature enablement and support improvisations.
 
 ## About TrustedFirmware.org
