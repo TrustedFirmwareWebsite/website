@@ -26,8 +26,10 @@ links:
     text: Subscribe to the Hafnium mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/hafnium.lists.trustedfirmware.org/
 useful_links:
-  - text: Hafnium Project Dashboard
-    url: https://developer.trustedfirmware.org/project/21/item/view/67/
+  - text: Hafnium Github mirror
+    url: https://github.com/TF-Hafnium/hafnium
+  - text: Hafnium Issues list
+    url: https://github.com/TF-Hafnium/hafnium/issues
 top_text: |-
   **A reference Secure Partition Manager (SPM) for systems that implement the Armv8.4-A Secure-EL2 extension. It enables multiple, isolated Secure Partitions (SPs) to run at Secure-EL1.**
 

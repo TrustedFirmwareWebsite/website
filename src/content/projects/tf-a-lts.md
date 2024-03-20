@@ -27,15 +27,6 @@ links:
     text: Subscribe to the TF-A LTS mailing list
     button_style: bg-green-600 decoration-green-600
     url: https://lists.trustedfirmware.org/mailman3/lists/tfa-lts.lists.trustedfirmware.org/
-useful_links:
-  - text: TF-A LTS Dashboard
-    url: https://developer.trustedfirmware.org/dashboard/view/6/
-  - text: TF-A LTS Project page
-    url: https://developer.trustedfirmware.org/project/profile/1/
-  - text: TF-A LTS Tests Project page
-    url: https://developer.trustedfirmware.org/project/view/9/
-  - text: Wiki pages
-    url: https://developer.trustedfirmware.org/w/tf_a/
 top_text: |-
   **The Trusted Firmware-A LTS project provides ...**
 
