@@ -10,4 +10,4 @@ image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
 
 To help software developers become more familiar with the Trusted Firmware-M, I've created a TF-M technical overview.
 
-To access the white paper, please click [here](/docs/TrustedFirmware-MTechnicalOverviewQ1-2023.pdf)
+To access the white paper, please click [here](/docs/TrustedFirmware-M_TechnicalOverviewQ1-2023_update_26-March-2024.pdf)
