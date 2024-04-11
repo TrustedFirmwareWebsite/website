@@ -17,9 +17,14 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/IdAa-rDXKYNfsJH8KS37PWZdY3vt86d8eGYBODPRG3blB-7AHSVIAJhgWEMMC8i5.YL9z4U8iT4HqMVUE) Passcode: ?FN4h0Ba
+  - Date: April 11, 2024
+  
 - **Open CI auto parse** - Xinyu Zhang [Presentation](/docs/tech_forum_20231207_OpenCIAutoparseTF-Mdependencyversions.pdf)
+  - Date: Dec 7, 2023
 
-  **Non-secure Client ID Mgt** - Ken Liu (@6:15 mark) [Presentation](/docs/tech_forum_20231207_non_seucure_clients_public_nsid.pdf)
+- **Non-secure Client ID Mgt** - Ken Liu (@6:15 mark) [Presentation](/docs/tech_forum_20231207_non_seucure_clients_public_nsid.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/A7nwnMOMsD_UdM9okFUUcPgcNN8gZq-cL-biEvnYXUWWvznJIZi7rME6qmGro4uB.IsoxMKlT--pH6PVj) Passcode: .Id2#.ut
   - Date: Dec 7, 2023
 
