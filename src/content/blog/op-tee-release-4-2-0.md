@@ -55,7 +55,7 @@ The release included updates to the following repos:
 - [optee_client](https://optee.readthedocs.io/en/latest/building/gits/optee_client.html#optee-client) 
 - [optee_test](https://optee.readthedocs.io/en/latest/building/gits/optee_test.html#optee-test) 
 - [build](https://optee.readthedocs.io/en/latest/building/gits/build.html#build) 
-- [manifest] (https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests)
+- [manifest](https://optee.readthedocs.io/en/latest/building/gits/build.html#manifests)
 
 
 
