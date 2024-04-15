@@ -1,10 +1,11 @@
 ---
-author: joakim.bech
+author: joakim-bech
 title: Trusted Firmware OP-TEE v4.2.0 Release
-date: 2023-04-14 08:00:00
+date: 2024-04-14 08:00:00
 
 image: "../../assets/images/blog/synquacer_tf_crop_1500x1500.png"
 ---
+
 **Trusted Firmware OP-TEE: v4.2.0 Release**
 =====================================================
 
