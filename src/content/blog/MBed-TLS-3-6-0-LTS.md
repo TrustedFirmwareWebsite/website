@@ -49,4 +49,10 @@ We welcome community participation in the ongoing and future work items in the p
 found [here](https://github.com/orgs/Mbed-TLS/projects/1). Subscribe to the [mailing list](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/) to start participating in the design and development of the
 project. The bi-weekly [Mbed TLS Technical Forums](https://www.trustedfirmware.org/meetings/mbed-tls-technical-forum/) are also an opportunity to understand major developments in the project.
 
+## About TrustedFirmware.org
 
+TrustedFirmware.org is an open source project implementing foundational software components for creating secure devices. Trusted Firmware provides a reference implementation of secure software for processors implementing both the A-Profile and M-Profile Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. Trusted Firmware code is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+
+[TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
+
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.
