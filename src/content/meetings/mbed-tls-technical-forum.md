@@ -1,7 +1,7 @@
 ---
 author: trusted-firmware
 title: MBed TLS open Tech Forum regular call
-date: 2024-02-26 08:00:00
+date: 2024-04-22 08:00:00
 image: ../../assets/images/blog/Workshop.png
 ---
 
@@ -16,6 +16,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+
+- **Date:** April 22, 2024
+
+  - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLS_TechForum_2024-04-22.pdf)
+  - [Video recording](https://linaro-org.zoom.us/rec/share/Bqd15GeNh9V24Ie28fP9k2SF-UJHtxdbjiSn1BcJjVoRxuyRyYj4ziRJa2xd0Lxf.7l7IUCwlVihZBMWH)  Passcode: 2E6yeT*d
+    <br/>
 
 - **Date:** April 8, 2024
 
