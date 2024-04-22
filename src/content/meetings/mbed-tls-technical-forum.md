@@ -1,7 +1,7 @@
 ---
 author: trusted-firmware
 title: MBed TLS open Tech Forum regular call
-date: 2024-02-26 08:00:00
+date: 2024-04-22 08:00:00
 image: ../../assets/images/blog/Workshop.png
 ---
 
