@@ -1,6 +1,6 @@
 ---
 author: shebu-kuriakose
-title: Trusted Firmware-M’s First Long Term Support (LTS) Release: v2.1.0
+title: Trusted Firmware-M’s First Long Term Support (LTS) Release v2.1.0
 date: 2024-05-04 10:00:00
 
 image: "../../assets/images/blog/musca_tf_crop_1500x1500.png"
