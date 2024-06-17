@@ -26,7 +26,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   - [Video Recording](ttps://linaro-org.zoom.us/rec/share/f_XMvhPYYghtW3HBlZUezVfA6pH7nUnOplDIRmnghaGYtpxpqJq98Jfe8U-0jXh6.OAPmmPtHDcp9zsHB) Passcode: 8^9MBR3s
   - Date: May 23, 2024
 
-  - **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
+- **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/IdAa-rDXKYNfsJH8KS37PWZdY3vt86d8eGYBODPRG3blB-7AHSVIAJhgWEMMC8i5.YL9z4U8iT4HqMVUE) Passcode: ?FN4h0Ba
   - Date: April 11, 2024
   
