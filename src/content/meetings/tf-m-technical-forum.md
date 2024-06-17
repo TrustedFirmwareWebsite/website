@@ -17,7 +17,16 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
-- **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
+- **Discuss possible TF-M Improvements** - Anton Komlev
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/dM93EmndjqGGSfY76wylH2gLwBb50OuJ5nNcBQNHT9eSdoGwrrPtey6DRKySud7D.C9X-gZ7-vqPDZ-Pp
+) Passcode: ?FN4h0Ba
+  - Date: June 6, 2024
+
+- **Discuss possible TF-M Improvements** - Anton Komlev
+  - [Video Recording](ttps://linaro-org.zoom.us/rec/share/f_XMvhPYYghtW3HBlZUezVfA6pH7nUnOplDIRmnghaGYtpxpqJq98Jfe8U-0jXh6.OAPmmPtHDcp9zsHB) Passcode: 8^9MBR3s
+  - Date: May 23, 2024
+
+  - **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/IdAa-rDXKYNfsJH8KS37PWZdY3vt86d8eGYBODPRG3blB-7AHSVIAJhgWEMMC8i5.YL9z4U8iT4HqMVUE) Passcode: ?FN4h0Ba
   - Date: April 11, 2024
   
