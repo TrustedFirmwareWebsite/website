@@ -17,6 +17,13 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** June 17, 2024
+
+  - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLS_TechForum2024-06-17.pdf)
+  - [Video recording](https://linaro-org.zoom.us/rec/share/RJgnSJDqGiwV2Le6HgeTF0Pyld3c5g86DYezIgTw0RUksZGmaq9C67JjGyKV6Z37.euzjBwh2mkLNDcy8
+)  Passcode: mFf%8BJX
+    <br/>
+
 - **Date:** June 3, 2024
 
   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/Mbed_TLS_TechForum2024-06-03.pdf)
