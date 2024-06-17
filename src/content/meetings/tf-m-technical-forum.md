@@ -23,7 +23,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   - Date: June 6, 2024
 
 - **Discuss possible TF-M Improvements** - Anton Komlev
-  - [Video Recording](ttps://linaro-org.zoom.us/rec/share/f_XMvhPYYghtW3HBlZUezVfA6pH7nUnOplDIRmnghaGYtpxpqJq98Jfe8U-0jXh6.OAPmmPtHDcp9zsHB) Passcode: 8^9MBR3s
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/f_XMvhPYYghtW3HBlZUezVfA6pH7nUnOplDIRmnghaGYtpxpqJq98Jfe8U-0jXh6.OAPmmPtHDcp9zsHB) Passcode: 8^9MBR3s
   - Date: May 23, 2024
 
 - **TF-M Hybrid Platform Demo** - Mate Toth-Pal [Presentation](/docs/hybrid_platform_demo.pdf)
