@@ -19,7 +19,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Discuss possible TF-M Improvements** - Anton Komlev
   - [Video Recording](https://linaro-org.zoom.us/rec/share/dM93EmndjqGGSfY76wylH2gLwBb50OuJ5nNcBQNHT9eSdoGwrrPtey6DRKySud7D.C9X-gZ7-vqPDZ-Pp
-) Passcode: ?FN4h0Ba
+) Passcode: 4f0BJPF+
   - Date: June 6, 2024
 
 - **Discuss possible TF-M Improvements** - Anton Komlev
