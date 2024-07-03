@@ -15,6 +15,9 @@ This is an open forum conference call for anyone to participate. It is not restr
 
 ### Recording and slides of previous meetings:
 
+- **Date:** Jun 27, 2024
+  - Agenda: **Release prep updates** [Video recording](https://linaro-org.zoom.us/rec/share/2Br9_d27Al8-Fl-RpM-vwEgydP-_1t1jq4ZUU08RgMaY7L7XOggRsiba5NYRTcxQ.pJgRZCTvPnyiC3NY) Passcode: S6D@PyEa
+
 - **Date:** April 11, 2024
   - Agenda: **Release prep updates** [Video recording](https://linaro-org.zoom.us/rec/share/vEd0FRQxawntm275LkDfsDDw-957xjItp0oWLNvWtsJw8J6ab1ttZ7X_8bZCPSf7.QeCK7ntw2Vi3nx7x) Passcode: 1G&pXJ0S
 
