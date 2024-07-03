@@ -19,8 +19,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Date:** July 1, 2024
 
-    - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLSTechForum2024-07-01.pdf)
-    - <br/>
+  - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLSTechForum2024-07-01.pdf)
+  <br/>
 
 - **Date:** June 17, 2024
 
