@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **TFM LTS Bug Tracking Guideline/User Experience Improvements** - Anton Komlev / Lisa Durban
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/bcJm0HYk5B2BedggfSa3fqFqcfbhU1-DALgGP6L42HuPDNgR2ZjoIBbZoUNOOZXx.6kugT4oW1fKyn-Wq) Passcode: 9Tn?BMa2
+  - Date: July 4, 2024
+
 - **Discuss possible TF-M Improvements** - Anton Komlev
   - [Video Recording](https://linaro-org.zoom.us/rec/share/dM93EmndjqGGSfY76wylH2gLwBb50OuJ5nNcBQNHT9eSdoGwrrPtey6DRKySud7D.C9X-gZ7-vqPDZ-Pp
 ) Passcode: 4f0BJPF+
