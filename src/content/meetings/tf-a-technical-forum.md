@@ -13,6 +13,16 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-RMM CPPCheck integration / TF-A-Tests enhancements and testing for TF-RMM** - Presented by Shruti Gupta
+  - [PDF Presentation](/docs/TFATests-CPPCheck-Enhancements-for-RMM.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/PcKQlzTCnRBLIDsWHGRW_evUQctW7yBkvI2AT7YjmUWHS9eqFNNyArRemdQLhZDo.Kw7N-CxMdI13PYyA) (Access Password: LI?7nG^i)
+  - Date - 2nd May 2024
+
+- **TF-RMM Stage 1 Memory Management** - Presented by Javier Almansa Sobrino
+  - [PDF Presentation](/docs/TF-RMM.Stage.1.Memory.Management.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/n4HX5Hqdaml54pcViAK-6LcJcjwJL4tx-3KRHa9L5bd5Wwh3DLrf0XZIytiwVqvz.NgyzjzCLQfwJAiCV) (Access Password: Pp!2QWL5)
+  - Date - 18th April 2024
+
 - **EL3 GPT Fusing Discussion on various issues and approaches** - Presented by Soby Mathew & Alexei Fedorov
   - [PDF Presentation](/docs/TechForum-EL3-GPT-fusing-7thMar24.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/9VQgBNUA0hdFEtmN3S3tJyJ3D4KV99dIoNZy6om0aMQpHYBdw3dGCRo0_MV5QSeR.TCObMSrakgtjFQLi) (Access Password: t+J$9gqS)
