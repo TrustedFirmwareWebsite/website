@@ -13,8 +13,14 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-- **Using the SMC Fuzzing Mdodule in TF-A** - Presented by Kathleen Capella
-  - [Video Recording](https://linaro-org.zoom.us/rec/play/JBV-g3Kv3Yu-ewLdnV7tQgkbX_vul9eF7vrjappdpdYsrQICtBNvJoYzO2CyXLkrNJZ9AYEIQDYvY0RX.__nJmgk6LcNEIB2w?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Flinaro-org.zoom.us%2Frec%2Fshare%2FFx01qwHhRnXoxc6u5VHdeNBDBv9gXRsbaYcU18qXcVwe8mGza8Sk16Orjd0t5DUY.LdbnNgNAgy_pC65OA) (Access Password: q!6jJXei)
+- **NUMA-aware PER-CPU framework** - Presented by Rohit Mathew
+  - [PDF Presentation](/docs/NUMA-aware-PER-CPU-framework-18Jul24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/647_olsKuSrGh80ZTwRpDA-pfPhCReOyf9QLhepOKv9OQ6mjP1sYfx_LOTK17Z_i.nlc_ii2syQCWaOx5) (Access Password: 2w!#uEeN)
+  - Date - 18 July 2024
+
+- **Using the SMC Fuzzing Module in TF-A** - Presented by Kathleen Capella
+  - [PDF Presentation](/docs/Fuzzing-Tech-Forum-11Jul24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/Fx01qwHhRnXoxc6u5VHdeNBDBv9gXRsbaYcU18qXcVwe8mGza8Sk16Orjd0t5DUY.LdbnNgNAgy_pC65O) (Access Password: q!6jJXei)
   - Date - 11 July 2024
 
 - **TF-RMM CPPCheck integration / TF-A-Tests enhancements and testing for TF-RMM** - Presented by Shruti Gupta
@@ -47,7 +53,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
   - [Video Recording](https://linaro-org.zoom.us/rec/share/_ejqS6jvDiDB-7orFIz8roG3UFcNQLUMRCLVRZhLoQi3lXgMvhQe4uGnNO0mvAhH.N5od8T_wshfg03nx) (Access Password: k\*Z2\*?bN)
   - Date - 27th July 2023
 
-- **EL3 Exception vector improvements** - Presented by Manish - \[Pandey - [PDF Presentation](/docs/Error-Synchronization-at-EL3-entry.pdf)
+- **EL3 Exception vector improvements** - Presented by Manish Pandey - [PDF Presentation](/docs/Error-Synchronization-at-EL3-entry.pdf)
 - **Signer ID Retrieval Design** - Presented by Manish Badarkhe - [PDF Presentation](/docs/Signer-ID-retrieval.pdf)
   - Date - 13th July 2023
 
