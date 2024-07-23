@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **NUMA-aware PER-CPU framework** - Presented by Rohit Mathew
+  - [PDF Presentation](/docs/NUMA-aware-PER-CPU-framework-18Jul24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/647_olsKuSrGh80ZTwRpDA-pfPhCReOyf9QLhepOKv9OQ6mjP1sYfx_LOTK17Z_i.nlc_ii2syQCWaOx5) (Access Password: 2w!#uEeN)
+  - Date - 18 July 2024
+
 - **Using the SMC Fuzzing Module in TF-A** - Presented by Kathleen Capella
   - [PDF Presentation](/docs/Fuzzing-Tech-Forum-11Jul24.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/Fx01qwHhRnXoxc6u5VHdeNBDBv9gXRsbaYcU18qXcVwe8mGza8Sk16Orjd0t5DUY.LdbnNgNAgy_pC65O) (Access Password: q!6jJXei)
