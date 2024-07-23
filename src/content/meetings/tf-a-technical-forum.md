@@ -13,8 +13,9 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-- **Using the SMC Fuzzing Mdodule in TF-A** - Presented by Kathleen Capella
-  - [Video Recording](https://linaro-org.zoom.us/rec/play/JBV-g3Kv3Yu-ewLdnV7tQgkbX_vul9eF7vrjappdpdYsrQICtBNvJoYzO2CyXLkrNJZ9AYEIQDYvY0RX.__nJmgk6LcNEIB2w?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Flinaro-org.zoom.us%2Frec%2Fshare%2FFx01qwHhRnXoxc6u5VHdeNBDBv9gXRsbaYcU18qXcVwe8mGza8Sk16Orjd0t5DUY.LdbnNgNAgy_pC65OA) (Access Password: q!6jJXei)
+- **Using the SMC Fuzzing Module in TF-A** - Presented by Kathleen Capella
+  - [PDF Presentation](/docs/Fuzzing-Tech-Forum-11Jul24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/Fx01qwHhRnXoxc6u5VHdeNBDBv9gXRsbaYcU18qXcVwe8mGza8Sk16Orjd0t5DUY.LdbnNgNAgy_pC65O) (Access Password: q!6jJXei)
   - Date - 11 July 2024
 
 - **TF-RMM CPPCheck integration / TF-A-Tests enhancements and testing for TF-RMM** - Presented by Shruti Gupta
