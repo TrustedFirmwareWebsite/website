@@ -53,7 +53,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
   - [Video Recording](https://linaro-org.zoom.us/rec/share/_ejqS6jvDiDB-7orFIz8roG3UFcNQLUMRCLVRZhLoQi3lXgMvhQe4uGnNO0mvAhH.N5od8T_wshfg03nx) (Access Password: k\*Z2\*?bN)
   - Date - 27th July 2023
 
-- **EL3 Exception vector improvements** - Presented by Manish - \[Pandey - [PDF Presentation](/docs/Error-Synchronization-at-EL3-entry.pdf)
+- **EL3 Exception vector improvements** - Presented by Manish Pandey - [PDF Presentation](/docs/Error-Synchronization-at-EL3-entry.pdf)
 - **Signer ID Retrieval Design** - Presented by Manish Badarkhe - [PDF Presentation](/docs/Signer-ID-retrieval.pdf)
   - Date - 13th July 2023
 
