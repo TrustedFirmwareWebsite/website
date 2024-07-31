@@ -91,10 +91,6 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
   - [Video Recording](https://linaro-org.zoom.us/rec/share/8PgFPmsFI5o-oO6vKKj1W_3JTw07wvgsQ6wY6RccDYT7MNWFZWgutzFsAbtBeg2M.zawIE6NA3Q3rg5FZ) Passcode: h2^gWNh0
   - Date: Mar 30, 2023
 
-- **Direct memory access to MMIO by secure partitions** - Sherry Wang
-  - [Video Recording](https://linaro-org.zoom.us/rec/share/8PgFPmsFI5o-oO6vKKj1W_3JTw07wvgsQ6wY6RccDYT7MNWFZWgutzFsAbtBeg2M.zawIE6NA3Q3rg5FZ) Passcode: h2^gWNh0
-  - Date: Mar 30, 2023
-
 - **Updates of TF-M build split** - David Hu [Presentation](/docs/tech_forum_20230316_UpdatesofTF-Mbuildsystemrestructure.pdf)
 - **Proposal for TF-M confiuration improvement** - Andrej Butok [Presentation](/docs/tech_forum_20230316_TFMConfigurationProposalNXPAndrejButok.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/Jba2NgMtwgg-lzd0LiguzwsYxiBV9exvTayZM2sHwDN0M9Q9goq9F-nL7bAgFLpf.Rq_lF2SzXfS69yyL) Passcode: .@sk?5Gz
