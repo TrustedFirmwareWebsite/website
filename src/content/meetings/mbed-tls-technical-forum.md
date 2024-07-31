@@ -17,6 +17,12 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** July 29, 2024
+
+  - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLSTechForum2024-07-29.pdf)
+  - [Video recording](https://linaro-org.zoom.us/rec/share/72rIkcvIIUXGln9uJakHmfiMI9LrhFBMhOlRqMPfTirrnSQqn4Z6798ElPOLIi55.iUALmDhFoOisf5Fe)  Passcode: Y$Y26GXi
+  <br/>
+
 - **Date:** July 15, 2024
 
   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/MbedTLSTechForum2024-07-15.pdf)
