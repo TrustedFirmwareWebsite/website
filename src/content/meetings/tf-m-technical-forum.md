@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **TF-M BLS & the ECDSA Signature Verification Scheme** - Antonio de Angelis [Presentation](/docs/tech_forum_20240829_BL2andECDSA_signatureVerificationScheme.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/Lxqm391bb5tARCjKJAxLWAOh_b5SsgyEYD6BPHSGA7iGNGGSDUGZFqoA6xAgmRSK.J4ml9XftMpbxRrNW) Passcode: o#C+7?p2
+  - Date: Aug 29, 2024
+
 - **TFM LTS Bug Tracking Guideline/User Experience Improvements** - Anton Komlev / Lisa Durban
   - [Video Recording](https://linaro-org.zoom.us/rec/share/bcJm0HYk5B2BedggfSa3fqFqcfbhU1-DALgGP6L42HuPDNgR2ZjoIBbZoUNOOZXx.6kugT4oW1fKyn-Wq) Passcode: 9Tn?BMa2
   - Date: July 4, 2024
