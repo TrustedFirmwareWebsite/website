@@ -1,7 +1,7 @@
 ---
 author: trusted-firmware
-title: TF-M open Tech Forum regular call
-date: 2023-12-07 08:00:00
+title: TF-M Technical Forum
+date: 2024-10-01 08:00:00
 image: ../../assets/images/blog/Workshop.png
 ---
 
@@ -17,7 +17,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
-- **TF-M BLS & the ECDSA Signature Verification Scheme** - Antonio de Angelis [Presentation](/docs/tech_forum_20240829_BL2andECDSA_signatureVerificationScheme.pdf)
+- **TF-M BL2 & the ECDSA Signature Verification Scheme** - Antonio de Angelis [Presentation](/docs/tech_forum_20240829_BL2andECDSA_signatureVerificationScheme.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/Lxqm391bb5tARCjKJAxLWAOh_b5SsgyEYD6BPHSGA7iGNGGSDUGZFqoA6xAgmRSK.J4ml9XftMpbxRrNW) Passcode: o#C+7?p2
   - Date: Aug 29, 2024
 
