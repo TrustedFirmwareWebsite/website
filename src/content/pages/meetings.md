@@ -15,7 +15,7 @@ flow:
           - title: TF-A Tech Forum Minutes
             url: /meetings/tf-a-technical-forum/
             style: bg-accent hover:bg-cyan-600 text-white my-1
-          - title: TF-M Tech Forum Notes
+          - title: TF-M Tech Forum Minutes
             url: /meetings/tf-m-technical-forum/
             style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: MBed TLS Tech Forum Minutes
