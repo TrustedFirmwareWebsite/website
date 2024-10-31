@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Unification of Chain of Trust Descriptors** - Presented by Xialin Liu
+  - [PDF Presentation](/docs/Unify-CoT-25Jul24.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/NnpMUjkDvTDU_FGqFoLwVVnzJbVvPOGLYQ-O3113_9nFn3RKagBy2Z_ll2y30IqZ.OMaWtFFqR3l6wMrk) (Access Password: xZ3k9bG!)
+  - Date - 25 July 2024
+
 - **NUMA-aware PER-CPU framework** - Presented by Rohit Mathew
   - [PDF Presentation](/docs/NUMA-aware-PER-CPU-framework-18Jul24.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/647_olsKuSrGh80ZTwRpDA-pfPhCReOyf9QLhepOKv9OQ6mjP1sYfx_LOTK17Z_i.nlc_ii2syQCWaOx5) (Access Password: 2w!#uEeN)
