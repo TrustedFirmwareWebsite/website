@@ -24,6 +24,12 @@
     "url": "https://www.nordicsemi.com/"
   },
   {
+    "image": "../../assets/images/members/ti_stk_2c_pos_rgb.svg",
+    "name": "Texas Instruments",
+    "type": "general",
+    "url": "https://ti.com/"
+  },
+  {
     "image": "../../assets/images/members/google.jpg",
     "name": "Google",
     "type": "diamond",
