@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** Dec 16, 2024
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLSTechForum2024-12-16.pdf)
+   
 - **Date:** Dec 2, 2024
 
    - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLSTechForum2024-12-02.pdf)
