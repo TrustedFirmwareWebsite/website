@@ -1,7 +1,7 @@
 ---
 author: akanksha-jain
 title: Trusted Firmware-A v2.12 released!
-date: 2024-01-06 09:00:00
+date: 2025-01-06 09:00:00
 
 image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
 ---
