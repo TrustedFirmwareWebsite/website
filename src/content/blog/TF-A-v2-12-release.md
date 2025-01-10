@@ -25,8 +25,8 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
 
 - Architecture | EL3 Root World support:
   - Continued 2022 Arch extension support: : FEAT_THE, FEAT_LS64_ACCDATA, FEAT_Debugv8p9, FEAT_SCTLR2, FEAT_FGT2
-  - Arm 9.4 : FEAT_D128 support in EL3 thereby allowing, access to 128b translation table registers and usage of 128b LSE atomics ; VA/ PA extended to 56 bits 
- 	- Context management: Asymmetric CPU features, EL3 execution context, SVE S/R support
+  - Arm 9.4 : FEAT_D128 support in EL3 thereby allowing, access to 128b translation table registers and usage of 128b LSE atomics ; VA/ PA extended to 56 bits
+  - Context management: Asymmetric CPU features, EL3 execution context, SVE S/R support
   -	CPU support added for 2024 CPUs Gelas, Nevis and Travis 
 - Boot Support: 
   - Trusted Boot support for ECDSA (Elliptic Curve Digital Signature Algorithm) P-384 curve with the PSA Crypto implementation
@@ -36,7 +36,7 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
     - Enhanced mbedTLS configuration updates
     -	Maximize the usage of mbedTLS library APIs in TF-A 
     -	Upgraded to mbedTLS v3.6.1
-  -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs 
+  -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs
 - Hafnium | S-EL2 SPM:
   -	Continued support for FF-A v1.2 
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
