@@ -16,8 +16,9 @@ It is tagged across multiple repositories – TF-A, TF-A Tests, Hafnium, TF-A Op
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
   - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
 
--	Hafnium | S-EL2 SPM:
-  -	Continued support for FF-A v1.2
+- Hafnium | S-EL2 SPM:
+  - Contniued support
+
 
 ## Highlights
 
