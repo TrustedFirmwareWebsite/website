@@ -38,13 +38,12 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
     -	Upgraded to mbedTLS v3.6.1
   -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs
 -	Hafnium and S-EL2 SPM:
-  - Continued support for FF-A v1.2
+  -	Continued support for FF-A v1.2
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
   - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
   - Architecture Support for Secure Virtual Timer and vCPU Inter Processor interrupt (IPI) signaling
   - RME: GPF support and memcpy hardening thereby enabling the SPMC to recover from a Granule Protection Fault when accessing Non Secure regions.
   -	Secure Interrupt Handling for single core/thread S-EL1 partitions
-
 -	TF-RMM | R-EL2:
   -	Arm CCA 1.0 RMM support merged against REL0 spec
   -	Support for HES-protected Realm Attestation Key 
