@@ -47,7 +47,7 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
     -	Upgraded to mbedTLS v3.6.1
   -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs 
 
--	Hafnium | S-EL2 SPM: 
+- Hafnium | S-EL2 SPM:
   -	Continued support for FF-A v1.2 
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
   - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
