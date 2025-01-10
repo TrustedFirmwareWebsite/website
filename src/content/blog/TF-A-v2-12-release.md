@@ -48,6 +48,8 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
   - Arm CCA 1.0 RMM support merged against REL0 spec
   - Support for HES-protected Realm Attestation Key 
   -	More details on bug fixes and improvements in the change log
+- TF-A Tests:
+  - Arm arch. 
 -	TF-A Tests: 
   -	Arm arch. extensions: AMU, FEAT_FGT2, LS64_ACCDATA, FEAT_Debugv8p9, LS64 64-byte load/store
   -	Asymmetric feature testing (FEAT_SPE, FEAT_TRBE, FEAT_TCR2)
