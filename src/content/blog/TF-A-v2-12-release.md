@@ -28,7 +28,7 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
   - Arm 9.4 : FEAT_D128 support in EL3 thereby allowing, access to 128b translation table registers and usage of 128b LSE atomics ; VA/ PA extended to 56 bits 
  	- Context management: Asymmetric CPU features, EL3 execution context, SVE S/R support
   -	CPU support added for 2024 CPUs Gelas, Nevis and Travis 
-- Boot Support :
+- Boot Support:
   - Trusted Boot support for ECDSA (Elliptic Curve Digital Signature Algorithm) P-384 curve with the PSA Crypto implementation
   - Introduced the Transfer List Compiler (TLC) Host Tool
   - Introduced Chain of Trust (CoT) Device Tree to C File (DT2C) tool by enabling their definition exclusively via the device tree, replacing in-source file definitions and generating source files during the build process.
@@ -37,7 +37,7 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
     -	Maximize the usage of mbedTLS library APIs in TF-A 
     -	Upgraded to mbedTLS v3.6.1
   -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs
--	Hafnium | S-EL2 SPM:
+-	Hafnium and S-EL2 SPM:
   - Continued support for FF-A v1.2
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
   - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
