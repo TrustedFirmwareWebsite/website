@@ -54,8 +54,7 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
   - Architecture Support for Secure Virtual Timer and vCPU Inter Processor interrupt (IPI) signaling
   - RME: GPF support and memcpy hardening thereby enabling the SPMC to recover from a Granule Protection Fault when accessing Non Secure regions.
   -	Secure Interrupt Handling for single core/thread S-EL1 partitions
-
--	TF-RMM | R-EL2: 
+-	TF-RMM | R-EL2:
   -	Arm CCA 1.0 RMM support merged against REL0 spec
   -	Support for HES-protected Realm Attestation Key 
   -	More details on bug fixes and improvements in the change log
