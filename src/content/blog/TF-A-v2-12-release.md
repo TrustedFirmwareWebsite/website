@@ -37,25 +37,30 @@ The whole content of the release is described on the respective TF-A (1), TF-A-T
     -	Maximize the usage of mbedTLS library APIs in TF-A 
     -	Upgraded to mbedTLS v3.6.1
   -	Documentation support added for the DPE Design and Threat Model document to TF-A readthedocs 
+
 -	Hafnium | S-EL2 SPM: 
-  -	Continued support for FF-A v1.2
+  -	Continued support for FF-A v1.2 
   - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
   - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
   - Architecture Support for Secure Virtual Timer and vCPU Inter Processor interrupt (IPI) signaling
   - RME: GPF support and memcpy hardening thereby enabling the SPMC to recover from a Granule Protection Fault when accessing Non Secure regions.
   -	Secure Interrupt Handling for single core/thread S-EL1 partitions
+
 -	TF-RMM | R-EL2: 
   -	Arm CCA 1.0 RMM support merged against REL0 spec
   -	Support for HES-protected Realm Attestation Key 
   -	More details on bug fixes and improvements in the change log
+
 -	TF-A Tests: 
   -	Arm arch. extensions: AMU, FEAT_FGT2, LS64_ACCDATA, FEAT_Debugv8p9, LS64 64-byte load/store
   -	Asymmetric feature testing (FEAT_SPE, FEAT_TRBE, FEAT_TCR2)
   -	EL1 and EL2 context switch tests
   -	FF-A: v1.2 support, S-EL2 arch timer virtualization, S-EL2+RME hardening, EL3 SPMC TFTF test suite, EL3 SVE test coverage
   -	RME: RMM v1.0 testing support, PCIe DOE support, RMI support for FEAT_LPA2, SIMD, PAuth
+
 -	Platform Support | TF-A / EL3: 
   -	Platform fixes: FPGA, FVP, Neoverse-RD, AMD Versal Gen 2 added, FVP PCIe support, TC, Corstone-1000, Allwinner, AST2700, Poplar, Agilex, A3K, MT8188, iMX8M, S32G274A, Qemu, Rpi3, Rockchip, STM32MP1, STM32MP2, Versal, ZynqMP
+
 -	Errata ABI:
   -	Support added for Cortex-A720 (Hunter), Cortex-A520(Hayes) and Cortex-X4 
 
