@@ -11,6 +11,11 @@ image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
 Trusted Firmware-A recently had its second release in 2024 for TF-A v2.12. 
 It is tagged across multiple repositories – TF-A, TF-A Tests, Hafnium, TF-A OpenCI Scripts, Trusted Services and Realm Management Monitor (RMM) 0.6.0 components.
 
+-	Hafnium | S-EL2 SPM: 
+  -	Continued support for FF-A v1.2 
+  - FFA_MSG_WAIT RX buffer ownership flag; FFA_VERSION endpoint restriction
+  - FF-A v1.1, now, Feature complete with VM availability messages upstream merge
+    
 ## Highlights
 
 The main highlights comprise:
