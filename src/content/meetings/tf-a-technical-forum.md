@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **EL0 application support in TF-RMM** - Presented by Mate Toth-Pal & Soby Mathew
+  - [PDF Presentation](/docs/tf-rmm-el0_app_TF-A_tech_forum.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/YKbacPkaW46H4LnSiNXe3ujxZOle6IbDZM19-1MWgch-X80irTF4kzOTKHDHTwHu.3T4a1Wt8mBCh4KVW) (Access Password: b!ZKL9nt)
+  - Date - 23 January 2025
+
 - **Unification of Chain of Trust Descriptors** - Presented by Xialin Liu
   - [PDF Presentation](/docs/Unify-CoT-25Jul24.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/NnpMUjkDvTDU_FGqFoLwVVnzJbVvPOGLYQ-O3113_9nFn3RKagBy2Z_ll2y30IqZ.OMaWtFFqR3l6wMrk) (Access Password: xZ3k9bG!)
