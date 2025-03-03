@@ -4,5 +4,11 @@
     "name": "BUGSENG",
     "type": "partner",
     "url": "https://www.bugseng.com/"
+  },
+  {
+    "image": "../../assets/images/members/CloudBees-Logo-Black.png",
+    "name": "CLOUDBEES",
+    "type": "partner",
+    "url": "https://www.cloudbees.com/"
   }
 ]
