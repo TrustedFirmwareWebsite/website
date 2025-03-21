@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **PSA Crypto driver repository/LLVM-embedded-toolchain** - Anton Komlev [Presentation](/docs/tech_forum_20250313.pdf)
+  - No recording
+  - Date: Mar 13, 2025
+
 - **TF-M Copyright Update/Stop Using QEMU in OpenCI** - Anton Komlev 
   - [Video Recording](https://linaro-org.zoom.us/rec/share/rHQuUFcInYbVYRpGgisQh3w9gTXB2bz8GuT-m0hsn2zADXMb00PMMnLHGWkYqLVl.1u0xDp6geJH4ldHj) Passcode: cL34c6.Z
   - Date: Oct 10, 2024
