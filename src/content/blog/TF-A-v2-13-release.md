@@ -1,5 +1,5 @@
 ---
-author: bharath.subramanian
+author: bharath-subramanian
 title: Trusted Firmware-A v2.13 released!
 date: 2025-05-22 17:00:00
 
