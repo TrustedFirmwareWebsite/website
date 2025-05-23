@@ -21,7 +21,7 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 
 ## Highlights
 
-### TF-A/EL3
+**TF-A/EL3**
 - Alto CPU support
 - Architecture feature support for PMUv3p9. PAUTH_LR and SPE_FDS.
 - [PSCI] Powerdown abandon feature support
@@ -33,7 +33,7 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 - HOB creation Library (from edk2) is now hosted in TF-A
 - New Platforms: mt8189, mt8196 qcs615, RK3576, AM62L
   
-### Boot flow
+**Boot flow**
 
 - Feature Additions
   - Added discrete TPM support in BL1/BL2 for the RPi3 platform.
@@ -49,12 +49,12 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 - mbedTLS Improvements
   - Migrated to mbedTLS version 3.6.3.
 
-### Errata/Security mitigations (CPU/GIC)
+**Errata/Security mitigations (CPU/GIC)**
 
 - CVE-2024-5660, CVE-2024-7881
 - Cortex-A510, Cortex-A715, Cortex-X4, Cortex-X925, Neoverse V3
 
-### Hafnium/SPM (S-EL2)
+**Hafnium/SPM (S-EL2)**
 
 - FF-A v1.2 completed: indirect messaging with service UUIDs.
 - FF-A v1.3 early adoption: Update to FFA_MEM_PERM_GET ABIs.
@@ -65,7 +65,7 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 - SP loading: SP artefacts can be bundled in a TL format. I.e SP binary and SP manifest (DTB).
 - Resuming ECs for interrupt handling assisted by NWd Scheduler when the SP is in waiting state, with ```sri-interrupts-policy``` field in the SP manifest.
 
-### TF-RMM (R-EL2)
+**TF-RMM (R-EL2)**
 
 - Deprivileging RMM code via EL0 App support
 - Added some support for some RMMv1.1 APIs - ```RMI_DEV_MEM_(UN)MAP```, support for device granules in ```RMI_GRANULE_DELEGATE``` and  ```RMI_GRANULE_UNDELEGATE```.
@@ -73,13 +73,13 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 - New platform support for RD-V3-R1 and RD-V3-R1-Cfg1 FVPs.
 - Dynamic discovery of PCIE Root complex topology and device memory from the Boot manifest. 
 
-### Trusted Services (v1.2.0)
+**Trusted Services (v1.2.0)**
 
 - Introduced the fTPM SP. The implementation is experimental.
 - Introduce the new Arm Reference Design-1 AE platform targeting the Automotive segment. It features high-performance Arm Neoverse V3AE Application Processor compute system, Arm Cortex-R82AE based Safety Island, and a Runtime Security Engine (RSE) for enhanced security.
 - Updated the se-proxy deployment and added support for the Firmware Update Proxy service. The FWU Proxy implements a [Platform Security Firmware Update for the A-profile Arm Architecture](https://developer.arm.com/documentation/den0118/latest/) compliant FWU Agent which runs a [PSA Certified Firmware Update API 1.0](https://arm-software.github.io/psa-api/fwu/1.0/) compliant client as its backend. 
 
-### TF-A Tests
+**TF-A Tests**
 
 - Enhancements to fuzzing tests (EL3 vendor specific SMC, SDEI, FF-A interface, capability for randomized fuzzing inputs)
 - Functionality test
