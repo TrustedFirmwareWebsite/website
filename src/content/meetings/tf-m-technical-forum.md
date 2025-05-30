@@ -17,7 +17,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
-- **TF-M Logging API** - Anton Komlev [Presentation](/docs/tf-m_forum_20250508-TF-M_Logging_API.pdf)
+- **TF-M Logging API** - Jackson Cooper-Driver [Presentation](/docs/tf-m_forum_20250508-TF-M_Logging_API.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/61ocqyihHxOXOgLnr0paWFZc4Am19x9WRrX0MUhdy2fu7u-ybbWjkOt1oAwh_Jmu.ZuIptgXVP8StkuRy) Passcode: mf&g=3$D
   - Date: May 8, 2025
 
