@@ -1,6 +1,1 @@
-build-site.sh       @pcolmer @louismorgan-linaro @DelaraGi
-check-links.sh      @pcolmer @louismorgan-linaro @DelaraGi
-CODEOWNERS          @pcolmer @louismorgan-linaro @DelaraGi
-Gemfile             @pcolmer @louismorgan-linaro @DelaraGi
-.github-env-master  @pcolmer @louismorgan-linaro @DelaraGi
-.github/workflows   @pcolmer @louismorgan-linaro @DelaraGi
+.github/workflows   @pcolmer @prasanthcambridge @DelaraGi
