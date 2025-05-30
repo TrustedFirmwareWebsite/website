@@ -130,7 +130,7 @@ for project, categories in projects.items():
 generated_date = datetime.now()
 date_str = generated_date.strftime("%Y-%m-%d %H:%M:%S")
 filename_date = generated_date.strftime("%Y%m%d_%H%M%S")
-output_filename = "./src/assets/html/dashboard.html"
+output_filename = "src/assets/html/dashboard.html"
 
 html = """
 <table class="w-full border border-gray-300">
