@@ -124,7 +124,7 @@ for project, categories in projects.items():
             time.sleep(0.5)
         avg_rate = total_rate / job_count if job_count else 0
         symbol = "check" if avg_rate > 0.5 else "cross"
-        tooltip_text = f"<p>Latest build: {overall_latest_build if overall_latest_build is not None else 'N/A'}<br>Average pass rate: {avg_rate*100:.0f}%</p>"
+        tooltip_text = f"<p>Latest build: <b>{overall_latest_build if overall_latest_build is not None else 'N/A'}</b><br>Average pass rate: <b>{avg_rate*100:.0f}%</b></p>"
         results[project][category] = {"status": symbol, "tooltip": tooltip_text, "link": overall_link}
 
 generated_date = datetime.now()
@@ -138,23 +138,23 @@ html = """
 import IconButton from "@/components/icon_button/IconButton.astro";
 ---
 
-<table class="w-full border border-gray-300">
-<thead class="bg-green-600 text-white">
+<table class="w-full border border-white">
+<thead class="bg-white text-black">
 <tr>
-<th class="px-4 py-2 border border-gray-300">Project</th>
-<th class="px-4 py-2 border border-gray-300">Patch</th>
-<th class="px-4 py-2 border border-gray-300">Daily</th>
-<th class="px-4 py-2 border border-gray-300">Weekly</th>
-<th class="px-4 py-2 border border-gray-300">MISRA</th>
-<th class="px-4 py-2 border border-gray-300">Static Analysis</th>
-<th class="px-4 py-2 border border-gray-300">Code Coverage</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Project</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Patch</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Daily</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Weekly</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">MISRA</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Static Analysis</th>
+<th class="px-4 py-2 border border-white bg-gray-300 text-center">Code Coverage</th>
 </tr>
 </thead>
 <tbody>
 """
 
 for project, data in results.items():
-    html += f"<tr class=\"bg-gray-100\"><td class=\"px-4 py-2 border border-gray-300\">{project}</td>"
+    html += f"<tr class=\"bg-white\"><td class=\"px-4 py-2 border border-gray-300 text-center align-middle\"><b>{project}</b></td>"
     for col in ["Patch", "Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
         cell = data.get(col, {"status": "", "tooltip": "", "link": None})
         html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
