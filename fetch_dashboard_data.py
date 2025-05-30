@@ -102,7 +102,7 @@ for project, categories in projects.items():
     results[project] = {}
     for category, urls in categories.items():
         if not urls:
-            results[project][category] = {"status": "N/A", "tooltip": "No jobs configured", "link": None}
+            results[project][category] = {"status": "No jobs configured", "tooltip": "", "link": None}
             continue
         total_rate = 0
         job_count = 0
