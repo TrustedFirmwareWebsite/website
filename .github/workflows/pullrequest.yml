@@ -34,6 +34,7 @@ jobs:
 
       - name: Rebuild dashboard HTML
         run: |
+          cd ${{ github.workspace }}/website
           pwd
           ls -l
           if [ -f fetch_dashboard_data.py ]; then
