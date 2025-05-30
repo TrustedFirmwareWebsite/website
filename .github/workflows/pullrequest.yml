@@ -38,6 +38,7 @@ jobs:
           pwd
           ls -l
           if [ -f fetch_dashboard_data.py ]; then
+            mkdir -p src/assets/html
             pipenv install
             pipenv run python fetch_dashboard_data.py
           fi
