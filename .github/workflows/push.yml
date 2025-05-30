@@ -24,6 +24,7 @@ jobs:
 
       - name: Rebuild dashboard HTML
         run: |
+          cd ${{ github.workspace }}/website
           if [ -f fetch_dashboard_data.py ]; then
             pipenv install
             pipenv run python fetch_dashboard_data.py
