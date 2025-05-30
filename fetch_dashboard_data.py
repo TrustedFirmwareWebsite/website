@@ -123,16 +123,21 @@ for project, categories in projects.items():
                     overall_link = url + "lastCompletedBuild/"
             time.sleep(0.5)
         avg_rate = total_rate / job_count if job_count else 0
-        symbol = "✅" if avg_rate > 0.5 else "❌"
-        tooltip_text = f"Latest build: {overall_latest_build if overall_latest_build is not None else 'N/A'}; Average pass rate: {avg_rate*100:.0f}%"
+        symbol = "check" if avg_rate > 0.5 else "cross"
+        tooltip_text = f"<p>Latest build: {overall_latest_build if overall_latest_build is not None else 'N/A'}<br>Average pass rate: {avg_rate*100:.0f}%</p>"
         results[project][category] = {"status": symbol, "tooltip": tooltip_text, "link": overall_link}
 
 generated_date = datetime.now()
 date_str = generated_date.strftime("%Y-%m-%d %H:%M:%S")
 filename_date = generated_date.strftime("%Y%m%d_%H%M%S")
-output_filename = "src/assets/html/dashboard.html"
+# It has to be a ".astro" file for IconButton to work
+output_filename = "src/assets/html/dashboard.astro"
 
 html = """
+---
+import IconButton from "@/components/icon_button/IconButton.astro";
+---
+
 <table class="w-full border border-gray-300">
 <thead class="bg-green-600 text-white">
 <tr>
@@ -152,10 +157,17 @@ for project, data in results.items():
     html += f"<tr class=\"bg-gray-100\"><td class=\"px-4 py-2 border border-gray-300\">{project}</td>"
     for col in ["Patch", "Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
         cell = data.get(col, {"status": "", "tooltip": "", "link": None})
-        if cell["link"]:
-            html += f'<td class="px-4 py-2 border border-gray-300" title="{cell["tooltip"]}"><a href="{cell["link"]}" target="_blank">{cell["status"]}</a></td>'
+        html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
+        if cell["status"] == "check" or cell["status"] == "cross":
+            html += "<div class=\"flex justify-center items-center\">"
+            if cell["link"]:
+                html += f'<IconButton icon="{cell["status"]}" url="{cell["link"]}" />'
+            else:
+                html += f'<IconButton icon="{cell["status"]}" />'
+            html += "</div>"
         else:
-            html += f'<td class="px-4 py-2 border border-gray-300" title="{cell["tooltip"]}">{cell["status"]}</td>'
+            html += f'{cell["status"]}'
+        html += f'{cell["tooltip"]}</td>'
     html += "</tr>\n"
 
 html += """</tbody>
