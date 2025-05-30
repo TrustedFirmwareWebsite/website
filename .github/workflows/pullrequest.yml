@@ -32,6 +32,13 @@ jobs:
         with:
           path: website
 
+      - name: Rebuild dashboard HTML
+        run: |
+          if [ -f fetch_dashboard_data.py ]; then
+            pipenv install
+            pipenv run python fetch_dashboard_data.py
+          fi
+
       - name: Build site
         run: |
           source ~/.nvm/nvm.sh
