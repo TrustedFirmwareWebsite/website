@@ -22,6 +22,11 @@ jobs:
       - name: Initialise environment
         run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
 
+      - name: Rebuild dashboard HTML
+        run: |
+          pipenv install
+          pipenv run python fetch_dashboard_data.py
+
       - name: Build site
         run: |
           source ~/.nvm/nvm.sh

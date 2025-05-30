@@ -47,6 +47,14 @@ flow:
           text: Our Members
       - component: members
       - component: project_partners
+
+  - row: container_row
+    sections:
+      - component: dashboard
+
+  - row: container_row
+    style: #
+    sections:
       - component: buttons
         style: text-center
         buttons_content:

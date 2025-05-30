@@ -24,3 +24,6 @@ generated/
 production.trustedfirmware.org/
 Gemfile.lock
 .jekyll-cache/
+
+# Ignore the generated dashboard file
+src/assets/html/dashboard.html
