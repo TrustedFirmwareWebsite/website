@@ -24,8 +24,10 @@ jobs:
 
       - name: Rebuild dashboard HTML
         run: |
-          pipenv install
-          pipenv run python fetch_dashboard_data.py
+          if [ -f fetch_dashboard_data.py ]; then
+            pipenv install
+            pipenv run python fetch_dashboard_data.py
+          fi
 
       - name: Build site
         run: |
