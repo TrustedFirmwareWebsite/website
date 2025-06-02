@@ -123,9 +123,8 @@ for project, categories in projects.items():
                     overall_link = url + "lastCompletedBuild/"
             time.sleep(0.5)
         avg_rate = total_rate / job_count if job_count else 0
-        symbol = "check" if avg_rate > 0.5 else "cross"
         tooltip_text = f"<p>Latest build: <b>{overall_latest_build if overall_latest_build is not None else 'N/A'}</b><br>Average pass rate: <b>{avg_rate*100:.0f}%</b></p>"
-        results[project][category] = {"status": symbol, "tooltip": tooltip_text, "link": overall_link}
+        results[project][category] = {"value": avg_rate*100, "tooltip": tooltip_text, "link": overall_link}
 
 generated_date = datetime.now()
 date_str = generated_date.strftime("%Y-%m-%d %H:%M:%S")
@@ -158,12 +157,12 @@ for project, data in results.items():
     for col in ["Patch", "Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
         cell = data.get(col, {"status": "", "tooltip": "", "link": None})
         html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
-        if cell["status"] == "check" or cell["status"] == "cross":
+        if "value" in cell:
             html += "<div class=\"flex justify-center items-center\">"
             if cell["link"]:
-                html += f'<IconButton icon="{cell["status"]}" url="{cell["link"]}" />'
+                html += f'<IconButton value="{cell["value"]}" url="{cell["link"]}" />'
             else:
-                html += f'<IconButton icon="{cell["status"]}" />'
+                html += f'<IconButton value="{cell["value"]}" />'
             html += "</div>"
         else:
             html += f'{cell["status"]}'

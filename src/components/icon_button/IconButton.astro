@@ -1,8 +1,19 @@
 ---
-const { icon, url } = Astro.props;
+const { value, url } = Astro.props;
 
-// Set color based on icon type
-const color = icon === "check" ? "bg-green-500 hover:bg-green-600" : "bg-red-500 hover:bg-red-600";
+// Determine icon type and color based on value
+let icon, color;
+if (value >= 50) {
+  icon = "check";
+  color = "bg-green-500 hover:bg-green-600";
+} else if (value > 0 && value < 50) {
+  icon = "cross";
+  color = "bg-orange-500 hover:bg-orange-600";
+} else {
+  icon = "cross";
+  color = "bg-red-500 hover:bg-red-600";
+}
+
 ---
 
 {url ? (
