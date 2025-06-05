@@ -1,3 +1,6 @@
+""" Fetch the data from CI to generate the dashboard. """
+""" Author: Ben Copeland (ben.copeland@linaro.org) """
+
 import requests
 import time
 from datetime import datetime
@@ -26,12 +29,16 @@ projects = {
         ]
     },
     "TF-M": {
-        "Patch": [],
+        "Patch": [
+            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-static/"
+        ],
         "Daily": [],
         "Weekly": [],
         "MISRA": [],
         "Static Analysis": [],
-        "Code Coverage": []
+        "Code Coverage": [
+            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-code-coverage/"
+        ]
     },
     "Hafnium": {
         "Patch": [
@@ -56,7 +63,7 @@ projects = {
     "Mbed TLS": {
         "Patch": [],
         "Daily": [
-            "https://ci.trustedfirmware.org/job/mbedtls-daily/"
+            "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
         "Weekly": [
             "https://ci.trustedfirmware.org/job/mbedtls-weekly/"
@@ -102,7 +109,7 @@ for project, categories in projects.items():
     results[project] = {}
     for category, urls in categories.items():
         if not urls:
-            results[project][category] = {"status": "No jobs configured", "tooltip": "", "link": None}
+            results[project][category] = {"status": "-", "tooltip": "", "link": None}
             continue
         total_rate = 0
         job_count = 0
@@ -156,8 +163,8 @@ for project, data in results.items():
     html += f"<tr class=\"bg-white\"><td class=\"px-4 py-2 border border-gray-300 text-center align-middle\"><b>{project}</b></td>"
     for col in ["Patch", "Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
         cell = data.get(col, {"status": "", "tooltip": "", "link": None})
-        html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
         if "value" in cell:
+            html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-top\">"
             html += "<div class=\"flex justify-center items-center\">"
             if cell["link"]:
                 html += f'<IconButton value="{cell["value"]}" url="{cell["link"]}" />'
@@ -165,12 +172,14 @@ for project, data in results.items():
                 html += f'<IconButton value="{cell["value"]}" />'
             html += "</div>"
         else:
+            html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
             html += f'{cell["status"]}'
         html += f'{cell["tooltip"]}</td>'
     html += "</tr>\n"
 
-html += """</tbody>
+html += f"""</tbody>
 </table>
+<p style="font-size: 0.9em; color: white">Data generated on: {date_str}</p>
 """
 
 with open(output_filename, "w", encoding="utf-8") as f:
