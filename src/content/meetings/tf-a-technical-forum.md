@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-RMM live firmware activation design discussion** - Presented by Andre Przywara / Soby Mathew / Manish Badarkhe
+  - [PDF Presentation](/docs/TF-RMM-live-activation-design-discussion.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/oZec1fxIUrEnaK8GUSF-KnOsSRIIWer8aDtg-RKZfdZDSbJjeII-CdPry_cIZvtK.zX06SF1pioScENao) (Access Password: 6xqqg5$T)
+  - Date - 12 June 2025
+
 - **EL0 application support in TF-RMM** - Presented by Mate Toth-Pal & Soby Mathew
   - [PDF Presentation](/docs/tf-rmm-el0_app_TF-A_tech_forum.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/YKbacPkaW46H4LnSiNXe3ujxZOle6IbDZM19-1MWgch-X80irTF4kzOTKHDHTwHu.3T4a1Wt8mBCh4KVW) (Access Password: b!ZKL9nt)
