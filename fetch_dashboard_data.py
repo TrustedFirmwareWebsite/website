@@ -32,10 +32,16 @@ projects = {
         "Patch": [
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-static/"
         ],
-        "Daily": [],
+        "Daily": [
+            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/",
+            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly-performance/",
+            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-extra-build/"
+        ],
         "Weekly": [],
         "MISRA": [],
-        "Static Analysis": [],
+        "Static Analysis": [
+            "https://ci.trustedfirmware.org/job/tf-m-static-checks/"
+        ],
         "Code Coverage": [
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-code-coverage/"
         ]
@@ -65,13 +71,11 @@ projects = {
         "Daily": [
             "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
-        "Weekly": [
-            "https://ci.trustedfirmware.org/job/mbedtls-weekly/"
-        ],
+        "Weekly": [],
         "MISRA": [],
         "Static Analysis": [],
         "Code Coverage": [
-            "https://ci.trustedfirmware.org/job/mbedtls-coverage/"
+            "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ]
     }
 }
