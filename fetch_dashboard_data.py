@@ -1,5 +1,7 @@
-""" Fetch the data from CI to generate the dashboard. """
-""" Author: Ben Copeland (ben.copeland@linaro.org) """
+"""
+Fetch the data from CI to generate the dashboard.
+Author: Ben Copeland (ben.copeland@linaro.org)
+"""
 
 import requests
 import time
@@ -13,7 +15,6 @@ projects = {
         ],
         "Daily": [
             "https://ci.trustedfirmware.org/job/tf-a-main/",
-            "https://ci.trustedfirmware.org/job/tf-a-windows-builder/"
         ],
         "Weekly": [
             "https://ci.trustedfirmware.org/job/tf-a-weekly/"
@@ -37,8 +38,8 @@ projects = {
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly-performance/",
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-extra-build/"
         ],
-        "Weekly": [],
-        "MISRA": [],
+        "Weekly": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-release/"],
+        "MISRA": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-eclair-daily/"],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-m-static-checks/"
         ],
@@ -51,10 +52,7 @@ projects = {
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-build-test-review/",
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-spmc-test-fvp/"
         ],
-        "Daily": [
-            "https://ci.trustedfirmware.org/job/tf-a-main/",
-            "https://ci.trustedfirmware.org/job/tf-a-windows-builder/"
-        ],
+        "Daily": [],
         "Weekly": [
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-acs-test/"
         ],
@@ -79,6 +77,7 @@ projects = {
         ]
     }
 }
+
 
 def get_last_10_build_info(job_url):
     if not job_url.endswith("/"):
@@ -108,12 +107,14 @@ def get_last_10_build_info(job_url):
     except Exception:
         return None
 
+
 results = {}
 for project, categories in projects.items():
     results[project] = {}
     for category, urls in categories.items():
         if not urls:
-            results[project][category] = {"status": "N/A", "tooltip": "", "link": None}
+            results[project][category] = {
+                "status": "N/A", "tooltip": "", "link": None}
             continue
         total_rate = 0
         job_count = 0
@@ -135,7 +136,8 @@ for project, categories in projects.items():
             time.sleep(0.5)
         avg_rate = total_rate / job_count if job_count else 0
         tooltip_text = f"<p class=\"mt-0 text-xs text-center\">Latest build: <b>{overall_latest_build if overall_latest_build is not None else 'N/A'}</b><br/>Average pass rate: <b>{avg_rate*100:.0f}%</b></p>"
-        results[project][category] = {"value": avg_rate*100, "tooltip": tooltip_text, "link": overall_link}
+        results[project][category] = {
+            "value": avg_rate*100, "tooltip": tooltip_text, "link": overall_link}
 
 generated_date = datetime.now()
 date_str = generated_date.strftime("%Y-%m-%d %H:%M:%S")
