@@ -113,7 +113,7 @@ for project, categories in projects.items():
     results[project] = {}
     for category, urls in categories.items():
         if not urls:
-            results[project][category] = {"status": "-", "tooltip": "", "link": None}
+            results[project][category] = {"status": "N/A", "tooltip": "", "link": None}
             continue
         total_rate = 0
         job_count = 0
@@ -134,7 +134,7 @@ for project, categories in projects.items():
                     overall_link = url + "lastCompletedBuild/"
             time.sleep(0.5)
         avg_rate = total_rate / job_count if job_count else 0
-        tooltip_text = f"<p>Latest build: <b>{overall_latest_build if overall_latest_build is not None else 'N/A'}</b><br>Average pass rate: <b>{avg_rate*100:.0f}%</b></p>"
+        tooltip_text = f"<p class=\"mt-0 text-xs text-center\">Latest build: <b>{overall_latest_build if overall_latest_build is not None else 'N/A'}</b><br/>Average pass rate: <b>{avg_rate*100:.0f}%</b></p>"
         results[project][category] = {"value": avg_rate*100, "tooltip": tooltip_text, "link": overall_link}
 
 generated_date = datetime.now()
@@ -169,7 +169,8 @@ for project, data in results.items():
         cell = data.get(col, {"status": "", "tooltip": "", "link": None})
         if "value" in cell:
             html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-top\">"
-            html += "<div class=\"flex justify-center items-center\">"
+            html += "<div class=\"flex flex-col items-center gap-0.5 leading-tight\">"
+            html += "<div class=\"flex justify-center items-start leading-none -mb-0.5\">"
             if cell["link"]:
                 html += f'<IconButton value="{cell["value"]}" url="{cell["link"]}" />'
             else:
@@ -178,7 +179,10 @@ for project, data in results.items():
         else:
             html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-middle\">"
             html += f'{cell["status"]}'
-        html += f'{cell["tooltip"]}</td>'
+        html += f'{cell["tooltip"]}'
+        if "value" in cell:
+            html += "</div>"
+        html += '</td>'
     html += "</tr>\n"
 
 html += f"""</tbody>
