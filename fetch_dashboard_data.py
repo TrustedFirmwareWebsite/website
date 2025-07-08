@@ -65,7 +65,9 @@ projects = {
         ]
     },
     "Mbed TLS": {
-        "Patch": [],
+        "Patch": [
+            "https://mbedtls.trustedfirmware.org/job/mbed-tls-pr-head/"
+        ],
         "Daily": [
             "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
