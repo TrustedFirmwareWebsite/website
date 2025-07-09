@@ -302,9 +302,9 @@ def main():
                 # CONSISTENT tooltip format for ALL jobs - no exceptions
                 tooltip_text = (
                     f"<p class=\"mt-0 text-xs text-center\">"
-                    f"Latest build: <b>{overall_latest_build if overall_latest_build not in ['No builds', 'No branches'] else 'N/A'}</b> • "
-                    f"Last run: <b>{last_build_time}</b> • "
-                    f"Average pass rate: <b>{avg_rate*100:.0f}%</b> • "
+                    f"Latest build: <b>{overall_latest_build if overall_latest_build not in ['No builds', 'No branches'] else 'N/A'}</b><br/>"
+                    f"Last run: <b>{last_build_time}</b><br/>"
+                    f"Average pass rate: <b>{avg_rate*100:.0f}%</b><br/>"
                     f"Active sources: <b>{successful_jobs}/{job_count}</b>"
                     f"</p>"
                 )
