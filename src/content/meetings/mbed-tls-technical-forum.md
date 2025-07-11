@@ -16,6 +16,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+- **Date:** Jul 14, 2025
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed_TLS_TechForum_2025-07-14.pdf)
+   - Meeting skipped due to holidays
+
 - **Date:** Jun 30, 2025
 
    - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed_TLS_TechForum_2025-06-30.pdf)
