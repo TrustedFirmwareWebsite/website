@@ -13,10 +13,6 @@ logger = logging.getLogger(__name__)
 
 projects = {
     "TF-A": {
-        "Patch": [
-            "https://ci.trustedfirmware.org/view/TF-A/job/tf-a-gerrit-tforg-l1/",
-            "https://ci.trustedfirmware.org/view/TF-A/job/tf-a-gerrit-tforg-l2/"
-        ],
         "Daily": [
             "https://ci.trustedfirmware.org/job/tf-a-main/",
         ],
@@ -34,9 +30,6 @@ projects = {
         ]
     },
     "TF-M": {
-        "Patch": [
-            "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-static/"
-        ],
         "Daily": [
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly/",
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-nightly-performance/",
@@ -52,10 +45,6 @@ projects = {
         ]
     },
     "Hafnium": {
-        "Patch": [
-            "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-build-test-review/",
-            "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-spmc-test-fvp/"
-        ],
         "Daily": [],
         "Weekly": [
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-acs-test/"
@@ -69,9 +58,6 @@ projects = {
         ]
     },
     "Mbed TLS": {
-        "Patch": [
-            "https://mbedtls.trustedfirmware.org/job/mbed-tls-pr-head/"
-        ],
         "Daily": [
             "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
@@ -299,13 +285,12 @@ def main():
                 avg_rate = total_rate / successful_jobs
                 last_build_time = format_timestamp(overall_latest_ts)
 
-                # CONSISTENT tooltip format for ALL jobs - no exceptions
+                # Modified tooltip format without "Active sources"
                 tooltip_text = (
                     f"<p class=\"mt-0 text-xs text-center\">"
-                    f"Latest build: <b>{overall_latest_build if overall_latest_build not in ['No builds', 'No branches'] else 'N/A'}</b><br/>"
-                    f"Last run: <b>{last_build_time}</b><br/>"
-                    f"Average pass rate: <b>{avg_rate*100:.0f}%</b><br/>"
-                    f"Active sources: <b>{successful_jobs}/{job_count}</b>"
+                    f"Latest build: <b>{overall_latest_build if overall_latest_build not in ['No builds', 'No branches'] else 'N/A'}</b> • "
+                    f"Last run: <b>{last_build_time}</b> • "
+                    f"Average pass rate: <b>{avg_rate*100:.0f}%</b>"
                     f"</p>"
                 )
 
@@ -329,7 +314,6 @@ import IconButton from "@/components/icon_button/IconButton.astro";
 <thead class="bg-white text-black">
 <tr>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Project</th>
-<th class="px-4 py-2 border border-white bg-gray-300 text-center">Patch</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Daily</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Weekly</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">MISRA</th>
@@ -343,7 +327,7 @@ import IconButton from "@/components/icon_button/IconButton.astro";
     for project, data in results.items():
         html += f"<tr class=\"bg-white\"><td class=\"px-4 py-2 border border-gray-300 text-center align-middle\"><b>{project}</b></td>"
 
-        for col in ["Patch", "Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
+        for col in ["Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
             cell = data.get(col, {"status": "", "tooltip": "", "link": None})
 
             html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-top\">"
