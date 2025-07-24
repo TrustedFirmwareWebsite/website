@@ -123,5 +123,7 @@ pages:
   #         url: https://developer.trustedfirmware.org/w/resources/board-minutes/
   - title: Security Center
     url: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/index.html
+  - title: Test System Dashboard
+    url: /#testsystemdashboard
   - title: Contact
     url: /contact/

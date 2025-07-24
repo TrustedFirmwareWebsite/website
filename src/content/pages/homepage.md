@@ -45,7 +45,8 @@ flow:
         title_content:
           style: font-bold text-4xl text-white
           size: h3
-          text: Trusted Firmware OpenCI Dashboard
+          text: Test System Dashboard
+          id: testsystemdashboard
       - component: dashboard
 
   - row: container_row
