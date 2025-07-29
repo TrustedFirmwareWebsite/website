@@ -23,18 +23,31 @@ flow:
 
             The code on this website is the preferred implementation of Arm specifications, allowing quick and easy
             porting to modern chips and platforms. This forms the foundations of a **Trusted Execution Environment (TEE)** on application processors, or the **Secure Processing Environment (SPE)** of microcontrollers.
+
   - row: container_row
     style: bg-light
     sections:
       - component: title
         style: text-center
         title_content:
-          style: font-bold  text-4xl
+          style: font-bold text-4xl
           size: h3
           text: Trusted Firmware Projects
       - component: tf_projects
         container_class: basis-1/2 sm:basis-1/3 lg:basis-1/5 xl:basis-1/6
         section_class: px-10 mb-8
+
+  - row: container_row
+    style: bg-neutral-700
+    sections:
+      - component: title
+        style: text-center font-bold
+        title_content:
+          style: font-bold text-4xl text-white
+          size: h3
+          text: Test System Dashboard
+          id: testsystemdashboard
+      - component: dashboard
 
   - row: container_row
     style: #
@@ -47,6 +60,10 @@ flow:
           text: Our Members
       - component: members
       - component: project_partners
+
+  - row: container_row
+    style: #
+    sections:
       - component: buttons
         style: text-center
         buttons_content:

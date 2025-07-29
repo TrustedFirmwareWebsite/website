@@ -1,0 +1,53 @@
+---
+const { value, url } = Astro.props;
+
+// Determine icon type and color based on value
+let icon, color;
+if (value >= 50) {
+  icon = "check";
+  color = "bg-green-500 hover:bg-green-600";
+} else if (value > 0 && value < 50) {
+  icon = "cross";
+  color = "bg-orange-500 hover:bg-orange-600";
+} else {
+  icon = "cross";
+  color = "bg-red-500 hover:bg-red-600";
+}
+---
+
+{url ? (
+  <div class="p-2 sm:p-2.5 md:p-3 inline-flex">
+    <button
+      onclick={`window.open('${url}', '_blank')`}
+      class={`w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-full flex items-center justify-center ${color} text-white transition-all`}
+      aria-label={icon === "check" ? "Success" : "Error"}
+    >
+      {icon === "check" ? (
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      ) : (
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      )}
+    </button>
+  </div>
+) : (
+  <div class="p-2 sm:p-2.5 md:p-3 inline-flex">
+    <div
+      class={`w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 rounded-full flex items-center justify-center ${color} text-white transition-all`}
+      aria-hidden="true"
+    >
+      {icon === "check" ? (
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      ) : (
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      )}
+    </div>
+  </div>
+)}
