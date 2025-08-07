@@ -13,6 +13,16 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Overview of the TF-A fuzzer and its basic implementation in practice** - Presented by Mark Dykes
+  - [PDF Presentation](/docs/TF_A_SMC-Fuzzing_100725.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/cho8dhkkme8KtTWFwzgYerfES8TbR9WNMnFxI5WJQRoPm3Z5m1ZiVZmBJtvceCfp.XhBN25HGOFRLOXux?startTime=1752159924000) (Access Password: 41.Vv*zi)
+  - Date - 10 July 2025
+
+- **Building Modern Industrial SoC Support in ARM Trusted Firmware: Pragmatic Approaches to Power and Clock Management** - Presented by Dhruva Gole / Kamlesh Gurudasani
+  - [PDF Presentation](/docs/BuildingModernIndustrialSoCSupport_in_TFA.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/obRb8WTMqWWegyfJxTkFxRAurIWhlGdYI7z_CWkhpAwnjd9VGWBWTGPeVc8oSc-W.Q6Oh68NU_ZVaox1M) (Access Password: 0+Hl8xn0)
+  - Date - 26 June 2025
+
 - **TF-RMM live firmware activation design discussion** - Presented by Andre Przywara / Soby Mathew / Manish Badarkhe
   - [PDF Presentation](/docs/TF-RMM-live-activation-design-discussion.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/oZec1fxIUrEnaK8GUSF-KnOsSRIIWer8aDtg-RKZfdZDSbJjeII-CdPry_cIZvtK.zX06SF1pioScENao) (Access Password: 6xqqg5$T)
