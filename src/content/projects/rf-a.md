@@ -17,13 +17,13 @@ calls_to_action:
 links:
   - title: docs
     text: __TODO__ Trusted Firmware-A Documentation
-    url: https://trustedfirmware-a.readthedocs.org/
+    url: https://rustedfirmware-a.readthedocs.org/
   - title: code
     text: __TODO__ View source code
-    url: https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/
+    url: https://git.trustedfirmware.org/RF-A/rusted-firmware-a.git/
   - title: review
     text: __TODO__"Gerrit review"
-    url: https://review.trustedfirmware.org/q/project:TF-A/trusted-firmware-a
+    url: https://review.trustedfirmware.org/a/project:RF-A/rusted-firmware-a
   - title: subscribe
     button_style: bg-green-600 decoration-green-600
     text: Subscribe to the RF-A mailing list
@@ -36,7 +36,7 @@ useful_links:
   - text: __TODO__TF-A-tests project documentation
     url: https://trustedfirmware-a-tests.readthedocs.io/en/latest/index.html
 top_text: |-
-  **The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
+  ** _TODO_ The Trusted Firmware-A project provides a reference implementation of secure world software for Armv7-A and Armv8-A class processors.**
 
   Contribution guidelines can be found in the documentation.
 
