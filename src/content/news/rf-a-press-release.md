@@ -1,6 +1,6 @@
 ---
 author: trusted-firmware
-title: Rusted Firmware-A, A Rust-Based Reimagination of Trusted Firmware-A for the Next Generation of Secure Computing
+title: Rusted Firmware-A - A Rust-Based Reimagination of Trusted Firmware-A for the Next Generation of Secure Computing
 date: 2025-08-19 08:00:00
 image: "../../assets/images/trusted-firmware.jpg"
 ---
@@ -29,4 +29,10 @@ As part of the RF-A effort, we have also identified a set of reusable Rust modul
 
 With the introduction of Rusted Firmware-A, Trusted Firmware organization, Arm and Google invite the global developer community to participate, contribute, and help define the next chapter of secure, efficient firmware development for Arm-based platforms.
 
+## About TrustedFirmware.org
 
+TrustedFirmware.org is an open source project implementing foundational software components for creating secure devices. Trusted Firmware provides a reference implementation of secure software for processors implementing both the A-Profile and M-Profile Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. Trusted Firmware code is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+
+[TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
+
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.
