@@ -1,6 +1,6 @@
 ---
 author: bharath-subramanian
-title: Introducing Rusted Firmware-A (RF-A), A Rust-Based reimagination of Trusted Firmware-A
+title: Introducing Rusted Firmware-A (RF-A) - A Rust-Based reimagination of Trusted Firmware-A
 date: 2025-08-19 08:00:00
 
 image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
@@ -99,3 +99,11 @@ We’ll publish a roadmap shortly. In the meantime, track our [GitHub issues](ht
 
 6. __Are there plans to transition other Trusted Firmware projects to Rust?__<br>
 There are currently no plans to transition other Trusted Firmware projects to Rust. The existing projects will continue to be actively maintained in their current implementation languages.
+
+## About TrustedFirmware.org
+
+TrustedFirmware.org is an open source project implementing foundational software components for creating secure devices. Trusted Firmware provides a reference implementation of secure software for processors implementing both the A-Profile and M-Profile Arm architecture. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications. Trusted Firmware code is the preferred implementation of Arm specifications, allowing quick and easy porting to modern chips and platforms. This forms the foundations of a Trusted Execution Environment (TEE) on application processors, or the Secure Processing Environment (SPE) of microcontrollers.
+
+[TrustedFirmware.org](https://www.trustedfirmware.org) is member driven and member funded.
+
+To learn more about membership and its benefits, please see the [following page](/about) or send a request for more information to enquiries@trustedfirmware.org.
