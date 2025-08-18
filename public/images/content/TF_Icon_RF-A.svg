@@ -1,31 +1,137 @@
-<?xml version="1.0"?>
-<svg width="79.64" height="79.49" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
- <defs>
-  <style>.cls-1{fill:#11a9d4;opacity:0.8;}.cls-2,.cls-3{fill:#fff;}.cls-3{font-size:12.4px;font-family:Lato-Bold, Lato;font-weight:700;letter-spacing:0.03em;}.cls-4{letter-spacing:0.02em;}.cls-5{letter-spacing:0.03em;}.cls-6{letter-spacing:0em;}</style>
- </defs>
- <title>TF_Icon_TF-A</title>
- <g class="layer">
-  <title>Layer 1</title>
-  <g data-name="Layer 1" id="Layer_1">
-   <rect class="cls-1" height="55.39" id="svg_1" width="55.39" x="12.13" y="12.05"/>
-   <path class="cls-2" d="m71.64,73.4l-63.48,0a1.93,1.93 0 0 1 -1.92,-1.92l0,-63.48a1.93,1.93 0 0 1 1.92,-1.91l63.48,0a1.92,1.92 0 0 1 1.92,1.91l0,63.48a1.92,1.92 0 0 1 -1.92,1.92zm-63.48,-66.03a0.64,0.64 0 0 0 -0.64,0.63l0,63.48a0.64,0.64 0 0 0 0.64,0.64l63.48,0a0.64,0.64 0 0 0 0.64,-0.64l0,-63.48a0.64,0.64 0 0 0 -0.64,-0.64l-63.48,0.01z" id="svg_2"/>
-   <path class="cls-2" d="m33.12,6.83a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.64,0.64l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_3"/>
-   <path class="cls-2" d="m46.38,6.83a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.62,0.64l0,5.55a0.64,0.64 0 0 1 -0.62,0.64z" id="svg_4"/>
-   <path class="cls-2" d="m59.64,6.83a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 1.28,0l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_5"/>
-   <path class="cls-2" d="m19.85,6.83a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.64,0.64l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_6"/>
-   <path class="cls-2" d="m59.64,79.49a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 1.28,0l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_7"/>
-   <path class="cls-2" d="m19.85,79.49a0.64,0.64 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.64,0.64l0,5.55a0.63,0.63 0 0 1 -0.64,0.64z" id="svg_8"/>
-   <path class="cls-2" d="m6.19,47l-5.55,0a0.64,0.64 0 0 1 -0.64,-0.62a0.64,0.64 0 0 1 0.64,-0.64l5.55,0a0.64,0.64 0 0 1 0.64,0.64a0.64,0.64 0 0 1 -0.64,0.62z" id="svg_9"/>
-   <path class="cls-2" d="m6.19,33.76l-5.55,0a0.64,0.64 0 0 1 -0.64,-0.64a0.64,0.64 0 0 1 0.64,-0.64l5.55,0a0.64,0.64 0 0 1 0.64,0.64a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_10"/>
-   <path class="cls-2" d="m6.19,20.49l-5.55,0a0.64,0.64 0 0 1 -0.64,-0.64a0.64,0.64 0 0 1 0.64,-0.64l5.55,0a0.64,0.64 0 0 1 0.64,0.64a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_11"/>
-   <path class="cls-2" d="m6.19,60.28l-5.55,0a0.64,0.64 0 0 1 0,-1.28l5.55,0a0.64,0.64 0 0 1 0,1.28z" id="svg_12"/>
-   <path class="cls-2" d="m79,47l-5.54,0a0.64,0.64 0 1 1 0,-1.28l5.54,0a0.64,0.64 0 0 1 0,1.28z" id="svg_13"/>
-   <path class="cls-2" d="m79,33.76l-5.54,0a0.64,0.64 0 1 1 0,-1.28l5.54,0a0.64,0.64 0 0 1 0,1.28z" id="svg_14"/>
-   <path class="cls-2" d="m79,20.49l-5.54,0a0.64,0.64 0 0 1 0,-1.28l5.54,0a0.64,0.64 0 0 1 0,1.28z" id="svg_15"/>
-   <path class="cls-2" d="m79,60.28l-5.54,0a0.64,0.64 0 0 1 0,-1.28l5.54,0a0.64,0.64 0 0 1 0,1.28z" id="svg_16"/>
-   <path class="cls-2" d="m46.38,79.49a0.63,0.63 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.64,0.64l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_17"/>
-   <path class="cls-2" d="m33.12,79.49a0.63,0.63 0 0 1 -0.64,-0.64l0,-5.55a0.64,0.64 0 0 1 0.64,-0.64a0.64,0.64 0 0 1 0.64,0.64l0,5.55a0.64,0.64 0 0 1 -0.64,0.64z" id="svg_18"/>
-   <text class="cls-3" font-size="12.4" id="svg_19" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="24" y="43.88">RF-A</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 79.64 79.49"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="TF_Icon_RF-A.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="14.681092"
+     inkscape:cx="39.813114"
+     inkscape:cy="39.744999"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1432"
+     inkscape:window-y="195"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:#11a9d4;opacity:0.8;}.cls-2,.cls-3{fill:#fff;}.cls-3{font-size:12.4px;font-family:Lato-Bold, Lato;font-weight:700;letter-spacing:0.03em;}.cls-4{letter-spacing:0.02em;}.cls-5{letter-spacing:0.03em;}.cls-6{letter-spacing:0em;}</style>
+  </defs>
+  <title
+     id="title1">TF_Icon_TF-A</title>
+  <g
+     id="Layer_1"
+     data-name="Layer 1">
+    <rect
+       class="cls-1"
+       x="12.13"
+       y="12.05"
+       width="55.39"
+       height="55.39"
+       id="rect1" />
+    <path
+       class="cls-2"
+       d="M71.64,73.4H8.16a1.93,1.93,0,0,1-1.92-1.92V8A1.93,1.93,0,0,1,8.16,6.09H71.64A1.92,1.92,0,0,1,73.56,8V71.48A1.92,1.92,0,0,1,71.64,73.4ZM8.16,7.37A.64.64,0,0,0,7.52,8V71.48a.64.64,0,0,0,.64.64H71.64a.64.64,0,0,0,.64-.64V8a.64.64,0,0,0-.64-.64Z"
+       id="path1" />
+    <path
+       class="cls-2"
+       d="M33.12,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,33.12,0a.64.64,0,0,1,.64.64V6.19A.64.64,0,0,1,33.12,6.83Z"
+       id="path2" />
+    <path
+       class="cls-2"
+       d="M46.38,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,46.38,0,.64.64,0,0,1,47,.64V6.19A.64.64,0,0,1,46.38,6.83Z"
+       id="path3" />
+    <path
+       class="cls-2"
+       d="M59.64,6.83A.64.64,0,0,1,59,6.19V.64a.64.64,0,0,1,1.28,0V6.19A.64.64,0,0,1,59.64,6.83Z"
+       id="path4" />
+    <path
+       class="cls-2"
+       d="M19.85,6.83a.64.64,0,0,1-.64-.64V.64A.64.64,0,0,1,19.85,0a.64.64,0,0,1,.64.64V6.19A.64.64,0,0,1,19.85,6.83Z"
+       id="path5" />
+    <path
+       class="cls-2"
+       d="M59.64,79.49a.64.64,0,0,1-.64-.64V73.3a.64.64,0,0,1,1.28,0v5.55A.64.64,0,0,1,59.64,79.49Z"
+       id="path6" />
+    <path
+       class="cls-2"
+       d="M19.85,79.49a.64.64,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.63.63,0,0,1,19.85,79.49Z"
+       id="path7" />
+    <path
+       class="cls-2"
+       d="M6.19,47H.64A.64.64,0,0,1,0,46.38a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,47Z"
+       id="path8" />
+    <path
+       class="cls-2"
+       d="M6.19,33.76H.64A.64.64,0,0,1,0,33.12a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,33.76Z"
+       id="path9" />
+    <path
+       class="cls-2"
+       d="M6.19,20.49H.64A.64.64,0,0,1,0,19.85a.64.64,0,0,1,.64-.64H6.19a.64.64,0,0,1,.64.64A.64.64,0,0,1,6.19,20.49Z"
+       id="path10" />
+    <path
+       class="cls-2"
+       d="M6.19,60.28H.64A.64.64,0,0,1,.64,59H6.19a.64.64,0,0,1,0,1.28Z"
+       id="path11" />
+    <path
+       class="cls-2"
+       d="M79,47H73.46a.64.64,0,1,1,0-1.28H79A.64.64,0,0,1,79,47Z"
+       id="path12" />
+    <path
+       class="cls-2"
+       d="M79,33.76H73.46a.64.64,0,1,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path13" />
+    <path
+       class="cls-2"
+       d="M79,20.49H73.46a.64.64,0,0,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path14" />
+    <path
+       class="cls-2"
+       d="M79,60.28H73.46a.64.64,0,0,1,0-1.28H79a.64.64,0,0,1,0,1.28Z"
+       id="path15" />
+    <path
+       class="cls-2"
+       d="M46.38,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,46.38,79.49Z"
+       id="path16" />
+    <path
+       class="cls-2"
+       d="M33.12,79.49a.63.63,0,0,1-.64-.64V73.3a.64.64,0,0,1,.64-.64.64.64,0,0,1,.64.64v5.55A.64.64,0,0,1,33.12,79.49Z"
+       id="path17" />
+    <text
+       class="cls-3"
+       id="text19"
+       x="15.039608"
+       y="43.880001"><tspan
+         class="cls-4"
+         x="22.849609"
+         y="43.880001"
+         id="tspan17">RF-A</tspan></text>
   </g>
- </g>
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>TF_Icon_TF-A</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
