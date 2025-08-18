@@ -6,7 +6,6 @@ description: >
 layout: "../../layouts/ProjectLayout.astro"
 icons:
   - RF-A
-  - RF-A Testing
 calls_to_action:
   - text: __TODO__ Contribute/Submit Code
     url: https://trustedfirmware-a.readthedocs.io/en/latest/process/contributing.html
