@@ -50,8 +50,8 @@ Rusted Firmware-A is open source. You can explore the project, feedback, contrib
 * GitHub Issues Tracker: https://github.com/RustedFirmware-A/rusted-firmware-a/issues 
 * Mailing List: https://lists.trustedfirmware.org/mailman3/lists/rusted-firmware-a.lists.trustedfirmware.org/ 
 * Discord Channel: #rusted-firmware-a
-* Rusted Firmware - A OpenCI: https://review.trustedfirmware.org/plugins/gitiles/next/ci/tf-a-job-configs/+/refs/heads/master & https://review.trustedfirmware.org/plugins/gitiles/ci/tf-a-ci-scripts/+/refs/heads/tfa-next 
-
+* Rusted Firmware - A OpenCI: https://review.trustedfirmware.org/plugins/gitiles/next/ci/tf-a-job-configs/+/refs/heads/master & https://review.trustedfirmware.org/plugins/gitiles/ci/tf-a-ci-scripts/+/refs/heads/tfa-next
+* Latest Release (RF-A v0.1.0): https://git.trustedfirmware.org/plugins/gitiles/RF-A/rusted-firmware-a/+/refs/tags/v0.1.0 
 
 Currently, contributions from __Arm__ and __Google__ are given priority. We welcome external contributions on a best-effort basis during the early phases.
 
