@@ -1,7 +1,7 @@
 ---
 const {
   style,
-  title_content: { text, size, style: text_style },
+  title_content: { text, size, style: text_style, id },
 } = Astro.props;
 import * as marked from "marked";
 marked.setOptions({
@@ -12,5 +12,5 @@ const Element = size;
 ---
 
 <div class:list={["x", style]}>
-  <Element set:html={markdown} class:list={["m-0", text_style]} />
+  <Element set:html={markdown} class:list={["m-0", text_style]} id={id} />
 </div>
