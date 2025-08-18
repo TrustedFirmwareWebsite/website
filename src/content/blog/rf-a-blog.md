@@ -1,7 +1,7 @@
 ---
 author: bharath-subramanian
 title: Introducing Rusted Firmware-A (RF-A) - A Rust-Based reimagination of Trusted Firmware-A
-date: 2025-08-19 08:00:00
+date: 2025-08-19 09:00:00
 
 image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
 ---
