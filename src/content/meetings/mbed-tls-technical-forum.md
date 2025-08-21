@@ -16,6 +16,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+- **Date:** Aug 11, 2025
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/Mbed_TLS_TechForum_2025-08-11.pdf)
+   - [Video Recording](https://linaro-org.zoom.us/rec/share/M7KeVp096roJQlrXHf1_AP1nkaWaMQr3T4-_TqhZ_4C2godYOzQivk4ei8IuIlid.e7eD1gQZg341Or9C?startTime=1754903108000)  Passcode: &#atA5vV
+
 - **Date:** Jul 28, 2025
 
    - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed_TLS_TechForum_2025-06-30.pdf)
