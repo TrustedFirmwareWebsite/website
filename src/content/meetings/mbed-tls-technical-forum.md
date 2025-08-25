@@ -23,7 +23,7 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Date:** Jul 28, 2025
 
-   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed_TLS_TechForum_2025-06-30.pdf)
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed%20TLS%20TechForum%202025-07-28.pdf)
    - No Recording
 
 - **Date:** Jul 14, 2025
