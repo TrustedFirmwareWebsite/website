@@ -1,6 +1,6 @@
 ---
 author: trusted-firmware
-title: Rusted Firmware-A - A Rust-Based Reimagination of Trusted Firmware-A for the Next Generation of Secure Computing
+title: Rusted Firmware-A (RF-A) - A Rust-Based Reimagination of Trusted Firmware-A for the Next Generation of Secure Computing
 date: 2025-08-19 08:00:00
 image: "../../assets/images/trusted-firmware.jpg"
 ---
