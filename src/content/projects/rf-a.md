@@ -2,7 +2,7 @@
 title: RustedFirmware-A (RF-A)
 slug: rf-a
 description: >
-Rusted Firmware-A is a Rust-first implementation of Trusted Firmware-A for the latest Arm A-class processors. It’s open source, security by design, legacy-free, and built with the future in mind. This is just the beginning. The project welcomes your feedback as it evolves.
+  Rusted Firmware-A is a Rust-first implementation of Trusted Firmware-A for the latest Arm A-class processors. It’s open source, security by design, legacy-free, and built with the future in mind. This is just the beginning. The project welcomes your feedback as it evolves.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
   - RF-A
