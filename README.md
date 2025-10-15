@@ -1,4 +1,4 @@
-# Trusted Firwmare Website
+# Trusted Firmware Website
 
 This is the git repository for the Trusted Firmware website.
 
