@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **TF-M Power Management Service** - Frank Audun Kvamtrø [Presentation](/docs/tf_m_tech_forum_20250925_Power_Management_Service.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/RsrS6-jhvZQd2_eHnD6VdZ4fexkxHZ-4fKLPSLCYQQccon_6_5XZaz_QSmZpbQ59.l5Qu95gRza3_K1Iu?startTime=1758812620000) Passcode: GmcF5.Kg
+  - Date: Sept 25, 2025
+
 - **TF-M Logging API** - Jackson Cooper-Driver [Presentation](/docs/tf-m_forum_20250508-TF-M_Logging_API.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/61ocqyihHxOXOgLnr0paWFZc4Am19x9WRrX0MUhdy2fu7u-ybbWjkOt1oAwh_Jmu.ZuIptgXVP8StkuRy) Passcode: mf&g=3$D
   - Date: May 8, 2025
