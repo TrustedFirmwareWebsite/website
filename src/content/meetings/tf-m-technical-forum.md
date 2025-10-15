@@ -17,6 +17,10 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings:
 
+- **TF-M Single Signature Check for Multi Image** - Sadik Ozer [Presentation](/docs/tech_forum_20251009_MCUboot_Signature_Check_Proposal.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/ZvsaBfrEq7QZEgjArWh2dYOpRAe9TWieNFuKMGWPeX1CgbDJOrA61K-ReEGqf4IG.TlntewHNE1GCYDXy?startTime=1760106890000) Passcode: qw+Y7z3z
+  - Date: Oct 9, 2025
+
 - **TF-M Power Management Service** - Frank Audun Kvamtrø [Presentation](/docs/tf_m_tech_forum_20250925_Power_Management_Service.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/RsrS6-jhvZQd2_eHnD6VdZ4fexkxHZ-4fKLPSLCYQQccon_6_5XZaz_QSmZpbQ59.l5Qu95gRza3_K1Iu?startTime=1758812620000) Passcode: GmcF5.Kg
   - Date: Sept 25, 2025
