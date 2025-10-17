@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Live firmware activation of secure partitions** - Presented by Madhukar Pappireddy
+  - [PDF Presentation](/docs/Secure_Partition_Live_Activation.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/YcROS0UEYAWzPQu2xLl1KQoGTIsHrfSITwp8oVBxeP77VRTg9EL7IVoiElXMTwTC.HRb_QTR86r5so_9P?startTime=1760626601000) (Access Password: Xcd!Ht9U)
+  - Date - 16 October 2025
+
 - **Introduction to Rusted Firmware-A** - Presented by Sandrine Afsa
   - [PDF Presentation](/docs/Rusted_Firmware-A_overview.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/IeT18nKh5XhMqJD_jP2e7wWmHuHA-Pk6JAmTT2MIC4DmLJOBVrk65ZsoLI6E2R4y.JDYQgDTlJNs30bcK) (Access Password: T.v0Ky@&)
@@ -20,7 +25,7 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 - **Overview of the TF-A fuzzer and its basic implementation in practice** - Presented by Mark Dykes
   - [PDF Presentation](/docs/TF_A_SMC-Fuzzing_100725.pdf)
-  - [Video Recording](https://linaro-org.zoom.us/rec/share/cho8dhkkme8KtTWFwzgYerfES8TbR9WNMnFxI5WJQRoPm3Z5m1ZiVZmBJtvceCfp.XhBN25HGOFRLOXux?startTime=1752159924000) (Access Password: 41.Vv*zi)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/cho8dhkkme8KtTWFwzgYerfES8TbR9WNMnFxI5WJQRoPm3Z5m1ZiVZmBJtvceCfp.XhBN25HGOFRLOXux?startTime=1752159924000) (Access Password: 41.Vv\*zi)
   - Date - 10 July 2025
 
 - **Building Modern Industrial SoC Support in ARM Trusted Firmware: Pragmatic Approaches to Power and Clock Management** - Presented by Dhruva Gole / Kamlesh Gurudasani
