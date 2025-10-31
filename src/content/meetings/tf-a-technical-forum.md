@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-A SMC fuzzer improvements** - Presented by Slava Andrianov - [PDF Presentation](/docs/SMC_Fuzzer_Improvements.pdf)
+- **TF-RMM ID registers management** - Presented by Sona Rebecca Mathew - [PDF Presentation](/docs/TF-RMM_ID_Reg_Management.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/Jln1I60DQ0Ly8FheldYl4nt3G4yBxqluDGZBQO7WXYhsU3MM6CkMNDLPYcKbs2Tb.uHCzI8Sg4_ZrUsZN?startTime=1761839836000) (Access Password: v85?xT&N)
+  - Date - 30 October 2025
+
 - **Live firmware activation of secure partitions** - Presented by Madhukar Pappireddy
   - [PDF Presentation](/docs/Secure_Partition_Live_Activation.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/YcROS0UEYAWzPQu2xLl1KQoGTIsHrfSITwp8oVBxeP77VRTg9EL7IVoiElXMTwTC.HRb_QTR86r5so_9P?startTime=1760626601000) (Access Password: Xcd!Ht9U)
