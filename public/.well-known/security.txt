@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Contact: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/mailing_aliases.html
-Expires: 2025-12-31T23:59:00.000Z
+Contact: https://general.docs.trustedfirmware.org/en/latest/security_center/mailing_aliases.html
+Expires: 2026-12-31T23:59:00.000Z
 Canonical: https://www.trustedfirmware.org/.well-known/security.txt
-Policy: https://trusted-firmware-docs.readthedocs.io/en/latest/security_center/incident_handling_process.html
+Policy: https://general.docs.trustedfirmware.org/en/latest/security_center/incident_handling_process.html
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEY8nBD+3SbjJ4arSI1H4kDefwMFgFAmXp6dcACgkQ1H4kDefw
-MFjOXA//WpGf4Cu1HRQVCtBus8EaAmU7s4FT6QpKcfIHMzZhnRhXtBW59PTzSNMJ
-+M2WD8Uv74LyG6RwsFFWulMJ0euFrAY+hguJg8bTH1MX9FQ24DN4GVSjHy1PxUPy
-xVxrDOi+2/6l9sjAE78qB4arBmMgs16Aomrc6fN057BANmrA93PVICHkvBpsFytQ
-bjxJXaqLUbOaA3Tw8YAh3TRb5H7v2nbS8c++x25TVwbtElnJ8iGgGGxq4bS6ZMkA
-MvJcaB7x3kcL96aFp21LksVcPVKryx2Irk2pRjuYRKZvCssl9rhy4fZXDnoOmi7j
-ior/RnnyUSUdwsGrwrVnDmY9SnlTY2AaBW/sy9i84JLcO6YozMSyUmzYWwnG2IDx
-8gAnzAc1aO3xk6DUL4M8UvK3MxxYYfhbTbkG5bk4SdU0KTQ1SWKpVdWt8AZk8bed
-BTtZrwO+K6w6Cd+/690jPDhlqny6qnJxxzYtpXqMmHu8x0N9g4x3GjVdvP2INiHe
-tcR8uMSUelMUMIedpLYWh9QQrbH5pOHUxTFPLs37aSueaZukTi359D/zkpTWMpq9
-VFVQGMp5lmR1gVpQmejkdbMjpBs5LtzudkVZU+PB2oaQ5zZjnDWgP/KjPjp98xty
-jpjKuwNjCsQKT1UxMvQ4swnNigd9rHrQ+vbUuPZ58rHaZiJBNkw=
-=J6X+
+iQIzBAEBCAAdFiEEY8nBD+3SbjJ4arSI1H4kDefwMFgFAmkIiWoACgkQ1H4kDefw
+MFjpow//UK50uNdDthkU2XJMfWcPtuucecHE9oOAxCx2abrzAzm6eiXDdWPGrN+X
+3+A14L4/YkDGjBRg+mS9QTZ26ym6CwipEVn6S2MuR3W8EaU/CcdDBzfYHJaV5IlS
+Qme+jqktWpoRGYPRFwhBaYQa8ZJmdrdjG1PBoGJI9Jvnw8rY2GfZMaAlg4AgbHAQ
+k14iFFZtyrlUPxP86XKtkKp4b9qXhZ1dD0Dk2EYEGjh6hJslzdYU8Eaz+BYTeF/C
+Lo5O3FOwP7VLQVQqx75rKS5zcbQlH6quRfTFX8z8O8jMe4YB3ep3VurPdRkEQdIR
+SI2tqw3sPe05/4wIq3VsAF01PZLoPYqay20NcpGi/7EEr9Fxjs8+vNCbnysTEvBO
+t+mUkq4ngIvMsn5+3jVaPSnkjfDIEgzWGn2DM5emL1iaXD7A3f/rVaFpS7nGTnQD
+TGTMSqPCvFkgJb1ZRsM+6VBLRuIAf1JbzoNe4U71YczESKRVVN0R5yWIm1wGCxDq
+zlj+SGDJkWJXAjlFrTIw3I5lOAiffNqYThjUr7MNze/DrlpQskLOaqIxo2tD87It
+ZXKJRUqpmLW8SGHgWdoS71OA5oRJndGuLorHpYi/acK91N4OuJqIArKeKpgG8QJ+
+x317581MVwnl52I3Q4WOUJcsXIrVbk5iJCxwDeHt/dBAKvcd4Hw=
+=FUdq
 -----END PGP SIGNATURE-----
