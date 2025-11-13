@@ -19,6 +19,8 @@ pages:
         url: /faq/
       - text: Code of Conduct
         url: /coc/
+      - text: Guidance on AI-assisted contributions
+        url: /aipolicy/
   - title: News & Blogs
     options:
       - text: News
