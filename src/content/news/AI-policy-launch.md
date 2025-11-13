@@ -1,6 +1,6 @@
 ---
 author: trusted-firmware
-title: How does AI fit into open source?
+title: How do AI-assisted contributions fit into open source?
 description: >
   Trusted Firmware has just released its "Guidance on AI-assisted contributions."
 date: 2025-11-14 00:01:00
