@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Flow.astro
 title: Code of Conduct
-description: Trusted Firmware Code of Conduct and Inclusive Lanugage Policy
+description: Code of Conduct and Inclusive Lanugage Policy
 slug: coc/
 hero:
-  title: TrustedFirmware.org Code of Conduct and Inclusive Language Policy
+  title: Code of Conduct and Inclusive Lanugage Policy
   style: text-white
   description: ""
   background_image: "../../assets/images/TF_Banner_image.jpg"
