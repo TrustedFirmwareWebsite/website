@@ -2,7 +2,7 @@
 layout: "../../layouts/Flow.astro"
 title: Guidance on AI-assisted contributions
 description: Guidance on AI-assisted contributions
-slug: aipoc/
+slug: aipolicy/
 jumbotron:
   title: Guidance on AI-assisted contributions
   style: text-white
