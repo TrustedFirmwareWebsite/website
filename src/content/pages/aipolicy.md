@@ -1,13 +1,13 @@
 ---
-layout: "../../layouts/Flow.astro"
-title: Guidance on AI-assisted contributions
+layout: ../../layouts/Flow.astro
+title: AI Policy
 description: Guidance on AI-assisted contributions
 slug: aipolicy/
-jumbotron:
-  title: Guidance on AI-assisted contributions
+hero:
+  title: AI Policy
   style: text-white
   description: ""
-  image: "../../assets/images/TF_Banner_image.jpg"
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
     sections:
