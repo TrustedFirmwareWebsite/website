@@ -26,4 +26,4 @@ Let's build the future of firmware, responsibly. 🚀
 
 *__About the Linaro Community Projects Division__*
 
-*The Trusted Firmware project is hosted by [Linaro](https://https://www.linaro.org/) Community Projects Division - the division of Linaro managing open source community projects with open governance. Linaro empowers rapid product deployment within the dynamic Arm ecosystem.*
+*The Trusted Firmware project is hosted by [Linaro](https://www.linaro.org/) Community Projects Division - the division of Linaro managing open source community projects with open governance. Linaro empowers rapid product deployment within the dynamic Arm ecosystem.*
