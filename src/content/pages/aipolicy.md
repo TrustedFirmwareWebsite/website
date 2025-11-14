@@ -35,7 +35,7 @@ with the project’s licensing policies–to use and modify such pre-existing ma
 them to the project. Additionally, the contributor should provide notice and attribution of such third
 party rights, along with information about the applicable license terms, with their contribution.
 
-Some tools provide features that can assist contributors with 2. For example, some tools provide a
+Some tools provide features that can assist contributors with the above. For example, some provide a
 feature that suppresses responses that are similar to third party materials in the AI tool’s output, or a
 feature that flags similarity between copyrighted training data or other materials owned by third parties
 and the AI tool’s output and provides information about the licensing terms that apply to such third
