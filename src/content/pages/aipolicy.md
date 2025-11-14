@@ -51,6 +51,7 @@ contributing.
 
 As AI is a rapidly evolving technology, policies will need to be re-evaluated and updated in response
 to:
+
 - Changes in the law.
 - Changes in AI technology landscape and related tools.
 - Changes in tolerance for risk and ambiguity among adopters of OSS.
