@@ -14,6 +14,10 @@ flow:
       - component: collapse
         style: #
         panels:
+          - title: Can I use AI assistants when contributing code?
+            content: |
+              Trusted Firmware projects can accept contributions where AI has been used in their creation.
+              These contributions should follow the contribution guidelines and license terms stipulated by the individual projects. See more in [about->AI Policy](/aipolicy/).          
           - title: How can I join the TrustedFirmware Discord Server chat channels?
             content: |
               The TrustedFirmware Discord server is located [here](https://discord.com/channels/1106321706588577904/1144310640341700739).

@@ -1,18 +1,19 @@
 ---
-layout: "../../layouts/Flow.astro"
+layout: ../../layouts/Flow.astro
 title: Code of Conduct
-description: Trusted Firmware Code of Conduct and Inclusive Lanugage Policy
+description: Code of Conduct and Inclusive Lanugage Policy
 slug: coc/
-jumbotron:
-  title: TrustedFirmware.org Code of Conduct and Inclusive Language Policy
+hero:
+  title: Code of Conduct and Inclusive Lanugage Policy
   style: text-white
   description: ""
-  image: "../../assets/images/TF_Banner_image.jpg"
+  background_image: "../../assets/images/TF_Banner_image.jpg"
 flow:
   - row: main_content_row
     sections:
       - component: md_content
 ---
+
 
 # Contributor Covenant Code of Conduct
 

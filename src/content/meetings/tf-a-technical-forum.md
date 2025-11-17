@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Scaling Hafnium for advanced mobile OS architectures** - Presented by Jack Suann
+  - [PDF Presentation](/docs/Scaling_Hafnium_for_Advanced_Mobile_OS_Architectures.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/32OjLScP4O3mcUVe9MQOhuo2_tvpgcrIuVa-Mzt82ZVaV5u3IO_kQakgAG0r28yO.ThhiA_NuJFHPNLAy?startTime=1763031188000) (Access Password: \*PIs1^BD)
+  - Date - 13 November 2025
+
 - **TF-A SMC fuzzer improvements** - Presented by Slava Andrianov - [PDF Presentation](/docs/SMC_Fuzzer_Improvements.pdf)
 - **TF-RMM ID registers management** - Presented by Sona Rebecca Mathew - [PDF Presentation](/docs/TF-RMM_ID_Reg_Management.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/Jln1I60DQ0Ly8FheldYl4nt3G4yBxqluDGZBQO7WXYhsU3MM6CkMNDLPYcKbs2Tb.uHCzI8Sg4_ZrUsZN?startTime=1761839836000) (Access Password: v85?xT&N)
