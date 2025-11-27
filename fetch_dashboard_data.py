@@ -6,6 +6,7 @@ Author: Ben Copeland (ben.copeland@linaro.org)
 import requests
 import time
 import logging
+import sys
 from datetime import datetime
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -165,7 +166,6 @@ def get_single_job_builds(job_url, retries=2):
             logger.info(f"Fetching builds from {job_url} (attempt {attempt + 1}/{retries})")
 
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                 'Accept': 'application/json',
             }
 
@@ -238,6 +238,7 @@ def main():
     logger.info("Starting dashboard generation...")
 
     results = {}
+    has_failures = False
     for project, categories in projects.items():
         logger.info(f"Processing project: {project}")
         results[project] = {}
@@ -263,6 +264,7 @@ def main():
 
                 if info is None:
                     logger.warning(f"    Failed to get data for {url}")
+                    has_failures = True
                 else:
                     total_rate += info["pass_rate"]
                     successful_jobs += 1
@@ -361,6 +363,11 @@ import IconButton from "@/components/icon_button/IconButton.astro";
 
     except Exception as e:
         logger.error(f"Failed to write dashboard file: {e}")
+        sys.exit(1)
+
+    if has_failures:
+        logger.error("Some jobs failed to fetch data")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
