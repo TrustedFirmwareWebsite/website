@@ -90,10 +90,12 @@ We sincerely appreciate the time and effort invested by all contributors. This c
 - Block Storage service threat modelling.
 
 
-Detailed Changelog refer [here](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-14)
-
-
-
+Detailed Changelogs: 
+[Release](https://trustedfirmware-a.readthedocs.io/en/v2.14.0/change-log.html#id1),
+[TF-A-Tests](https://trustedfirmware-a-tests.readthedocs.io/en/latest/change-log.html#version-2-14),
+[Hafnium](https://hafnium.readthedocs.io/en/v2.14.0/change-log.html#id1),
+[TF-RMM](https://tf-rmm.readthedocs.io/en/tf-rmm-v0.8.0/about/change-log.html#v0-8-0),
+[Trusted-Services](https://trusted-services.readthedocs.io/en/latest/project/change-log.html#version-v1-3-0)
 
 ## About TrustedFirmware.org
 
