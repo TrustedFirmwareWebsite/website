@@ -165,7 +165,6 @@ def get_single_job_builds(job_url, retries=2):
             logger.info(f"Fetching builds from {job_url} (attempt {attempt + 1}/{retries})")
 
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                 'Accept': 'application/json',
             }
 
