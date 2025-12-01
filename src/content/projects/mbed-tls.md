@@ -1,11 +1,11 @@
 ---
-title: Mbed TLS
+title: Mbed TLS, TF-PSA-Crypto
 slug: mbed-tls
 description: >
-  Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols.
+  Mbed TLS implements TLS, DTLS protocols and X.509 certificate manipulation. TF-PSA-Crypto provides reference implementation of PSA Cryptography API Specification by supporting the cryptographic operations via. PSA Crypto APIs.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - Mbed TLS
+  - Mbed TLS, TF-PSA-Crypto
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://github.com/ARMmbed/mbedtls/blob/development/CONTRIBUTING.md
@@ -18,10 +18,10 @@ links:
     url: https://mbed-tls.readthedocs.io
   - title: code
     text: "View Source Code"
-    url: https://github.com/ARMmbed/mbedtls
+    url: https://github.com/Mbed-TLS
   - title: review
     text: "GitHub review"
-    url: https://github.com/ARMmbed/mbedtls/pulls
+    url: https://github.com/Mbed-TLS/mbedtls/pulls
   - title: subscribe
     text: Subscribe to the Mbed TLS mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/
@@ -29,7 +29,7 @@ useful_links:
   - text: Subscribe to the PSA Crypto mailing list
     url: https://lists.trustedfirmware.org/mailman3/lists/psa-crypto.lists.trustedfirmware.org/
 top_text: |-
-  **Project implements cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols. The project provides reference implementation of [PSA Cryptography API Specification](https://developer.arm.com/documentation/ihi0086/b) by supporting the cryptographic operations via. PSA Crypto APIs. The project also supports the [PSA Cryptoprocessor driver interface Specification](https://github.com/Mbed-TLS/mbedtls/blob/development/docs/proposed/psa-driver-interface.md) which defines an interface for cryptoprocessor drivers. The small code footprint makes the project suitable for embedded systems. It has many users, including TF-A, TF-M and OP-TEE.**
+  **Mbed TLS implements TLS, DTLS protocols and X.509 certificate manipulation. TF-PSA-Crypto provides reference implementation of [PSA Cryptography API Specification](https://developer.arm.com/documentation/ihi0086/b) by supporting the cryptographic operations via. PSA Crypto APIs. TF-PSA-Crypto also supports the [PSA Cryptoprocessor driver interface Specification](https://github.com/Mbed-TLS/TF-PSA-Crypto/blob/development/docs/proposed/psa-driver-interface.md) which defines an interface for cryptoprocessor drivers. Mbed TLS uses PSA Crypto APIs in TF-PSA-Crypto as the cryptographic API. The small code footprint makes the project suitable for embedded systems. It has many users, including TF-A, TF-M and OP-TEE.**
 
   Contribution guidelines can be found in the documentation.
 
