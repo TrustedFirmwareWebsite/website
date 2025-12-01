@@ -5,7 +5,7 @@ description: >
   Mbed TLS implements TLS, DTLS protocols and X.509 certificate manipulation. TF-PSA-Crypto provides reference implementation of PSA Cryptography API Specification by supporting the cryptographic operations via. PSA Crypto APIs.
 layout: "../../layouts/ProjectLayout.astro"
 icons:
-  - Mbed TLS
+  - Mbedtls_PSA
 calls_to_action:
   - text: Contribute/Submit Code
     url: https://github.com/ARMmbed/mbedtls/blob/development/CONTRIBUTING.md
