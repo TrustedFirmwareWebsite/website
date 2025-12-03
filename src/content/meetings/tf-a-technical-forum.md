@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Shared measured boot libraries** - Presented by Manish Badarkhe, Harrison Mutai, Matthew Ellis
+  - [PDF Presentation](/docs/MeasuredBoot_Shared_Libraries_Tech_Forum_27Nov25.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/eAv0lm0QTywb6onYgTZoRbdGL1G4qsIOZ-vw1pPTgLf_LGkL2ebbkx-WhWYq5AKG.cZn7fOiKE9dk3VOT?startTime=1764259039000) (Access Password: r57=kbGK)
+  - Date - 27 November 2025
+
 - **Scaling Hafnium for advanced mobile OS architectures** - Presented by Jack Suann
   - [PDF Presentation](/docs/Scaling_Hafnium_for_Advanced_Mobile_OS_Architectures.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/32OjLScP4O3mcUVe9MQOhuo2_tvpgcrIuVa-Mzt82ZVaV5u3IO_kQakgAG0r28yO.ThhiA_NuJFHPNLAy?startTime=1763031188000) (Access Password: \*PIs1^BD)
