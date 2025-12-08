@@ -28,7 +28,7 @@ Security researchers who identify issues in the in-scope projects can report the
 
 The Trusted Firmware project encourages security researchers, contributors and integrators to explore a broad range of security areas, including secure boot flows, isolation boundaries, privilege transitions, cryptographic implementations and protocol handling.
 
-Participation guidelines, scope details, reward information and the submission form are available [here](https://app.intigriti.com/programs/arm/trustedfirmware).
+__Participation guidelines, scope details, reward information and the submission form are available [here](https://app.intigriti.com/programs/arm/trustedfirmware).__
 
 The Trusted Firmware project welcomes the continued collaboration of researchers and partners, as we work together to enhance the security of the ecosystem.
 
