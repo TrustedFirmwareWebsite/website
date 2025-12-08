@@ -1,15 +1,15 @@
 ---
 author: trusted-firmware
-title: A New Bug Bounty Program for Trusted Firmware
+title: A New Bug Bounty Program for Trusted Firmware!
 description: >
-  Trusted Firmware launches a new Bug Bounty Program.
+  Trusted Firmware launches a new Bug Bounty Program!
 date: 2025-12-08 12:01:00
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 
 # A new Bug Bounty Program for Trusted Firmware!
 
-The Trusted Firmware project is pleased to share that several of its projects have been included in a new Trusted Firmware Bug Bounty Program, which is being provided and operated by Arm. 
+The Trusted Firmware project is pleased to share that several of its projects have been included in a new Trusted Firmware Bug Bounty Program, which is being provided and operated by Arm.
 
 Trusted Firmware projects form essential building blocks for secure boot, trusted execution, and cryptographic operations across a wide range of Arm-based platforms. Arm’s decision to include them in the Bug Bounty program for Trusted Firmware demonstrates the importance of proactive, community-driven security across the ecosystem and the significance of these projects as foundational to the security of the Arm ecosystem.
 
