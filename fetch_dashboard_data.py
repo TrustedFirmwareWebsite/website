@@ -60,13 +60,13 @@ projects = {
     },
     "Mbed TLS": {
         "Daily": [
-            "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
+            "https://ci.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
         "Weekly": [],
         "MISRA": [],
         "Static Analysis": [],
         "Code Coverage": [
-            "https://mbedtls.trustedfirmware.org/job/mbed-tls-nightly-tests/"
+            "https://ci.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ]
     }
 }
