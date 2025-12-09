@@ -9,7 +9,9 @@ image: ../../assets/images/blog/Workshop.png
 
 This is an open forum conference call for anyone to participate and it is not restricted to TF members. It will operate under the guidance of the TF TSC. Invites and other traffic are via the TF-M mailing list. Attendees are welcome to propose agenda items.
 
-Due to expected attendees from Asia, Europe and the Americas, the timeslot is challenging. We hope it's not too difficult for anyone - we continue to review the scheduling. We are approximately alternating between an Asia timezone and a US timezone call. Anyone is welcome to join either (or both) calls.
+The TF-M Technical Forum runs on a monthly schedule in a time slot chosen to maximize participation based on recent attendance patterns.
+We recognise that time zones can be challenging, and we continue to review scheduling based on community needs.
+Everyone is welcome to join, and as always, recordings and notes will be available for those who can’t attend live.
 
 ### Upcoming calls - also posted to the TF-M mailing list
 
