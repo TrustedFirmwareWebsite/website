@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-RMM Live Firmware Activation (design update)** - Presented by Soby Mathew
+  - [PDF Presentation](/docs/TF_RMM_LFA_Design_update_TechForum_11Dec25.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/auHE2a_WRo4dV3Vaki4aArGmK_Dz1UOC8OfvQcf-n9xUdSa4S9sCd8mfhra0WtW4.mTOYFD8rEsLRbweg?startTime=1765468620000) (Access Password: +eU4Kj0I)
+  - Date - 11 December 2025
+
 - **Shared measured boot libraries** - Presented by Manish Badarkhe, Harrison Mutai, Matthew Ellis
   - [PDF Presentation](/docs/MeasuredBoot_Shared_Libraries_Tech_Forum_27Nov25.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/eAv0lm0QTywb6onYgTZoRbdGL1G4qsIOZ-vw1pPTgLf_LGkL2ebbkx-WhWYq5AKG.cZn7fOiKE9dk3VOT?startTime=1764259039000) (Access Password: r57=kbGK)
