@@ -19,6 +19,10 @@ Everyone is welcome to join, and as always, recordings and notes will be availab
 
 ### Recording and slides of previous meetings:
 
+- **STM presented an idea for TF-M improvement, TFM NS NOTIF** - M Jaouen [Presentation](/docs/TF_M_tech_forum_20251218_TFM_NS_NOTIF.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/M3S9yN7kY-He2VRV-nlY4srRxRHow53rBIzkjHTkyF8rpHGlnUxGdNX3tc9HDdIF.js94SG6GxsU8D9Wh) Passcode: vN!Q$HE6
+  - Date: Dec 18, 2025
+    
 - **TF-M Single Signature Check for Multi Image** - Sadik Ozer [Presentation](/docs/tech_forum_20251009_MCUboot_Signature_Check_Proposal.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/ZvsaBfrEq7QZEgjArWh2dYOpRAe9TWieNFuKMGWPeX1CgbDJOrA61K-ReEGqf4IG.TlntewHNE1GCYDXy?startTime=1760106890000) Passcode: qw+Y7z3z
   - Date: Oct 9, 2025
