@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Scaling Hafnium for Advanced DMA Architectures** - Presented by Jack Suann
+  - [PDF Presentation](/docs/Scaling_Hafnium_for_Advanced_DMA_Architectures.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/P7MYKMiMxMFMJigfUXE5-Cgz_tvXjRdrGMEnRF8hGBQTEK6MGVr-xeNZf5AKqfIb.xL8rIIL8bcJb_Opl?startTime=1769075995000) (Access Password: q6$\*C2ax)
+  - Date - 22 January 2026
+
 - **TF-RMM Live Firmware Activation (design update)** - Presented by Soby Mathew
   - [PDF Presentation](/docs/TF_RMM_LFA_Design_update_TechForum_11Dec25.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/auHE2a_WRo4dV3Vaki4aArGmK_Dz1UOC8OfvQcf-n9xUdSa4S9sCd8mfhra0WtW4.mTOYFD8rEsLRbweg?startTime=1765468620000) (Access Password: +eU4Kj0I)
