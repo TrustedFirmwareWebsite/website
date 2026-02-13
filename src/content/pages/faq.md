@@ -14,6 +14,9 @@ flow:
       - component: collapse
         style: #
         panels:
+          - title: Where can I start looking at project documentation and code?
+            content: |
+              The best place to start is the [TrustedFirmware github](https://github.com/TrustedFirmware) which links to all the documentation and projects. Projects are also described on the website under their, clickable, project tiles on the [homepage](https://www.trustedfirmware.org/).
           - title: Can I use AI assistants when contributing code?
             content: |
               Trusted Firmware projects can accept contributions where AI has been used in their creation.
