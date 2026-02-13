@@ -19,8 +19,8 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 - **Date:** Feb 9, 2026
 
-   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/Mbed_TLS_TechForum_2026-02-09.pdf)
-   -[Video Recording](https://linaro-org.zoom.us/rec/share/e9aXN5W0eMHi6rt725X6dZiBLzvLbG1ekrXkmPYvI-9gGcMjyc77hECi3eoNLgd5.8p03rGggdd-JJv4e) Passcode: mS^z66C9
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/Mbed_TLS_TechForum_2026-02-09.pdf)
+   - [Video Recording](https://linaro-org.zoom.us/rec/share/e9aXN5W0eMHi6rt725X6dZiBLzvLbG1ekrXkmPYvI-9gGcMjyc77hECi3eoNLgd5.8p03rGggdd-JJv4e) Passcode: mS^z66C9
      
 - **Date:** Jan 26, 2026
 
