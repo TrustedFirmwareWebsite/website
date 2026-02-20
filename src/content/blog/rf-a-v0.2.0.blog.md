@@ -37,20 +37,20 @@ System register accessors have been factored into a standalone arm-sysregs crate
 
 ## Expanded runtime services
 
-### PSCI enhancements
+__PSCI enhancements__
 
 PSCI support has been extended with:
 * Extended power-state encoding for CPU_SUSPEND and implementation of OS-Initiated (OSI) mode via PSCI_SET_SUSPEND_MODE.
 * Platform hooks and feature advertisement for SYSTEM_OFF2 and SYSTEM_RESET2, where applicable.
 * Updated context handling on CPU_ON and resume from suspend to reset lower-EL architectural state to PSCI-required values.
 
-### FF-A and SPMD
+__FF-A and SPMD__
 The FF-A Secure Partition Manager Dispatcher (SPMD) has been moved into a dedicated module and extended to handle additional FF-A interfaces . Support for newer messaging and notification interfaces has been added, along with PSCI callbacks used when SPMD is present.
 
-### TRNG service
+__TRNG service__
 RF-A now includes a TRNG service implementing the Arm TRNG Firmware Interface (DEN0098). It supports version and feature discovery, UUID reporting, and RND32/RND64 calls backed by a platform-defined entropy source and an internal entropy pool.
 
-### RME and RMMD updates
+__RME and RMMD updates__
 RME support has been expanded in several areas:
 * RMI function IDs are forwarded to the Realm world and RMM-EL3 boot manifest packing is implemented.
 * Attestation-related calls such as ATTEST_GET_REALM_KEY and ATTEST_GET_PLAT_TOKEN are implemented.
