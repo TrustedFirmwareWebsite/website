@@ -45,12 +45,15 @@ PSCI support has been extended with:
 * Updated context handling on CPU_ON and resume from suspend to reset lower-EL architectural state to PSCI-required values.
 
 __FF-A and SPMD__
+
 The FF-A Secure Partition Manager Dispatcher (SPMD) has been moved into a dedicated module and extended to handle additional FF-A interfaces . Support for newer messaging and notification interfaces has been added, along with PSCI callbacks used when SPMD is present.
 
 __TRNG service__
+
 RF-A now includes a TRNG service implementing the Arm TRNG Firmware Interface (DEN0098). It supports version and feature discovery, UUID reporting, and RND32/RND64 calls backed by a platform-defined entropy source and an internal entropy pool.
 
 __RME and RMMD updates__
+
 RME support has been expanded in several areas:
 * RMI function IDs are forwarded to the Realm world and RMM-EL3 boot manifest packing is implemented.
 * Attestation-related calls such as ATTEST_GET_REALM_KEY and ATTEST_GET_PLAT_TOKEN are implemented.
