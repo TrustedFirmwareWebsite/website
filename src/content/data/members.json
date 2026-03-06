@@ -59,4 +59,10 @@
     "type": "platinum",
     "url": "https://www.nxp.com/"
   }
+  {
+    "image": "../../assets/images/members/qualcomm.png",
+    "name": "Qualcomm",
+    "type": "platinum",
+    "url": "https://www.qualcomm.com/"
+  }
 ]
