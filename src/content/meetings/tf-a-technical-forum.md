@@ -13,7 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
-- **Scaling Hafnium for Advanced DMA Architectures** - Presented by Jack Suann
+- **Scaling Hafnium for Advanced DMA Architectures (Part II)** - Presented by Jack Suann
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/7xCH8nmxoCf8gxa3NftInjINIPK2OJTdk0ZP2U3x7jK3v8WnmYo5NrTQyC_cwo2x.eBkB5xp1R_8IIN68?startTime=1770933571000) (Access Password: !ht+L2!w)
+  - Date - 12 February 2026
+
+- **Scaling Hafnium for Advanced DMA Architectures (Part I)** - Presented by Jack Suann
   - [PDF Presentation](/docs/Scaling_Hafnium_for_Advanced_DMA_Architectures.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/P7MYKMiMxMFMJigfUXE5-Cgz_tvXjRdrGMEnRF8hGBQTEK6MGVr-xeNZf5AKqfIb.xL8rIIL8bcJb_Opl?startTime=1769075995000) (Access Password: q6$\*C2ax)
   - Date - 22 January 2026
