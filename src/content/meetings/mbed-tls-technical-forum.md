@@ -17,6 +17,11 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 
 ### Recording and slides of previous meetings
 
+- **Date:** Mar 23, 2026
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Gilles Peskine [Presentation here](/docs/public/docs/Mbed%20TLS%20TechForum%202026-03-23.pdf)
+   - No recording
+
 - **Date:** Mar 9, 2026
 
    - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLS_TechForum_2026-03-09.pdf)
