@@ -1,7 +1,7 @@
 ---
 author: trusted-firmware
 title: Qualcomm Joins Trusted Firmware to Support Open Source Secure Firmware
-date: 2025-11-14 00:01:00
+date: 2026-03-23 17:01:00
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 
