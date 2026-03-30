@@ -19,6 +19,10 @@ Everyone is welcome to join, and as always, recordings and notes will be availab
 
 ### Recording and slides of previous meetings:
 
+- **RTX Rebuild and RTOS Options Discussion** - Nicola Mazzucato [Presentation](/docs/tech_forum_20260312_Build_options_RTOS.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/t_Cjz1SRIFfd70ZAHzplPCXTbyjNm5EZ_gsYJTah-Ix_gaMUDsh1You92_3cP21i.NZeq-lPU6usvqU3u) Passcode: t#zbGc4r
+  - Date: Mar 12, 2026
+
 - **STM presented an idea for TF-M improvement, TFM NS NOTIF** - M Jaouen [Presentation](/docs/TF_M_tech_forum_20251218_TFM_NS_NOTIF.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/M3S9yN7kY-He2VRV-nlY4srRxRHow53rBIzkjHTkyF8rpHGlnUxGdNX3tc9HDdIF.js94SG6GxsU8D9Wh) Passcode: vN!Q$HE6
   - Date: Dec 18, 2025
