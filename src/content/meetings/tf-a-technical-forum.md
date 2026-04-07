@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **S2idle-driven Low Power Mode Selection using PSCI in TI AM62L** - Presented by Scaria Kochidanadu
+  - [PDF Presentation](/docs/S2idle_Low_power_Mode_selection_using_PSCI_in_AM62L.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/QYhQQTFaUenDtSjuL0Bpk_GeX65_J80QNr8yAR94V9XbQu7CqpMXegwQpMzWiGDn.sM4df9ZxgYlvYGk9?startTime=1775141887000) (Access Password: s@v7Z+eW)
+  - Date - 2 Apr 2026
+
 - **Scaling Hafnium for Advanced DMA Architectures (Part II)** - Presented by Jack Suann
   - [Video Recording](https://linaro-org.zoom.us/rec/share/7xCH8nmxoCf8gxa3NftInjINIPK2OJTdk0ZP2U3x7jK3v8WnmYo5NrTQyC_cwo2x.eBkB5xp1R_8IIN68?startTime=1770933571000) (Access Password: !ht+L2!w)
   - Date - 12 February 2026
