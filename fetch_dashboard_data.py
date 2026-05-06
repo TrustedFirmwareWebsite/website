@@ -15,11 +15,9 @@ logger = logging.getLogger(__name__)
 projects = {
     "TF-A": {
         "Daily": [
-            "https://ci.trustedfirmware.org/job/tf-a-main/",
+            "https://ci.trustedfirmware.org/job/tf-a-main-pipeline/",
         ],
-        "Weekly": [
-            "https://ci.trustedfirmware.org/job/tf-a-weekly/"
-        ],
+        "Weekly": [],
         "MISRA": [
             "https://ci.trustedfirmware.org/job/tf-a-eclair-delta/"
         ],
