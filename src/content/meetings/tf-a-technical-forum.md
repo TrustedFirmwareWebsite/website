@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-A BL31 Live Firmware Activation** - Presented by Manish Badarkhe and John Powell
+  - [PDF Presentation](/docs/Tech-Forum-BL31_LFA-28may2026.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/YCA-h4GOWT_BxliJabR6k3_JCUClEzykLJYclvQAtz6HA1SMR96cn2uQJBf1nBBd.Psb69DGcUFGa-9nm?startTime=1779980365000) (Access Password: Gd\*1pm^U)
+  - Date - 28 May 2026
+
 - **S2idle-driven Low Power Mode Selection using PSCI in TI AM62L** - Presented by Scaria Kochidanadu
   - [PDF Presentation](/docs/S2idle_Low_power_Mode_selection_using_PSCI_in_AM62L.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/QYhQQTFaUenDtSjuL0Bpk_GeX65_J80QNr8yAR94V9XbQu7CqpMXegwQpMzWiGDn.sM4df9ZxgYlvYGk9?startTime=1775141887000) (Access Password: s@v7Z+eW)
