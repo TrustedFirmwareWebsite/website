@@ -19,6 +19,7 @@ flow:
 Trusted Firmware projects continue to benefit from the contributions of a broad and diverse
 community of developers within the open-source ecosystem. As AI technology rapidly evolves,
 developers are increasingly leveraging AI tools to assist them in code creation.
+
 Trusted Firmware projects can accept contributions where AI has been used in their creation.
 These contributions should follow the contribution guidelines and license terms stipulated by the
 individual projects. The following should be carefully considered for such contributions.
@@ -43,7 +44,7 @@ party materials.
 
 When providing contributions where AI tool has been used in their creation, a recommended practice
 is for contributors to indicate the tooling used to create the contribution. This should be included as a
-token in the source control commit message, for example including the phrase “Co-developed-by:”
+token in the source control commit message, for example including the phrase “Assisted-by:” following the format in the [Linux kernel project guidance](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/process/coding-assistants.rst?h=v7.0.11). 
 
 Organizations that employ open source developers may have more stringent guidelines related to use
 of AI for software development. Contributors should comply with their employer’s policies when
