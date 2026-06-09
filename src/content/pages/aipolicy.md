@@ -14,6 +14,13 @@ flow:
       - component: md_content
 ---
 
+# Version History
+
+| No. | Date | Change |
+| :--- | :--- | :--- |
+| 1 | September-2025 | Initial version |
+| 2 | June-2026 | Token in source control commit message to indicate tooling used changed to “Assisted-by: ” |
+
 # Guidance on AI-assisted contributions
 
 Trusted Firmware projects continue to benefit from the contributions of a broad and diverse
