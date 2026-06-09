@@ -14,7 +14,7 @@ flow:
       - component: md_content
 ---
 
-# Version History
+### Version History
 
 | No. | Date | Change |
 | :--- | :--- | :--- |
