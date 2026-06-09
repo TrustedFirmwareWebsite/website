@@ -43,7 +43,7 @@ party materials.
 
 When providing contributions where AI tool has been used in their creation, a recommended practice
 is for contributors to indicate the tooling used to create the contribution. This should be included as a
-token in the source control commit message, for example including the phrase “Co-developed-by:”
+token in the source control commit message, for example including the phrase “Assisted-by:”
 
 Organizations that employ open source developers may have more stringent guidelines related to use
 of AI for software development. Contributors should comply with their employer’s policies when
