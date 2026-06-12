@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **Fuzzing TF-RMM with AFL++** - Presented by Rustam Ismayilov
+  - [PDF Presentation](/docs/TF-RMM_Fuzzing_11jun26.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/K51Z7gJYHRCjyvfSkMUfsdgTbqHI6lQO49RcBugcnMxaOdAzB1ih8NVBCUbg-oJS.dA9FIhQTZWj1BGHA?startTime=1781189868000) (Access Password: m6kA7&AR)
+  - Date - 11 Jun 2026
+
 - **TF-A BL31 Live Firmware Activation** - Presented by Manish Badarkhe and John Powell
   - [PDF Presentation](/docs/Tech-Forum-BL31_LFA-28may2026.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/YCA-h4GOWT_BxliJabR6k3_JCUClEzykLJYclvQAtz6HA1SMR96cn2uQJBf1nBBd.Psb69DGcUFGa-9nm?startTime=1779980365000) (Access Password: Gd\*1pm^U)
