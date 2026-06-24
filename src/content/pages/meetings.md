@@ -22,7 +22,7 @@ flow:
             url: /meetings/mbed-tls-technical-forum/
             style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: OP-TEE Contributions Forum Minutes
-            url: https://bit.ly/loc-notes
+            url: https://bit.ly/notes-loc
             style: bg-accent hover:bg-cyan-600 text-white my-1
           - title: MCUboot Tech Forum Minutes
             url: /meetings/mcuboot-technical-forum
