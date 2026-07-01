@@ -24,9 +24,7 @@ projects = {
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-a-coverity/"
         ],
-        "Code Coverage": [
-            "https://ci.trustedfirmware.org/view/TF-A/job/tf-a-ci-coverage-gateway/"
-        ]
+        "Code Coverage": []
     },
     "TF-M": {
         "Daily": [
@@ -68,6 +66,69 @@ projects = {
         ]
     }
 }
+
+
+def fetch_line_coverage(coverage_api_url):
+    """Return line-coverage percent (float) from a Jenkins Coverage plugin API
+    URL, or None if it is unavailable or not published yet."""
+    try:
+        r = requests.get(coverage_api_url, timeout=15)
+        if r.status_code != 200:
+            logger.debug(f"Coverage: none at {coverage_api_url} (HTTP {r.status_code})")
+            return None
+        line = r.json().get("projectStatistics", {}).get("line")
+    except requests.exceptions.RequestException as e:
+        logger.warning(f"Coverage: fetch failed for {coverage_api_url}: {e}")
+        return None
+    if not line:
+        return None
+    try:
+        return float(line.rstrip("%"))
+    except ValueError:
+        logger.warning(f"Coverage: could not parse line value {line!r}")
+        return None
+
+
+def get_tfa_line_coverage(
+        job_url="https://ci.trustedfirmware.org/job/tf-a-gateway-pipeline/", scan=50):
+    """TF-A line coverage from the most recent tf-a-gateway-pipeline build that
+    published a Coverage plugin report. Only the full L3 runs publish coverage,
+    so lightweight WIP builds are skipped automatically (their /coverage/
+    endpoint 404s). Returns a dict with the value and build, or None if no
+    recent build has published coverage."""
+    if not job_url.endswith("/"):
+        job_url += "/"
+
+    try:
+        r = requests.get(job_url + "api/json?tree=lastBuild[number]", timeout=15)
+        r.raise_for_status()
+        last = (r.json().get("lastBuild") or {}).get("number")
+    except requests.exceptions.RequestException as e:
+        logger.warning(f"Coverage: cannot query tf-a-gateway-pipeline: {e}")
+        return None
+    if not last:
+        return None
+
+    for build in range(last, max(last - scan, 0), -1):
+        value = fetch_line_coverage(f"{job_url}{build}/coverage/api/json")
+        if value is not None:
+            timestamp = 0
+            try:
+                tr = requests.get(f"{job_url}{build}/api/json?tree=timestamp", timeout=15)
+                if tr.status_code == 200:
+                    timestamp = tr.json().get("timestamp", 0)
+            except requests.exceptions.RequestException:
+                pass
+            logger.info(f"Coverage: using gateway #{build} ({value}% line)")
+            return {
+                "value": value,
+                "link": f"{job_url}{build}/coverage/",
+                "build": build,
+                "timestamp": timestamp,
+            }
+
+    logger.info(f"Coverage: no published coverage in last {scan} gateway builds")
+    return None
 
 
 def get_last_10_build_info(job_url, retries=2):
@@ -243,6 +304,25 @@ def main():
 
         for category, urls in categories.items():
             logger.info(f"  Processing category: {category}")
+
+            if project == "TF-A" and category == "Code Coverage":
+                cov = get_tfa_line_coverage()
+                if cov is None:
+                    results[project][category] = {
+                        "status": "N/A", "tooltip": "", "link": None}
+                else:
+                    results[project][category] = {
+                        "value": cov["value"],
+                        "tooltip": (
+                            f"<p class=\"mt-0 text-xs text-center\">"
+                            f"Latest build: <b>{cov['build']}</b> • "
+                            f"Last run: <b>{format_timestamp(cov['timestamp'])}</b> • "
+                            f"Line coverage: <b>{cov['value']:.2f}%</b>"
+                            f"</p>"
+                        ),
+                        "link": cov["link"],
+                    }
+                continue
 
             if not urls:
                 results[project][category] = {
