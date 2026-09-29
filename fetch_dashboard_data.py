@@ -33,7 +33,7 @@ projects = {
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-extra-build/"
         ],
         "Weekly": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-release/"],
-        "MISRA": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-eclair-daily/"],
+        "MISRA": [],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-m-static-checks/"
         ],
