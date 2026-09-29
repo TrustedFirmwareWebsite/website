@@ -122,7 +122,7 @@ def get_tfa_line_coverage(
             logger.info(f"Coverage: using gateway #{build} ({value}% line)")
             return {
                 "value": value,
-                "link": f"{job_url}{build}/coverage/",
+                "link": f"{job_url}coverage/",
                 "build": build,
                 "timestamp": timestamp,
             }
