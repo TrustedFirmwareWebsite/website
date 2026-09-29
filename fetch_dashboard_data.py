@@ -33,7 +33,7 @@ projects = {
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-extra-build/"
         ],
         "Weekly": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-release/"],
-        "MISRA": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-eclair-daily/"],
+        "MISRA": [],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-m-static-checks/"
         ],
@@ -122,7 +122,7 @@ def get_tfa_line_coverage(
             logger.info(f"Coverage: using gateway #{build} ({value}% line)")
             return {
                 "value": value,
-                "link": f"{job_url}{build}/coverage/",
+                "link": f"{job_url}coverage/",
                 "build": build,
                 "timestamp": timestamp,
             }
