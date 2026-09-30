@@ -114,9 +114,10 @@ def get_tfa_line_coverage(
             except requests.exceptions.RequestException:
                 pass
             logger.info(f"Coverage: using gateway #{build} ({value}% line)")
+            fresh = time.time() - timestamp / 1000 < 36 * 3600
             return {
                 "value": value,
-                "link": f"{job_url}coverage/",
+                "link": f"{job_url}{build}/coverage/" if fresh else job_url,
                 "build": build,
                 "timestamp": timestamp,
             }
