@@ -18,9 +18,6 @@ projects = {
             "https://ci.trustedfirmware.org/job/tf-a-main-pipeline/",
         ],
         "Weekly": [],
-        "MISRA": [
-            "https://ci.trustedfirmware.org/job/tf-a-eclair-delta/"
-        ],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-a-coverity/"
         ],
@@ -33,7 +30,6 @@ projects = {
             "https://ci.trustedfirmware.org/view/TF-M/job/tf-m-extra-build/"
         ],
         "Weekly": ["https://ci.trustedfirmware.org/view/TF-M/job/tf-m-release/"],
-        "MISRA": [],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/job/tf-m-static-checks/"
         ],
@@ -46,7 +42,6 @@ projects = {
         "Weekly": [
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-acs-test/"
         ],
-        "MISRA": [],
         "Static Analysis": [
             "https://ci.trustedfirmware.org/view/Hafnium/job/hafnium-static-checks/"
         ],
@@ -59,7 +54,6 @@ projects = {
             "https://ci.trustedfirmware.org/job/mbed-tls-nightly-tests/"
         ],
         "Weekly": [],
-        "MISRA": [],
         "Static Analysis": [],
         "Code Coverage": [
             "https://ci.trustedfirmware.org/job/mbed-tls-nightly-tests/"
@@ -396,7 +390,6 @@ import IconButton from "@/components/icon_button/IconButton.astro";
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Project</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Daily</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Weekly</th>
-<th class="px-4 py-2 border border-white bg-gray-300 text-center">MISRA</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Static Analysis</th>
 <th class="px-4 py-2 border border-white bg-gray-300 text-center">Code Coverage</th>
 </tr>
@@ -407,7 +400,7 @@ import IconButton from "@/components/icon_button/IconButton.astro";
     for project, data in results.items():
         html += f"<tr class=\"bg-white\"><td class=\"px-4 py-2 border border-gray-300 text-center align-middle\"><b>{project}</b></td>"
 
-        for col in ["Daily", "Weekly", "MISRA", "Static Analysis", "Code Coverage"]:
+        for col in ["Daily", "Weekly", "Static Analysis", "Code Coverage"]:
             cell = data.get(col, {"status": "", "tooltip": "", "link": None})
 
             html += "<td class=\"px-4 py-2 border border-gray-300 text-center align-top\">"
