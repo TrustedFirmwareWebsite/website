@@ -19,7 +19,7 @@ Everyone is welcome to join, and as always, recordings and notes will be availab
 
 ### Recording and slides of previous meetings:
 
- - **Power Management design PoC Discussion** - Nicola Mazzucato [Presentation](https://trustedfirmware-m.readthedocs.io/en/latest/design_docs/services/tfm_power_mgmt.html)
+- **Power Management design PoC Discussion** - Nicola Mazzucato [Presentation](https://trustedfirmware-m.readthedocs.io/en/latest/design_docs/services/tfm_power_mgmt.html)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/DCkTuFl1kCfUrrogty6z7h3BLrKoLJbJKTMemjNrjICTFsIgiDYN5JR18gCyJ1F2.yJMz7v8nfQbW555n?startTime=1790262337000) Passcode: =S38dr31
   - Date: Sept 24, 2026
 
