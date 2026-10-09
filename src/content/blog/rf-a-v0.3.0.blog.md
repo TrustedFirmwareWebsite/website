@@ -1,10 +1,12 @@
 ---
 author: bharath-subramanian
-title: Rusted Firmware-A (RF-A) - v0.3.0 Released: Advancing Platform Portability and Realm Management Support
+title: Rusted Firmware-A (RF-A) - v0.3.0 Released
 date: 2026-11-08 09:00:00
 
 image: "../../assets/images/blog/mp1_avenger_tf_crop_1500x1500.png"
 ---
+
+## Advancing Platform Portability and Realm Management Support
 
 The TrustedFirmware.org community is pleased to announce the release of __Rusted Firmware-A (RF-A) v0.3.0__, continuing the development of Rust-based EL3 runtime firmware for Armv9-A and later systems.
 
