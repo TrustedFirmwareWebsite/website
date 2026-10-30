@@ -1,0 +1,130 @@
+name: Deploy Preview
+
+on:
+  workflow_run:
+    workflows: ["Build PR Artifact"]
+    types:
+      - completed
+
+# Cancel in-progress jobs or runs for the same head branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+# workflow_run always executes with the permissions and secrets of the
+# base repository, even when the triggering workflow ran against a PR
+# from a fork. That's what lets this job authenticate to AWS.
+#
+# Unlike cc-website, this job never checks out or runs the PR's code: it
+# checks out main (for sst.config.ts and its dependencies) and uploads the
+# static files that build_pr.yml produced. Everything in the downloaded
+# artifact must be treated as untrusted, which is why the PR number is
+# validated against the triggering commit before it is used.
+permissions:
+  contents: read
+  statuses: write
+  pull-requests: read
+  id-token: write
+  actions: read
+
+env:
+  NODE_VERSION: "24"
+  STATUSES_URL: ${{ github.api_url }}/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_sha }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Only run if the triggering build succeeded
+    if: ${{ github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Fetch git repository
+        uses: actions/checkout@v7
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: site-build
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Read PR metadata
+        id: pr
+        run: |
+          PR_NUM=$(cat build-metadata/pr_number.txt)
+          if ! [[ "$PR_NUM" =~ ^[0-9]+$ ]]; then
+            echo "Invalid PR number in build metadata"
+            exit 1
+          fi
+          PR_SHA=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM" --jq .head.sha)
+          if [ "$PR_SHA" != "$HEAD_SHA" ]; then
+            echo "PR #$PR_NUM head ($PR_SHA) does not match the built commit ($HEAD_SHA)"
+            exit 1
+          fi
+          echo "PR_NUM=$PR_NUM" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          # This job assumes AWS credentials, so keep package-manager
+          # caching disabled on privileged jobs.
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Deploy preview
+        id: deploy
+        run: |
+          # Clear any stale state lock left behind by a previously cancelled
+          # deploy for this stage. The concurrency group means any existing
+          # lock is orphaned and safe to remove.
+          npx sst unlock --stage pr-${{ steps.pr.outputs.PR_NUM }} || true
+
+          if OUTPUT=$(npx sst deploy --stage pr-${{ steps.pr.outputs.PR_NUM }} 2>&1); then
+            echo "Deployment succeeded"
+            echo "$OUTPUT"
+          else
+            echo "Deployment failed"
+            echo "$OUTPUT"
+            exit 1
+          fi
+
+          URL=$(echo "$OUTPUT" | grep "url: https://" | head -n 1 | awk '{print $2}')
+
+          if [ -z "$URL" ]; then
+            echo "Could not find deployment URL in output"
+          else
+            echo "preview_url=$URL" >> "$GITHUB_OUTPUT"
+            echo "Deployment URL: $URL"
+          fi
+
+      - name: Update status
+        if: success() && steps.deploy.outputs.preview_url
+        run: |
+          DATA=$(jq -n \
+            --arg url "$PREVIEW_URL" \
+            '{state: "success", target_url: $url, context: "Deploy preview", description: "Preview deployment complete"}')
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREVIEW_URL: ${{ steps.deploy.outputs.preview_url }}
+
+      - name: Report failure
+        if: failure()
+        run: |
+          DATA=$(jq -n \
+            --arg url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            '{state: "failure", target_url: $url, context: "Deploy preview", description: "Deployment failed"}')
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}

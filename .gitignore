@@ -27,3 +27,7 @@ Gemfile.lock
 
 # Ignore the generated dashboard file
 src/assets/html/dashboard.astro
+
+# SST
+.sst/
+sst-env.d.ts

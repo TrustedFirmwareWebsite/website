@@ -1,0 +1,64 @@
+name: Close Pull Request
+
+# Uses "pull_request_target", not "pull_request". A fork PR's "closed"
+# event under "pull_request" is downgraded to a read-only, secret-less
+# token with no id-token permission, so configure-aws-credentials cannot
+# assume AWS_ROLE_ARN and the preview would never be torn down.
+#
+# This is safe because the job only ever checks out and runs the base
+# branch's own trusted code (yarn install + sst remove). It never checks
+# out or executes the PR's head commit.
+on:
+  pull_request_target:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: cleanup-${{ github.event.number }}
+  cancel-in-progress: true
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      # Explicitly check out the base branch's code, never the PR head.
+      - name: Fetch git repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          # This job assumes AWS credentials, so keep package-manager
+          # caching disabled on privileged jobs.
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Remove SST stage
+        run: |
+          # sst.config.ts points the static site at dist, so it must exist
+          # even though nothing is being uploaded.
+          mkdir -p dist
+          # Only attempt removal if the stage actually exists. If the
+          # preview was never deployed (build failed, or the PR was closed
+          # before deploy_preview.yml ran), there's nothing to tear down.
+          if npx sst unlock --stage pr-${{ github.event.number }} 2>/dev/null; then
+            echo "Stage exists, removing..."
+            npx sst remove --stage pr-${{ github.event.number }}
+          else
+            echo "No stage found for pr-${{ github.event.number }}, nothing to clean up."
+          fi

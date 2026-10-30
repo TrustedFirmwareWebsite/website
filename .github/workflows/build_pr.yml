@@ -1,0 +1,106 @@
+name: Build PR Artifact
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+# Cancel in-progress jobs or runs for the current pull request
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number }}
+  cancel-in-progress: true
+
+# Deliberately uses "pull_request", not "pull_request_target": this job
+# checks out and builds the PR's own code, so it must never run with
+# access to repository secrets. See deploy_preview.yml for the privileged
+# step that actually deploys the preview, using a workflow_run trigger.
+permissions:
+  contents: read
+  statuses: write
+
+env:
+  NODE_VERSION: "24"
+  PYTHON_VERSION: "3.13"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # The default ref for pull_request is the PR merged into main, so this
+      # tests the result of merging the PR.
+      - name: Fetch git repository
+        uses: actions/checkout@v7
+
+      - name: Fetch action scripts
+        uses: actions/checkout@v7
+        with:
+          repository: linaro-its/github-action-scripts
+          path: github-action-scripts
+
+      - name: Initialise status
+        run: |
+          DATA='{"state": "pending", "target_url": "", "context": "Deploy preview", "description": "Waiting for site to build"}'
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUSES_URL: ${{ github.event.pull_request.statuses_url }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python tools
+        run: pip install pipenv aiohttp beautifulsoup4 requests
+
+      - name: Rebuild dashboard HTML
+        run: |
+          if [ -f fetch_dashboard_data.py ]; then
+            mkdir -p src/assets/html
+            pipenv install
+            pipenv run python fetch_dashboard_data.py
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
+
+      - name: Build site
+        run: |
+          yarn install --frozen-lockfile
+          yarn build
+
+      - name: Check links
+        run: python github-action-scripts/check_links_3.py -d "$GITHUB_WORKSPACE/dist"
+
+      - name: Check routing rules
+        run: jq empty _data/routingrules.json
+
+      - name: Save PR metadata
+        run: |
+          mkdir -p build-metadata
+          echo "${{ github.event.number }}" > build-metadata/pr_number.txt
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-build
+          retention-days: 7
+          # dist contains .well-known
+          include-hidden-files: true
+          path: |
+            dist/
+            build-metadata/
+
+      - name: Report failure
+        if: failure()
+        run: |
+          DATA=$(jq -n \
+            --arg url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            '{state: "failure", target_url: $url, context: "Deploy preview", description: "Build failed"}')
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUSES_URL: ${{ github.event.pull_request.statuses_url }}
