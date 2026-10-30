@@ -94,7 +94,7 @@ Documents should be placed in the `public/docs` folder and referenced by relativ
 
 ## Developer Info
 
-Running the site locally will require `Node.js` (>=18) and the `yarn` package manager.
+Running the site locally will require `Node.js` (24 is used by the CI workflows) and the `yarn` package manager.
 
 First, install dependencies with `yarn install`.
 

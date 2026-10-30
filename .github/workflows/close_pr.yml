@@ -1,0 +1,75 @@
+name: Close Pull Request
+
+# Uses "pull_request_target", not "pull_request". A fork PR's "closed"
+# event under "pull_request" is downgraded to a read-only, secret-less
+# token with no id-token permission, so configure-aws-credentials cannot
+# assume AWS_PREVIEW_ROLE_ARN and the preview would never be torn down.
+#
+# This is safe because the job only ever checks out and runs the base
+# branch's own trusted code (yarn install + sst remove). It never checks
+# out or executes the PR's head commit.
+on:
+  pull_request_target:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  id-token: write
+  contents: read
+
+# Shared with the deploy job in deploy_preview.yml so that a teardown never
+# overlaps a deploy for the same PR. "queue: max" stops a later deploy from
+# replacing this job while it is waiting. If a deploy is queued behind this,
+# it sees the PR is closed and removes the stage instead of deploying.
+concurrency:
+  group: preview-pr-${{ github.event.number }}
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    environment: preview
+    steps:
+      # Explicitly check out the base branch's code, never the PR head.
+      - name: Fetch git repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          # This job assumes AWS credentials, so keep package-manager
+          # caching disabled on privileged jobs.
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_PREVIEW_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Remove SST stage
+        run: |
+          # sst.config.ts points the static site at dist, so it must exist
+          # even though nothing is being uploaded.
+          mkdir -p dist
+          # Clear any stale lock (this succeeds even if there is no lock).
+          npx sst unlock --stage "$STAGE" || true
+          # "Stage not found" means the preview was never deployed (build
+          # failed, or the PR was closed before deploy_preview.yml ran).
+          if OUTPUT=$(npx sst remove --stage "$STAGE" 2>&1); then
+            echo "$OUTPUT"
+          elif echo "$OUTPUT" | grep -q "Stage not found"; then
+            echo "No stage found for $STAGE, nothing to clean up."
+          else
+            echo "$OUTPUT"
+            exit 1
+          fi
+        env:
+          STAGE: pr-${{ github.event.number }}

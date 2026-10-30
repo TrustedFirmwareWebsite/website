@@ -7,58 +7,106 @@ on:
   schedule:
     - cron: '0 21 * * *' # Rebuild daily at 9pm
 
-# Cancel in-progress jobs or runs for the current workflow
+# Queue rather than cancel so that a deploy is never stopped part way
+# through syncing to S3.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  NODE_VERSION: "24"
+  PYTHON_VERSION: "3.13"
 
 jobs:
   process-push:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Fetch git repository
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v7
+
+      - name: Fetch action scripts
+        uses: actions/checkout@v7
         with:
-          path: website
+          repository: linaro-its/github-action-scripts
+          path: github-action-scripts
 
       - name: Initialise environment
-        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+        run: cat ".github-env-$GITHUB_REF_NAME" >> "$GITHUB_ENV"
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python tools
+        run: pip install pipenv aiohttp beautifulsoup4 boto3 requests
 
       - name: Rebuild dashboard HTML
         run: |
-          cd ${{ github.workspace }}/website
           if [ -f fetch_dashboard_data.py ]; then
             mkdir -p src/assets/html
             pipenv install
             pipenv run python fetch_dashboard_data.py
           fi
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          # This job assumes AWS credentials, so keep package-manager
+          # caching disabled on privileged jobs.
+          package-manager-cache: false
+
       - name: Build site
         run: |
-          source ~/.nvm/nvm.sh
-          nvm use 20
-          cd ${{ github.workspace }}/website && /srv/github-action-scripts/build-astro-site.sh
+          yarn install --frozen-lockfile
+          yarn build
 
       - name: Check links
-        run: /srv/github-action-scripts/check-links.sh ${{ github.workspace }}/website/dist
+        run: python github-action-scripts/check_links_3.py -d "$GITHUB_WORKSPACE/dist"
 
       - name: Check routing rules
-        run: /srv/github-action-scripts/test-routing-rules.sh
+        run: jq empty _data/routingrules.json
 
-      - name: Make staging directory
-        run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_PRODUCTION_ROLE_ARN }}
+          aws-region: us-east-1
 
-      - name: Sync build to staging directory
-        run: rsync -crui ${{ github.workspace }}/website/dist/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+      # The action scripts expect credentials under the named profile in
+      # AWS_STATIC_SITE_PROFILE, so copy the OIDC session credentials there.
+      - name: Create AWS profile
+        run: |
+          aws configure set aws_access_key_id "$AWS_ACCESS_KEY_ID" --profile "$AWS_STATIC_SITE_PROFILE"
+          aws configure set aws_secret_access_key "$AWS_SECRET_ACCESS_KEY" --profile "$AWS_STATIC_SITE_PROFILE"
+          aws configure set aws_session_token "$AWS_SESSION_TOKEN" --profile "$AWS_STATIC_SITE_PROFILE"
+          aws configure set region "$AWS_REGION" --profile "$AWS_STATIC_SITE_PROFILE"
 
       - name: Upload to S3
-        run: /srv/github-action-scripts/upload-to-s3-root.sh
+        run: |
+          cd dist
+          # Sync HTML files with different cache settings. Using "no-cache" does *NOT* mean that the file is not
+          # cached - it just forces the browser to do a quick check upstream to make sure that the page is valid.
+          aws --profile "$AWS_STATIC_SITE_PROFILE" s3 sync --exclude "*" --include "*.html" --cache-control "no-cache, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+          # Sync non-HTML files with "normal" cache settings.
+          aws --profile "$AWS_STATIC_SITE_PROFILE" s3 sync --include "*" --exclude "*.html" --cache-control "public, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+
+      - name: Set last modified metadata
+        run: python github-action-scripts/set_last_modified_meta.py "$GITHUB_WORKSPACE/dist"
 
       - name: Set up Lambda redirect
-        run: /srv/github-action-scripts/set-up-lambda-redirect.sh ${{ github.workspace }}/website
+        run: |
+          cd github-action-scripts
+          python lambda_redirect.py -r "$GITHUB_WORKSPACE/_data/routingrules.json"
 
       - name: Set up security headers
-        run: cd /srv/github-action-scripts && pipenv run python lambda-security-headers.py
+        run: python github-action-scripts/lambda-security-headers.py
 
       - name: Invalidate CloudFront cache
-        run: /srv/github-action-scripts/invalidate-cloudfront.sh
+        run: github-action-scripts/invalidate-cloudfront.sh

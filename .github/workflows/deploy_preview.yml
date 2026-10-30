@@ -1,0 +1,248 @@
+name: Deploy Preview
+
+on:
+  workflow_run:
+    workflows: ["Build PR Artifact"]
+    types:
+      - requested
+      - completed
+
+# workflow_run always executes with the permissions and secrets of the
+# base repository, even when the triggering workflow ran against a PR
+# from a fork. That's what lets these jobs post commit statuses and
+# authenticate to AWS.
+#
+# Unlike cc-website, this workflow never checks out or runs the PR's code:
+# it checks out main (for sst.config.ts and its dependencies) and uploads
+# the static files that build_pr.yml produced. Everything in the downloaded
+# artifact must be treated as untrusted. It is extracted outside the
+# workspace, only dist/ is copied in, and the PR number it contains is
+# validated against the triggering commit before it is used.
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: "24"
+  STATUSES_URL: ${{ github.api_url }}/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_sha }}
+
+jobs:
+  # Statuses are posted from here rather than from build_pr.yml because the
+  # token in a fork PR's pull_request run is read-only.
+  report-status:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      (github.event.action == 'requested' ||
+       github.event.workflow_run.conclusion == 'failure' ||
+       github.event.workflow_run.conclusion == 'timed_out')
+    permissions:
+      statuses: write
+    steps:
+      - name: Report build status
+        run: |
+          if [ "${{ github.event.action }}" == "requested" ]; then
+            DATA='{"state": "pending", "context": "Deploy preview", "description": "Waiting for site to build"}'
+          else
+            DATA=$(jq -n --arg url "$RUN_URL" \
+              '{state: "failure", target_url: $url, context: "Deploy preview", description: "Build failed"}')
+          fi
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+
+  # Find out which PR the artifact is for so that the deploy job can share
+  # a concurrency group with close_pr.yml. The PR number comes from the
+  # untrusted artifact, so it is only used once the PR's head is confirmed
+  # to be the commit that was built. Otherwise a fork could claim another
+  # PR's number and interfere with that PR's queue.
+  resolve:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.action == 'completed' &&
+      github.event.workflow_run.conclusion == 'success'
+    permissions:
+      actions: read
+      pull-requests: read
+    outputs:
+      pr_num: ${{ steps.pr.outputs.PR_NUM }}
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: site-build
+          path: ${{ runner.temp }}/site-build
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Read and validate PR number
+        id: pr
+        run: |
+          PR_NUM=$(cat "$RUNNER_TEMP/site-build/build-metadata/pr_number.txt")
+          if ! [[ "$PR_NUM" =~ ^[0-9]+$ ]]; then
+            echo "Invalid PR number in build metadata"
+            exit 1
+          fi
+          PR_SHA=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM" --jq .head.sha)
+          if [ "$PR_SHA" != "$HEAD_SHA" ]; then
+            # Either a newer commit has been pushed (and will deploy itself)
+            # or the artifact claims to be for a different PR.
+            echo "PR #$PR_NUM head ($PR_SHA) does not match the built commit ($HEAD_SHA), skipping"
+            exit 0
+          fi
+          echo "PR_NUM=$PR_NUM" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: resolve
+    if: needs.resolve.outputs.pr_num != ''
+    environment: preview
+    # Shared with close_pr.yml so that a deploy and a teardown for the same
+    # PR never overlap. "queue: max" stops a newly queued job from replacing
+    # one that is already waiting (e.g. a deploy cancelling a pending
+    # teardown), so every job runs, in order, and the last one sees the PR's
+    # current state. A preview is never left behind after the PR is closed.
+    concurrency:
+      group: preview-pr-${{ needs.resolve.outputs.pr_num }}
+      cancel-in-progress: false
+      queue: max
+    permissions:
+      contents: read
+      statuses: write
+      pull-requests: read
+      id-token: write
+      actions: read
+    env:
+      PR_NUM: ${{ needs.resolve.outputs.pr_num }}
+    steps:
+      # Checked again now because this job may have been queued behind
+      # another deploy or a teardown. State is checked first so that a
+      # closed PR is always cleaned up, whichever commit this run built.
+      - name: Check PR state
+        id: check
+        run: |
+          PR_INFO=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM" --jq '"\(.state) \(.head.sha)"')
+          read -r PR_STATE PR_SHA <<< "$PR_INFO"
+          if [ "$PR_STATE" != "open" ]; then
+            echo "PR #$PR_NUM is $PR_STATE, removing any preview"
+            echo "action=remove" >> "$GITHUB_OUTPUT"
+          elif [ "$PR_SHA" != "$HEAD_SHA" ]; then
+            echo "PR #$PR_NUM has moved on to $PR_SHA since $HEAD_SHA was built, skipping"
+            echo "action=skip" >> "$GITHUB_OUTPUT"
+          else
+            echo "action=deploy" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Fetch git repository
+        if: steps.check.outputs.action != 'skip'
+        uses: actions/checkout@v7
+
+      - name: Download build artifact
+        if: steps.check.outputs.action == 'deploy'
+        uses: actions/download-artifact@v8
+        with:
+          name: site-build
+          path: ${{ runner.temp }}/site-build
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Copy built site into place
+        if: steps.check.outputs.action != 'skip'
+        run: |
+          if [ "${{ steps.check.outputs.action }}" == "deploy" ]; then
+            cp -R "$RUNNER_TEMP/site-build/dist" dist
+          else
+            # sst.config.ts points the static site at dist, so it must exist
+            # even though nothing is being uploaded.
+            mkdir -p dist
+          fi
+
+      - name: Set up Node.js
+        if: steps.check.outputs.action != 'skip'
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          # This job assumes AWS credentials, so keep package-manager
+          # caching disabled on privileged jobs.
+          package-manager-cache: false
+
+      - name: Install dependencies
+        if: steps.check.outputs.action != 'skip'
+        run: yarn install --frozen-lockfile
+
+      - name: Configure AWS credentials
+        if: steps.check.outputs.action != 'skip'
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.AWS_PREVIEW_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Remove preview
+        if: steps.check.outputs.action == 'remove'
+        run: |
+          # Clear any stale lock (this succeeds even if there is no lock).
+          npx sst unlock --stage "pr-$PR_NUM" || true
+          # "Stage not found" means the preview was never deployed.
+          if OUTPUT=$(npx sst remove --stage "pr-$PR_NUM" 2>&1); then
+            echo "$OUTPUT"
+          elif echo "$OUTPUT" | grep -q "Stage not found"; then
+            echo "No stage found for pr-$PR_NUM, nothing to clean up."
+          else
+            echo "$OUTPUT"
+            exit 1
+          fi
+
+      - name: Deploy preview
+        id: deploy
+        if: steps.check.outputs.action == 'deploy'
+        run: |
+          # Clear any stale state lock left behind by a previously cancelled
+          # deploy for this stage. The concurrency group means any existing
+          # lock is orphaned and safe to remove.
+          npx sst unlock --stage "pr-$PR_NUM" || true
+
+          if OUTPUT=$(npx sst deploy --stage "pr-$PR_NUM" 2>&1); then
+            echo "Deployment succeeded"
+            echo "$OUTPUT"
+          else
+            echo "Deployment failed"
+            echo "$OUTPUT"
+            exit 1
+          fi
+
+          URL=$(echo "$OUTPUT" | grep "url: https://" | head -n 1 | awk '{print $2}')
+
+          if [ -z "$URL" ]; then
+            echo "Could not find deployment URL in output"
+          else
+            echo "preview_url=$URL" >> "$GITHUB_OUTPUT"
+            echo "Deployment URL: $URL"
+          fi
+
+      - name: Update status
+        if: success() && steps.deploy.outputs.preview_url
+        run: |
+          DATA=$(jq -n \
+            --arg url "$PREVIEW_URL" \
+            '{state: "success", target_url: $url, context: "Deploy preview", description: "Preview deployment complete"}')
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREVIEW_URL: ${{ steps.deploy.outputs.preview_url }}
+
+      - name: Report failure
+        if: failure() && steps.check.outputs.action == 'deploy'
+        run: |
+          DATA=$(jq -n \
+            --arg url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            '{state: "failure", target_url: $url, context: "Deploy preview", description: "Deployment failed"}')
+          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
