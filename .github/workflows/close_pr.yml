@@ -18,11 +18,13 @@ permissions:
   contents: read
 
 # Shared with the deploy job in deploy_preview.yml so that a teardown never
-# overlaps a deploy for the same PR. If a deploy is queued behind this, it
-# sees the PR is closed and removes the stage instead of deploying.
+# overlaps a deploy for the same PR. "queue: max" stops a later deploy from
+# replacing this job while it is waiting. If a deploy is queued behind this,
+# it sees the PR is closed and removes the stage instead of deploying.
 concurrency:
   group: preview-pr-${{ github.event.number }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   cleanup:
@@ -57,12 +59,17 @@ jobs:
           # sst.config.ts points the static site at dist, so it must exist
           # even though nothing is being uploaded.
           mkdir -p dist
-          # Only attempt removal if the stage actually exists. If the
-          # preview was never deployed (build failed, or the PR was closed
-          # before deploy_preview.yml ran), there's nothing to tear down.
-          if npx sst unlock --stage pr-${{ github.event.number }} 2>/dev/null; then
-            echo "Stage exists, removing..."
-            npx sst remove --stage pr-${{ github.event.number }}
+          # Clear any stale lock (this succeeds even if there is no lock).
+          npx sst unlock --stage "$STAGE" || true
+          # "Stage not found" means the preview was never deployed (build
+          # failed, or the PR was closed before deploy_preview.yml ran).
+          if OUTPUT=$(npx sst remove --stage "$STAGE" 2>&1); then
+            echo "$OUTPUT"
+          elif echo "$OUTPUT" | grep -q "Stage not found"; then
+            echo "No stage found for $STAGE, nothing to clean up."
           else
-            echo "No stage found for pr-${{ github.event.number }}, nothing to clean up."
+            echo "$OUTPUT"
+            exit 1
           fi
+        env:
+          STAGE: pr-${{ github.event.number }}

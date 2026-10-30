@@ -32,7 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     if: >-
       github.event.workflow_run.event == 'pull_request' &&
-      (github.event.action == 'requested' || github.event.workflow_run.conclusion == 'failure')
+      (github.event.action == 'requested' ||
+       github.event.workflow_run.conclusion == 'failure' ||
+       github.event.workflow_run.conclusion == 'timed_out')
     permissions:
       statuses: write
     steps:
@@ -50,7 +52,10 @@ jobs:
           RUN_URL: ${{ github.event.workflow_run.html_url }}
 
   # Find out which PR the artifact is for so that the deploy job can share
-  # a concurrency group with close_pr.yml.
+  # a concurrency group with close_pr.yml. The PR number comes from the
+  # untrusted artifact, so it is only used once the PR's head is confirmed
+  # to be the commit that was built. Otherwise a fork could claim another
+  # PR's number and interfere with that PR's queue.
   resolve:
     runs-on: ubuntu-latest
     if: >-
@@ -59,6 +64,7 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
     permissions:
       actions: read
+      pull-requests: read
     outputs:
       pr_num: ${{ steps.pr.outputs.PR_NUM }}
     steps:
@@ -70,7 +76,7 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Read PR number
+      - name: Read and validate PR number
         id: pr
         run: |
           PR_NUM=$(cat "$RUNNER_TEMP/site-build/build-metadata/pr_number.txt")
@@ -78,18 +84,32 @@ jobs:
             echo "Invalid PR number in build metadata"
             exit 1
           fi
+          PR_SHA=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM" --jq .head.sha)
+          if [ "$PR_SHA" != "$HEAD_SHA" ]; then
+            # Either a newer commit has been pushed (and will deploy itself)
+            # or the artifact claims to be for a different PR.
+            echo "PR #$PR_NUM head ($PR_SHA) does not match the built commit ($HEAD_SHA), skipping"
+            exit 0
+          fi
           echo "PR_NUM=$PR_NUM" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
 
   deploy:
     runs-on: ubuntu-latest
     needs: resolve
+    if: needs.resolve.outputs.pr_num != ''
     environment: preview
     # Shared with close_pr.yml so that a deploy and a teardown for the same
-    # PR never overlap. Whichever runs last sees the PR's current state, so
-    # a preview is never left behind after the PR is closed.
+    # PR never overlap. "queue: max" stops a newly queued job from replacing
+    # one that is already waiting (e.g. a deploy cancelling a pending
+    # teardown), so every job runs, in order, and the last one sees the PR's
+    # current state. A preview is never left behind after the PR is closed.
     concurrency:
       group: preview-pr-${{ needs.resolve.outputs.pr_num }}
       cancel-in-progress: false
+      queue: max
     permissions:
       contents: read
       statuses: write
@@ -99,21 +119,20 @@ jobs:
     env:
       PR_NUM: ${{ needs.resolve.outputs.pr_num }}
     steps:
-      # Checked now, not in the resolve job, because this job may have been
-      # queued behind another deploy or a teardown.
+      # Checked again now because this job may have been queued behind
+      # another deploy or a teardown. State is checked first so that a
+      # closed PR is always cleaned up, whichever commit this run built.
       - name: Check PR state
         id: check
         run: |
           PR_INFO=$(gh api "repos/${{ github.repository }}/pulls/$PR_NUM" --jq '"\(.state) \(.head.sha)"')
           read -r PR_STATE PR_SHA <<< "$PR_INFO"
-          if [ "$PR_SHA" != "$HEAD_SHA" ]; then
-            # Either a newer commit has been pushed (and will deploy itself)
-            # or the artifact claims to be for a different PR.
-            echo "PR #$PR_NUM head ($PR_SHA) does not match the built commit ($HEAD_SHA), skipping"
-            echo "action=skip" >> "$GITHUB_OUTPUT"
-          elif [ "$PR_STATE" != "open" ]; then
+          if [ "$PR_STATE" != "open" ]; then
             echo "PR #$PR_NUM is $PR_STATE, removing any preview"
             echo "action=remove" >> "$GITHUB_OUTPUT"
+          elif [ "$PR_SHA" != "$HEAD_SHA" ]; then
+            echo "PR #$PR_NUM has moved on to $PR_SHA since $HEAD_SHA was built, skipping"
+            echo "action=skip" >> "$GITHUB_OUTPUT"
           else
             echo "action=deploy" >> "$GITHUB_OUTPUT"
           fi
@@ -168,11 +187,16 @@ jobs:
       - name: Remove preview
         if: steps.check.outputs.action == 'remove'
         run: |
-          if npx sst unlock --stage "pr-$PR_NUM" 2>/dev/null; then
-            echo "Stage exists, removing..."
-            npx sst remove --stage "pr-$PR_NUM"
-          else
+          # Clear any stale lock (this succeeds even if there is no lock).
+          npx sst unlock --stage "pr-$PR_NUM" || true
+          # "Stage not found" means the preview was never deployed.
+          if OUTPUT=$(npx sst remove --stage "pr-$PR_NUM" 2>&1); then
+            echo "$OUTPUT"
+          elif echo "$OUTPUT" | grep -q "Stage not found"; then
             echo "No stage found for pr-$PR_NUM, nothing to clean up."
+          else
+            echo "$OUTPUT"
+            exit 1
           fi
 
       - name: Deploy preview
