@@ -14,9 +14,10 @@ concurrency:
 # checks out and builds the PR's own code, so it must never run with
 # access to repository secrets. See deploy_preview.yml for the privileged
 # step that actually deploys the preview, using a workflow_run trigger.
+# Commit statuses are also posted from there, because this job's token is
+# read-only for PRs from forks.
 permissions:
   contents: read
-  statuses: write
 
 env:
   NODE_VERSION: "24"
@@ -36,14 +37,6 @@ jobs:
         with:
           repository: linaro-its/github-action-scripts
           path: github-action-scripts
-
-      - name: Initialise status
-        run: |
-          DATA='{"state": "pending", "target_url": "", "context": "Deploy preview", "description": "Waiting for site to build"}'
-          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          STATUSES_URL: ${{ github.event.pull_request.statuses_url }}
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -93,14 +86,3 @@ jobs:
           path: |
             dist/
             build-metadata/
-
-      - name: Report failure
-        if: failure()
-        run: |
-          DATA=$(jq -n \
-            --arg url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            '{state: "failure", target_url: $url, context: "Deploy preview", description: "Build failed"}')
-          curl -s -S -H "Content-Type: application/json" -H "Authorization: token $TOKEN" -d "$DATA" "$STATUSES_URL"
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          STATUSES_URL: ${{ github.event.pull_request.statuses_url }}

@@ -3,7 +3,7 @@ name: Close Pull Request
 # Uses "pull_request_target", not "pull_request". A fork PR's "closed"
 # event under "pull_request" is downgraded to a read-only, secret-less
 # token with no id-token permission, so configure-aws-credentials cannot
-# assume AWS_ROLE_ARN and the preview would never be torn down.
+# assume AWS_PREVIEW_ROLE_ARN and the preview would never be torn down.
 #
 # This is safe because the job only ever checks out and runs the base
 # branch's own trusted code (yarn install + sst remove). It never checks
@@ -17,13 +17,17 @@ permissions:
   id-token: write
   contents: read
 
+# Shared with the deploy job in deploy_preview.yml so that a teardown never
+# overlaps a deploy for the same PR. If a deploy is queued behind this, it
+# sees the PR is closed and removes the stage instead of deploying.
 concurrency:
-  group: cleanup-${{ github.event.number }}
-  cancel-in-progress: true
+  group: preview-pr-${{ github.event.number }}
+  cancel-in-progress: false
 
 jobs:
   cleanup:
     runs-on: ubuntu-latest
+    environment: preview
     steps:
       # Explicitly check out the base branch's code, never the PR head.
       - name: Fetch git repository
@@ -45,7 +49,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          role-to-assume: ${{ secrets.AWS_PREVIEW_ROLE_ARN }}
           aws-region: us-east-1
 
       - name: Remove SST stage

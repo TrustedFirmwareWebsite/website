@@ -24,6 +24,7 @@ env:
 jobs:
   process-push:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Fetch git repository
         uses: actions/checkout@v7
@@ -75,7 +76,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          role-to-assume: ${{ secrets.AWS_PRODUCTION_ROLE_ARN }}
           aws-region: us-east-1
 
       # The action scripts expect credentials under the named profile in
