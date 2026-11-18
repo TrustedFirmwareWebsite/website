@@ -23,6 +23,9 @@ env:
 
 jobs:
   process-push:
+    # This job needs this repository's AWS roles and secrets, so skip it
+    # in forks, where it can only fail.
+    if: github.repository == 'TrustedFirmwareWebsite/website'
     runs-on: ubuntu-latest
     environment: production
     steps:
