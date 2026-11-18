@@ -31,6 +31,7 @@ jobs:
   report-status:
     runs-on: ubuntu-latest
     if: >-
+      github.repository == 'TrustedFirmwareWebsite/website' &&
       github.event.workflow_run.event == 'pull_request' &&
       (github.event.action == 'requested' ||
        github.event.workflow_run.conclusion == 'failure' ||
@@ -59,6 +60,7 @@ jobs:
   resolve:
     runs-on: ubuntu-latest
     if: >-
+      github.repository == 'TrustedFirmwareWebsite/website' &&
       github.event.workflow_run.event == 'pull_request' &&
       github.event.action == 'completed' &&
       github.event.workflow_run.conclusion == 'success'
