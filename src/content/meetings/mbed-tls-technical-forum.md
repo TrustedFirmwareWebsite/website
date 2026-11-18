@@ -16,6 +16,15 @@ Due to expected attendees from Asia, Europe and the Americas, the timeslot is ch
 **To receive an invite, please join the MBed TLS mailing list by [subcribing here](https://lists.trustedfirmware.org/mailman3/lists/mbed-tls.lists.trustedfirmware.org/)**
 
 ### Recording and slides of previous meetings
+- **Date:** Nov 16, 2026
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLS_TechForum_2026-11-16.pdf)
+   - No recording
+     
+- **Date:** Nov 2, 2026
+
+   - Agenda: **Community Activity, Major Activities & Release Timeline** - Janos Follath [Presentation here](/docs/MbedTLS_TechForum_2026-11-02.pdf)
+   - [Video Recording](https://linaro-org.zoom.us/rec/share/jMvOaBSo0FTI_MBd8FPgDugqbEUuFpu42W_RD_Vovc_rcF00_J451RX71hsOu4Of.lT_ysVNF1KnlyWaj?startTime=1793614008000) Passcode: 4j2?+@f1
 
 - **Date:** Oct 19, 2026
 
