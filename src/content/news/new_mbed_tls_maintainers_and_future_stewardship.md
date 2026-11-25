@@ -3,7 +3,7 @@ author: trusted-firmware
 title: Announcing New Mbed TLS Maintainers and Future Stewardship
 description: >
   Trusted Firmware announces that Linaro will take on maintenance and stewardship of Mbed TLS, with the support of NXP and Espressif, ensuring continued development, maintenance and security response beyond April 2027.
-date: 2026-11-26 12:00:00
+date: 2026-11-25 12:00:00
 image: "../../assets/images/trusted-firmware.jpg"
 ---
 
