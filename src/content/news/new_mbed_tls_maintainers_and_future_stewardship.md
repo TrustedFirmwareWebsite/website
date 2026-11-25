@@ -27,7 +27,7 @@ In response to the transition, several organizations expressed interest in suppo
 
 This commitment builds on Linaro’s existing experience with Mbed TLS and its broader work across the open source embedded software ecosystem, where it has long supported collaborative engineering efforts spanning various industry stakeholders.
 
-"It is really encouraging to see both members and non-members stepping up across the community to support Mbed TLS during this transition, that collaborative effort is what keeps open source projects healthy and moving forward." __Shaun Longhorn__, Community Manager, Trusted Firmware
+"It is really encouraging to see both members and non-members stepping up across the community to support Mbed TLS during this transition, that collaborative effort is what keeps open source projects healthy and moving forward." __Shaun Longhorn, Community Manager, Trusted Firmware__
 
 ### A Call for Continued Support
 
@@ -39,7 +39,7 @@ To get involved, [connect with the community](https://www.trustedfirmware.org/fa
 
 ### Joining Trusted Firmware
 
-Want to shape the future of open source security even further? Join Trusted Firmware as a member to help guide project priorities, benefit from hardware lab testing and project visibility, and collaborate directly with industry peers. Learn more and get started on the [Trusted Firmware membership](https://www.trustedfirmware.org/join/).
+Want to shape the future of open source security even further? Join Trusted Firmware as a member to help guide project priorities, benefit from hardware lab testing and project visibility, and collaborate directly with industry peers. Learn more and get started on the [Trusted Firmware membership](https://www.trustedfirmware.org/join/) page.
 <br>
 <br>
 
