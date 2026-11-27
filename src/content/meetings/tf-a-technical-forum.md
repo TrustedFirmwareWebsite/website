@@ -13,6 +13,11 @@ To receive an invite, please join the TF-A mailing list. [Subscribe to the TF-A 
 
 ### Recording and slides of previous meetings will appear here
 
+- **TF-RMM Large RMI Granule Support** - Presented by Soby Mathew
+  - [PDF Presentation](/docs/TF-RMM-Large-Granule-Design-Choices.pdf)
+  - [Video Recording](https://linaro-org.zoom.us/rec/share/TB8Ksl-bqPXLSbSfhUvB-KE1gDNgd_maAkY18-BESWSzqOp7juHx5-V4pNzm43e7.GINCXzHRCaUc2_6S?startTime=1795708694000) (Access Password: 7cb8Z?KH)
+  - Date - 26 Nov 2026
+
 - **Fuzzing TF-RMM with AFL++** - Presented by Rustam Ismayilov
   - [PDF Presentation](/docs/TF-RMM_Fuzzing_11jun26.pdf)
   - [Video Recording](https://linaro-org.zoom.us/rec/share/K51Z7gJYHRCjyvfSkMUfsdgTbqHI6lQO49RcBugcnMxaOdAzB1ih8NVBCUbg-oJS.dA9FIhQTZWj1BGHA?startTime=1781189868000) (Access Password: m6kA7&AR)
